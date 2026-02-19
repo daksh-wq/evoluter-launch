@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { Navigate, useLocation, useNavigate } from 'react-router-dom';
-import { ROUTES } from '../../constants/routes';
-import { useAuthContext } from '../../contexts/AuthContext';
+import { ROUTES } from '../../../constants/routes';
+import { useAuthContext } from '../../../contexts/AuthContext';
 import { doc, getDoc } from 'firebase/firestore';
-import { db } from '../../services/firebase';
+import { db } from '../../../services/firebase';
 import {
     LayoutDashboard,
     Users,
@@ -102,8 +102,8 @@ const AdminLayout = ({ children }) => {
                                     key={item.path}
                                     onClick={() => navigate(item.path)}
                                     className={`w-full flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-200 ${isActive
-                                            ? 'bg-indigo-600 text-white shadow-md shadow-indigo-900/50'
-                                            : 'text-slate-400 hover:bg-slate-800 hover:text-white'
+                                        ? 'bg-indigo-600 text-white shadow-md shadow-indigo-900/50'
+                                        : 'text-slate-400 hover:bg-slate-800 hover:text-white'
                                         }`}
                                 >
                                     <item.icon size={20} />
