@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { Users, Plus, Trash2, UserPlus, Search, X } from 'lucide-react';
+import { Users, Plus, Trash2, UserPlus, Search, X, Download } from 'lucide-react';
 import { batchService } from '../../features/exam-engine/services/batchService';
 import logger from '../../utils/logger';
 import { Skeleton } from '../ui/Skeleton';
 import { auth } from '../../services/firebase';
+import StudentAnalyticsModal from './StudentAnalyticsModal';
 
 const BatchManager = ({ userData }) => {
     const [batches, setBatches] = useState([]);
@@ -11,6 +12,7 @@ const BatchManager = ({ userData }) => {
     const [selectedBatch, setSelectedBatch] = useState(null);
     const [showCreateModal, setShowCreateModal] = useState(false);
     const [newBatchName, setNewBatchName] = useState('');
+    const [selectedStudent, setSelectedStudent] = useState(null);
     const emailInputRef = React.useRef(null);
 
     // Member Management
@@ -19,6 +21,7 @@ const BatchManager = ({ userData }) => {
     const [newStudentEmail, setNewStudentEmail] = useState('');
     const [inviteError, setInviteError] = useState('');
     const [inviteSuccess, setInviteSuccess] = useState('');
+    const [searchQuery, setSearchQuery] = useState('');
 
     useEffect(() => {
         fetchBatches();
@@ -57,6 +60,7 @@ const BatchManager = ({ userData }) => {
         setMembers([]);
         setInviteError('');
         setInviteSuccess('');
+        setSearchQuery('');
 
         try {
             const memberData = await batchService.getBatchMembers(batch.id);
@@ -72,28 +76,63 @@ const BatchManager = ({ userData }) => {
         e.preventDefault();
         setInviteError('');
         setInviteSuccess('');
+        setLoadingMembers(true); // show loading state while processing
 
-        const email = emailInputRef.current?.value?.trim();
+        const emailInput = emailInputRef.current?.value?.trim();
 
-        if (!email || !selectedBatch) {
-            setInviteError("Please enter a valid email.");
+        if (!emailInput || !selectedBatch) {
+            setInviteError("Please enter valid email(s).");
+            setLoadingMembers(false);
             return;
         }
 
-        try {
-            await batchService.addStudentToBatch(selectedBatch.id, email);
-            setInviteSuccess(`Successfully added ${email}`);
+        // Parse comma-separated emails
+        const emails = emailInput.split(',').map(e => e.trim()).filter(e => e);
 
-            // Clear input
+        if (emails.length === 0) {
+            setInviteError("Please enter valid email(s).");
+            setLoadingMembers(false);
+            return;
+        }
+
+        let successCount = 0;
+        let errors = [];
+
+        // Process all invites
+        for (const email of emails) {
+            try {
+                // Check if already in members list visually first
+                if (members.some(m => m.studentEmail === email)) {
+                    errors.push(`${email} (Already in batch)`);
+                    continue;
+                }
+
+                await batchService.addStudentToBatch(selectedBatch.id, email);
+                successCount++;
+            } catch (error) {
+                logger.error(`Failed to add ${email}`, error);
+                errors.push(`${email} (${error.message || 'Error'})`);
+            }
+        }
+
+        // Construct final message
+        if (successCount > 0) {
+            setInviteSuccess(`Successfully added ${successCount} student(s).`);
             if (emailInputRef.current) emailInputRef.current.value = '';
 
-            // Refresh members
+            // Refresh members & badges
             const memberData = await batchService.getBatchMembers(selectedBatch.id);
             setMembers(memberData);
-            fetchBatches(); // Update counts
-        } catch (error) {
-            setInviteError(error.message || "Failed to add student");
+            fetchBatches();
         }
+
+        if (errors.length > 0) {
+            setInviteError(`Failed to add:\n${errors.join('\n')}`);
+        } else if (successCount === 0) {
+            setInviteError("No valid students were added.");
+        }
+
+        setLoadingMembers(false);
     };
 
     const handleDeleteBatch = async (batchId) => {
@@ -117,6 +156,30 @@ const BatchManager = ({ userData }) => {
             logger.error("Failed to remove student", error);
         }
     };
+
+    const handleExportCSV = () => {
+        if (members.length === 0) return;
+
+        const headers = ['Name', 'Email', 'Joined Date'];
+        const csvContent = [
+            headers.join(','),
+            ...members.map(m => {
+                const date = m.joinedAt?.toDate ? m.joinedAt.toDate().toLocaleDateString() : 'N/A';
+                return `"${m.studentName || ''}","${m.studentEmail}","${date}"`;
+            })
+        ].join('\n');
+
+        const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+        const link = document.createElement('a');
+        link.href = URL.createObjectURL(blob);
+        link.download = `${selectedBatch.name.replace(/\s+/g, '_')}_Roster.csv`;
+        link.click();
+    };
+
+    const filteredMembers = members.filter(m =>
+        m.studentName?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        m.studentEmail?.toLowerCase().includes(searchQuery.toLowerCase())
+    );
 
     return (
         <div className="bg-white rounded-3xl border border-slate-100 shadow-sm min-h-[400px] md:min-h-[600px] flex flex-col md:flex-row overflow-hidden">
@@ -182,14 +245,35 @@ const BatchManager = ({ userData }) => {
                             <form onSubmit={handleAddStudent} className="flex gap-2 w-full md:w-auto">
                                 <input
                                     ref={emailInputRef}
-                                    type="email"
-                                    placeholder="Student Email..."
+                                    type="text"
+                                    placeholder="Add emails (comma separated)..."
                                     className="px-4 py-2 border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500/20 w-full md:w-64"
                                 />
                                 <button type="submit" className="bg-indigo-600 text-white px-4 py-2 rounded-xl font-bold text-sm hover:bg-indigo-700 transition-colors whitespace-nowrap flex items-center gap-1">
                                     <UserPlus size={16} /> Add
                                 </button>
                             </form>
+                        </div>
+
+                        {/* Toolbar: Search & Export */}
+                        <div className="px-6 py-4 bg-slate-50 border-b border-slate-100 flex flex-col sm:flex-row justify-between gap-4">
+                            <div className="relative flex-1 max-w-md">
+                                <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
+                                <input
+                                    type="text"
+                                    placeholder="Search student name or email..."
+                                    value={searchQuery}
+                                    onChange={(e) => setSearchQuery(e.target.value)}
+                                    className="w-full pl-9 pr-4 py-2 bg-white border border-slate-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500/20"
+                                />
+                            </div>
+                            <button
+                                onClick={handleExportCSV}
+                                disabled={members.length === 0}
+                                className="px-4 py-2 bg-white border border-slate-200 text-slate-700 rounded-xl text-sm font-bold hover:bg-slate-50 transition-colors flex items-center gap-2 justify-center disabled:opacity-50 disabled:cursor-not-allowed"
+                            >
+                                <Download size={16} className="text-slate-400" /> Export CSV
+                            </button>
                         </div>
 
                         {/* Messages */}
@@ -223,14 +307,28 @@ const BatchManager = ({ userData }) => {
                                             </tr>
                                         </thead>
                                         <tbody className="divide-y divide-slate-50">
-                                            {members.map(member => (
-                                                <tr key={member.id} className="group hover:bg-slate-50 font-medium text-slate-600 text-sm">
-                                                    <td className="py-3 pl-2 text-slate-900 font-bold">{member.studentName}</td>
+                                            {filteredMembers.length === 0 ? (
+                                                <tr>
+                                                    <td colSpan="3" className="py-8 text-center text-slate-500 text-sm">
+                                                        No students found matching your search.
+                                                    </td>
+                                                </tr>
+                                            ) : filteredMembers.map(member => (
+                                                <tr key={member.id}
+                                                    onClick={() => setSelectedStudent(member)}
+                                                    className="group hover:bg-slate-50 font-medium text-slate-600 text-sm cursor-pointer transition-colors"
+                                                >
+                                                    <td className="py-3 pl-2 text-slate-900 font-bold">
+                                                        {member.studentName}
+                                                        <span className="ml-2 text-[10px] uppercase font-bold text-indigo-500 opacity-0 group-hover:opacity-100 transition-opacity">
+                                                            View Stats
+                                                        </span>
+                                                    </td>
                                                     <td className="py-3">{member.studentEmail}</td>
                                                     <td className="py-3 text-right pr-2">
                                                         <button
-                                                            onClick={() => handleRemoveStudent(member.id)}
-                                                            className="text-slate-300 hover:text-red-500 transition-colors"
+                                                            onClick={(e) => { e.stopPropagation(); handleRemoveStudent(member.id); }}
+                                                            className="text-slate-300 hover:text-red-500 transition-colors p-2 rounded-full hover:bg-red-50"
                                                         >
                                                             <Trash2 size={16} />
                                                         </button>
@@ -282,6 +380,15 @@ const BatchManager = ({ userData }) => {
                         </form>
                     </div>
                 </div>
+            )}
+
+            {/* Student Analytics Modal */}
+            {selectedStudent && (
+                <StudentAnalyticsModal
+                    student={selectedStudent}
+                    institutionId={userData?.uid}
+                    onClose={() => setSelectedStudent(null)}
+                />
             )}
         </div>
     );

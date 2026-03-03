@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import {
     CheckCircle, XCircle, AlertCircle, Clock,
-    Brain, Target, ListChecks, ArrowRight, RefreshCw, ChevronDown, Download
+    Brain, Target, ListChecks, ArrowRight, RefreshCw, ChevronDown, Download, BarChart2
 } from 'lucide-react';
 import { analyzeTestPerformance } from '../../services/geminiService';
 import { formatTime } from '../../utils/helpers';
@@ -10,7 +10,7 @@ import logger from '../../utils/logger';
 const ResultView = ({ test, answers, results, exitTest }) => {
     const [analysis, setAnalysis] = useState(null);
     const [loadingAnalysis, setLoadingAnalysis] = useState(true);
-    const [activeTab, setActiveTab] = useState('insights'); // 'insights' | 'review'
+    const [activeTab, setActiveTab] = useState('stats'); // 'stats' | 'insights' | 'review'
 
     useEffect(() => {
         let cancelled = false;
@@ -221,23 +221,115 @@ const ResultView = ({ test, answers, results, exitTest }) => {
                 </div>
 
                 {/* Tabs */}
-                <div className="flex gap-4 border-b border-slate-200 mb-6">
+                <div className="flex gap-4 border-b border-slate-200 mb-6 overflow-x-auto no-scrollbar">
+                    <button
+                        onClick={() => setActiveTab('stats')}
+                        className={`pb-3 text-sm font-bold flex items-center gap-2 transition-all whitespace-nowrap ${activeTab === 'stats' ? 'text-[#2278B0] border-b-2 border-[#2278B0]' : 'text-slate-400 hover:text-slate-600'}`}
+                    >
+                        <BarChart2 size={16} /> Detailed Stats
+                    </button>
                     <button
                         onClick={() => setActiveTab('insights')}
-                        className={`pb-3 text-sm font-bold flex items-center gap-2 transition-all ${activeTab === 'insights' ? 'text-[#2278B0] border-b-2 border-[#2278B0]' : 'text-slate-400 hover:text-slate-600'}`}
+                        className={`pb-3 text-sm font-bold flex items-center gap-2 transition-all whitespace-nowrap ${activeTab === 'insights' ? 'text-[#2278B0] border-b-2 border-[#2278B0]' : 'text-slate-400 hover:text-slate-600'}`}
                     >
                         <Brain size={16} /> AI Insights
                     </button>
                     <button
                         onClick={() => setActiveTab('review')}
-                        className={`pb-3 text-sm font-bold flex items-center gap-2 transition-all ${activeTab === 'review' ? 'text-[#2278B0] border-b-2 border-[#2278B0]' : 'text-slate-400 hover:text-slate-600'}`}
+                        className={`pb-3 text-sm font-bold flex items-center gap-2 transition-all whitespace-nowrap ${activeTab === 'review' ? 'text-[#2278B0] border-b-2 border-[#2278B0]' : 'text-slate-400 hover:text-slate-600'}`}
                     >
                         <ListChecks size={16} /> Question Review
                     </button>
                 </div>
 
                 {/* Content */}
-                {activeTab === 'insights' ? (
+                {activeTab === 'stats' && (
+                    <div className="space-y-6 animate-in fade-in slide-in-from-bottom-5">
+                        {/* Accuracy Breakdown */}
+                        <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+                            <h3 className="font-bold text-slate-800 mb-4 flex items-center gap-2">
+                                <Target size={18} className="text-[#2278B0]" /> Accuracy Breakdown
+                            </h3>
+                            <div className="h-4 w-full bg-slate-100 rounded-full overflow-hidden flex mb-3">
+                                <div style={{ width: `${(results.correct / results.totalQuestions) * 100 || 0}%` }} className="bg-green-500 transition-all duration-1000" title="Correct"></div>
+                                <div style={{ width: `${(results.incorrect / results.totalQuestions) * 100 || 0}%` }} className="bg-red-500 transition-all duration-1000" title="Incorrect"></div>
+                                <div style={{ width: `${(results.unanswered / results.totalQuestions) * 100 || 0}%` }} className="bg-slate-300 transition-all duration-1000" title="Skipped"></div>
+                            </div>
+                            <div className="flex justify-between text-sm font-medium">
+                                <div className="flex items-center gap-2 text-green-700">
+                                    <div className="w-3 h-3 rounded-full bg-green-500"></div>
+                                    {results.correct} Correct ({((results.correct / results.totalQuestions) * 100 || 0).toFixed(0)}%)
+                                </div>
+                                <div className="flex items-center gap-2 text-red-700">
+                                    <div className="w-3 h-3 rounded-full bg-red-500"></div>
+                                    {results.incorrect} Incorrect ({((results.incorrect / results.totalQuestions) * 100 || 0).toFixed(0)}%)
+                                </div>
+                                <div className="flex items-center gap-2 text-slate-600">
+                                    <div className="w-3 h-3 rounded-full bg-slate-300"></div>
+                                    {results.unanswered} Skipped ({((results.unanswered / results.totalQuestions) * 100 || 0).toFixed(0)}%)
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            {/* Scoring Ledger */}
+                            <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+                                <h3 className="font-bold text-slate-800 mb-4 flex items-center gap-2">
+                                    <BarChart2 size={18} className="text-purple-600" /> UPSC Scoring Ledger
+                                </h3>
+                                <div className="space-y-3">
+                                    <div className="flex justify-between items-center p-3 bg-green-50 rounded-xl border border-green-100">
+                                        <span className="text-green-800 font-medium">Positive Marks (+2/q)</span>
+                                        <span className="font-black text-green-600">+{results.correct * 2}</span>
+                                    </div>
+                                    <div className="flex justify-between items-center p-3 bg-red-50 rounded-xl border border-red-100">
+                                        <span className="text-red-800 font-medium">Negative Marks (-0.66/q)</span>
+                                        <span className="font-black text-red-600">-{parseFloat((results.incorrect * 0.66).toFixed(2))}</span>
+                                    </div>
+                                    <div className="flex justify-between items-center p-3 bg-indigo-50 rounded-xl border border-indigo-100 border-t-2 border-t-indigo-200 border-dashed">
+                                        <span className="text-indigo-950 font-black">Final Raw Score</span>
+                                        <span className="font-black text-indigo-700 text-xl">{results.score} / {results.totalQuestions * 2}</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Time Analytics */}
+                            <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+                                <h3 className="font-bold text-slate-800 mb-4 flex items-center gap-2">
+                                    <Clock size={18} className="text-blue-500" /> Time Management
+                                </h3>
+                                <div className="space-y-6">
+                                    <div>
+                                        <div className="flex justify-between text-sm mb-1">
+                                            <span className="text-slate-500 font-medium">Average Time per Question</span>
+                                            <span className="font-bold text-slate-700">{Math.round(results.timeTaken / (results.totalQuestions || 1))} sec</span>
+                                        </div>
+                                        <div className="h-2 w-full bg-slate-100 rounded-full overflow-hidden">
+                                            <div
+                                                className={`h-full rounded-full transition-all duration-1000 ${(results.timeTaken / (results.totalQuestions || 1)) > 60 ? 'bg-orange-500' : 'bg-blue-500'
+                                                    }`}
+                                                style={{ width: `${Math.min(((results.timeTaken / (results.totalQuestions || 1)) / 60) * 100, 100)}%` }}
+                                            ></div>
+                                        </div>
+                                    </div>
+
+                                    <div className="grid grid-cols-2 gap-4">
+                                        <div className="p-4 bg-slate-50 rounded-xl border border-slate-100">
+                                            <div className="text-xs text-slate-400 uppercase font-bold mb-1">Total Time Used</div>
+                                            <div className="text-lg font-black text-slate-800">{formatTime(results.timeTaken)}</div>
+                                        </div>
+                                        <div className="p-4 bg-slate-50 rounded-xl border border-slate-100">
+                                            <div className="text-xs text-slate-400 uppercase font-bold mb-1">Total Questions</div>
+                                            <div className="text-lg font-black text-slate-800">{results.totalQuestions} Qs</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                )}
+
+                {activeTab === 'insights' && (
                     <div className="space-y-6 animate-in fade-in slide-in-from-bottom-5">
                         {loadingAnalysis ? (
                             <div className="bg-white p-8 rounded-2xl border border-slate-200 text-center">
@@ -309,7 +401,9 @@ const ResultView = ({ test, answers, results, exitTest }) => {
                             </>
                         )}
                     </div>
-                ) : (
+                )}
+
+                {activeTab === 'review' && (
                     <div className="space-y-4 animate-in fade-in">
                         {test.map((q, idx) => {
                             const userAnswer = answers[q.id];

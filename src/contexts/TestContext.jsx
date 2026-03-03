@@ -27,6 +27,7 @@ export const TestProvider = ({ children }) => {
         setTimeLeft,
         startMockTest,
         startAITest,
+        startCustomTest,
         exitTest,
     } = testState;
 
@@ -47,15 +48,21 @@ export const TestProvider = ({ children }) => {
         navigate(ROUTES.TEST);
     }, [startMockTest, navigate]);
 
-    const handleGenerateAITest = useCallback(async (topic, count, difficulty) => {
-        await startAITest(topic, count, difficulty);
+    const handleGenerateAITest = useCallback(async (topic, count, difficulty, resourceContent = null, pyqPercentage = 0) => {
+        await startAITest(topic, count, difficulty, 'UPSC CSE', resourceContent, pyqPercentage);
         navigate(ROUTES.TEST);
     }, [startAITest, navigate]);
+
+    const handleStartCustomTest = useCallback((questions, testName) => {
+        startCustomTest(questions, testName);
+        navigate(ROUTES.TEST);
+    }, [startCustomTest, navigate]);
 
     const value = {
         ...testState,
         startMission,
         handleGenerateAITest,
+        handleStartCustomTest,
     };
 
     return (

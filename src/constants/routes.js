@@ -28,6 +28,7 @@ export const ROUTES = {
 
     // Learning Routes
     LIBRARY: '/library',
+    PYQS: '/pyqs',
     FLASHCARDS: '/flashcards',
     SYLLABUS: '/syllabus',
 
@@ -65,6 +66,11 @@ export const ROUTE_CONFIG = {
     [ROUTES.LIBRARY]: {
         title: 'Library',
         icon: 'BookOpen',
+        requiresAuth: true,
+    },
+    [ROUTES.PYQS]: {
+        title: 'PYQs',
+        icon: 'History',
         requiresAuth: true,
     },
     [ROUTES.FLASHCARDS]: {

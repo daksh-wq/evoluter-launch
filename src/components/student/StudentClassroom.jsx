@@ -1,61 +1,148 @@
-import React, { useState, useEffect } from 'react';
-import { BookOpen, Clock, ChevronRight, Play, Users } from 'lucide-react';
+import React, { useState, useEffect, useCallback } from 'react';
+import { BookOpen, Clock, Play, Users, RefreshCw, GraduationCap, AlertCircle } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { batchService } from '../../features/exam-engine/services/batchService';
-import { collection, query, where, getDocs, orderBy } from 'firebase/firestore';
+import { collection, query, where, getDocs } from 'firebase/firestore';
 import { db } from '../../services/firebase';
 import { Skeleton } from '../ui/Skeleton';
 import logger from '../../utils/logger';
 
-const StudentClassroom = ({ userData }) => {
+const StudentClassroom = ({ userData, startInstitutionTest }) => {
     const navigate = useNavigate();
     const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
     const [batches, setBatches] = useState([]);
     const [assignedTests, setAssignedTests] = useState([]);
+    const [startingTestId, setStartingTestId] = useState(null);
 
-    useEffect(() => {
-        const loadClassroom = async () => {
-            if (!userData?.uid) return;
-            try {
-                // 1. Get Enrolled Batches
-                const myBatches = await batchService.getStudentBatches(userData.uid);
-                setBatches(myBatches);
+    const loadClassroom = useCallback(async () => {
+        if (!userData?.uid) return;
+        setLoading(true);
+        setError(null);
 
-                if (myBatches.length > 0) {
-                    // 2. Get Tests Assigned to these Batches
-                    const batchIds = myBatches.map(b => b.id);
+        try {
+            // 1. Get enrolled batches from user's enrolledBatches field
+            const myBatches = await batchService.getStudentBatches(userData.uid);
+            setBatches(myBatches);
 
-                    // Firestore 'array-contains-any' is limited to 10 values. 
-                    // If a student is in >10 batches, we might need multiple queries or client-side filter.
-                    // For now, assuming <10.
+            if (myBatches.length > 0) {
+                const batchIds = myBatches.map(b => b.id);
+
+                // 2. Fetch tests assigned to any of these batches.
+                // We use ONLY array-contains-any (no secondary where/orderBy)
+                // to avoid needing a composite Firestore index.
+                // Client-side sorting handles ordering.
+                const chunks = [];
+                for (let i = 0; i < batchIds.length; i += 10) {
+                    chunks.push(batchIds.slice(i, i + 10));
+                }
+
+                const allTestDocs = [];
+                for (const chunk of chunks) {
                     const q = query(
                         collection(db, 'institution_tests'),
-                        where('accessType', '==', 'private'),
-                        where('assignedBatchIds', 'array-contains-any', batchIds.slice(0, 10)),
-                        orderBy('createdAt', 'desc')
+                        where('assignedBatchIds', 'array-contains-any', chunk)
                     );
-
-                    const snapshot = await getDocs(q);
-                    const tests = snapshot.docs.map(doc => ({ id: doc.id, ...doc.data() }));
-                    setAssignedTests(tests);
+                    const snap = await getDocs(q);
+                    snap.docs.forEach(d => {
+                        // Deduplicate if a test appears in multiple batch chunks
+                        if (!allTestDocs.find(t => t.id === d.id)) {
+                            allTestDocs.push({ id: d.id, ...d.data() });
+                        }
+                    });
                 }
-            } catch (error) {
-                logger.error("Failed to load classroom", error);
-            } finally {
-                setLoading(false);
+
+                // 3. Client-side filter: only active tests
+                const activeTests = allTestDocs
+                    .filter(t => t.status !== 'archived' && t.status !== 'inactive')
+                    .sort((a, b) => {
+                        const ta = a.createdAt?.seconds || 0;
+                        const tb = b.createdAt?.seconds || 0;
+                        return tb - ta;
+                    });
+
+                setAssignedTests(activeTests);
+            } else {
+                setAssignedTests([]);
             }
-        };
+        } catch (err) {
+            logger.error('Failed to load classroom', err);
+            setError('Failed to load classroom data. Please try refreshing.');
+        } finally {
+            setLoading(false);
+        }
+    }, [userData?.uid]);
 
+    useEffect(() => {
         loadClassroom();
-    }, [userData]);
+    }, [loadClassroom]);
 
+    const handleStartTest = async (test) => {
+        setStartingTestId(test.id);
+        try {
+            const success = await startInstitutionTest(test);
+            if (success) navigate('/test');
+        } finally {
+            setStartingTestId(null);
+        }
+    };
+
+    // --- Loading State ---
     if (loading) {
         return (
-            <div className="p-6 space-y-6">
-                <Skeleton className="h-48 w-full rounded-3xl" />
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <Skeleton className="h-32 w-full rounded-2xl" />
-                    <Skeleton className="h-32 w-full rounded-2xl" />
+            <div className="space-y-6 p-2">
+                <Skeleton className="h-52 w-full rounded-3xl" />
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+                    <div className="lg:col-span-8 space-y-4">
+                        <Skeleton className="h-8 w-40 rounded-lg" />
+                        <Skeleton className="h-32 w-full rounded-2xl" />
+                        <Skeleton className="h-32 w-full rounded-2xl" />
+                    </div>
+                    <div className="lg:col-span-4 space-y-4">
+                        <Skeleton className="h-8 w-32 rounded-lg" />
+                        <Skeleton className="h-48 w-full rounded-2xl" />
+                    </div>
+                </div>
+            </div>
+        );
+    }
+
+    // --- Error State ---
+    if (error) {
+        return (
+            <div className="flex flex-col items-center justify-center min-h-[50vh] gap-4">
+                <AlertCircle size={48} className="text-red-400" />
+                <p className="text-slate-600 font-medium text-center max-w-sm">{error}</p>
+                <button
+                    onClick={loadClassroom}
+                    className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-xl hover:bg-indigo-700 transition-colors flex items-center gap-2"
+                >
+                    <RefreshCw size={16} /> Try Again
+                </button>
+            </div>
+        );
+    }
+
+    // --- Not Enrolled State ---
+    if (batches.length === 0) {
+        return (
+            <div className="space-y-6 animate-in fade-in duration-500">
+                {/* Header */}
+                <div className="bg-gradient-to-r from-indigo-600 to-purple-600 rounded-3xl p-8 text-white shadow-xl relative overflow-hidden">
+                    <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl -mr-16 -mt-16 pointer-events-none" />
+                    <div className="relative z-10">
+                        <h1 className="text-3xl font-black mb-2 flex items-center gap-3">
+                            <BookOpen className="text-white/80" /> My Classroom
+                        </h1>
+                        <p className="text-indigo-100 font-medium">
+                            You haven't been added to any institution batch yet.
+                        </p>
+                    </div>
+                </div>
+                <div className="bg-white rounded-2xl p-12 text-center border border-slate-100 shadow-sm">
+                    <GraduationCap size={48} className="text-slate-300 mx-auto mb-4" />
+                    <h3 className="font-bold text-slate-700 mb-2">No Batches Yet</h3>
+                    <p className="text-slate-400 text-sm">Ask your institution to add you to a batch using your email: <span className="font-bold text-slate-600">{userData?.email}</span></p>
                 </div>
             </div>
         );
@@ -63,18 +150,29 @@ const StudentClassroom = ({ userData }) => {
 
     return (
         <div className="space-y-8 animate-in fade-in duration-500">
-            {/* Header / Stats */}
+            {/* Header / Stats Banner */}
             <div className="bg-gradient-to-r from-indigo-600 to-purple-600 rounded-3xl p-8 text-white shadow-xl relative overflow-hidden">
-                <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl -mr-16 -mt-16 pointer-events-none"></div>
+                <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full blur-3xl -mr-16 -mt-16 pointer-events-none" />
                 <div className="relative z-10">
-                    <h1 className="text-3xl font-black mb-2 flex items-center gap-3">
-                        <BookOpen className="text-white/80" /> My Classroom
-                    </h1>
-                    <p className="text-indigo-100 font-medium max-w-lg">
-                        Access private tests and materials assigned by your institution batches.
-                    </p>
+                    <div className="flex items-start justify-between">
+                        <div>
+                            <h1 className="text-3xl font-black mb-2 flex items-center gap-3">
+                                <BookOpen className="text-white/80" /> My Classroom
+                            </h1>
+                            <p className="text-indigo-100 font-medium max-w-lg">
+                                Access tests and materials assigned by your institution.
+                            </p>
+                        </div>
+                        <button
+                            onClick={loadClassroom}
+                            className="p-2 bg-white/10 hover:bg-white/20 rounded-xl transition-colors"
+                            title="Refresh"
+                        >
+                            <RefreshCw size={18} />
+                        </button>
+                    </div>
 
-                    <div className="mt-8 flex gap-6">
+                    <div className="mt-8 flex flex-wrap gap-4">
                         <div className="bg-white/10 backdrop-blur-md rounded-xl p-4 min-w-[120px]">
                             <div className="text-3xl font-black">{batches.length}</div>
                             <div className="text-xs font-bold text-indigo-200 uppercase tracking-wider">Active Batches</div>
@@ -92,9 +190,7 @@ const StudentClassroom = ({ userData }) => {
 
                 {/* Main: Assigned Tests */}
                 <div className="lg:col-span-8 space-y-6">
-                    <div className="flex items-center justify-between">
-                        <h2 className="text-xl font-bold text-slate-800">Assigned Tests</h2>
-                    </div>
+                    <h2 className="text-xl font-bold text-slate-800">Assigned Tests</h2>
 
                     {assignedTests.length === 0 ? (
                         <div className="bg-white rounded-2xl p-12 text-center border border-slate-100 shadow-sm">
@@ -102,34 +198,52 @@ const StudentClassroom = ({ userData }) => {
                                 <Clock size={32} />
                             </div>
                             <h3 className="font-bold text-slate-700">No Pending Tests</h3>
-                            <p className="text-slate-400 text-sm">You're all caught up! relax for now.</p>
+                            <p className="text-slate-400 text-sm mt-1">You're all caught up! Check back later.</p>
                         </div>
                     ) : (
                         <div className="space-y-4">
                             {assignedTests.map(test => (
                                 <div key={test.id} className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-all group">
-                                    <div className="flex justify-between items-start">
-                                        <div>
-                                            <div className="flex items-center gap-2 mb-2">
+                                    <div className="flex justify-between items-start gap-4">
+                                        <div className="flex-1 min-w-0">
+                                            <div className="flex flex-wrap items-center gap-2 mb-2">
                                                 <span className="bg-purple-100 text-purple-700 text-[10px] font-black px-2 py-0.5 rounded uppercase tracking-wide">
                                                     {test.subject || 'Test'}
                                                 </span>
                                                 <span className="text-xs text-slate-400 font-medium flex items-center gap-1">
                                                     <Clock size={12} /> {test.duration} mins
                                                 </span>
+                                                {test.accessType === 'public' && (
+                                                    <span className="text-[10px] bg-green-100 text-green-700 font-bold px-2 py-0.5 rounded uppercase">Open</span>
+                                                )}
                                             </div>
-                                            <h3 className="font-bold text-lg text-slate-800 group-hover:text-indigo-600 transition-colors">
+                                            <h3 className="font-bold text-lg text-slate-800 group-hover:text-indigo-600 transition-colors truncate">
                                                 {test.title}
                                             </h3>
                                             <p className="text-sm text-slate-500 mt-1">
-                                                Assigned by {test.creatorName}
+                                                By <span className="font-semibold">{test.creatorName || 'Institution'}</span>
                                             </p>
+                                            {/* Which batches is this assigned to */}
+                                            <div className="flex flex-wrap gap-1 mt-2">
+                                                {batches
+                                                    .filter(b => test.assignedBatchIds?.includes(b.id))
+                                                    .map(b => (
+                                                        <span key={b.id} className="text-[10px] bg-indigo-50 text-indigo-600 font-bold px-2 py-0.5 rounded-full border border-indigo-100">
+                                                            {b.name}
+                                                        </span>
+                                                    ))
+                                                }
+                                            </div>
                                         </div>
                                         <button
-                                            onClick={() => navigate(`/test/${test.testCode}`)}
-                                            className="bg-indigo-50 text-indigo-600 p-3 rounded-xl group-hover:bg-indigo-600 group-hover:text-white transition-all"
+                                            onClick={() => handleStartTest(test)}
+                                            disabled={startingTestId === test.id}
+                                            className="bg-indigo-50 text-indigo-600 p-3 rounded-xl group-hover:bg-indigo-600 group-hover:text-white transition-all disabled:opacity-50 flex-shrink-0"
                                         >
-                                            <Play size={20} fill="currentColor" />
+                                            {startingTestId === test.id
+                                                ? <RefreshCw size={20} className="animate-spin" />
+                                                : <Play size={20} fill="currentColor" />
+                                            }
                                         </button>
                                     </div>
                                 </div>
@@ -139,28 +253,36 @@ const StudentClassroom = ({ userData }) => {
                 </div>
 
                 {/* Sidebar: My Batches */}
-                <div className="lg:col-span-4 space-y-6">
+                <div className="lg:col-span-4 space-y-4">
                     <h2 className="text-xl font-bold text-slate-800">My Batches</h2>
                     <div className="bg-white rounded-2xl border border-slate-100 shadow-sm overflow-hidden">
-                        {batches.length === 0 ? (
-                            <div className="p-8 text-center">
-                                <p className="text-sm text-slate-400">You haven't joined any batches yet.</p>
-                            </div>
-                        ) : (
-                            <div className="divide-y divide-slate-50">
-                                {batches.map(batch => (
+                        <div className="divide-y divide-slate-50">
+                            {batches.map(batch => {
+                                // Count tests assigned to this specific batch
+                                const batchTestCount = assignedTests.filter(t =>
+                                    t.assignedBatchIds?.includes(batch.id)
+                                ).length;
+
+                                return (
                                     <div key={batch.id} className="p-4 hover:bg-slate-50 transition-colors">
-                                        <div className="font-bold text-slate-700 text-sm">{batch.name}</div>
+                                        <div className="flex items-start justify-between">
+                                            <div className="font-bold text-slate-700 text-sm">{batch.name}</div>
+                                            {batchTestCount > 0 && (
+                                                <span className="text-[10px] bg-indigo-600 text-white font-bold px-2 py-0.5 rounded-full">
+                                                    {batchTestCount} test{batchTestCount !== 1 ? 's' : ''}
+                                                </span>
+                                            )}
+                                        </div>
                                         <div className="text-xs text-slate-400 mt-1 flex items-center gap-1">
-                                            <Users size={12} /> {batch.studentCount || 0} Students
+                                            <Users size={11} /> {batch.studentCount || 0} Students
                                         </div>
-                                        <div className="text-[10px] text-slate-300 mt-2 uppercase font-bold tracking-wider">
-                                            Joined {batch.joinedAt ? new Date(batch.joinedAt.seconds * 1000).toLocaleDateString() : 'Recently'}
-                                        </div>
+                                        {batchTestCount === 0 && (
+                                            <div className="text-[10px] text-slate-300 mt-1 italic">No tests assigned yet</div>
+                                        )}
                                     </div>
-                                ))}
-                            </div>
-                        )}
+                                );
+                            })}
+                        </div>
                     </div>
                 </div>
             </div>

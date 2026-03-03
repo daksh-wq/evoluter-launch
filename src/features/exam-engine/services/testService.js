@@ -1,9 +1,20 @@
 import { doc, setDoc, updateDoc, increment } from 'firebase/firestore';
-import { db } from '@/services/firebase';
+import { db, auth } from '@/services/firebase';
 import logger from '@/utils/logger';
 import { generateQuestions } from '@/services/geminiService';
 import { generateMockQuestions } from '@/utils/helpers';
 import { optimizeQuestionsForStorage } from '../utils/testLogic'; // We'll need to export this or just inline it if circular dep concerns arise, but util -> service is fine.
+import { PYQ_DATABASE } from '@/constants/pyqDatabase';
+
+// Helper to shuffle an array
+const shuffleArray = (array) => {
+    const arr = [...array];
+    for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+};
 
 /**
  * Service for handling Test-related database operations
@@ -51,6 +62,7 @@ export const testService = {
                 ...results,
                 completedAt: results.timestamp || new Date(),
                 topic: topic || 'Mixed',
+                testName: options.testName || null,           // institution test title
                 questions: optimizedQuestions,
                 type: options.isInstitutionTest ? 'institution' : 'practice',
                 institutionTestId: options.isInstitutionTest ? options.originalTestId : null,
@@ -109,18 +121,64 @@ export const testService = {
 
     /**
      * Wrapper for AI Question Generation with fallback
-     * @param {string} topic 
+     * @param {string} topic - The target topic or document title
      * @param {number} count 
      * @param {string} difficulty 
      * @param {string} targetExam 
      * @param {function} onProgress 
+     * @param {string} [resourceContent] - Extracted PDF/Link text
+     * @param {number} [pyqPercentage] - Percentage of PYQs to blend (0-100)
      * @returns {Promise<Array>} Generated questions or mock fallback
      */
-    async generateTestContent(topic, count, difficulty, targetExam, onProgress) {
+    async generateTestContent(topic, count, difficulty, targetExam, onProgress, resourceContent = null, pyqPercentage = 0) {
         try {
-            const questions = await generateQuestions(topic, count, difficulty, targetExam, onProgress);
-            if (questions && questions.length > 0) {
-                return questions;
+            let finalQuestions = [];
+            let aiCount = count;
+
+            // 1. Splice PYQs if requested
+            if (pyqPercentage > 0) {
+                const pyqCount = Math.round(count * (pyqPercentage / 100));
+                aiCount = count - pyqCount;
+
+                if (pyqCount > 0) {
+                    logger.info(`Extracting ${pyqCount} PYQs for topic: ${topic || 'Mixed'}`);
+
+                    // Filter PYQs by topic/subject if possible, else random
+                    let filteredPYQs = PYQ_DATABASE.filter(q =>
+                        !topic ||
+                        q.subject.toLowerCase().includes(topic.toLowerCase()) ||
+                        q.topic.toLowerCase().includes(topic.toLowerCase())
+                    );
+
+                    // If not enough strict matches, just take random PYQs (fallback)
+                    if (filteredPYQs.length < pyqCount) {
+                        filteredPYQs = [...filteredPYQs, ...PYQ_DATABASE.filter(q => !filteredPYQs.find(f => f.id === q.id))];
+                    }
+
+                    // Shuffle and slice
+                    const selectedPYQs = shuffleArray(filteredPYQs).slice(0, pyqCount);
+                    finalQuestions = [...selectedPYQs];
+                }
+            }
+
+            // 2. Generate remaining questions with AI
+            if (aiCount > 0) {
+                let aiQuestions = [];
+                if (resourceContent) {
+                    // IMPORTANT: We dynamically import to avoid circular deps if needed
+                    const { generateQuestionsFromDocument } = await import('@/services/geminiService');
+                    logger.info('Generating mixed test from resource content...');
+                    aiQuestions = await generateQuestionsFromDocument(resourceContent, topic || 'Attached Document', aiCount, difficulty, onProgress);
+                } else {
+                    aiQuestions = await generateQuestions(topic || 'Mixed Subject', aiCount, difficulty, targetExam, onProgress);
+                }
+                finalQuestions = [...finalQuestions, ...aiQuestions];
+            }
+
+            // 3. Output Validated Mixed Batch
+            if (finalQuestions && finalQuestions.length > 0) {
+                // Return shuffled array if we mixed PYQs and AI, otherwise normal
+                return pyqPercentage > 0 ? shuffleArray(finalQuestions) : finalQuestions;
             }
             throw new Error("Empty question set generated");
         } catch (error) {

@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
-import { BookOpen, FileText, Upload, RefreshCw, Zap, Eye, Trash2 } from 'lucide-react';
+import { BookOpen, FileText, Upload, RefreshCw, Zap, Eye, Trash2, ExternalLink } from 'lucide-react';
 import { LIBRARY_TABS } from '../../constants/data';
+import { UPSC_LIBRARY_RESOURCES } from '../../constants/upscLibrary';
 
 
 /**
@@ -30,17 +31,16 @@ const LibraryView = ({
     const [activeTab, setActiveTab] = React.useState(LIBRARY_TABS[0]);
     const [searchTerm, setSearchTerm] = React.useState('');
 
-    const filteredDocs = docs.filter(doc => {
+    const allDocs = [...docs, ...UPSC_LIBRARY_RESOURCES];
+
+    const filteredDocs = allDocs.filter(doc => {
         const matchesSearch = doc.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
             doc.category?.toLowerCase().includes(searchTerm.toLowerCase()) ||
             doc.tags?.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase()));
 
-        const matchesTab = activeTab === 'All Resources' ||
-            (activeTab === 'Current Affairs' && doc.category === 'Current Affairs') || // Simple mapping
-            doc.type === activeTab || // e.g. PDF
-            true; // For now keeping tab logic simple or ignoring it if complex
+        const matchesTab = activeTab === 'All Resources' || doc.category === activeTab;
 
-        return matchesSearch;
+        return matchesSearch && matchesTab;
     });
 
     return (
@@ -139,8 +139,8 @@ const LibraryView = ({
                     >
                         {/* Header */}
                         <div className="flex items-start justify-between mb-4">
-                            <div className="bg-[#2278B0]/5 p-3 rounded-xl text-[#2278B0]">
-                                {doc.type === 'PDF' ? <FileText size={24} /> : <BookOpen size={24} />}
+                            <div className={`p-3 rounded-xl ${doc.type === 'Link' ? 'bg-purple-50 text-purple-600' : 'bg-[#2278B0]/5 text-[#2278B0]'}`}>
+                                {doc.type === 'PDF' ? <FileText size={24} /> : doc.type === 'Link' ? <ExternalLink size={24} /> : <BookOpen size={24} />}
                             </div>
                             <span className="text-[10px] font-bold uppercase tracking-widest bg-green-50 text-green-600 px-2 py-1 rounded-lg border border-green-100 truncate max-w-[100px]">
                                 {doc.category || 'General'}
@@ -178,20 +178,33 @@ const LibraryView = ({
 
                         {/* Actions */}
                         <div className="mt-4 flex gap-2">
-                            <button
-                                onClick={() => onExtractQuestions(doc)}
-                                className="flex-1 py-3 bg-[#2278B0]/5 text-[#2278B0] group-hover:bg-[#2278B0] group-hover:text-white rounded-xl text-sm font-bold transition-all flex items-center justify-center gap-2 border border-[#2278B0]/10 group-hover:border-[#2278B0] shadow-sm"
-                            >
-                                <Zap size={14} /> Extract Qs
-                            </button>
+                            {doc.type === 'Link' ? (
+                                <a
+                                    href={doc.url}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex-1 py-3 bg-[#2278B0] text-white hover:bg-[#1b5f8a] rounded-xl text-sm font-bold transition-all flex items-center justify-center gap-2 shadow-sm"
+                                >
+                                    <ExternalLink size={14} /> Read Now
+                                </a>
+                            ) : (
+                                <>
+                                    <button
+                                        onClick={() => onExtractQuestions(doc)}
+                                        className="flex-1 py-3 bg-[#2278B0]/5 text-[#2278B0] group-hover:bg-[#2278B0] group-hover:text-white rounded-xl text-sm font-bold transition-all flex items-center justify-center gap-2 border border-[#2278B0]/10 group-hover:border-[#2278B0] shadow-sm"
+                                    >
+                                        <Zap size={14} /> Extract Qs
+                                    </button>
 
-                            <button
-                                onClick={() => onDeleteDoc(doc.id)}
-                                className="p-3 bg-white text-slate-400 hover:text-red-500 hover:bg-red-50 rounded-xl border border-slate-200 transition-colors"
-                                title="Delete Document"
-                            >
-                                <Trash2 size={18} />
-                            </button>
+                                    <button
+                                        onClick={() => onDeleteDoc(doc.id)}
+                                        className="p-3 bg-white text-slate-400 hover:text-red-500 hover:bg-red-50 rounded-xl border border-slate-200 transition-colors"
+                                        title="Delete Document"
+                                    >
+                                        <Trash2 size={18} />
+                                    </button>
+                                </>
+                            )}
                         </div>
                     </div>
                 ))}

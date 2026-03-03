@@ -50,9 +50,22 @@ const TestView = ({
         }
     }, [warningCount, endTest]);
 
+    const lastZenToggleTime = useRef(0);
+
+    // Track when Zen Mode was toggled to prevent false proctoring flags during fullscreen transition
+    useEffect(() => {
+        lastZenToggleTime.current = Date.now();
+    }, [isZenMode]);
+
     // Proctoring: Trigger warning modal on tab switch
     useEffect(() => {
         const handleVisibilityChange = () => {
+            // Ignore visibility changes within 1.5 seconds of toggling Zen Mode (fullscreen transition)
+            if (Date.now() - lastZenToggleTime.current < 1500) {
+                logger.info('Ignored tab switch - Zen mode transitioning');
+                return;
+            }
+
             if (document.hidden) {
                 setWarningCount(prev => prev + 1);
                 setShowWarningModal(true);
@@ -143,7 +156,7 @@ const TestView = ({
             </div>
 
             {/* Footer Nav */}
-            <footer className="border-t border-slate-200 bg-white p-4 flex justify-between items-center lg:px-10">
+            <footer className="border-t border-slate-200 bg-white p-4 flex justify-between items-center lg:px-10 shrink-0">
                 <button
                     onClick={goToPrev}
                     disabled={currentIndex === 0}
@@ -151,13 +164,26 @@ const TestView = ({
                 >
                     <ChevronDown className="rotate-90" size={18} /> Previous
                 </button>
-                <button
-                    onClick={goToNext}
-                    disabled={isLastQuestion}
-                    className="px-6 py-3 rounded-xl bg-[#2278B0] text-white font-bold hover:bg-[#1b5f8a] shadow-lg shadow-[#2278B0]/20 disabled:opacity-50 flex items-center gap-2"
-                >
-                    Next <ChevronRight size={18} />
-                </button>
+                <div className="flex items-center gap-4">
+                    {/* Always show Submit button in Zen Mode for easy access, or when on the last question everywhere */}
+                    {(isZenMode || isLastQuestion) && (
+                        <button
+                            onClick={() => endTest()}
+                            className="px-6 py-3 rounded-xl bg-green-600 text-white font-bold hover:bg-green-700 shadow-lg shadow-green-600/20 flex items-center gap-2"
+                        >
+                            Submit Test
+                        </button>
+                    )}
+
+                    {!isLastQuestion && (
+                        <button
+                            onClick={goToNext}
+                            className="px-6 py-3 rounded-xl bg-[#2278B0] text-white font-bold hover:bg-[#1b5f8a] shadow-lg shadow-[#2278B0]/20 flex items-center gap-2"
+                        >
+                            Next <ChevronRight size={18} />
+                        </button>
+                    )}
+                </div>
             </footer>
             {/* Warning Modal */}
             {showWarningModal && (

@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
 import { db } from '../../services/firebase';
 import logger from '../../utils/logger';
-import { generateQuestions, generateQuestionsFromDocument } from '../../services/geminiService';
+import { generateQuestions, generateQuestionsFromDocument, suggestTestTopics } from '../../services/geminiService';
 import { extractTextFromPDF } from '../../utils/pdfExtractor';
 import { batchService } from '../../features/exam-engine/services/batchService';
 
@@ -36,10 +36,16 @@ const TestCreator = ({ userData }) => {
         file: null
     });
 
-    // Access Control State
     const [accessType, setAccessType] = useState('public'); // 'public' | 'private'
     const [batches, setBatches] = useState([]);
     const [selectedBatchIds, setSelectedBatchIds] = useState([]);
+
+    // Auto-Suggest State
+    const [topicSuggestions, setTopicSuggestions] = useState([]);
+    const [isSuggesting, setIsSuggesting] = useState(false);
+    const [showSuggestions, setShowSuggestions] = useState(false);
+    const suggestionTimeoutRef = React.useRef(null);
+    const abortControllerRef = React.useRef(null);
 
     React.useEffect(() => {
         const loadBatches = async () => {
@@ -54,6 +60,51 @@ const TestCreator = ({ userData }) => {
         };
         loadBatches();
     }, [userData]);
+
+    // AI Auto-Suggest Effect
+    React.useEffect(() => {
+        // Clear previous timeout and abort ongoing request
+        if (suggestionTimeoutRef.current) clearTimeout(suggestionTimeoutRef.current);
+        if (abortControllerRef.current) abortControllerRef.current.abort();
+
+        const keyword = genConfig.topic.trim();
+
+        // Hide suggestions if empty or too short
+        if (!keyword || keyword.length < 2) {
+            setTopicSuggestions([]);
+            setIsSuggesting(false);
+            return;
+        }
+
+        // Only show loading if we're actually going to fetch
+        if (showSuggestions) {
+            setIsSuggesting(true);
+        }
+
+        // Debounce API call (500ms)
+        suggestionTimeoutRef.current = setTimeout(async () => {
+            if (!showSuggestions) return; // Don't fetch if user already selected
+
+            abortControllerRef.current = new AbortController();
+
+            try {
+                const results = await suggestTestTopics(keyword, 'UPSC CSE', abortControllerRef.current.signal);
+                // Only update if the result is for the current keyword (handled mostly by abort)
+                setTopicSuggestions(results);
+            } catch (error) {
+                if (error.name !== 'AbortError') {
+                    setTopicSuggestions([]);
+                }
+            } finally {
+                setIsSuggesting(false);
+            }
+        }, 600);
+
+        return () => {
+            if (suggestionTimeoutRef.current) clearTimeout(suggestionTimeoutRef.current);
+            if (abortControllerRef.current) abortControllerRef.current.abort();
+        };
+    }, [genConfig.topic, showSuggestions]);
 
     // --- Handlers ---
     const addQuestion = () => {
@@ -457,9 +508,45 @@ const TestCreator = ({ userData }) => {
                                                 <input
                                                     placeholder="e.g. Indian Constitution"
                                                     value={genConfig.topic}
-                                                    onChange={(e) => setGenConfig({ ...genConfig, topic: e.target.value })}
+                                                    onChange={(e) => {
+                                                        setShowSuggestions(true);
+                                                        setGenConfig({ ...genConfig, topic: e.target.value });
+                                                    }}
+                                                    onFocus={() => setShowSuggestions(true)}
+                                                    onBlur={() => {
+                                                        // Delay hiding so clicks register
+                                                        setTimeout(() => setShowSuggestions(false), 200);
+                                                    }}
                                                     className="w-full pl-11 bg-slate-50 border border-slate-200 rounded-xl pr-4 py-3 font-medium focus:bg-white focus:border-purple-500 focus:ring-0 transition-all outline-none"
                                                 />
+
+                                                {/* Suggestions Tags */}
+                                                {showSuggestions && genConfig.topic.length >= 2 && (
+                                                    <div className="mt-2 w-full animate-in fade-in slide-in-from-top-1">
+                                                        {isSuggesting ? (
+                                                            <div className="text-xs text-slate-500 flex items-center gap-1.5 px-1 font-medium">
+                                                                <RefreshCw size={12} className="animate-spin text-purple-500" /> AI is thinking...
+                                                            </div>
+                                                        ) : topicSuggestions.length > 0 ? (
+                                                            <div className="flex gap-2 overflow-x-auto pb-1 hide-scrollbar">
+                                                                {topicSuggestions.map((suggestion, idx) => (
+                                                                    <button
+                                                                        key={idx}
+                                                                        type="button"
+                                                                        onClick={() => {
+                                                                            setGenConfig({ ...genConfig, topic: suggestion });
+                                                                            setShowSuggestions(false);
+                                                                        }}
+                                                                        className="flex-shrink-0 px-3 py-1.5 text-xs font-bold text-purple-700 bg-purple-50 border border-purple-100 rounded-full hover:bg-purple-100 hover:border-purple-200 transition-all flex items-center gap-1.5 shadow-sm hover:shadow"
+                                                                    >
+                                                                        <Sparkles size={10} className="text-purple-500 opacity-70" />
+                                                                        {suggestion}
+                                                                    </button>
+                                                                ))}
+                                                            </div>
+                                                        ) : null}
+                                                    </div>
+                                                )}
                                             </div>
                                         </div>
                                         <div className="grid grid-cols-2 gap-3">

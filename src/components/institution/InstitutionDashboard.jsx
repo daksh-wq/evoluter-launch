@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Building2, Users, MapPin, CheckCircle, Zap, ListChecks, Plus, ArrowRight, Clock, MoreVertical } from 'lucide-react';
+import { Building2, Users, MapPin, CheckCircle, Zap, ListChecks, Plus, ArrowRight, Clock, MoreVertical, Activity } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import { collection, query, where, orderBy, getDocs } from 'firebase/firestore';
 import { db } from '../../services/firebase';
@@ -18,6 +18,7 @@ const InstitutionDashboard = ({ userData }) => {
         avgScore: 0
     });
     const [recentTests, setRecentTests] = useState([]);
+    const [liveFeed, setLiveFeed] = useState([]);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -57,6 +58,34 @@ const InstitutionDashboard = ({ userData }) => {
                     avgScore
                 });
                 setRecentTests(tests);
+
+                // Fetch Recent Submissions for the Live Feed (from top 5 recent tests)
+                const recentSubmissions = [];
+                const testsToCheck = tests.slice(0, 5); // check the 5 most recently created tests
+
+                await Promise.all(testsToCheck.map(async (test) => {
+                    const attemptsRef = collection(db, 'institution_tests', test.id, 'attempts');
+                    const attemptsSnap = await getDocs(query(attemptsRef));
+
+                    attemptsSnap.forEach(doc => {
+                        const data = doc.data();
+                        recentSubmissions.push({
+                            id: doc.id,
+                            testName: test.title,
+                            testId: test.id,
+                            ...data
+                        });
+                    });
+                }));
+
+                // Sort by submittedAt descending and take top 10
+                recentSubmissions.sort((a, b) => {
+                    const dateA = a.submittedAt?.toDate ? a.submittedAt.toDate() : new Date(0);
+                    const dateB = b.submittedAt?.toDate ? b.submittedAt.toDate() : new Date(0);
+                    return dateB - dateA;
+                });
+
+                setLiveFeed(recentSubmissions.slice(0, 10));
 
             } catch (error) {
                 logger.error('Error fetching dashboard data:', error);
@@ -149,6 +178,34 @@ const InstitutionDashboard = ({ userData }) => {
                     <p className="text-xs text-slate-500 mt-1">Across all tests</p>
                 </div>
             </div>
+
+            {/* Live Activity Feed */}
+            {liveFeed.length > 0 && (
+                <div className="bg-white rounded-3xl p-6 border border-slate-100 shadow-sm">
+                    <h3 className="text-lg font-bold text-slate-800 mb-4 flex items-center gap-2">
+                        <Activity size={20} className="text-indigo-500" /> Live Submissions Feed
+                    </h3>
+                    <div className="flex overflow-x-auto gap-4 pb-2 snap-x hidescrollbar">
+                        {liveFeed.map(sub => (
+                            <div key={sub.id} className="min-w-[280px] md:min-w-[320px] bg-slate-50 border border-slate-100 rounded-2xl p-4 snap-start shrink-0 hover:border-indigo-200 transition-colors cursor-pointer" onClick={() => navigate(`/institution/test/${sub.testId}`)}>
+                                <div className="flex justify-between items-start mb-2">
+                                    <h4 className="font-bold text-slate-800 truncate pr-2">{sub.studentName}</h4>
+                                    <span className={`text-xs font-bold px-2 py-1 rounded ${sub.percentage >= 50 ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}`}>
+                                        {sub.percentage}%
+                                    </span>
+                                </div>
+                                <p className="text-xs text-slate-500 font-medium truncate mb-3">
+                                    Completed <span className="text-slate-700">{sub.testName}</span>
+                                </p>
+                                <div className="flex justify-between items-center text-[10px] text-slate-400 font-bold uppercase">
+                                    <span className="flex items-center gap-1"><Clock size={12} /> {Math.floor(sub.timeTaken / 60)}m {sub.timeTaken % 60}s</span>
+                                    <span>{sub.submittedAt?.toDate ? sub.submittedAt.toDate().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) : 'Just now'}</span>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            )}
 
             {/* Batch Management Section */}
             <div>

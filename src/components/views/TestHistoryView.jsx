@@ -80,7 +80,9 @@ const TestHistoryView = () => {
     const filteredTests = useMemo(() => {
         let result = testHistory;
 
-        if (filterTopic !== 'all') {
+        if (filterTopic === 'institution') {
+            result = result.filter(t => t.type === 'institution');
+        } else if (filterTopic !== 'all') {
             result = result.filter(t => t.topic === filterTopic);
         }
 
@@ -201,7 +203,8 @@ const TestHistoryView = () => {
                         onChange={(e) => setFilterTopic(e.target.value)}
                         className="pl-9 pr-8 py-2.5 bg-white border border-slate-200 rounded-xl text-sm font-medium text-slate-700 focus:outline-none focus:border-[#2278B0] focus:ring-2 focus:ring-[#2278B0]/20 appearance-none cursor-pointer"
                     >
-                        <option value="all">All Topics</option>
+                        <option value="all">All Tests</option>
+                        <option value="institution">🏫 Institution Tests</option>
                         {topics.map(topic => (
                             <option key={topic} value={topic}>{topic}</option>
                         ))}
@@ -256,12 +259,17 @@ const TestHistoryView = () => {
                                     <div className="flex-1">
                                         <div className="flex items-center gap-3 mb-2">
                                             <span className={`inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold ${isPassed
-                                                ? 'bg-green-50 text-green-700 border border-green-200'
-                                                : 'bg-red-50 text-red-700 border border-red-200'
+                                                    ? 'bg-green-50 text-green-700 border border-green-200'
+                                                    : 'bg-red-50 text-red-700 border border-red-200'
                                                 }`}>
                                                 {isPassed ? <CheckCircle size={12} /> : <XCircle size={12} />}
                                                 {isPassed ? 'Passed' : 'Needs Improvement'}
                                             </span>
+                                            {test.type === 'institution' && (
+                                                <span className="px-2.5 py-1 bg-indigo-100 text-indigo-700 rounded-full text-xs font-bold">
+                                                    🏫 Institution
+                                                </span>
+                                            )}
                                             {test.difficulty && (
                                                 <span className="px-2.5 py-1 bg-slate-100 text-slate-600 rounded-full text-xs font-bold">
                                                     {test.difficulty}
@@ -269,7 +277,7 @@ const TestHistoryView = () => {
                                             )}
                                         </div>
                                         <h3 className="text-lg font-bold text-slate-900 mb-1">
-                                            {test.topic || test.testName || 'Practice Test'}
+                                            {test.testName || test.topic || test.testName || 'Practice Test'}
                                         </h3>
                                         <div className="flex items-center gap-4 text-xs text-slate-500 font-medium">
                                             <span className="flex items-center gap-1">

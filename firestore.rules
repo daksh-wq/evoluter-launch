@@ -21,7 +21,12 @@ service cloud.firestore {
       // Only the owner can write their own data
       // Allow read for authenticated users to support "Add by Email" lookup
       allow read: if isAuthenticated(); 
-      allow write: if isOwner(userId);
+      allow create: if isOwner(userId);
+      allow delete: if isOwner(userId);
+      allow update: if isOwner(userId) || (
+        isAuthenticated() && 
+        request.resource.data.diff(resource.data).affectedKeys().hasOnly(['enrolledBatches'])
+      );
       
       // User stats subcollection (readable for leaderboard)
       match /stats/{document=**} {
@@ -111,12 +116,12 @@ service cloud.firestore {
     }
     // ─── Institution Tests ──────────────────────────────
     match /institution_tests/{testId} {
-      allow read: if isAuthenticated() && (
-        resource.data.creatorId == request.auth.uid || 
-        resource.data.accessType == 'public' || 
-        (resource.data.accessType == 'private' && 
-         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.enrolledBatches.hasAny(resource.data.assignedBatchIds))
-      );
+      // Allow any authenticated user to read/query institution tests.
+      // Access control for private tests is enforced at the app level
+      // (only students in assigned batches see the test in their classroom).
+      // Firestore does not support evaluating resource.data in list queries,
+      // so we keep the rule simple here.
+      allow read: if isAuthenticated();
       allow create: if isAuthenticated();
       allow update, delete: if isOwner(resource.data.creatorId);
     }

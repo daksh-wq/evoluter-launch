@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import {
     signInWithPopup,
     signOut,
@@ -7,10 +7,11 @@ import {
     createUserWithEmailAndPassword,
     updateProfile
 } from 'firebase/auth';
-import { doc, getDoc } from 'firebase/firestore';
+import { doc, getDoc, onSnapshot } from 'firebase/firestore';
 import { auth, googleProvider, db } from '../services/firebase';
 import { DEFAULT_USER_STATS } from '../constants/data';
 import logger from '../utils/logger';
+import { showToast } from '../utils/errorHandler';
 
 /**
  * Required fields that must be present in Firestore user doc
@@ -48,47 +49,75 @@ export function useAuth() {
         });
     }, []);
 
-    // Listen for auth state changes
+    const prevBatchesLengthRef = useRef(0);
+
+    // Listen for auth state changes and real-time user document changes
     useEffect(() => {
-        const unsubscribe = onAuthStateChanged(auth, async (currentUser) => {
+        let unsubscribeSnapshot = null;
+
+        const unsubscribeAuth = onAuthStateChanged(auth, async (currentUser) => {
             setAuthLoading(true);
+
+            // Clean up previous snapshot listener if it exists
+            if (unsubscribeSnapshot) {
+                unsubscribeSnapshot();
+                unsubscribeSnapshot = null;
+            }
+
             if (currentUser) {
                 setUser(currentUser);
                 setIsAuthenticated(true);
 
-                // Fetch extended user data from Firestore
                 try {
                     const userDocRef = doc(db, 'users', currentUser.uid);
-                    const userDoc = await getDoc(userDocRef);
 
-                    if (userDoc.exists()) {
-                        const data = userDoc.data();
-                        // Only set userData if onboarding is complete
-                        // This ensures ProtectedLayout redirects to onboarding
-                        if (isOnboardingComplete(data)) {
-                            setUserData(data);
+                    // Use onSnapshot for REAL-TIME updates instead of getDoc
+                    unsubscribeSnapshot = onSnapshot(userDocRef, (userDoc) => {
+                        if (userDoc.exists()) {
+                            const data = userDoc.data();
+
+                            // Check for new batch additions to trigger real-time notification
+                            const currentBatches = data.enrolledBatches || [];
+                            if (prevBatchesLengthRef.current > 0 && currentBatches.length > prevBatchesLengthRef.current) {
+                                showToast('🎉 You have been added to a new institution batch!', 'success', 8000);
+                            }
+                            prevBatchesLengthRef.current = currentBatches.length;
+
+                            // Only set userData if onboarding is complete
+                            if (isOnboardingComplete(data)) {
+                                setUserData(data);
+                            } else {
+                                logger.warn('User onboarding incomplete, missing fields', {
+                                    uid: currentUser.uid,
+                                    missingFields: REQUIRED_ONBOARDING_FIELDS.filter(f => !data[f])
+                                });
+                                setUserData(null);
+                            }
                         } else {
-                            logger.warn('User onboarding incomplete, missing fields', {
-                                uid: currentUser.uid,
-                                missingFields: REQUIRED_ONBOARDING_FIELDS.filter(f => !data[f])
-                            });
-                            setUserData(null);
+                            setUserData(null); // User exists in Auth but not in DB (Needs onboarding)
                         }
-                    } else {
-                        setUserData(null); // User exists in Auth but not in DB (Needs onboarding)
-                    }
+                        setAuthLoading(false); // Clear loading state after first snapshot resolving
+                    }, (error) => {
+                        logger.error("Error listening to user data:", error);
+                        setAuthLoading(false);
+                    });
+
                 } catch (error) {
-                    logger.error("Error fetching user data:", error);
+                    logger.error("Error setting up user listener:", error);
+                    setAuthLoading(false);
                 }
             } else {
                 setUser(null);
                 setUserData(null);
                 setIsAuthenticated(false);
+                setAuthLoading(false);
             }
-            setAuthLoading(false);
         });
 
-        return () => unsubscribe();
+        return () => {
+            if (unsubscribeSnapshot) unsubscribeSnapshot();
+            unsubscribeAuth();
+        };
     }, [isOnboardingComplete]);
 
     // Google Sign In

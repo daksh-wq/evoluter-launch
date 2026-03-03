@@ -40,7 +40,11 @@ service cloud.firestore {
       
       // On creation, stricter validation could be applied here
       allow create: if isOwner(userId);
-      allow update: if isOwner(userId);
+      allow delete: if isOwner(userId);
+      allow update: if isOwner(userId) || (
+        isAuthenticated() && 
+        request.resource.data.diff(resource.data).affectedKeys().hasOnly(['enrolledBatches'])
+      );
 
       // ─── Subcollections ───
 

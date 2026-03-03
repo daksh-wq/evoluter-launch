@@ -10,6 +10,7 @@ import RouteErrorBoundary from './components/error/RouteErrorBoundary';
 const LoginView = lazy(() => import('./components/views/LoginView'));
 const Dashboard = lazy(() => import('./components/views/Dashboard'));
 const LibraryView = lazy(() => import('./components/views/LibraryView'));
+const PYQView = lazy(() => import('./components/views/PYQView'));
 const MainsEvaluatorView = lazy(() => import('./components/views/MainsEvaluatorView'));
 const SyllabusView = lazy(() => import('./components/views/SyllabusView'));
 const NewsView = lazy(() => import('./components/views/NewsView'));
@@ -192,6 +193,7 @@ function App() {
     startMockTest,
     startAITest,
     startInstitutionTest,
+    startCustomTest,
     submitTest,
     exitTest,
     goToNextQuestion,
@@ -246,6 +248,11 @@ function App() {
 
 
   // --- Logic Handlers ---
+
+  const handleStartPYQTest = (questions, title) => {
+    startCustomTest(questions, title);
+    navigate(ROUTES.TEST);
+  };
 
   const handleFileUpload = async (file) => {
     if (!user) return;
@@ -461,6 +468,12 @@ function App() {
           </ProtectedLayout>
         } />
 
+        <Route path={ROUTES.PYQS} element={
+          <ProtectedLayout {...layoutProps}>
+            <PYQView startCustomTest={handleStartPYQTest} />
+          </ProtectedLayout>
+        } />
+
         <Route path={ROUTES.SYLLABUS} element={
           <ProtectedLayout {...layoutProps}>
             <SyllabusView />
@@ -519,6 +532,12 @@ function App() {
         <Route path="/institution/join" element={
           <ProtectedLayout {...layoutProps}>
             <StudentInstitutionView startInstitutionTest={startInstitutionTest} />
+          </ProtectedLayout>
+        } />
+
+        <Route path="/student/classroom" element={
+          <ProtectedLayout {...layoutProps}>
+            <StudentClassroom userData={userData} startInstitutionTest={startInstitutionTest} />
           </ProtectedLayout>
         } />
 

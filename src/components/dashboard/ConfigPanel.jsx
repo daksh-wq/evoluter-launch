@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layers, BarChart } from 'lucide-react';
+import { Layers, BarChart, History } from 'lucide-react';
 import { DIFFICULTY_LEVELS, QUESTION_COUNTS } from '../../constants/appConstants';
 
 /**
@@ -12,13 +12,17 @@ import { DIFFICULTY_LEVELS, QUESTION_COUNTS } from '../../constants/appConstants
  * @param {function} props.setQuestionCount - State setter for question count
  * @param {string} props.difficulty - Current difficulty level
  * @param {function} props.setDifficulty - State setter for difficulty
+ * @param {number} props.pyqPercentage - The percentage of PYQs to blend
+ * @param {function} props.setPyqPercentage - State setter for PYQ blending
  */
 export const ConfigPanel = ({
     showConfig,
     questionCount,
     setQuestionCount,
     difficulty,
-    setDifficulty
+    setDifficulty,
+    pyqPercentage,
+    setPyqPercentage
 }) => {
     if (!showConfig) return null;
 
@@ -56,6 +60,27 @@ export const ConfigPanel = ({
                             {level}
                         </button>
                     ))}
+                </div>
+                <div>
+                    <label className="text-xs font-bold text-blue-100 uppercase mb-3 flex items-center gap-2">
+                        <History size={14} /> Include PYQs ({pyqPercentage}%)
+                    </label>
+                    <div className="pt-2 px-1">
+                        <input
+                            type="range"
+                            min="0"
+                            max="100"
+                            step="10"
+                            value={pyqPercentage}
+                            onChange={(e) => setPyqPercentage(parseInt(e.target.value))}
+                            className="w-full h-2 bg-white/20 rounded-lg appearance-none cursor-pointer accent-blue-500 hover:accent-blue-400 transition-all"
+                        />
+                        <div className="flex justify-between text-[10px] font-bold text-blue-200 uppercase mt-2 px-1">
+                            <span>0%</span>
+                            <span>50%</span>
+                            <span>100% (PYQs Only)</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

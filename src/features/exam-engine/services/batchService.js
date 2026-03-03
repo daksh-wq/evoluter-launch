@@ -118,9 +118,10 @@ export const batchService = {
             // db.updateDoc(batchDocRef, { studentCount: increment(1) }); -> Can't do inside batch easily without import.
 
             // C. Add Batch ID to Student's Profile (for "My Classroom")
-            batch.update(studentUserRef, {
+            // Use set+merge so it works even if enrolledBatches field doesn't exist yet
+            batch.set(studentUserRef, {
                 enrolledBatches: arrayUnion(batchId)
-            });
+            }, { merge: true });
 
             await batch.commit();
 
@@ -148,8 +149,14 @@ export const batchService = {
 
             const memberRef = doc(db, 'institution_batches', batchId, 'members', studentId);
             const batchDocRef = doc(db, 'institution_batches', batchId);
+            const studentUserRef = doc(db, 'users', studentId);
 
             batch.delete(memberRef);
+
+            // Remove Batch ID from Student's Profile (use set+merge to be safe)
+            batch.set(studentUserRef, {
+                enrolledBatches: arrayRemove(batchId)
+            }, { merge: true });
 
             await batch.commit();
 
@@ -180,30 +187,29 @@ export const batchService = {
     },
 
     /**
-     * Get batches the student is enrolled in
+     * Get batches the student is enrolled in.
+     * Reads the enrolledBatches array from the user doc directly — no collection
+     * group index required, works with the `set+merge` write above.
      * @param {string} studentId
      */
     async getStudentBatches(studentId) {
         try {
-            const { collectionGroup } = await import('firebase/firestore');
-            // Query the 'members' subcollection group
-            const q = query(
-                collectionGroup(db, 'members'),
-                where('studentId', '==', studentId)
-            );
+            // 1. Read the user's enrolledBatches array
+            const userRef = doc(db, 'users', studentId);
+            const userSnap = await getDoc(userRef);
 
-            const snapshot = await getDocs(q);
+            if (!userSnap.exists()) return [];
 
-            // For each member doc, we generally want the parent Batch data.
-            // This is tricky in Firestore client-side.
-            // We have to fetch the parent docs individually.
-            const batchPromises = snapshot.docs.map(async (memberDoc) => {
-                const batchRef = memberDoc.ref.parent.parent;
-                if (batchRef) {
-                    const batchSnap = await getDoc(batchRef);
-                    if (batchSnap.exists()) {
-                        return { id: batchSnap.id, ...batchSnap.data() };
-                    }
+            const enrolledBatchIds = userSnap.data().enrolledBatches || [];
+            if (enrolledBatchIds.length === 0) return [];
+
+            // 2. Fetch each batch document
+            const batchPromises = enrolledBatchIds.map(async (batchId) => {
+                const batchRef = doc(db, 'institution_batches', batchId);
+                const batchSnap = await getDoc(batchRef);
+                if (batchSnap.exists()) {
+                    // Attach joinedAt from the member sub-doc if needed later
+                    return { id: batchSnap.id, ...batchSnap.data() };
                 }
                 return null;
             });

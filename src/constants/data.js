@@ -45,7 +45,9 @@ export const DEFAULT_USER_STATS = {
 // Navigation menu items
 export const NAV_ITEMS = [
     { id: 'dashboard', label: 'Dashboard', icon: 'Target' },
+    { id: 'student/classroom', label: 'Classroom', icon: 'Users' },
     { id: 'library', label: 'Library', icon: 'BookOpen' },
+    { id: 'pyqs', label: 'PYQs', icon: 'History' },
     { id: 'test-history', label: 'Test History', icon: 'Clock' },
     { id: 'syllabus', label: 'Syllabus', icon: 'ListChecks' },
     { id: 'news', label: 'Current Affairs', icon: 'Newspaper' },

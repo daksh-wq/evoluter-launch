@@ -12,6 +12,7 @@ import {
     User,
     X,
     Clock,
+    Users,
 } from 'lucide-react';
 
 import logo from '../../assets/logo1.png';
@@ -25,6 +26,7 @@ const ICON_MAP = {
     FileText,
     Trophy,
     User,
+    Users,
     Clock,
 };
 
