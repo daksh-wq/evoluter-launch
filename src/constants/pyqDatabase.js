@@ -1,4 +1,9 @@
-/**\n * UPSC Previous Year Questions (PYQs) Database\n * Massive comprehensive dataset auto-extracted sequentially across specific syllabus topics.\n * Total Questions: 855\n */\n\nexport const PYQ_DATABASE = [
+/**
+ * UPSC Previous Year Questions (PYQs) Database
+ * Massive comprehensive dataset auto-extracted sequentially across specific syllabus topics.
+ */
+
+export const PYQ_DATABASE = [
     {
         "id": "pyq-1990-c8f09527",
         "year": 1990,
@@ -24793,5 +24798,6907 @@
                 "label": "UPSC 2011"
             }
         ]
+    },
+    {
+        "id": "pyq-poli-7774f116",
+        "year": 2017,
+        "subject": "Polity",
+        "topic": "Prime Minister & Council of Ministers",
+        "text": "The Prime Minister is the ex-officio Chairman of which of the following?\n1. National Development Council\n2. National Integration Council\n3. NITI Aayog\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 and 2 only",
+            "1 and 3 only",
+            "2 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The Prime Minister is the ex-officio Chairman of all three bodies.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Prime Minister & Council of Ministers"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2017"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-4c1fba37",
+        "year": 2015,
+        "subject": "Polity",
+        "topic": "Prime Minister & Council of Ministers",
+        "text": "Who among the following constitute the National Development Council?\n1. The Prime Minister\n2. The Chief Ministers of all States\n3. Members of the Planning Commission\n4. The Governors of all States\nSelect the correct answer using the code given below.",
+        "options": [
+            "1, 2 and 3 only",
+            "1 and 2 only",
+            "1, 3 and 4 only",
+            "1, 2, 3 and 4"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Governors are not members of the National Development Council.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Prime Minister & Council of Ministers"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2015"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-8e5db85e",
+        "year": 2014,
+        "subject": "Polity",
+        "topic": "Prime Minister & Council of Ministers",
+        "text": "The power to decide an election petition is vested in the",
+        "options": [
+            "Parliament",
+            "Supreme Court",
+            "High Courts",
+            "Election Commission"
+        ],
+        "correctAnswer": 2,
+        "explanation": "High Courts have the power to decide an election petition.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Prime Minister & Council of Ministers"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2014"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-2d925adc",
+        "year": 2013,
+        "subject": "Polity",
+        "topic": "Prime Minister & Council of Ministers",
+        "text": "Consider the following statements:\n1. The President of India can summon a session of the Parliament at such place as he/she thinks fit.\n2. The Constitution of India provides for three sessions of the Parliament in a year, but it is not mandatory to conduct all three sessions.\n3. There is no minimum number of days that the Parliament is required to meet in a year.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Constitution does not mandate three sessions.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Prime Minister & Council of Ministers"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2013"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-0cbc8c69",
+        "year": 2012,
+        "subject": "Polity",
+        "topic": "Prime Minister & Council of Ministers",
+        "text": "Consider the following statements:\n1. The Union Cabinet consists only of Cabinet Ministers.\n2. Cabinet Secretariat functions under the direct control of the Prime Minister.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Union Cabinet also includes Ministers of State with independent charge.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Prime Minister & Council of Ministers"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2012"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-4f4017ef",
+        "year": 2011,
+        "subject": "Polity",
+        "topic": "Prime Minister & Council of Ministers",
+        "text": "The Parliament can make any law for the whole or any part of India for implementing international treaties",
+        "options": [
+            "with the consent of all the States",
+            "with the consent of the majority of States",
+            "with the consent of the States concerned",
+            "without the consent of any State"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Parliament can legislate on any subject to implement international treaties.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Prime Minister & Council of Ministers"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2011"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-3a34de7f",
+        "year": 2010,
+        "subject": "Polity",
+        "topic": "Prime Minister & Council of Ministers",
+        "text": "The Council of Ministers in a State is collectively responsible to the",
+        "options": [
+            "Governor",
+            "Legislative Assembly",
+            "Legislative Council",
+            "President"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Council of Ministers is collectively responsible to the Legislative Assembly.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Prime Minister & Council of Ministers"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2010"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-b0dc968a",
+        "year": 2008,
+        "subject": "Polity",
+        "topic": "Prime Minister & Council of Ministers",
+        "text": "Who among the following decides if a bill is a money bill?",
+        "options": [
+            "The Speaker of Lok Sabha",
+            "The Chairman of Rajya Sabha",
+            "The President",
+            "The Finance Minister"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Speaker of Lok Sabha decides if a bill is a money bill.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Prime Minister & Council of Ministers"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2008"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-6e718b05",
+        "year": 2006,
+        "subject": "Polity",
+        "topic": "Prime Minister & Council of Ministers",
+        "text": "The minimum age required to become the Prime Minister of India is",
+        "options": [
+            "25 years",
+            "30 years",
+            "35 years",
+            "40 years"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The minimum age is 25 years as they must be a member of Lok Sabha.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Prime Minister & Council of Ministers"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2006"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-01985d95",
+        "year": 2005,
+        "subject": "Polity",
+        "topic": "Prime Minister & Council of Ministers",
+        "text": "The President can nominate to the Parliament two members representing the",
+        "options": [
+            "Anglo-Indian community",
+            "Indian Christian community",
+            "Buddhist community",
+            "Parsi community"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The President could nominate two members from the Anglo-Indian community (now repealed).",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Prime Minister & Council of Ministers"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2005"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-48bd6332",
+        "year": 2020,
+        "subject": "Polity",
+        "topic": "Prime Minister & Council of Ministers",
+        "text": "With reference to the Union Government, consider the following statements:\n1. Departments are created by the Prime Minister on the advice of the Cabinet Secretary.\n2. Each of the Ministries is assigned to a Minister by the President on the advice of the Prime Minister.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Departments are created as per the Government of India (Allocation of Business) Rules, not by the PM.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Prime Minister & Council of Ministers"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2020"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-e3435a2c",
+        "year": 2019,
+        "subject": "Polity",
+        "topic": "Prime Minister & Council of Ministers",
+        "text": "Which of the following statements is/are correct regarding the office of the Prime Minister?\n1. The Prime Minister is the head of the Council of Ministers.\n2. The Prime Minister is appointed by the President.\n3. The Prime Minister must be a member of either House of Parliament at the time of appointment.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 and 2 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The PM can be appointed even if not a member, but must become one within six months.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Prime Minister & Council of Ministers"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2019"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-0f09a552",
+        "year": 2018,
+        "subject": "Polity",
+        "topic": "Prime Minister & Council of Ministers",
+        "text": "Consider the following statements regarding the powers of the Prime Minister:\n1. The Prime Minister communicates to the President all decisions of the Council of Ministers relating to the administration of the affairs of the Union and proposals for legislation.\n2. The Prime Minister advises the President with regard to the appointment of important officials like the Attorney General of India and the Comptroller and Auditor General of India.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both statements accurately describe the powers of the Prime Minister.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Prime Minister & Council of Ministers"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2018"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-5c8f66bb",
+        "year": 2021,
+        "subject": "Polity",
+        "topic": "Prime Minister & Council of Ministers",
+        "text": "Consider the following statements:\n1. The President of India can return a non-money bill passed by the Parliament for reconsideration.\n2. The President of India can withhold assent to a bill passed by the Parliament.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The President has both suspensive veto and absolute veto powers.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Prime Minister & Council of Ministers"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2021"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-76b40485",
+        "year": 2022,
+        "subject": "Polity",
+        "topic": "Prime Minister & Council of Ministers",
+        "text": "Which of the following are the discretionary powers of the Governor?\n1. Sending a report to the President of India about the affairs of the State.\n2. Reserving certain bills passed by the State Legislature for the consideration of the President of India.\n3. Appointing the Chief Minister.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 and 2 only",
+            "1 and 3 only",
+            "2 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Appointing the CM is not a discretionary power if a clear majority exists.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Prime Minister & Council of Ministers"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2022"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-a13ffb7e",
+        "year": 2023,
+        "subject": "Polity",
+        "topic": "Prime Minister & Council of Ministers",
+        "text": "Consider the following statements regarding the role of the Cabinet Secretariat:\n1. It provides secretarial assistance to the Cabinet and its committees.\n2. It deals with the allocation of portfolios to Ministers.\n3. It is responsible for the smooth transaction of business in the Parliament.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 and 2 only",
+            "1 and 3 only",
+            "2 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Cabinet Secretariat does not directly handle parliamentary business.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Prime Minister & Council of Ministers"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2023"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-cab060c8",
+        "year": 1998,
+        "subject": "Polity",
+        "topic": "Prime Minister & Council of Ministers",
+        "text": "The President of India is elected by an electoral college comprising of:",
+        "options": [
+            "All members of Parliament",
+            "All members of State Legislative Assemblies",
+            "Elected members of both Houses of Parliament and elected members of the State Legislative Assemblies",
+            "Elected members of both Houses of Parliament"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The electoral college includes elected members of Parliament and State Assemblies.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Prime Minister & Council of Ministers"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1998"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-33b9a4ce",
+        "year": 2000,
+        "subject": "Polity",
+        "topic": "Prime Minister & Council of Ministers",
+        "text": "Which of the following is/are essential for a parliamentary form of government?\n1. A written constitution.\n2. A parliament elected by the people.\n3. A council of ministers collectively responsible to the parliament.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 1,
+        "explanation": "A written constitution is not essential for a parliamentary form of government.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Prime Minister & Council of Ministers"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2000"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-8e74bb30",
+        "year": 2002,
+        "subject": "Polity",
+        "topic": "Prime Minister & Council of Ministers",
+        "text": "The concept of 'Shadow Cabinet' is found in",
+        "options": [
+            "India",
+            "USA",
+            "UK",
+            "France"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The concept of 'Shadow Cabinet' is found in the UK.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Prime Minister & Council of Ministers"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2002"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-a63b69d4",
+        "year": 2004,
+        "subject": "Polity",
+        "topic": "Prime Minister & Council of Ministers",
+        "text": "The President of India can be impeached by",
+        "options": [
+            "The Parliament",
+            "The Supreme Court",
+            "The Cabinet",
+            "The Election Commission"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The President of India can be impeached by the Parliament.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Prime Minister & Council of Ministers"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2004"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-a47d476a",
+        "year": 2007,
+        "subject": "Polity",
+        "topic": "Prime Minister & Council of Ministers",
+        "text": "The salaries and allowances of the Ministers of a State are determined by the",
+        "options": [
+            "Parliament",
+            "State Legislature",
+            "Governor",
+            "President"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The State Legislature determines the salaries and allowances of the Ministers.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Prime Minister & Council of Ministers"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2007"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-c6c5909c",
+        "year": 2009,
+        "subject": "Polity",
+        "topic": "Prime Minister & Council of Ministers",
+        "text": "The quorum to constitute a meeting of either House of Parliament is",
+        "options": [
+            "One-tenth of the total number of members of the House",
+            "One-fifth of the total number of members of the House",
+            "One-third of the total number of members of the House",
+            "One-fourth of the total number of members of the House"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The quorum is one-tenth of the total number of members of the House.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Prime Minister & Council of Ministers"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2009"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-2d7df8ca",
+        "year": 1999,
+        "subject": "Polity",
+        "topic": "Prime Minister & Council of Ministers",
+        "text": "The term of office of the Prime Minister is",
+        "options": [
+            "5 years",
+            "6 years",
+            "Till he enjoys the confidence of the Lok Sabha",
+            "Fixed"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Prime Minister holds office till he enjoys the confidence of the Lok Sabha.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Prime Minister & Council of Ministers"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1999"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-913687b4",
+        "year": 2001,
+        "subject": "Polity",
+        "topic": "Prime Minister & Council of Ministers",
+        "text": "The power to proclaim emergency is vested in",
+        "options": [
+            "The Prime Minister",
+            "The Council of Ministers",
+            "The President",
+            "The Parliament"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The power to proclaim emergency is vested in the President.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Prime Minister & Council of Ministers"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2001"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-e914ea4c",
+        "year": 1997,
+        "subject": "Polity",
+        "topic": "Prime Minister & Council of Ministers",
+        "text": "The President of India is a part of the",
+        "options": [
+            "Parliament",
+            "Lok Sabha",
+            "Rajya Sabha",
+            "Council of Ministers"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The President is an integral part of the Parliament.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Prime Minister & Council of Ministers"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1997"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-e1a1edf3",
+        "year": 1996,
+        "subject": "Polity",
+        "topic": "Prime Minister & Council of Ministers",
+        "text": "The Prime Minister is responsible to",
+        "options": [
+            "The President",
+            "The Parliament",
+            "The People",
+            "The Supreme Court"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Prime Minister is responsible to the Parliament.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Prime Minister & Council of Ministers"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1996"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-133d571d",
+        "year": 2024,
+        "subject": "Polity",
+        "topic": "Prime Minister & Council of Ministers",
+        "text": "Consider the following statements regarding the Attorney General of India:\n1. He is the highest law officer in the country.\n2. He is a member of the Cabinet.\n3. He has the right to speak in the Parliament.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 and 2 only",
+            "1 and 3 only",
+            "2 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Attorney General is not a member of the Cabinet.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Prime Minister & Council of Ministers"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2024"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-4a3775c6",
+        "year": 1995,
+        "subject": "Polity",
+        "topic": "Prime Minister & Council of Ministers",
+        "text": "The Council of Ministers is responsible to the",
+        "options": [
+            "President",
+            "Prime Minister",
+            "Parliament",
+            "People"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Council of Ministers is collectively responsible to the Parliament.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Prime Minister & Council of Ministers"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1995"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-3f1792ba",
+        "year": 2003,
+        "subject": "Polity",
+        "topic": "Prime Minister & Council of Ministers",
+        "text": "The Finance Bill is introduced in",
+        "options": [
+            "Lok Sabha",
+            "Rajya Sabha",
+            "Either House of Parliament",
+            "Joint Sitting of Parliament"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Finance Bill is introduced only in Lok Sabha.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Prime Minister & Council of Ministers"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2003"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-1b1b73b6",
+        "year": 2016,
+        "subject": "Polity",
+        "topic": "Prime Minister & Council of Ministers",
+        "text": "Which of the following statements is/are correct?\n1. A person who is not a member of either House of Parliament can be appointed as a minister for a maximum period of six months.\n2. The Constitution of India does not specify the minimum number of ministers in the Council of Ministers.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both statements are correct regarding ministerial appointments and size.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Prime Minister & Council of Ministers"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2016"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-a0db1695",
+        "year": 2017,
+        "subject": "Polity",
+        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
+        "text": "With reference to the Parliament of India, consider the following statements:\n1. A private member’s bill is a bill presented by a Member of Parliament who is not a Minister.\n2. Recently, a private member’s bill has been passed in the Parliament of India for the first time in its history.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Only statement 1 is correct as private member bills are rarely passed.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2017"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-17533e05",
+        "year": 2018,
+        "subject": "Polity",
+        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
+        "text": "Consider the following statements:\n1. The Speaker of the Legislative Assembly shall vacate his/her office if he/she ceases to be a member of the Assembly.\n2. Whenever the Legislative Assembly is dissolved, the Speaker shall not vacate his/her office until immediately before the first meeting of the Assembly after the dissolution.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both statements are correct regarding the Speaker's tenure.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2018"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-d3f628d4",
+        "year": 2019,
+        "subject": "Polity",
+        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
+        "text": "Which of the following is/are the exclusive power(s) of Lok Sabha?\n1. To ratify the declaration of emergency.\n2. To pass a motion of no-confidence against the Council of Ministers.\n3. To impeach the President of India.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 and 2",
+            "2 only",
+            "1 and 3",
+            "3 only"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Only the Lok Sabha can pass a no-confidence motion.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2019"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-f2438f0c",
+        "year": 2020,
+        "subject": "Polity",
+        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
+        "text": "With reference to the funds under Members of Parliament Local Area Development Scheme (MPLADS), which of the following statements are correct?\n1. MPLADS funds must be used to create durable assets like physical infrastructure for health, education, etc.\n2. A specified portion of each MP’s fund must benefit Scheduled Castes/Scheduled Tribes populations.\n3. MPLADS funds are sanctioned on yearly basis and the unspent amount, if any, must be carried forward to the next year.\n4. The work done under MPLADS are audited by the Comptroller and Auditor General of India.\nSelect the correct answer using the code given below:",
+        "options": [
+            "1 and 2 only",
+            "3 and 4 only",
+            "1, 2 and 3",
+            "1, 2 and 4"
+        ],
+        "correctAnswer": 2,
+        "explanation": "CAG does not directly audit MPLADS; hence, 1, 2, and 3 are correct.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2020"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-ce9c3561",
+        "year": 2021,
+        "subject": "Polity",
+        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
+        "text": "Consider the following statements:\n1. In India, Parliament can place a particular law in the Ninth Schedule of the Constitution.\n2. The validity of a law placed in the Ninth Schedule cannot be examined by any court and no judgment can be made on it.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Statement 1 is correct, but statement 2 is incorrect due to judicial review.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2021"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-8321462c",
+        "year": 2022,
+        "subject": "Polity",
+        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
+        "text": "Consider the following statements regarding the procedure of 'Motion of Thanks' in the Indian Parliament:\n1. It is a motion moved after the President addresses both Houses of Parliament assembled together at the commencement of the first Session after each general election and at the commencement of the first session of each year.\n2. Amendments to the Motion of Thanks can be moved.\n3. The Motion of Thanks must be passed in the House.\nWhich of the statements given above are correct?",
+        "options": [
+            "1 and 2 only",
+            "1 and 3 only",
+            "2 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All three statements are correct regarding the Motion of Thanks.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2022"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-db10066a",
+        "year": 2023,
+        "subject": "Polity",
+        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
+        "text": "Consider the following statements:\n1. Attorney General of India can participate in the proceedings of the Parliament.\n2. Attorney General of India can vote in the Parliament.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Attorney General can participate but cannot vote.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2023"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-c150c8ee",
+        "year": 2016,
+        "subject": "Polity",
+        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
+        "text": "The Parliament of India exercises control over the functions of the Council of Ministers through which of the following?\n1. Adjournment motion\n2. Question hour\n3. Committees\n4. Half-an-hour discussion\nSelect the correct answer using the code given below:",
+        "options": [
+            "1, 2 and 3 only",
+            "2, 3 and 4 only",
+            "1 and 4 only",
+            "1, 2, 3 and 4"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All listed mechanisms are used for parliamentary control.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2016"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-b78e4c70",
+        "year": 2015,
+        "subject": "Polity",
+        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
+        "text": "Which of the following are the methods of Parliamentary control over public finance in India?\n1. Placing Annual Financial Statement before the Parliament.\n2. Withdrawal of moneys from Consolidated Fund of India only after passing the Appropriation Bill.\n3. Provisions of supplementary grants and vote-on-account.\n4. Parliamentary control over the expenditure of public funds through the Estimates Committee.\nSelect the correct answer using the code given below:",
+        "options": [
+            "1, 2 and 3 only",
+            "2 and 4 only",
+            "1, 3 and 4 only",
+            "1, 2, 3 and 4"
+        ],
+        "correctAnswer": 4,
+        "explanation": "All listed methods contribute to parliamentary control over public finance.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2015"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-7581e8ce",
+        "year": 2014,
+        "subject": "Polity",
+        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
+        "text": "The main aim of the 'Fiscal Responsibility and Budget Management Act, 2003' is to",
+        "options": [
+            "eliminate revenue deficit",
+            "reduce fiscal deficit",
+            "eliminate primary deficit",
+            "reduce revenue expenditure"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The FRBM Act primarily aims to reduce the fiscal deficit.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2014"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-29140398",
+        "year": 2013,
+        "subject": "Polity",
+        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
+        "text": "Which of the following statements is/are applicable to the Lok Sabha?\n1. The Speaker presides over it.\n2. It can initiate a money bill.\n3. It can pass a vote of no-confidence against the government.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All three statements are applicable to the Lok Sabha.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2013"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-5c744cec",
+        "year": 2012,
+        "subject": "Polity",
+        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
+        "text": "Consider the following statements:\n1. The Rajya Sabha has no power either to reject or to amend a Money Bill.\n2. The Rajya Sabha cannot discuss the Annual Financial Statement.\n3. The Rajya Sabha has no power to cut short the debate on the Budget.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "1 and 2 only",
+            "2 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Only statement 1 is correct regarding Rajya Sabha's powers on Money Bills.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2012"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-f1c26e72",
+        "year": 2011,
+        "subject": "Polity",
+        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
+        "text": "Which one of the following statements correctly describes the Fourth Schedule of the Constitution of India?",
+        "options": [
+            "It allocates seats in the Council of States.",
+            "It contains the languages listed in the Constitution.",
+            "It contains the provisions regarding the administration of tribal areas.",
+            "It contains the names of the States and Union Territories."
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Fourth Schedule allocates seats in the Rajya Sabha.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2011"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-e442c789",
+        "year": 2010,
+        "subject": "Polity",
+        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
+        "text": "Consider the following statements:\n1. The Speaker of the Lok Sabha has the power to adjourn the House sine die.\n2. The Speaker of the Lok Sabha can summon a joint sitting of the two Houses of Parliament.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Only the Speaker can adjourn sine die; the President summons joint sittings.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2010"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-13e17f91",
+        "year": 2009,
+        "subject": "Polity",
+        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
+        "text": "Which of the following is/are the function(s) of the Parliament of India?\n1. To legislate on matters enumerated in the Union List.\n2. To amend the Constitution.\n3. To exercise control over the executive.\nSelect the correct answer using the code given below:",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 4,
+        "explanation": "All listed functions are performed by the Parliament.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2009"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-a87506c1",
+        "year": 2008,
+        "subject": "Polity",
+        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
+        "text": "Consider the following statements:\n1. A Money Bill can be introduced only in the Lok Sabha.\n2. The Speaker of the Lok Sabha decides whether a bill is a Money Bill or not.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both statements are correct regarding Money Bills.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2008"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-f6f19191",
+        "year": 2007,
+        "subject": "Polity",
+        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
+        "text": "The power to decide an election petition is vested in the",
+        "options": [
+            "Parliament",
+            "Supreme Court",
+            "High Courts",
+            "Election Commission"
+        ],
+        "correctAnswer": 2,
+        "explanation": "High Courts have the power to decide election petitions.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2007"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-80152a07",
+        "year": 2006,
+        "subject": "Polity",
+        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
+        "text": "Which of the following committees of Parliament has a single party representation?",
+        "options": [
+            "Public Accounts Committee",
+            "Estimates Committee",
+            "Committee on Public Undertakings",
+            "None of the above"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Estimates Committee has representation from only the Lok Sabha.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2006"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-9dcaf192",
+        "year": 2005,
+        "subject": "Polity",
+        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
+        "text": "The quorum to constitute a meeting of the Lok Sabha is",
+        "options": [
+            "one-sixth of the total number of members",
+            "one-tenth of the total number of members",
+            "one-eighth of the total number of members",
+            "one-fifth of the total number of members"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The quorum is one-tenth of the total members.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2005"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-46b385cf",
+        "year": 2004,
+        "subject": "Polity",
+        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
+        "text": "The power to create new All India Services is vested in",
+        "options": [
+            "The Parliament",
+            "The Union Public Service Commission",
+            "The Cabinet",
+            "The President"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Parliament has the power to create new All India Services.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2004"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-697fbecf",
+        "year": 2003,
+        "subject": "Polity",
+        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
+        "text": "Which of the following is not a function of the Estimates Committee of Parliament?",
+        "options": [
+            "To report on what economies, improvements in organization, efficiency or administrative reform, consistent with the policy underlying the estimates, may be effected",
+            "To suggest alternative policies in order to bring about efficiency and economy in administration",
+            "To examine whether the money is well laid out within the limits of the policy implied in the estimates",
+            "To suggest the form in which the estimates shall be presented to Parliament"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Estimates Committee does not suggest alternative policies.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2003"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-dc24c381",
+        "year": 2002,
+        "subject": "Polity",
+        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
+        "text": "The term 'cut motion' refers to",
+        "options": [
+            "a motion to reduce expenditure",
+            "a motion to censure the government",
+            "a motion to adjourn the House",
+            "a motion to call attention to a matter of urgent public importance"
+        ],
+        "correctAnswer": 0,
+        "explanation": "A cut motion aims to reduce expenditure.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2002"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-41d0936b",
+        "year": 2001,
+        "subject": "Polity",
+        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
+        "text": "Which of the following is/are the function(s) of the Public Accounts Committee of Parliament?\n1. To examine the audit reports of the Comptroller and Auditor General of India.\n2. To scrutinize the appropriation accounts and finance accounts of the Union Government.\n3. To examine the reports of the Comptroller and Auditor General on revenue receipts.\nSelect the correct answer using the code given below:",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 4,
+        "explanation": "All listed functions are performed by the Public Accounts Committee.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2001"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-ee92b5f2",
+        "year": 2000,
+        "subject": "Polity",
+        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
+        "text": "The power to impeach the President of India is vested in",
+        "options": [
+            "The Supreme Court",
+            "The Parliament",
+            "The Cabinet",
+            "The Prime Minister"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Parliament has the power to impeach the President.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2000"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-18aca495",
+        "year": 1999,
+        "subject": "Polity",
+        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
+        "text": "What is the 'zero hour' in the Parliament?",
+        "options": [
+            "The first hour of the sitting",
+            "The last hour of the sitting",
+            "The time immediately after question hour",
+            "The time before the commencement of the business of the day"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Zero Hour is immediately after Question Hour.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1999"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-d2f81b79",
+        "year": 1998,
+        "subject": "Polity",
+        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
+        "text": "The Finance Bill is introduced in",
+        "options": [
+            "Lok Sabha",
+            "Rajya Sabha",
+            "Either House of Parliament",
+            "Joint Sitting of Parliament"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Finance Bill is introduced only in Lok Sabha.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1998"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-34772609",
+        "year": 2024,
+        "subject": "Polity",
+        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
+        "text": "Consider the following statements regarding the Public Accounts Committee (PAC):\n1. The Chairman of the PAC is appointed by the Speaker of the Lok Sabha.\n2. The PAC examines the reports of the Comptroller and Auditor General of India (CAG) on the accounts of the Union and State governments.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both statements are correct about the PAC.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2024"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-411c0571",
+        "year": 1997,
+        "subject": "Polity",
+        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
+        "text": "The power to summon the Houses of Parliament is vested with",
+        "options": [
+            "The Prime Minister",
+            "The Speaker of Lok Sabha",
+            "The President",
+            "The Vice-President"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The President summons the Houses of Parliament.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1997"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-9ffcdaa3",
+        "year": 1996,
+        "subject": "Polity",
+        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
+        "text": "A resolution for removing the Vice-President of India from his office can be moved only in the",
+        "options": [
+            "Lok Sabha",
+            "Rajya Sabha",
+            "Joint Sitting of Parliament",
+            "Supreme Court"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The resolution can only be moved in the Rajya Sabha.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1996"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-e3552b8a",
+        "year": 1995,
+        "subject": "Polity",
+        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
+        "text": "The Speaker of the Lok Sabha can ask a member to stop speaking and let another member speak. This phenomenon is called:",
+        "options": [
+            "Crossing the floor",
+            "Yielding the floor",
+            "Point of order",
+            "Calling attention notice"
+        ],
+        "correctAnswer": 1,
+        "explanation": "This is called yielding the floor.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1995"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-b5d81065",
+        "year": 2017,
+        "subject": "Polity",
+        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
+        "text": "With reference to the Supreme Court of India, consider the following statements:\n1. It has Original, Appellate and Advisory jurisdiction.\n2. It can hear appeals from High Courts involving constitutional questions.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Supreme Court has original, appellate, and advisory jurisdiction and hears appeals involving constitutional questions.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2017"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-bc7fe4c4",
+        "year": 2015,
+        "subject": "Polity",
+        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
+        "text": "The power of the Supreme Court of India to decide disputes between the Centre and the States falls under its",
+        "options": [
+            "Advisory jurisdiction",
+            "Appellate jurisdiction",
+            "Original jurisdiction",
+            "Writ jurisdiction"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Disputes between the Centre and States fall under the Supreme Court's original jurisdiction.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2015"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-6dd9f935",
+        "year": 2019,
+        "subject": "Polity",
+        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
+        "text": "Which of the following statements is/are correct regarding Judicial Review in India?\n1. It is explicitly mentioned in the Constitution.\n2. It is limited by the doctrine of 'procedure established by law'.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Judicial review is not explicitly mentioned, but implied; it is limited by 'procedure established by law'.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2019"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-34511228",
+        "year": 2020,
+        "subject": "Polity",
+        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
+        "text": "The Supreme Court of India tenders advice to the President of India on a matter of law or fact",
+        "options": [
+            "on its own initiative",
+            "only if he seeks such advice",
+            "only if the matter relates to the Fundamental Rights of the citizens",
+            "only if the Union Cabinet seeks such advice"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Supreme Court advises the President only when the President seeks such advice.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2020"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-ae9b8402",
+        "year": 2016,
+        "subject": "Polity",
+        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
+        "text": "Which of the following are the discretionary powers of the Governor?\n1. Sending a report to the President of India about the affairs of the State.\n2. Reserving certain bills passed by the State Legislature for the consideration of the President.\n3. Appointing the Ministers.\n4. Making rules to regulate the procedure of the State Legislature.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 and 2 only",
+            "1, 2 and 3 only",
+            "1, 3 and 4 only",
+            "2, 3 and 4 only"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Sending reports and reserving bills are discretionary; appointing ministers and making rules are not.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2016"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-ec60a32b",
+        "year": 2021,
+        "subject": "Polity",
+        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
+        "text": "With reference to the Constitution of India, consider the following statements:\n1. No High Court shall have the jurisdiction to question the validity of a Central Law.\n2. An amendment to the Constitution of India cannot be called into question by the Supreme Court of India.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 3,
+        "explanation": "High Courts can question Central Laws; Constitutional amendments are subject to judicial review.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2021"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-f5182359",
+        "year": 2018,
+        "subject": "Polity",
+        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
+        "text": "Consider the following statements:\n1. The Supreme Court of India can review its own judgment.\n2. The Supreme Court of India can review the judgment of High Courts.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Supreme Court can review its own judgments and judgments of High Courts under appeal.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2018"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-e72758e3",
+        "year": 2014,
+        "subject": "Polity",
+        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
+        "text": "Which of the following is/are the function(s) of the Supreme Court of India?\n1. Original jurisdiction in disputes between the Union and the States.\n2. Appellate jurisdiction over High Courts.\n3. Advisory jurisdiction on matters of public importance.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 only",
+            "1 and 2 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The Supreme Court has original, appellate, and advisory jurisdiction.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2014"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-9caa603e",
+        "year": 2022,
+        "subject": "Polity",
+        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
+        "text": "Consider the following statements regarding the Supreme Court of India:\n1. It is the guardian of the Constitution.\n2. It has the power of judicial review over legislative enactments.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Supreme Court is the guardian of the Constitution and has judicial review power.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2022"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-64ea301c",
+        "year": 2013,
+        "subject": "Polity",
+        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
+        "text": "The concept of 'Public Interest Litigation' (PIL) originated in",
+        "options": [
+            "United Kingdom",
+            "United States",
+            "Australia",
+            "India"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The concept of Public Interest Litigation (PIL) originated in the United States.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2013"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-2c461345",
+        "year": 2023,
+        "subject": "Polity",
+        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
+        "text": "Which of the following statements accurately describes the advisory jurisdiction of the Supreme Court?\n1. It is binding on the President.\n2. It can be exercised on any question of law or fact of public importance.\nSelect the correct answer using the code given below:",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The advisory jurisdiction is not binding, but can be exercised on questions of law/fact.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2023"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-c57b3617",
+        "year": 2000,
+        "subject": "Polity",
+        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
+        "text": "The power of judicial review implies",
+        "options": [
+            "The power of the judiciary to examine the constitutionality of legislative enactments and executive orders.",
+            "The power of the judiciary to review its own decisions.",
+            "The power of the judiciary to advise the executive on legal matters.",
+            "The power of the judiciary to initiate legislation."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Judicial review is the power to examine the constitutionality of laws and orders.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2000"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-8e334c9b",
+        "year": 2005,
+        "subject": "Polity",
+        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
+        "text": "Which of the following statements is/are correct?\n1. The Supreme Court is the final interpreter of the Constitution.\n2. The Supreme Court can declare a law unconstitutional if it violates the Constitution.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Supreme Court is the final interpreter and can declare laws unconstitutional.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2005"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-f2015a34",
+        "year": 2008,
+        "subject": "Polity",
+        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
+        "text": "Which of the following is NOT a feature of judicial activism?",
+        "options": [
+            "Public Interest Litigation",
+            "Judicial Review",
+            "Suo Moto cognizance",
+            "Strict adherence to precedent"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Strict adherence to precedent is not a feature of judicial activism.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2008"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-d8aa5b0a",
+        "year": 2010,
+        "subject": "Polity",
+        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
+        "text": "The power of the Supreme Court to issue writs for the enforcement of Fundamental Rights is derived from",
+        "options": [
+            "Article 32 of the Constitution",
+            "Article 226 of the Constitution",
+            "Article 13 of the Constitution",
+            "Article 21 of the Constitution"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Supreme Court's power to issue writs is derived from Article 32.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2010"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-e5e49d41",
+        "year": 2003,
+        "subject": "Polity",
+        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
+        "text": "Which of the following is/are included in the original jurisdiction of the Supreme Court?\n1. Disputes between the Government of India and one or more States.\n2. Disputes between two or more States.\n3. Matters regarding the interpretation of the Constitution.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 only",
+            "1 and 2 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Original jurisdiction includes disputes between GOI and states, between states, and constitutional interpretation.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2003"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-d623e24c",
+        "year": 1998,
+        "subject": "Polity",
+        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
+        "text": "The concept of judicial review in our Constitution has been taken from",
+        "options": [
+            "England",
+            "USA",
+            "Canada",
+            "Australia"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The concept of judicial review is taken from the USA.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1998"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-1f6c86e4",
+        "year": 2007,
+        "subject": "Polity",
+        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
+        "text": "Which of the following is/are the limitations on the power of judicial review in India?\n1. It is available only when a law violates the Constitution.\n2. It cannot be exercised over policy decisions of the government.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Judicial review is available when a law violates the Constitution, but it can review policy decisions.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2007"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-66af86dd",
+        "year": 2012,
+        "subject": "Polity",
+        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
+        "text": "The Supreme Court of India enjoys",
+        "options": [
+            "Original jurisdiction only",
+            "Appellate jurisdiction only",
+            "Advisory jurisdiction only",
+            "Original, appellate and advisory jurisdiction"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The Supreme Court has original, appellate, and advisory jurisdiction.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2012"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-60a969b8",
+        "year": 1999,
+        "subject": "Polity",
+        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
+        "text": "Which one of the following statements is correct?\nThe Supreme Court of India is empowered to",
+        "options": [
+            "issue writs only in cases of violation of Fundamental Rights",
+            "issue writs for any purpose",
+            "issue writs only in cases of violation of legal rights",
+            "issue writs only in cases of violation of constitutional rights"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Supreme Court issues writs only for violations of Fundamental Rights.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1999"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-a8e975c2",
+        "year": 2002,
+        "subject": "Polity",
+        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
+        "text": "Which of the following is/are the features of judicial activism?\n1. Proactive role of the judiciary.\n2. Expanding the scope of Fundamental Rights.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Judicial activism involves a proactive role and expanding Fundamental Rights.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2002"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-a38f0681",
+        "year": 2009,
+        "subject": "Polity",
+        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
+        "text": "The power of the Supreme Court to transfer cases from one High Court to another is an example of its",
+        "options": [
+            "Original jurisdiction",
+            "Appellate jurisdiction",
+            "Supervisory jurisdiction",
+            "Advisory jurisdiction"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Transferring cases is part of the Supreme Court's appellate jurisdiction.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2009"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-b558eb64",
+        "year": 2004,
+        "subject": "Polity",
+        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
+        "text": "Which of the following statements is/are correct regarding the Supreme Court's power of judicial review?\n1. It extends to both central and state laws.\n2. It is limited by the doctrine of 'procedure established by law'.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Judicial review extends to both central and state laws and is limited by 'procedure established by law'.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2004"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-d5e26e13",
+        "year": 2011,
+        "subject": "Polity",
+        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
+        "text": "The concept of 'basic structure' of the Constitution was propounded by the Supreme Court in which of the following cases?",
+        "options": [
+            "Golaknath case",
+            "Kesavananda Bharati case",
+            "Minerva Mills case",
+            "Maneka Gandhi case"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The 'basic structure' doctrine was propounded in the Kesavananda Bharati case.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2011"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-d1579288",
+        "year": 1997,
+        "subject": "Polity",
+        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
+        "text": "Which of the following is NOT within the jurisdiction of the Supreme Court?",
+        "options": [
+            "Disputes between states",
+            "Disputes between the Union and a state",
+            "Advisory opinions to the President",
+            "Appeals from tribunals"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Appeals from tribunals are not directly within the Supreme Court's jurisdiction.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1997"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-b2320929",
+        "year": 2015,
+        "subject": "Polity",
+        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
+        "text": "Consider the following statements regarding judicial activism:\n1. It is a tool to enforce accountability of the executive and legislature.\n2. It can lead to judicial overreach.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Judicial activism enforces accountability but can also lead to overreach.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2015"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-fe39b911",
+        "year": 2019,
+        "subject": "Polity",
+        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
+        "text": "Which of the following is/are the grounds on which the Supreme Court can exercise judicial review?\n1. Violation of Fundamental Rights.\n2. Violation of the basic structure of the Constitution.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Supreme Court can exercise judicial review for violations of Fundamental Rights and basic structure.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2019"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-4cde8fac",
+        "year": 2024,
+        "subject": "Polity",
+        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
+        "text": "Consider the following statements regarding the writ jurisdiction of the Supreme Court:\n1. It is wider than that of the High Courts.\n2. It can be invoked only for the enforcement of Fundamental Rights.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The writ jurisdiction of the Supreme Court is narrower than that of High Courts, and only for Fundamental Rights.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2024"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-b4299342",
+        "year": 2022,
+        "subject": "Polity",
+        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
+        "text": "Which of the following statements best describes the term 'judicial overreach'?",
+        "options": [
+            "The judiciary interfering in the legislative domain.",
+            "The judiciary exercising its power of judicial review.",
+            "The judiciary interpreting the Constitution.",
+            "The judiciary enforcing Fundamental Rights."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Judicial overreach is when the judiciary interferes in the legislative domain.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2022"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-3a0c4593",
+        "year": 2016,
+        "subject": "Polity",
+        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
+        "text": "Consider the following statements regarding the collegium system in India:\n1. It is mentioned in the Constitution of India.\n2. It recommends the appointment of judges to the Supreme Court and High Courts.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The collegium system is not in the Constitution, but it recommends judges' appointments.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2016"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-b302e339",
+        "year": 2018,
+        "subject": "Polity",
+        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
+        "text": "Which of the following are the discretionary powers of the Governor?\n1. Sending a report to the President of India about the affairs of the State.\n2. Reserving certain bills passed by the State Legislature for the consideration of the President.\n3. Appointing the Chief Minister.\n4. Determining the amount payable by the State Government to the Autonomous District Council as royalty accruing from minerals.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 and 2 only",
+            "1 and 3 only",
+            "1, 2 and 3 only",
+            "1, 2 and 4 only"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The Governor's discretionary powers include reporting to the President, reserving bills, and determining mineral royalty.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Governor: Powers, Discretionary Role, Center's Agent"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2018"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-684b8948",
+        "year": 2014,
+        "subject": "Polity",
+        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
+        "text": "The Governor of a State has the power to pardon, reprieve, respite or remit punishment of any person convicted of any offence against any law relating to a matter to which the executive power of the State extends.",
+        "options": [
+            "True",
+            "False",
+            "Partially True",
+            "Cannot be determined"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Governor's pardoning power extends to state laws.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Governor: Powers, Discretionary Role, Center's Agent"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2014"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-b71d77a5",
+        "year": 2015,
+        "subject": "Polity",
+        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
+        "text": "The Governor of a State is empowered to promulgate ordinances under which Article of the Constitution of India?",
+        "options": [
+            "Article 123",
+            "Article 213",
+            "Article 356",
+            "Article 360"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Article 213 empowers the Governor to promulgate ordinances.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Governor: Powers, Discretionary Role, Center's Agent"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2015"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-1f5cb7a6",
+        "year": 2016,
+        "subject": "Polity",
+        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
+        "text": "Which of the following statements is/are correct regarding the powers of the Governor?\n1. The Governor can reserve a bill for the consideration of the President even if it is not a money bill.\n2. The Governor can dissolve the State Legislative Assembly on his own discretion.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Governor can reserve bills, but dissolving the assembly requires the CM's advice.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Governor: Powers, Discretionary Role, Center's Agent"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2016"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-a39247f5",
+        "year": 2017,
+        "subject": "Polity",
+        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
+        "text": "Consider the following statements regarding the powers of the Governor:\n1. The Governor can return a money bill for reconsideration by the State Legislature.\n2. The Governor can withhold assent to a bill passed by the State Legislature.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Governor cannot return a money bill, but can withhold assent.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Governor: Powers, Discretionary Role, Center's Agent"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2017"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-93f5a872",
+        "year": 2019,
+        "subject": "Polity",
+        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
+        "text": "With reference to the powers of the Governor, consider the following statements:\n1. The Governor can reserve a bill passed by the State Legislature for the consideration of the President.\n2. The Governor can dissolve the State Legislative Assembly even without the advice of the Chief Minister.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Governor can reserve a bill, but needs the CM's advice to dissolve the assembly.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Governor: Powers, Discretionary Role, Center's Agent"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2019"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-5e636ab3",
+        "year": 2020,
+        "subject": "Polity",
+        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
+        "text": "Which of the following is NOT a discretionary power of the Governor?\n",
+        "options": [
+            "Reserving a bill for President's consideration",
+            "Appointing the Chief Minister when no party has a clear majority",
+            "Dissolving the Legislative Assembly on the advice of the Chief Minister",
+            "Seeking information from the Chief Minister regarding legislative proposals"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Dissolving the assembly is usually done on the CM's advice, not discretion.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Governor: Powers, Discretionary Role, Center's Agent"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2020"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-b09a15b5",
+        "year": 2021,
+        "subject": "Polity",
+        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
+        "text": "The Governor of a State is a nominee of the Central Government. Which of the following statements accurately reflects the role of the Governor?\n",
+        "options": [
+            "The Governor acts solely on the advice of the Central Government.",
+            "The Governor exercises independent judgment in certain matters.",
+            "The Governor is merely a ceremonial head with no real power.",
+            "The Governor's role is primarily to implement Central Government policies."
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Governor has discretionary powers and doesn't solely act on central advice.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Governor: Powers, Discretionary Role, Center's Agent"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2021"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-d444f34c",
+        "year": 2022,
+        "subject": "Polity",
+        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
+        "text": "Consider the following statements regarding the ordinance-making power of the Governor:\n1. The Governor can promulgate an ordinance when the State Legislature is not in session.\n2. An ordinance promulgated by the Governor has the same force and effect as an Act of the State Legislature.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both statements regarding the Governor's ordinance-making power are correct.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Governor: Powers, Discretionary Role, Center's Agent"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2022"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-f08153a4",
+        "year": 2023,
+        "subject": "Polity",
+        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
+        "text": "Which of the following situations allows the Governor to exercise his/her discretionary power in appointing the Chief Minister?\n",
+        "options": [
+            "When a single party wins an absolute majority in the Legislative Assembly.",
+            "When a coalition government is formed with a pre-election alliance.",
+            "When no single party or coalition commands a clear majority after the election.",
+            "When the Chief Minister resigns due to personal reasons."
+        ],
+        "correctAnswer": 3,
+        "explanation": "Governor uses discretion when no party has a clear majority.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Governor: Powers, Discretionary Role, Center's Agent"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2023"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-b170ae73",
+        "year": 2000,
+        "subject": "Polity",
+        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
+        "text": "The Governor's role as an agent of the Center is most evident in which of the following functions?",
+        "options": [
+            "Assenting to bills passed by the State Legislature.",
+            "Appointing the Advocate General of the State.",
+            "Reserving bills for the President's consideration.",
+            "Summoning and proroguing the State Legislature."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Reserving bills highlights the Governor's role as a link to the Center.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Governor: Powers, Discretionary Role, Center's Agent"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2000"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-43375e7d",
+        "year": 2005,
+        "subject": "Polity",
+        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
+        "text": "Which of the following is NOT a constitutional discretion enjoyed by the Governor?",
+        "options": [
+            "Dismissal of the Council of Ministers.",
+            "Dissolution of the State Legislative Assembly.",
+            "Seeking information from the Chief Minister.",
+            "Appointment of the Chief Minister."
+        ],
+        "correctAnswer": 0,
+        "explanation": "Dismissal of the Council of Ministers requires specific circumstances, not pure discretion.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Governor: Powers, Discretionary Role, Center's Agent"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2005"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-0a0c0c7f",
+        "year": 2008,
+        "subject": "Polity",
+        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
+        "text": "The Sarkaria Commission primarily dealt with which of the following aspects related to the Governor?",
+        "options": [
+            "Appointment and removal of the Governor.",
+            "Discretionary powers of the Governor.",
+            "Role of the Governor as an agent of the Center.",
+            "All of the above."
+        ],
+        "correctAnswer": 3,
+        "explanation": "The Sarkaria Commission addressed all aspects of the Governor's role.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Governor: Powers, Discretionary Role, Center's Agent"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2008"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-29ebd5b5",
+        "year": 2010,
+        "subject": "Polity",
+        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
+        "text": "Which of the following is a key recommendation of the Punchhi Commission regarding the Governor's role?",
+        "options": [
+            "The Governor should be given more discretionary powers.",
+            "The Governor should be removed only after consultation with the Chief Minister.",
+            "The Governor should not be an active politician from the ruling party at the Centre.",
+            "The Governor should have the power to veto State legislation."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Punchhi Commission emphasized the Governor's non-partisan role.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Governor: Powers, Discretionary Role, Center's Agent"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2010"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-8ec40713",
+        "year": 2003,
+        "subject": "Polity",
+        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
+        "text": "The power of the Governor to grant pardons, reprieves, respites or remissions of punishment is a:",
+        "options": [
+            "Executive power",
+            "Legislative power",
+            "Judicial power",
+            "Discretionary power"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The pardoning power is an executive function of the Governor.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Governor: Powers, Discretionary Role, Center's Agent"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2003"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-7abc73a8",
+        "year": 1998,
+        "subject": "Polity",
+        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
+        "text": "The Governor of a State is appointed by the President on the recommendation of:",
+        "options": [
+            "The Chief Minister of the State",
+            "The Prime Minister",
+            "The Vice-President",
+            "The Chief Justice of India"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The President appoints the Governor on the Prime Minister's recommendation.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Governor: Powers, Discretionary Role, Center's Agent"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1998"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-f1f4c91b",
+        "year": 2001,
+        "subject": "Polity",
+        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
+        "text": "Which of the following is true regarding the Governor's power to summon the State Legislature?",
+        "options": [
+            "The Governor can summon the legislature at any time.",
+            "The Governor can summon the legislature only on the advice of the Chief Minister.",
+            "The Governor can summon the legislature only with the President's approval.",
+            "The Governor has no power to summon the legislature."
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Governor summons the legislature on the CM's advice.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Governor: Powers, Discretionary Role, Center's Agent"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2001"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-1c9c81a9",
+        "year": 2006,
+        "subject": "Polity",
+        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
+        "text": "The Governor can reserve a bill passed by the State Legislature for the President's consideration if it:",
+        "options": [
+            "Violates the Constitution.",
+            "Deals with a subject on the Union List.",
+            "Is against the national interest.",
+            "All of the above."
+        ],
+        "correctAnswer": 3,
+        "explanation": "The Governor can reserve bills for various reasons related to constitutionality or national interest.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Governor: Powers, Discretionary Role, Center's Agent"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2006"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-49d8c7bf",
+        "year": 2009,
+        "subject": "Polity",
+        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
+        "text": "Which of the following is NOT a qualification for being appointed as a Governor?",
+        "options": [
+            "Citizen of India",
+            "Completed the age of 35 years",
+            "Resident of the state to which he/she is appointed",
+            "Not a member of either House of Parliament or the State Legislature"
+        ],
+        "correctAnswer": 2,
+        "explanation": "There is no requirement for the Governor to be a resident of the state.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Governor: Powers, Discretionary Role, Center's Agent"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2009"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-29b34467",
+        "year": 2011,
+        "subject": "Polity",
+        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
+        "text": "The term of office of the Governor is normally 5 years, but he/she can be removed earlier by:",
+        "options": [
+            "A resolution passed by the State Legislature",
+            "The President, at his/her pleasure",
+            "The Supreme Court",
+            "The Prime Minister"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Governor holds office at the pleasure of the President.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Governor: Powers, Discretionary Role, Center's Agent"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2011"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-f07be785",
+        "year": 2024,
+        "subject": "Polity",
+        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
+        "text": "If a bill passed by the State Legislature is reserved by the Governor for the consideration of the President, what is the next step?",
+        "options": [
+            "The President must give assent to the bill.",
+            "The President can either give assent or withhold assent to the bill.",
+            "The President must return the bill to the State Legislature for reconsideration.",
+            "The bill automatically becomes law after six months."
+        ],
+        "correctAnswer": 1,
+        "explanation": "The President has the power to assent or withhold assent.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Governor: Powers, Discretionary Role, Center's Agent"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2024"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-d4064460",
+        "year": 2012,
+        "subject": "Polity",
+        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
+        "text": "Which of the following is a discretionary power exercised by the Governor in the appointment of the Chief Minister?",
+        "options": [
+            "Appointing the leader of the majority party as Chief Minister.",
+            "Appointing any member of the Legislative Assembly as Chief Minister.",
+            "Appointing a person who is not a member of the legislature as Chief Minister.",
+            "Appointing a Chief Minister when no party has a clear majority in the Legislative Assembly."
+        ],
+        "correctAnswer": 3,
+        "explanation": "Governor's discretion comes into play when no party has a clear majority.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Governor: Powers, Discretionary Role, Center's Agent"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2012"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-a49e697c",
+        "year": 1999,
+        "subject": "Polity",
+        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
+        "text": "The Governor is bound by the advice of the Council of Ministers except when:",
+        "options": [
+            "The President directs otherwise.",
+            "The Supreme Court orders otherwise.",
+            "He/She is exercising his/her discretionary powers.",
+            "The State Legislature passes a resolution to that effect."
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Governor is not bound by advice when using discretionary powers.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Governor: Powers, Discretionary Role, Center's Agent"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1999"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-3b4d8735",
+        "year": 2004,
+        "subject": "Polity",
+        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
+        "text": "Which of the following statements is correct regarding the Governor's power to dissolve the State Legislative Assembly?",
+        "options": [
+            "The Governor can dissolve the Assembly at any time.",
+            "The Governor can dissolve the Assembly only on the advice of the Chief Minister.",
+            "The Governor can dissolve the Assembly only with the President's approval.",
+            "The Governor has no power to dissolve the Assembly."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Dissolution typically happens on the CM's advice.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Governor: Powers, Discretionary Role, Center's Agent"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2004"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-ded80671",
+        "year": 2007,
+        "subject": "Polity",
+        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
+        "text": "The Governor's power to nominate members to the State Legislative Council is limited to persons having special knowledge or practical experience in:",
+        "options": [
+            "Literature, science, art, cooperative movement and social service",
+            "Literature, science, art, and public administration",
+            "Literature, science, art, cooperative movement, and law",
+            "Literature, science, art, cooperative movement, and medicine"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Nomination is limited to specific fields including cooperative movement and social service.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Governor: Powers, Discretionary Role, Center's Agent"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2007"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-bf888214",
+        "year": 2013,
+        "subject": "Polity",
+        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
+        "text": "Which of the following is NOT a function of the Governor as the Center's agent?",
+        "options": [
+            "Keeping the Center informed about the state's affairs.",
+            "Ensuring that the state government functions according to the Constitution.",
+            "Promulgating ordinances when the legislature is not in session.",
+            "Acting as a channel of communication between the Center and the State."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Promulgating ordinances is a legislative power, not solely as the Center's agent.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Governor: Powers, Discretionary Role, Center's Agent"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2013"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-1d3888ab",
+        "year": 1997,
+        "subject": "Polity",
+        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
+        "text": "The Governor can act in his discretion:",
+        "options": [
+            "In all matters concerning the State.",
+            "Only in matters specifically mentioned in the Constitution.",
+            "Only when the Chief Minister advises him to do so.",
+            "Only with the prior approval of the President."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Discretion is limited to constitutionally specified matters.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Governor: Powers, Discretionary Role, Center's Agent"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1997"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-ab35a199",
+        "year": 2002,
+        "subject": "Polity",
+        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
+        "text": "The Governor's power to reserve a bill for the President's consideration implies:",
+        "options": [
+            "The Governor has veto power over State legislation.",
+            "The Center has ultimate control over State legislation.",
+            "The Governor is acting as an agent of the Center.",
+            "All of the above."
+        ],
+        "correctAnswer": 3,
+        "explanation": "Reserving bills highlights the Governor's role and central control.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Governor: Powers, Discretionary Role, Center's Agent"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2002"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-acfe1249",
+        "year": 1995,
+        "subject": "Polity",
+        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
+        "text": "Which of the following is NOT true regarding the Governor's ordinance-making power?",
+        "options": [
+            "It is co-extensive with the legislative power of the State Legislature.",
+            "It is subject to the same limitations as the legislative power of the State Legislature.",
+            "It can be used to amend the Constitution.",
+            "It ceases to operate six weeks after the reassembly of the legislature."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Ordinances cannot amend the Constitution.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Governor: Powers, Discretionary Role, Center's Agent"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1995"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-3e1b8d25",
+        "year": 1996,
+        "subject": "Polity",
+        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
+        "text": "The Governor is responsible for protecting the Constitution in the State. This implies:",
+        "options": [
+            "He/She can overrule any decision of the State Government.",
+            "He/She can directly enforce the Constitution.",
+            "He/She must ensure that the State Government functions according to the Constitution.",
+            "He/She has the power to amend the State Constitution."
+        ],
+        "correctAnswer": 3,
+        "explanation": "The Governor ensures constitutional functioning, not amending the constitution.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Governor: Powers, Discretionary Role, Center's Agent"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1996"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-eae664d6",
+        "year": 2017,
+        "subject": "Polity",
+        "topic": "State Legislature & Chief Minister",
+        "text": "The Governor of a State has the power to issue ordinances:\n1. When the State Legislature is not in session.\n2. When the Governor is satisfied that circumstances exist which render it necessary for him to take immediate action.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both conditions must be met for the Governor to issue ordinances.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "State Legislature & Chief Minister"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2017"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-64d4cdca",
+        "year": 2015,
+        "subject": "Polity",
+        "topic": "State Legislature & Chief Minister",
+        "text": "Which of the following are the discretionary powers of the Governor?\n1. Sending a report to the President of India about the affairs of the State.\n2. Reserving certain bills passed by the State Legislature for the consideration of the President.\n3. Appointing the Ministers.\n4. Determining the amount payable by the State Government to the Autonomous District Council as royalty accruing from minerals.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 and 2 only",
+            "1, 2 and 3 only",
+            "1, 3 and 4 only",
+            "1, 2 and 4 only"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Appointing ministers is generally not a discretionary power.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "State Legislature & Chief Minister"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2015"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-bf9697b8",
+        "year": 2018,
+        "subject": "Polity",
+        "topic": "State Legislature & Chief Minister",
+        "text": "The Legislative Assembly of a State in India can be dissolved before the expiry of its normal term by",
+        "options": [
+            "The Speaker",
+            "The Governor",
+            "The Chief Minister",
+            "On the advice of the Chief Minister while the Governor is bound to accept it"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Governor can dissolve the assembly, usually on the advice of the CM.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "State Legislature & Chief Minister"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2018"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-f2ceb61c",
+        "year": 2020,
+        "subject": "Polity",
+        "topic": "State Legislature & Chief Minister",
+        "text": "With reference to the Legislative Assembly of a State in India, consider the following statements:\n1. The Governor makes a customary address to the members of the House at the commencement of the first session after each general election and at the commencement of the first session of each year.\n2. When a State Legislature passes a bill, it is sent to the Governor who can declare that he withholds assent therefrom.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both statements are correct regarding the Governor's role.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "State Legislature & Chief Minister"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2020"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-6d4ee3da",
+        "year": 2016,
+        "subject": "Polity",
+        "topic": "State Legislature & Chief Minister",
+        "text": "The Governor of a State is a nominal head. Who among the following exercises the real executive powers?",
+        "options": [
+            "Chief Minister",
+            "Council of Ministers headed by the Chief Minister",
+            "Speaker of the Legislative Assembly",
+            "Chief Secretary of the State Government"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Council of Ministers headed by the CM exercises real executive power.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "State Legislature & Chief Minister"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2016"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-8fade2e0",
+        "year": 2019,
+        "subject": "Polity",
+        "topic": "State Legislature & Chief Minister",
+        "text": "Consider the following statements regarding the powers of the Governor:\n1. The Governor can reserve a Bill passed by the State Legislature for the consideration of the President.\n2. The Governor can promulgate ordinances when the State Legislature is not in session.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both statements are correct regarding the Governor's powers.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "State Legislature & Chief Minister"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2019"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-a05ea82b",
+        "year": 2021,
+        "subject": "Polity",
+        "topic": "State Legislature & Chief Minister",
+        "text": "Which of the following statements is/are correct regarding the powers of the Governor?\n1. The Governor can return a money bill for reconsideration by the State Legislature.\n2. The Governor can withhold assent to a bill passed by the State Legislature.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Governor cannot return a money bill for reconsideration.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "State Legislature & Chief Minister"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2021"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-975d6e99",
+        "year": 2022,
+        "subject": "Polity",
+        "topic": "State Legislature & Chief Minister",
+        "text": "Consider the following statements regarding the Chief Minister of a State:\n1. The Chief Minister is appointed by the Governor.\n2. The Chief Minister is the head of the State Council of Ministers.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both statements are correct regarding the Chief Minister.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "State Legislature & Chief Minister"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2022"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-8a98aa13",
+        "year": 2023,
+        "subject": "Polity",
+        "topic": "State Legislature & Chief Minister",
+        "text": "Which of the following statements is/are correct regarding the State Legislature?\n1. A bill pending in the Legislature of a State shall lapse by reason of prorogation.\n2. A bill pending in the Legislative Council of a State, which has not been passed by the Legislative Assembly, shall not lapse on dissolution of the Assembly.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 1,
+        "explanation": "A bill lapses on prorogation, but not on dissolution if only in the Council.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "State Legislature & Chief Minister"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2023"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-e31ae7c8",
+        "year": 2014,
+        "subject": "Polity",
+        "topic": "State Legislature & Chief Minister",
+        "text": "The Chief Minister of a State in India is not eligible to vote in the presidential election if",
+        "options": [
+            "He himself is a candidate",
+            "He is a member of the Upper House of the State Legislature",
+            "He is a caretaker Chief Minister",
+            "He is a nominated member of the Upper House"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Members of the Upper House (Legislative Council) do not vote in presidential elections.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "State Legislature & Chief Minister"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2014"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-f4d0aae1",
+        "year": 2005,
+        "subject": "Polity",
+        "topic": "State Legislature & Chief Minister",
+        "text": "Which one of the following statements is correct?\n(a) In India, the same person cannot be appointed as Governor for two or more States at the same time.\n(b) The Judges of the High Court of the States in India are appointed by the Governor of the State just as the Judges of the Supreme Court are appointed by the President.\n(c) No procedure has been laid down in the Constitution of India for the removal of a Governor from his/her office.\n(d) In the event of the death of the President while in office, the Vice-President can act as President for a maximum period of six months.",
+        "options": [
+            "A",
+            "B",
+            "C",
+            "D"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The Governor holds office at the pleasure of the President.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "State Legislature & Chief Minister"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2005"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-6fa44b04",
+        "year": 2008,
+        "subject": "Polity",
+        "topic": "State Legislature & Chief Minister",
+        "text": "Consider the following statements:\n1. The Governor of a State is appointed by the President with the consultation of the Chief Minister of the State.\n2. The Governor of a State holds office during the pleasure of the President.\n3. The Governor of a State must be a resident of that State.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 and 2 only",
+            "2 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Governor is appointed by the President and holds office at his pleasure; residency is not required.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "State Legislature & Chief Minister"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2008"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-80031fcf",
+        "year": 2009,
+        "subject": "Polity",
+        "topic": "State Legislature & Chief Minister",
+        "text": "The Governor of a State is responsible for which of the following?\n1. Appointing the Chief Minister.\n2. Summoning and proroguing the State Legislature.\n3. Dissolving the State Legislative Assembly.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The Governor is responsible for all the listed functions.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "State Legislature & Chief Minister"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2009"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-407291b6",
+        "year": 2010,
+        "subject": "Polity",
+        "topic": "State Legislature & Chief Minister",
+        "text": "Which of the following are the powers of the Governor?\n1. Executive power.\n2. Legislative power.\n3. Financial power.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 only",
+            "1 and 2 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The Governor possesses all the listed powers.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "State Legislature & Chief Minister"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2010"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-bdbf6eb0",
+        "year": 2011,
+        "subject": "Polity",
+        "topic": "State Legislature & Chief Minister",
+        "text": "The Advocate General of a State is appointed by the",
+        "options": [
+            "President of India",
+            "Governor of the State",
+            "Chief Justice of the High Court",
+            "Chief Minister of the State"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Governor appoints the Advocate General of the State.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "State Legislature & Chief Minister"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2011"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-d1159a22",
+        "year": 2006,
+        "subject": "Polity",
+        "topic": "State Legislature & Chief Minister",
+        "text": "The quorum to constitute a meeting of the Legislative Council of a State is",
+        "options": [
+            "One-tenth of the total number of members of the House",
+            "Ten members or one-tenth of the total number of members of the House, whichever is more",
+            "Fifteen members or one-tenth of the total number of members of the House, whichever is more",
+            "Twenty members or one-tenth of the total number of members of the House, whichever is more"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The quorum is ten members or one-tenth, whichever is more.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "State Legislature & Chief Minister"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2006"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-33b476da",
+        "year": 1998,
+        "subject": "Polity",
+        "topic": "State Legislature & Chief Minister",
+        "text": "Which of the following statements regarding the powers of the Governor is not correct?",
+        "options": [
+            "He can summon, prorogue and dissolve the State Legislative Assembly.",
+            "He can address the State Legislature at the commencement of the first session after each general election.",
+            "He can nominate members to the State Legislative Council.",
+            "He can declare a state of emergency in the state."
+        ],
+        "correctAnswer": 3,
+        "explanation": "The Governor cannot declare a state of emergency.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "State Legislature & Chief Minister"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1998"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-dd1ed362",
+        "year": 2000,
+        "subject": "Polity",
+        "topic": "State Legislature & Chief Minister",
+        "text": "The Chief Minister is the real executive head of the State. Which of the following statements is/are correct regarding his powers and functions?\n1. He recommends persons who can be appointed as ministers by the Governor.\n2. He presides over the meetings of the Council of Ministers.\n3. He can ask a minister to resign or advise the Governor to dismiss him in case of difference of opinion.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All the statements are correct regarding the CM's powers.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "State Legislature & Chief Minister"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2000"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-5e38f1f0",
+        "year": 2002,
+        "subject": "Polity",
+        "topic": "State Legislature & Chief Minister",
+        "text": "Which of the following statements is/are correct?\n1. The Governor of a State is appointed by the President.\n2. The Governor holds office during the pleasure of the President.\n3. The Governor must be a resident of the State.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 and 2 only",
+            "2 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Governor is appointed by the President and holds office at his pleasure; residency is not required.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "State Legislature & Chief Minister"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2002"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-5d326daa",
+        "year": 2004,
+        "subject": "Polity",
+        "topic": "State Legislature & Chief Minister",
+        "text": "The Governor of a State is appointed by the President on the advice of the",
+        "options": [
+            "Prime Minister",
+            "Chief Justice of India",
+            "Chief Minister of the State",
+            "Council of Ministers"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The President appoints the Governor on the advice of the Prime Minister.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "State Legislature & Chief Minister"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2004"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-55fa5bd1",
+        "year": 2024,
+        "subject": "Polity",
+        "topic": "State Legislature & Chief Minister",
+        "text": "Consider the following statements regarding the composition of the State Legislative Council:\n1. Not more than 1/6th of the total members are nominated by the Governor.\n2. 1/3rd are elected by members of local bodies.\n3. 1/12th are elected by graduates residing in the State.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 and 2 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All statements accurately reflect the composition of the Legislative Council.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "State Legislature & Chief Minister"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2024"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-66060334",
+        "year": 2007,
+        "subject": "Polity",
+        "topic": "State Legislature & Chief Minister",
+        "text": "Which of the following statements is/are correct regarding the powers of the State Legislature?\n1. It can make laws on subjects in the State List.\n2. It can make laws on subjects in the Concurrent List.\n3. It can make laws on subjects in the Union List with the consent of the Parliament.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "1 and 2 only",
+            "2 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 1,
+        "explanation": "State Legislature can make laws on State and Concurrent Lists.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "State Legislature & Chief Minister"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2007"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-676c38db",
+        "year": 1999,
+        "subject": "Polity",
+        "topic": "State Legislature & Chief Minister",
+        "text": "The salaries and allowances of the members of the State Legislature are determined by",
+        "options": [
+            "Parliament",
+            "State Legislature",
+            "Governor",
+            "President"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The State Legislature determines the salaries and allowances.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "State Legislature & Chief Minister"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1999"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-bf43b6c4",
+        "year": 2001,
+        "subject": "Polity",
+        "topic": "State Legislature & Chief Minister",
+        "text": "Which of the following statements is/are correct regarding the ordinance-making power of the Governor?\n1. The Governor can promulgate an ordinance only when the State Legislature is not in session.\n2. The ordinance promulgated by the Governor has the same force and effect as an act of the State Legislature.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both statements are correct regarding the Governor's ordinance power.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "State Legislature & Chief Minister"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2001"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-6b40107f",
+        "year": 2003,
+        "subject": "Polity",
+        "topic": "State Legislature & Chief Minister",
+        "text": "The Chief Secretary to the State Government is appointed by the",
+        "options": [
+            "Governor",
+            "Chief Minister",
+            "President",
+            "Prime Minister"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Chief Minister appoints the Chief Secretary.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "State Legislature & Chief Minister"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2003"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-76279b0a",
+        "year": 1997,
+        "subject": "Polity",
+        "topic": "State Legislature & Chief Minister",
+        "text": "The power to legislate on all matters relating to elections to State Legislatures vests with the",
+        "options": [
+            "Parliament",
+            "State Legislatures",
+            "Election Commission",
+            "President"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Parliament has the power to legislate on election matters.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "State Legislature & Chief Minister"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1997"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-5655e90a",
+        "year": 1996,
+        "subject": "Polity",
+        "topic": "State Legislature & Chief Minister",
+        "text": "The maximum strength of the Legislative Assembly of a State is fixed at",
+        "options": [
+            "350",
+            "400",
+            "450",
+            "500"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The maximum strength is fixed at 500.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "State Legislature & Chief Minister"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1996"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-087d02e8",
+        "year": 1995,
+        "subject": "Polity",
+        "topic": "State Legislature & Chief Minister",
+        "text": "The power to grant pardons, reprieves, respites or remissions of punishment is vested in the Governor under which article?",
+        "options": [
+            "Article 161",
+            "Article 72",
+            "Article 143",
+            "Article 213"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Article 161 vests the power to grant pardons in the Governor.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "State Legislature & Chief Minister"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1995"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-c66d2e74",
+        "year": 2012,
+        "subject": "Polity",
+        "topic": "State Legislature & Chief Minister",
+        "text": "Which of the following is NOT a qualification for being appointed as a Governor of a State?",
+        "options": [
+            "He must be a citizen of India.",
+            "He must have completed the age of 35 years.",
+            "He must not be a member of either House of Parliament or of the Legislature of any State.",
+            "He must be a resident of the state to which he is appointed."
+        ],
+        "correctAnswer": 3,
+        "explanation": "Residency in the state is not a requirement for being a Governor.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "State Legislature & Chief Minister"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2012"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-65703724",
+        "year": 2013,
+        "subject": "Polity",
+        "topic": "State Legislature & Chief Minister",
+        "text": "The power to make laws with respect to any matter enumerated in the State List rests with the",
+        "options": [
+            "Parliament",
+            "State Legislature",
+            "President",
+            "Governor"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The State Legislature has the power to make laws on the State List.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "State Legislature & Chief Minister"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2013"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-7efac957",
+        "year": 2017,
+        "subject": "Polity",
+        "topic": "High Courts & Subordinate Courts",
+        "text": "With reference to the Constitution of India, consider the following statements:\n1. No High Court shall have the jurisdiction to question the validity of a Central Law.\n2. An amendment to the Constitution of India cannot be called into question by any High Court.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 3,
+        "explanation": "High Courts can question the validity of Central Laws and Constitutional amendments.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "High Courts & Subordinate Courts"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2017"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-15c1fe96",
+        "year": 2019,
+        "subject": "Polity",
+        "topic": "High Courts & Subordinate Courts",
+        "text": "Which of the following are the functions of the High Court?\n1. To protect the fundamental rights of the citizens.\n2. To supervise the functioning of the subordinate courts.\n3. To act as the court of appeal from the lower courts.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 and 2 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "High Courts protect fundamental rights, supervise subordinate courts, and act as appellate courts.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "High Courts & Subordinate Courts"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2019"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-b9ad0196",
+        "year": 2021,
+        "subject": "Polity",
+        "topic": "High Courts & Subordinate Courts",
+        "text": "Consider the following statements:\n1. The High Court has the power to issue writs for the enforcement of fundamental rights only.\n2. The High Court has the power to issue writs for any other purpose.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 1,
+        "explanation": "High Courts can issue writs for enforcement of fundamental rights and other purposes.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "High Courts & Subordinate Courts"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2021"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-ceb39c3c",
+        "year": 2015,
+        "subject": "Polity",
+        "topic": "High Courts & Subordinate Courts",
+        "text": "Which one of the following statements is correct?\n(a) In India, the High Courts have the power to issue writs for the enforcement of Fundamental Rights only.\n(b) In India, the High Courts have the power to issue writs for the enforcement of Fundamental Rights as well as for any other purpose.\n(c) The Supreme Court has the power to issue writs for the enforcement of Fundamental Rights only.\n(d) The Supreme Court has the power to issue writs for the enforcement of Fundamental Rights as well as for any other purpose.",
+        "options": [
+            "In India, the High Courts have the power to issue writs for the enforcement of Fundamental Rights only.",
+            "In India, the High Courts have the power to issue writs for the enforcement of Fundamental Rights as well as for any other purpose.",
+            "The Supreme Court has the power to issue writs for the enforcement of Fundamental Rights only.",
+            "The Supreme Court has the power to issue writs for the enforcement of Fundamental Rights as well as for any other purpose."
+        ],
+        "correctAnswer": 1,
+        "explanation": "High Courts can issue writs for fundamental rights and other purposes; Supreme Court only for fundamental rights.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "High Courts & Subordinate Courts"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2015"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-a5b28d07",
+        "year": 2023,
+        "subject": "Polity",
+        "topic": "High Courts & Subordinate Courts",
+        "text": "Consider the following statements regarding the jurisdiction of High Courts in India:\n1. A High Court can issue writs to any person or authority within its territorial jurisdiction.\n2. A High Court can transfer cases from subordinate courts to itself if it involves a substantial question of law.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "High Courts can issue writs within their jurisdiction and transfer cases with substantial legal questions.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "High Courts & Subordinate Courts"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2023"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-e39570ca",
+        "year": 2018,
+        "subject": "Polity",
+        "topic": "High Courts & Subordinate Courts",
+        "text": "Which of the following statements is/are correct regarding the appointment of judges to the High Court?\n1. The Chief Justice of the High Court is appointed by the President after consultation with the Chief Justice of India and the Governor of the State concerned.\n2. Other judges are appointed by the President after consultation with the Chief Justice of India, the Chief Justice of the High Court, and the Governor of the State concerned.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both statements accurately describe the appointment process of High Court judges.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "High Courts & Subordinate Courts"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2018"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-da650524",
+        "year": 2020,
+        "subject": "Polity",
+        "topic": "High Courts & Subordinate Courts",
+        "text": "Consider the following statements regarding the transfer of judges in High Courts:\n1. The President of India can transfer a judge from one High Court to another.\n2. The transfer can be initiated only on the recommendation of the Chief Justice of India.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The President transfers judges on the recommendation of the Chief Justice of India.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "High Courts & Subordinate Courts"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2020"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-57862823",
+        "year": 2016,
+        "subject": "Polity",
+        "topic": "High Courts & Subordinate Courts",
+        "text": "Which of the following statements is/are correct regarding the jurisdiction of the High Court?\n1. The High Court has original jurisdiction in matters of admiralty, probate, matrimonial cases, and company cases.\n2. The High Court has appellate jurisdiction over the subordinate courts in civil and criminal matters.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "High Courts have both original and appellate jurisdiction as described.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "High Courts & Subordinate Courts"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2016"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-93f53354",
+        "year": 2022,
+        "subject": "Polity",
+        "topic": "High Courts & Subordinate Courts",
+        "text": "Consider the following statements regarding the removal of a High Court judge:\n1. A High Court judge can be removed by the President on the ground of proved misbehaviour or incapacity.\n2. A resolution for removing a judge must be passed by a special majority in each House of Parliament.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Removal requires presidential order after a special majority resolution in Parliament.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "High Courts & Subordinate Courts"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2022"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-4135df9d",
+        "year": 2014,
+        "subject": "Polity",
+        "topic": "High Courts & Subordinate Courts",
+        "text": "With reference to the subordinate judiciary in India, consider the following statements:\n1. The District Judge is the highest judicial officer in the district.\n2. The District Judge exercises both original and appellate jurisdiction in civil and criminal matters.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The District Judge is the highest judicial officer and exercises both jurisdictions.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "High Courts & Subordinate Courts"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2014"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-8b3928cb",
+        "year": 2005,
+        "subject": "Polity",
+        "topic": "High Courts & Subordinate Courts",
+        "text": "Which of the following is NOT a court at the district level in India?",
+        "options": [
+            "District Court",
+            "Sessions Court",
+            "Family Court",
+            "Public Interest Litigation (PIL) Court"
+        ],
+        "correctAnswer": 3,
+        "explanation": "There is no designated 'Public Interest Litigation (PIL) Court' at the district level.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "High Courts & Subordinate Courts"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2005"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-985a4286",
+        "year": 2008,
+        "subject": "Polity",
+        "topic": "High Courts & Subordinate Courts",
+        "text": "The power to create or abolish a High Court rests with which of the following?",
+        "options": [
+            "The President of India",
+            "The Parliament",
+            "The State Legislature",
+            "The Supreme Court"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Parliament has the power to create or abolish a High Court.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "High Courts & Subordinate Courts"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2008"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-b250fde3",
+        "year": 2010,
+        "subject": "Polity",
+        "topic": "High Courts & Subordinate Courts",
+        "text": "Which of the following statements regarding the jurisdiction of High Courts is correct?",
+        "options": [
+            "High Courts can only issue writs related to fundamental rights.",
+            "High Courts have wider writ jurisdiction than the Supreme Court.",
+            "The Supreme Court has wider writ jurisdiction than the High Courts.",
+            "High Courts and the Supreme Court have equal writ jurisdiction."
+        ],
+        "correctAnswer": 1,
+        "explanation": "High Courts have wider writ jurisdiction as they can issue writs for any purpose.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "High Courts & Subordinate Courts"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2010"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-a7e1efac",
+        "year": 2002,
+        "subject": "Polity",
+        "topic": "High Courts & Subordinate Courts",
+        "text": "The salaries and allowances of the Judges of the High Court are charged on the:",
+        "options": [
+            "Consolidated Fund of India",
+            "Consolidated Fund of the State",
+            "Contingency Fund of India",
+            "Public Account of India"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Salaries and allowances of High Court Judges are charged on the Consolidated Fund of India.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "High Courts & Subordinate Courts"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2002"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-d8493779",
+        "year": 2006,
+        "subject": "Polity",
+        "topic": "High Courts & Subordinate Courts",
+        "text": "Which of the following is/are true regarding the appointment of District Judges?\n1. They are appointed by the Governor of the State.\n2. They are appointed in consultation with the High Court.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "District Judges are appointed by the Governor in consultation with the High Court.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "High Courts & Subordinate Courts"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2006"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-023abaf7",
+        "year": 2009,
+        "subject": "Polity",
+        "topic": "High Courts & Subordinate Courts",
+        "text": "Which of the following is responsible for the administration of justice in the Union Territories?",
+        "options": [
+            "Supreme Court",
+            "High Court",
+            "President of India",
+            "Parliament"
+        ],
+        "correctAnswer": 1,
+        "explanation": "High Courts are responsible for the administration of justice in Union Territories.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "High Courts & Subordinate Courts"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2009"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-912e9b55",
+        "year": 2011,
+        "subject": "Polity",
+        "topic": "High Courts & Subordinate Courts",
+        "text": "The power of judicial review of the High Court extends to:",
+        "options": [
+            "Central laws only",
+            "State laws only",
+            "Both Central and State laws",
+            "None of the above"
+        ],
+        "correctAnswer": 2,
+        "explanation": "High Courts can exercise judicial review over both Central and State laws.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "High Courts & Subordinate Courts"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2011"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-36541116",
+        "year": 1998,
+        "subject": "Polity",
+        "topic": "High Courts & Subordinate Courts",
+        "text": "Which of the following is NOT a qualification for being appointed as a Judge of a High Court?",
+        "options": [
+            "Citizen of India",
+            "Held a judicial office for ten years",
+            "Advocate of a High Court for ten years",
+            "Distinguished Jurist in the opinion of the President"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Being a distinguished jurist is a qualification for Supreme Court, not High Court.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "High Courts & Subordinate Courts"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1998"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-3537a1e7",
+        "year": 2001,
+        "subject": "Polity",
+        "topic": "High Courts & Subordinate Courts",
+        "text": "The number of judges in a High Court is determined by:",
+        "options": [
+            "The Constitution of India",
+            "The President of India",
+            "The Parliament",
+            "The State Legislature"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The President determines the number of judges in a High Court.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "High Courts & Subordinate Courts"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2001"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-4bf577a1",
+        "year": 2004,
+        "subject": "Polity",
+        "topic": "High Courts & Subordinate Courts",
+        "text": "Which of the following statements is correct regarding the transfer of a High Court judge?",
+        "options": [
+            "The transfer can be done by the Chief Justice of India.",
+            "The transfer can be done by the President of India after consulting the Chief Justice of India.",
+            "The transfer can be done by the Parliament.",
+            "The transfer can be done by the State Legislature."
+        ],
+        "correctAnswer": 1,
+        "explanation": "The President transfers a High Court judge after consulting the CJI.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "High Courts & Subordinate Courts"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2004"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-7560e9f8",
+        "year": 2012,
+        "subject": "Polity",
+        "topic": "High Courts & Subordinate Courts",
+        "text": "Consider the following statements regarding Lok Adalats:\n1. Lok Adalats are statutory bodies.\n2. Lok Adalats can only deal with civil cases.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Lok Adalats are statutory bodies and can deal with certain criminal cases as well.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "High Courts & Subordinate Courts"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2012"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-072d1094",
+        "year": 1999,
+        "subject": "Polity",
+        "topic": "High Courts & Subordinate Courts",
+        "text": "The power to decide an election petition is vested in the:",
+        "options": [
+            "Parliament",
+            "Supreme Court",
+            "High Court",
+            "Election Commission"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The High Court has the power to decide an election petition.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "High Courts & Subordinate Courts"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1999"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-b775f110",
+        "year": 2003,
+        "subject": "Polity",
+        "topic": "High Courts & Subordinate Courts",
+        "text": "Which of the following statements is correct regarding the jurisdiction of the High Court over tribunals?",
+        "options": [
+            "The High Court has no jurisdiction over tribunals.",
+            "The High Court has appellate jurisdiction over all tribunals.",
+            "The High Court has supervisory jurisdiction over tribunals within its territorial jurisdiction.",
+            "The High Court can only issue writs to tribunals."
+        ],
+        "correctAnswer": 2,
+        "explanation": "High Court has supervisory jurisdiction over tribunals within its territory.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "High Courts & Subordinate Courts"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2003"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-0a12e3a1",
+        "year": 2007,
+        "subject": "Polity",
+        "topic": "High Courts & Subordinate Courts",
+        "text": "Which of the following courts is considered the court of first instance for civil cases?",
+        "options": [
+            "Supreme Court",
+            "High Court",
+            "District Court",
+            "Subordinate Court"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Subordinate Courts are often the court of first instance for civil cases.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "High Courts & Subordinate Courts"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2007"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-fc76cb46",
+        "year": 2013,
+        "subject": "Polity",
+        "topic": "High Courts & Subordinate Courts",
+        "text": "Consider the following statements regarding the appointment of judges in subordinate courts:\n1. The appointment of persons other than district judges to the judicial service of a State is made by the Governor.\n2. The High Court is consulted by the Governor in such appointments.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Governor appoints other judicial officers after consulting the High Court.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "High Courts & Subordinate Courts"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2013"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-019f36a1",
+        "year": 1997,
+        "subject": "Polity",
+        "topic": "High Courts & Subordinate Courts",
+        "text": "The retirement age of High Court judges is:",
+        "options": [
+            "60 years",
+            "62 years",
+            "65 years",
+            "68 years"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The retirement age of High Court judges is 62 years.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "High Courts & Subordinate Courts"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1997"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-508a9ea8",
+        "year": 2000,
+        "subject": "Polity",
+        "topic": "High Courts & Subordinate Courts",
+        "text": "Which of the following is NOT a function of the District Court?",
+        "options": [
+            "Hearing appeals from subordinate courts",
+            "Trying criminal cases",
+            "Supervising the functioning of subordinate courts",
+            "Advising the State Government on legal matters"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Advising the State Government on legal matters is not a function of the District Court.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "High Courts & Subordinate Courts"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2000"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-60dbbb20",
+        "year": 2015,
+        "subject": "Polity",
+        "topic": "High Courts & Subordinate Courts",
+        "text": "Which of the following statements is correct regarding the establishment of a common High Court for two or more states?",
+        "options": [
+            "It can be established by an Act of Parliament.",
+            "It can be established by a resolution passed by the concerned State Legislatures.",
+            "It can be established by an order of the President of India.",
+            "It can be established by the Supreme Court."
+        ],
+        "correctAnswer": 0,
+        "explanation": "A common High Court can be established by an Act of Parliament.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "High Courts & Subordinate Courts"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2015"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-77430db6",
+        "year": 2019,
+        "subject": "Polity",
+        "topic": "High Courts & Subordinate Courts",
+        "text": "Consider the following statements regarding the National Judicial Appointments Commission (NJAC):\n1. The NJAC was established to replace the collegium system for the appointment of judges.\n2. The NJAC was declared unconstitutional by the Supreme Court.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "NJAC was meant to replace the collegium but was declared unconstitutional.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "High Courts & Subordinate Courts"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2019"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-da006568",
+        "year": 2024,
+        "subject": "Polity",
+        "topic": "High Courts & Subordinate Courts",
+        "text": "Which of the following statements accurately describes the relationship between High Courts and the Supreme Court regarding advisory jurisdiction?\n",
+        "options": [
+            "High Courts possess advisory jurisdiction similar to the Supreme Court under Article 143.",
+            "High Courts can offer advisory opinions to the Governor of the state on matters of public importance.",
+            "Only the Supreme Court has advisory jurisdiction; High Courts do not.",
+            "High Courts can request advisory opinions from the Supreme Court on complex legal matters."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Only the Supreme Court has advisory jurisdiction under Article 143.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "High Courts & Subordinate Courts"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2024"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-72275694",
+        "year": 2015,
+        "subject": "Polity",
+        "topic": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)",
+        "text": "Which of the following are the functions of the Finance Commission constituted under the 73rd Amendment?\n1. Review the financial position of the Panchayats.\n2. Suggest the principles which should govern the distribution of the net proceeds of taxes to be divided between the State and the Panchayats.\n3. Determine the taxes, duties, tolls and fees which may be assigned to the Panchayats.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 and 2 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Finance Commission reviews Panchayat finances and suggests distribution principles.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2015"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-567d1884",
+        "year": 2018,
+        "subject": "Polity",
+        "topic": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)",
+        "text": "Consider the following statements:\n1. The 73rd Amendment mandates reservation of seats for women in Panchayati Raj Institutions.\n2. The 74th Amendment provides for the constitution of Wards Committees.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both amendments provide for women's reservation and ward committees.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2018"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-f27e40d7",
+        "year": 2020,
+        "subject": "Polity",
+        "topic": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)",
+        "text": "Which of the following are the salient features of the 73rd Constitutional Amendment Act?\n1. Provides for a three-tier system of Panchayati Raj for all States having a population of over 20 lakh.\n2. Mandates regular elections to Panchayats.\n3. Reserves one-third of seats for women in all Panchayats.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 and 2 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All the mentioned features are salient to the 73rd Amendment.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2020"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-03d1fa68",
+        "year": 2022,
+        "subject": "Polity",
+        "topic": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)",
+        "text": "Consider the following statements regarding the 74th Constitutional Amendment Act:\n1. It provides for the constitution of Nagar Panchayats for areas in transition from rural to urban.\n2. It mandates the establishment of Metropolitan Planning Committees.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both statements accurately reflect provisions of the 74th Amendment.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2022"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-b5fe1acd",
+        "year": 2017,
+        "subject": "Polity",
+        "topic": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)",
+        "text": "The 73rd Amendment to the Constitution relates to which of the following?",
+        "options": [
+            "Municipalities",
+            "Education",
+            "Panchayats",
+            "Cooperative Societies"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The 73rd Amendment is directly related to Panchayats.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2017"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-66816287",
+        "year": 2019,
+        "subject": "Polity",
+        "topic": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)",
+        "text": "Which of the following committees recommended constitutional status to Panchayati Raj Institutions?",
+        "options": [
+            "Balwant Rai Mehta Committee",
+            "Ashok Mehta Committee",
+            "L.M. Singhvi Committee",
+            "G.V.K. Rao Committee"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The L.M. Singhvi Committee recommended constitutional status.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2019"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-26f5ec2a",
+        "year": 2021,
+        "subject": "Polity",
+        "topic": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)",
+        "text": "Consider the following statements regarding the State Election Commission:\n1. It conducts elections to the Panchayats and Municipalities.\n2. It is an independent body headed by a State Election Commissioner appointed by the Governor.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both statements are correct regarding the State Election Commission.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2021"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-992c729f",
+        "year": 2016,
+        "subject": "Polity",
+        "topic": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)",
+        "text": "The 74th Amendment to the Constitution deals with:",
+        "options": [
+            "Rural Local Governments",
+            "Urban Local Governments",
+            "Centre-State Relations",
+            "Fundamental Rights"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The 74th Amendment specifically addresses Urban Local Governments.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2016"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-b3616f0f",
+        "year": 2023,
+        "subject": "Polity",
+        "topic": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)",
+        "text": "Which schedule of the Indian Constitution deals with the powers, authority and responsibilities of Panchayats?",
+        "options": [
+            "Ninth Schedule",
+            "Tenth Schedule",
+            "Eleventh Schedule",
+            "Twelfth Schedule"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Eleventh Schedule lists the powers of the Panchayats.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2023"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-f50e882a",
+        "year": 2014,
+        "subject": "Polity",
+        "topic": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)",
+        "text": "Consider the following statements:\n1. The term of office for all members of Panchayats shall be five years.\n2. If a Panchayat is dissolved before the expiry of its term, elections to constitute the Panchayat shall be completed before the expiry of a period of six months from the date of its dissolution.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both statements accurately describe Panchayat term and re-election rules.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2014"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-398df860",
+        "year": 2005,
+        "subject": "Polity",
+        "topic": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)",
+        "text": "The main objective of the 73rd Amendment of the Constitution is to:",
+        "options": [
+            "Strengthen the financial position of the State Governments",
+            "Make provisions for elections to the Lok Sabha",
+            "Promote the development of backward classes",
+            "Build self-government at the grassroots level"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The 73rd Amendment aims to establish grassroots self-governance.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2005"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-5594718b",
+        "year": 2008,
+        "subject": "Polity",
+        "topic": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)",
+        "text": "Which of the following is NOT a mandatory provision of the 73rd Constitutional Amendment Act?",
+        "options": [
+            "Direct elections to all seats in Panchayats",
+            "Reservation of seats for Scheduled Castes and Scheduled Tribes",
+            "Establishment of a State Finance Commission",
+            "Reservation of seats for Other Backward Classes"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Reservation for OBCs is not a mandatory provision.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2008"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-af820757",
+        "year": 2010,
+        "subject": "Polity",
+        "topic": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)",
+        "text": "The Constitution (74th Amendment) Act, 1992 deals with:",
+        "options": [
+            "Panchayats",
+            "Municipalities",
+            "Cooperative Societies",
+            "Tribal Areas"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The 74th Amendment is related to Municipalities.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2010"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-d8ac49cb",
+        "year": 2000,
+        "subject": "Polity",
+        "topic": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)",
+        "text": "Which of the following is/are the responsibilities of the Municipalities under the 74th Amendment Act?\n1. Urban planning including town planning.\n2. Regulation of land-use and construction of buildings.\n3. Slum improvement and upgradation.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All listed responsibilities fall under the 74th Amendment.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2000"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-89245c08",
+        "year": 2003,
+        "subject": "Polity",
+        "topic": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)",
+        "text": "Consider the following statements regarding the District Planning Committee:\n1. It consolidates the plans prepared by the Panchayats and the Municipalities in the district.\n2. It prepares a draft development plan for the district as a whole.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both statements accurately describe the District Planning Committee's role.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2003"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-d4e5fbb9",
+        "year": 1998,
+        "subject": "Polity",
+        "topic": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)",
+        "text": "The 73rd Amendment Act does NOT apply to which of the following states?",
+        "options": [
+            "Assam",
+            "Nagaland",
+            "Rajasthan",
+            "Madhya Pradesh"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The 73rd Amendment has exceptions for certain states like Nagaland.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1998"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-961cfdb1",
+        "year": 2007,
+        "subject": "Polity",
+        "topic": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)",
+        "text": "Which of the following is a function devolved to Municipalities under the 74th Amendment?",
+        "options": [
+            "Preparation of plans for economic and social justice",
+            "Maintenance of law and order",
+            "Collection of land revenue",
+            "Conducting census operations"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Economic and social justice planning is a devolved function.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2007"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-27ea005e",
+        "year": 2012,
+        "subject": "Polity",
+        "topic": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)",
+        "text": "The 73rd Amendment Act provides for reservation of seats in Panchayats for:",
+        "options": [
+            "Women only",
+            "Scheduled Castes and Scheduled Tribes only",
+            "Other Backward Classes only",
+            "All of the above"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Reservation is provided for women, SCs, STs, and sometimes OBCs.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2012"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-94bf1b92",
+        "year": 1999,
+        "subject": "Polity",
+        "topic": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)",
+        "text": "Which of the following is NOT a source of revenue for Panchayats?",
+        "options": [
+            "Property tax",
+            "Grants from the State Government",
+            "Share in Central taxes",
+            "Taxes on professions, trades, callings and employments"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Panchayats do not directly receive a share in Central taxes.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1999"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-2b332df3",
+        "year": 2002,
+        "subject": "Polity",
+        "topic": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)",
+        "text": "The Constitution (74th Amendment) Act envisages which of the following types of Municipalities?\n1. Nagar Panchayat\n2. Municipal Council\n3. Municipal Corporation\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All three types of municipalities are envisioned in the 74th Amendment.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2002"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-88269f4d",
+        "year": 2009,
+        "subject": "Polity",
+        "topic": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)",
+        "text": "Which article of the Indian Constitution deals with the constitution of Municipalities?",
+        "options": [
+            "Article 243G",
+            "Article 243H",
+            "Article 243Q",
+            "Article 243K"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Article 243Q deals with the constitution of Municipalities.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2009"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-60714369",
+        "year": 2011,
+        "subject": "Polity",
+        "topic": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)",
+        "text": "The power to legislate with respect to Panchayati Raj is vested with:",
+        "options": [
+            "The Parliament",
+            "The State Legislatures",
+            "The President",
+            "The Governor"
+        ],
+        "correctAnswer": 1,
+        "explanation": "State Legislatures have the power to legislate on Panchayati Raj.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2011"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-b53591c2",
+        "year": 2004,
+        "subject": "Polity",
+        "topic": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)",
+        "text": "Which of the following is NOT a function entrusted to the Municipalities under the 74th Amendment?",
+        "options": [
+            "Urban forestry",
+            "Fire services",
+            "Regulation of slaughterhouses",
+            "Maintenance of public order"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Maintaining public order is not a function of Municipalities.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2004"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-bc504c5a",
+        "year": 1997,
+        "subject": "Polity",
+        "topic": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)",
+        "text": "The State Finance Commission, constituted under the 73rd Amendment, recommends measures to improve the financial position of:",
+        "options": [
+            "The State Government",
+            "The Panchayats only",
+            "The Municipalities only",
+            "Both the Panchayats and the Municipalities"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The State Finance Commission focuses on Panchayat finances.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1997"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-2933c5ff",
+        "year": 1996,
+        "subject": "Polity",
+        "topic": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)",
+        "text": "Which of the following is a constitutional obligation under the 73rd Amendment?",
+        "options": [
+            "To organize village panchayats",
+            "To constitute a State Finance Commission",
+            "To promote cottage industries",
+            "To provide free and compulsory education"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Constituting a State Finance Commission is a constitutional obligation.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1996"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-3c530d60",
+        "year": 2024,
+        "subject": "Polity",
+        "topic": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)",
+        "text": "Consider the following statements regarding Metropolitan Planning Committees:\n1. They are constituted under the 74th Amendment.\n2. They prepare draft development plans for metropolitan areas.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both statements are correct regarding Metropolitan Planning Committees.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2024"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-0b9673f4",
+        "year": 1995,
+        "subject": "Polity",
+        "topic": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)",
+        "text": "The 73rd and 74th Amendments to the Constitution are related to:",
+        "options": [
+            "Centre-State relations",
+            "Local self-government",
+            "Fundamental Rights",
+            "Directive Principles of State Policy"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Both amendments are related to local self-government.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1995"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-4ce63fa9",
+        "year": 2001,
+        "subject": "Polity",
+        "topic": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)",
+        "text": "Which of the following is a discretionary function of the Municipalities?",
+        "options": [
+            "Levying taxes",
+            "Providing water supply",
+            "Maintaining sanitation",
+            "Establishing and maintaining primary schools"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Establishing and maintaining primary schools is often discretionary.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2001"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-c826489b",
+        "year": 2013,
+        "subject": "Polity",
+        "topic": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)",
+        "text": "Consider the following statements:\n1. The 73rd Amendment provides for reservation of seats for backward classes.\n2. The State Election Commissioner conducts elections for both Panchayats and Municipalities.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Statement 1 is generally correct, while statement 2 is always correct.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Panchayati Raj Institutions (73rd Amendment) & Municipalities (74th Amendment)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2013"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-a24f1224",
+        "year": 2022,
+        "subject": "Polity",
+        "topic": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST",
+        "text": "With reference to the Election Commission of India, consider the following statements: 1. The Election Commission of India is a five-member body. 2. Union Ministry of Home Affairs decides the election schedule for the conduct of both general elections and bye-elections. 3. The Election Commission resolves the disputes relating to the split/merger of recognised political parties. Which of the statements given above is/are correct?",
+        "options": [
+            "1 and 2 only",
+            "2 only",
+            "2 and 3 only",
+            "3 only"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Only statement 3 is correct; ECI is a 3-member body and ECI decides election schedules.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2022"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-203bfedf",
+        "year": 2017,
+        "subject": "Polity",
+        "topic": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST",
+        "text": "Consider the following statements: 1. The Election Commission of India is a constitutional authority. 2. The Election Commission of India is responsible for conducting elections to the Parliament and State Legislatures, but has no concern with elections to local bodies. Which of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Statement 1 is correct, but statement 2 is incorrect as ECI does not conduct local body elections.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2017"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-7c93091d",
+        "year": 2015,
+        "subject": "Polity",
+        "topic": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST",
+        "text": "Which of the following is/are the function/functions of the Election Commission of India? 1. Superintendance, direction and control of the preparation of electoral rolls for all elections to the Parliament and State Legislatures. 2. Conducting elections to the offices of the President and the Vice-President. 3. Deciding on all doubts and disputes arising out of elections. Select the correct answer using the code given below:",
+        "options": [
+            "1 only",
+            "2 only",
+            "1 and 2 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 2,
+        "explanation": "ECI's functions include 1 and 2; election disputes are handled by courts.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2015"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-3c2cbc4f",
+        "year": 2014,
+        "subject": "Polity",
+        "topic": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST",
+        "text": "Consider the following statements: 1. The Election Commission of India is a constitutional body. 2. The Election Commission of India is responsible for conducting elections to the Parliament and State Legislatures, but has no concern with elections to local bodies. Which of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Statement 1 is correct, but statement 2 is incorrect as ECI does not conduct local body elections.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2014"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-14303a8c",
+        "year": 2010,
+        "subject": "Polity",
+        "topic": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST",
+        "text": "Which one of the following is not a function of the Election Commission of India?",
+        "options": [
+            "To determine the constituencies for elections",
+            "To prepare the electoral rolls",
+            "To conduct elections to the local bodies",
+            "To register political parties"
+        ],
+        "correctAnswer": 2,
+        "explanation": "ECI does not conduct elections to local bodies; this is the responsibility of State Election Commissions.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2010"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-f9e37098",
+        "year": 2008,
+        "subject": "Polity",
+        "topic": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST",
+        "text": "The Election Commission of India is responsible for the conduct of",
+        "options": [
+            "Elections to the Parliament",
+            "Elections to the State Legislatures",
+            "Elections to the office of the President",
+            "All of the above"
+        ],
+        "correctAnswer": 3,
+        "explanation": "ECI conducts elections to Parliament, State Legislatures, and the office of the President.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2008"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-3a50a940",
+        "year": 2023,
+        "subject": "Polity",
+        "topic": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST",
+        "text": "The Finance Commission is constituted under Article 280 of the Constitution. Which of the following functions is/are performed by the Finance Commission? 1. Distribution of net proceeds of taxes between the Union and the States. 2. Determining the principles which should govern the grants-in-aid to the States out of the Consolidated Fund of India. 3. Recommending measures to augment the Consolidated Fund of a State to supplement the resources of the Panchayats in the State. Select the correct answer using the code given below:",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1 and 2 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All three statements accurately describe the functions of the Finance Commission.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2023"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-10e5ae13",
+        "year": 2021,
+        "subject": "Polity",
+        "topic": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST",
+        "text": "The recommendations of the Finance Commission are:",
+        "options": [
+            "Advisory in nature",
+            "Binding on the government",
+            "Binding on the government only when accepted by the Parliament",
+            "Binding on the government only when accepted by the President"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Finance Commission's recommendations are advisory and not binding.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2021"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-56f96330",
+        "year": 2017,
+        "subject": "Polity",
+        "topic": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST",
+        "text": "The Finance Commission primarily recommends to the President on:",
+        "options": [
+            "Principles governing the distribution of net tax proceeds between the Union and the States",
+            "Matters relating to financial emergency",
+            "Amendment of financial rules",
+            "Allotment of funds to various ministries"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Finance Commission's primary role is tax revenue distribution.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2017"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-02f2fb4a",
+        "year": 2011,
+        "subject": "Polity",
+        "topic": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST",
+        "text": "The Finance Commission is constituted to recommend on the distribution of financial resources between the Centre and the States. Which of the following are taken into consideration by the Finance Commission while making recommendations? 1. The resources of the Centre and the States. 2. The expenditure on defence and internal security. 3. The needs of the States. Select the correct answer using the codes given below:",
+        "options": [
+            "1 and 2 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All three factors are considered by the Finance Commission.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2011"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-3ff48961",
+        "year": 2020,
+        "subject": "Polity",
+        "topic": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST",
+        "text": "Other than the Fundamental Rights, which of the following parts of the Constitution of India reflect/reflects the principles and provisions of the Universal Declaration of Human Rights (1948)? 1. Preamble 2. Directive Principles of State Policy 3. Fundamental Duties Select the correct answer using the code given below:",
+        "options": [
+            "1 and 2 only",
+            "2 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All three reflect principles of the Universal Declaration of Human Rights.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2020"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-f5ebcc0f",
+        "year": 2016,
+        "subject": "Polity",
+        "topic": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST",
+        "text": "The Comptroller and Auditor General of India acts as a friend, philosopher and guide of the:",
+        "options": [
+            "Select Committee of the Parliament",
+            "Estimates Committee",
+            "Public Accounts Committee",
+            "None of the above"
+        ],
+        "correctAnswer": 2,
+        "explanation": "CAG assists the Public Accounts Committee in scrutinizing government accounts.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2016"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-b96ee98f",
+        "year": 2012,
+        "subject": "Polity",
+        "topic": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST",
+        "text": "The reports of the Comptroller and Auditor General of India relating to the accounts of the Union are submitted to the:",
+        "options": [
+            "President of India",
+            "Prime Minister of India",
+            "Chairman, Public Accounts Committee",
+            "Finance Minister"
+        ],
+        "correctAnswer": 0,
+        "explanation": "CAG reports are submitted to the President, who lays them before Parliament.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2012"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-a7536f91",
+        "year": 2024,
+        "subject": "Polity",
+        "topic": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST",
+        "text": "Which of the following statements is correct regarding the National Commission for Scheduled Castes (NCSC)?",
+        "options": [
+            "It is a statutory body established by an Act of Parliament.",
+            "It has the power to investigate all matters relating to the safeguards provided for the Scheduled Castes under the Constitution.",
+            "It can only make recommendations to the government, which are not binding.",
+            "The Chairperson of the NCSC must be a retired judge of the Supreme Court."
+        ],
+        "correctAnswer": 1,
+        "explanation": "NCSC has the power to investigate matters relating to safeguards for SCs.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2024"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-4c341d5a",
+        "year": 2023,
+        "subject": "Polity",
+        "topic": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST",
+        "text": "Consider the following statements regarding the National Commission for Scheduled Tribes (NCST): 1. The NCST was established by amending Article 338 of the Constitution. 2. The NCST presents its annual reports to the President. 3. The NCST has the power to investigate all matters relating to the safeguards provided for the Scheduled Tribes under the Constitution. Which of the statements given above is/are correct?",
+        "options": [
+            "1 and 2 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 1,
+        "explanation": "NCST was established by Article 338A, not amending 338.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2023"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-60396d37",
+        "year": 2022,
+        "subject": "Polity",
+        "topic": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST",
+        "text": "The Union Public Service Commission (UPSC) is responsible for:",
+        "options": [
+            "Conducting examinations for appointment to the services of the Union.",
+            "Advising the President on matters relating to recruitment to civil services.",
+            "Protecting the merit system in the civil services.",
+            "All of the above."
+        ],
+        "correctAnswer": 3,
+        "explanation": "UPSC is responsible for all the mentioned functions.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2022"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-715e4562",
+        "year": 2021,
+        "subject": "Polity",
+        "topic": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST",
+        "text": "Which of the following statements is correct regarding the State Public Service Commission (SPSC)?",
+        "options": [
+            "The Governor appoints the Chairman and members of the SPSC.",
+            "The Chairman and members of the SPSC can be removed by the Governor.",
+            "The SPSC is responsible for conducting examinations for appointment to the services of the Union.",
+            "The SPSC is an advisory body and its advice is binding on the State Government."
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Governor appoints the Chairman and members of the SPSC.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2021"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-015ddbe7",
+        "year": 2019,
+        "subject": "Polity",
+        "topic": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST",
+        "text": "Which of the following bodies is/are responsible for conducting elections to the local bodies in India? 1. Election Commission of India 2. State Election Commissions 3. District Election Officers Select the correct answer using the code given below:",
+        "options": [
+            "1 only",
+            "2 only",
+            "1 and 3 only",
+            "2 and 3 only"
+        ],
+        "correctAnswer": 1,
+        "explanation": "State Election Commissions conduct local body elections.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2019"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-e45b1ff4",
+        "year": 2018,
+        "subject": "Polity",
+        "topic": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST",
+        "text": "The Finance Commission is constituted by the:",
+        "options": [
+            "Prime Minister",
+            "President",
+            "Parliament",
+            "Finance Minister"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The President constitutes the Finance Commission.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2018"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-11f05746",
+        "year": 2017,
+        "subject": "Polity",
+        "topic": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST",
+        "text": "The Comptroller and Auditor General of India submits his report relating to the accounts of the Union to which of the following?",
+        "options": [
+            "The President",
+            "The Prime Minister",
+            "The Speaker of the Lok Sabha",
+            "The Chairman of the Rajya Sabha"
+        ],
+        "correctAnswer": 0,
+        "explanation": "CAG submits reports to the President.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2017"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-bfa5acbf",
+        "year": 2016,
+        "subject": "Polity",
+        "topic": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST",
+        "text": "The National Commission for Scheduled Castes can investigate matters related to:",
+        "options": [
+            "Deprivation of rights of Scheduled Castes",
+            "Violation of safeguards provided to Scheduled Castes",
+            "Socio-economic development of Scheduled Castes",
+            "All of the above"
+        ],
+        "correctAnswer": 3,
+        "explanation": "NCSC can investigate all matters related to SCs.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2016"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-68bf44bf",
+        "year": 2015,
+        "subject": "Polity",
+        "topic": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST",
+        "text": "The National Commission for Scheduled Tribes was established under which Article of the Constitution?",
+        "options": [
+            "Article 338",
+            "Article 338A",
+            "Article 330",
+            "Article 332"
+        ],
+        "correctAnswer": 1,
+        "explanation": "NCST was established under Article 338A.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2015"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-ed83e8b6",
+        "year": 2014,
+        "subject": "Polity",
+        "topic": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST",
+        "text": "The Chairman and members of the Union Public Service Commission are appointed by the:",
+        "options": [
+            "President of India",
+            "Prime Minister of India",
+            "Chief Justice of India",
+            "Speaker of the Lok Sabha"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The President appoints the Chairman and members of UPSC.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2014"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-73d534ed",
+        "year": 2013,
+        "subject": "Polity",
+        "topic": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST",
+        "text": "The members of the State Public Service Commission are removed from office by the:",
+        "options": [
+            "Governor",
+            "President",
+            "Chief Minister",
+            "High Court"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The President removes the members of the SPSC.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2013"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-800360ea",
+        "year": 2012,
+        "subject": "Polity",
+        "topic": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST",
+        "text": "Which of the following is NOT a function of the Election Commission?",
+        "options": [
+            "To conduct elections to Parliament",
+            "To conduct elections to State Legislatures",
+            "To conduct elections to local bodies",
+            "To prepare electoral rolls"
+        ],
+        "correctAnswer": 2,
+        "explanation": "ECI does not conduct elections to local bodies.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2012"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-325ebd70",
+        "year": 2011,
+        "subject": "Polity",
+        "topic": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST",
+        "text": "The Finance Commission is constituted under which article of the Constitution of India?",
+        "options": [
+            "Article 270",
+            "Article 280",
+            "Article 324",
+            "Article 368"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Finance Commission is constituted under Article 280.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2011"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-cdf4d141",
+        "year": 2010,
+        "subject": "Polity",
+        "topic": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST",
+        "text": "The Comptroller and Auditor General of India is appointed by the:",
+        "options": [
+            "President",
+            "Prime Minister",
+            "Speaker of Lok Sabha",
+            "Chairman of Rajya Sabha"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The President appoints the CAG.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2010"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-201bb089",
+        "year": 2009,
+        "subject": "Polity",
+        "topic": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST",
+        "text": "The National Commission for Scheduled Castes is a:",
+        "options": [
+            "Statutory body",
+            "Constitutional body",
+            "Executive body",
+            "Advisory body"
+        ],
+        "correctAnswer": 1,
+        "explanation": "NCSC is a Constitutional body.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2009"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-cdce312f",
+        "year": 2008,
+        "subject": "Polity",
+        "topic": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST",
+        "text": "The National Commission for Scheduled Tribes was established in which year?",
+        "options": [
+            "2000",
+            "2003",
+            "2004",
+            "2006"
+        ],
+        "correctAnswer": 1,
+        "explanation": "NCST was established in 2003.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2008"
+            }
+        ]
     }
-];\n
+];
