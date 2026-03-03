@@ -1,9 +1,4 @@
-/**
- * UPSC Previous Year Questions (PYQs) Database
- * Massive comprehensive dataset auto-extracted sequentially across specific syllabus topics.
- */
-
-export const PYQ_DATABASE = [
+/**\n * UPSC Previous Year Questions (PYQs) Database\n * Massive comprehensive dataset auto-extracted sequentially across specific syllabus topics.\n * Total Questions: 1452\n */\n\nexport const PYQ_DATABASE = [
     {
         "id": "pyq-1990-c8f09527",
         "year": 1990,
@@ -31700,5 +31695,10416 @@ export const PYQ_DATABASE = [
                 "label": "UPSC 2008"
             }
         ]
+    },
+    {
+        "id": "pyq-hist-a586de5c",
+        "year": 2017,
+        "subject": "History",
+        "topic": "Indus Valley Civilization & Vedic Age",
+        "text": "Which of the following characterizes/characterize the people of Indus Civilization?\n1. They possessed great palaces and temples.\n2. They worshipped both male and female deities.\n3. They employed horse-drawn chariots in warfare.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 and 2 only",
+            "2 only",
+            "1, 2 and 3",
+            "None"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Indus Valley people worshipped both male and female deities, but lacked palaces and horse-drawn chariots.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indus Valley Civilization & Vedic Age"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2017"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-2e35a412",
+        "year": 2015,
+        "subject": "History",
+        "topic": "Indus Valley Civilization & Vedic Age",
+        "text": "Which of the following is/are the characteristic(s) of Indus Valley Civilization?\n1. They possessed great palaces and temples.\n2. They worshipped both male and female deities.\n3. They employed horse-drawn chariots in warfare.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 and 2 only",
+            "2 only",
+            "1, 2 and 3",
+            "None"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Indus Valley people worshipped both male and female deities, but lacked palaces and horse-drawn chariots.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indus Valley Civilization & Vedic Age"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2015"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-93abab61",
+        "year": 2011,
+        "subject": "History",
+        "topic": "Indus Valley Civilization & Vedic Age",
+        "text": "The religion of early Vedic Aryans was primarily of\n(a) Bhakti\n(b) Image worship and yajnas\n(c) Worship of nature and yajnas\n(d) Worship of nature and bhakti",
+        "options": [
+            "Bhakti",
+            "Image worship and yajnas",
+            "Worship of nature and yajnas",
+            "Worship of nature and bhakti"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Early Vedic Aryans primarily worshipped nature and performed yajnas.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indus Valley Civilization & Vedic Age"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2011"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-323f26be",
+        "year": 2012,
+        "subject": "History",
+        "topic": "Indus Valley Civilization & Vedic Age",
+        "text": "With reference to the difference between the culture of Rigvedic Aryans and Indus Valley people, which of the following statements is/are correct?\n1. Rigvedic Aryans used the coat of mail and helmet in warfare whereas the people of Indus Valley Civilization did not leave any evidence of using them.\n2. Rigvedic Aryans knew gold, silver and copper whereas Indus Valley people knew only copper and iron.\n3. Rigvedic Aryans had domesticated the horse whereas the Indus Valley people were not acquainted with this animal.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Rigvedic Aryans used armor and knew horses, while Indus Valley people did not; Indus Valley people knew bronze, not just copper.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indus Valley Civilization & Vedic Age"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2012"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-30988540",
+        "year": 2019,
+        "subject": "History",
+        "topic": "Indus Valley Civilization & Vedic Age",
+        "text": "Consider the following statements regarding the Indus Valley Civilization:\n1. It was predominantly a secular civilization and the religious element, though present, did not dominate the scene.\n2. During this period, cotton was used for manufacturing textiles in India.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Indus Valley Civilization was secular, and cotton was used for textiles.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indus Valley Civilization & Vedic Age"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2019"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-71fb7c92",
+        "year": 2020,
+        "subject": "History",
+        "topic": "Indus Valley Civilization & Vedic Age",
+        "text": "Which one of the following is not a Harappan site?",
+        "options": [
+            "Chanhudaro",
+            "Kot Diji",
+            "Sohgaura",
+            "Desalpur"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Sohgaura is not a Harappan site; it is associated with the Mauryan period.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indus Valley Civilization & Vedic Age"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2020"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-1094b74b",
+        "year": 2021,
+        "subject": "History",
+        "topic": "Indus Valley Civilization & Vedic Age",
+        "text": "Which of the following is/are NOT the characteristic(s) of the Indus Valley Civilization?\n1. Well-planned cities with advanced drainage systems.\n2. Standardized weights and measures.\n3. Iron implements for agriculture.\nSelect the correct answer using the code given below:",
+        "options": [
+            "1 only",
+            "3 only",
+            "1 and 2 only",
+            "2 and 3 only"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Indus Valley Civilization did not use iron implements for agriculture.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indus Valley Civilization & Vedic Age"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2021"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-5072bd3d",
+        "year": 2022,
+        "subject": "History",
+        "topic": "Indus Valley Civilization & Vedic Age",
+        "text": "Consider the following statements regarding the Vedic period:\n1. The early Vedic society was primarily pastoral.\n2. The concept of 'Varna' was absent in the early Vedic period.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Early Vedic society was pastoral, and the Varna system was not yet fully developed.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indus Valley Civilization & Vedic Age"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2022"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-75937d25",
+        "year": 2023,
+        "subject": "History",
+        "topic": "Indus Valley Civilization & Vedic Age",
+        "text": "Which of the following crops were NOT known to the people of the Indus Valley Civilization?",
+        "options": [
+            "Wheat",
+            "Barley",
+            "Rice",
+            "Sugarcane"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Sugarcane was not cultivated during the Indus Valley Civilization.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indus Valley Civilization & Vedic Age"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2023"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-0fac9818",
+        "year": 2024,
+        "subject": "History",
+        "topic": "Indus Valley Civilization & Vedic Age",
+        "text": "The term 'Rita' in the Vedic period refers to:",
+        "options": [
+            "Moral order",
+            "Cosmic order",
+            "Sacrificial rituals",
+            "Social hierarchy"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Rita' in the Vedic period refers to the cosmic and moral order.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indus Valley Civilization & Vedic Age"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2024"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-a07082d4",
+        "year": 2005,
+        "subject": "History",
+        "topic": "Indus Valley Civilization & Vedic Age",
+        "text": "Which of the following animals was not represented on the seals and terracotta art of the Harappan culture?",
+        "options": [
+            "Cow",
+            "Elephant",
+            "Rhinoceros",
+            "Tiger"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Cow was not represented on Harappan seals and terracotta art.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indus Valley Civilization & Vedic Age"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2005"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-28d3b139",
+        "year": 2008,
+        "subject": "History",
+        "topic": "Indus Valley Civilization & Vedic Age",
+        "text": "The most important reason for the decline of the Indus Valley Civilization is believed to be:",
+        "options": [
+            "Aryan invasion",
+            "Frequent floods",
+            "Climatic change",
+            "Decline in foreign trade"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Climatic change is considered a significant factor in the decline of IVC.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indus Valley Civilization & Vedic Age"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2008"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-bc663a04",
+        "year": 2010,
+        "subject": "History",
+        "topic": "Indus Valley Civilization & Vedic Age",
+        "text": "Which of the following Vedic texts deals with sacrificial formulae?",
+        "options": [
+            "Rigveda",
+            "Samaveda",
+            "Yajurveda",
+            "Atharvaveda"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Yajurveda deals with sacrificial formulae.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indus Valley Civilization & Vedic Age"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2010"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-04405f56",
+        "year": 1998,
+        "subject": "History",
+        "topic": "Indus Valley Civilization & Vedic Age",
+        "text": "The Indus Valley Civilization was known for its:",
+        "options": [
+            "Well-planned cities",
+            "Efficient agricultural system",
+            "Extensive trade networks",
+            "All of the above"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The Indus Valley Civilization was known for all the mentioned features.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indus Valley Civilization & Vedic Age"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1998"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-08930ba2",
+        "year": 2002,
+        "subject": "History",
+        "topic": "Indus Valley Civilization & Vedic Age",
+        "text": "The term 'Satyameva Jayate' inscribed below the emblem of India is taken from:",
+        "options": [
+            "Rigveda",
+            "Atharvaveda",
+            "Mundaka Upanishad",
+            "Ramayana"
+        ],
+        "correctAnswer": 2,
+        "explanation": "'Satyameva Jayate' is taken from the Mundaka Upanishad.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indus Valley Civilization & Vedic Age"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2002"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-c28ca136",
+        "year": 2006,
+        "subject": "History",
+        "topic": "Indus Valley Civilization & Vedic Age",
+        "text": "Which of the following was a port city of the Indus Valley Civilization?",
+        "options": [
+            "Mohenjodaro",
+            "Harappa",
+            "Lothal",
+            "Kalibangan"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Lothal was a port city of the Indus Valley Civilization.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indus Valley Civilization & Vedic Age"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2006"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-46fdf07e",
+        "year": 2009,
+        "subject": "History",
+        "topic": "Indus Valley Civilization & Vedic Age",
+        "text": "The 'Gayatri Mantra' is addressed to which deity?",
+        "options": [
+            "Indra",
+            "Agni",
+            "Surya",
+            "Varuna"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Gayatri Mantra is addressed to the deity Surya (Sun).",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indus Valley Civilization & Vedic Age"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2009"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-b6a85880",
+        "year": 2013,
+        "subject": "History",
+        "topic": "Indus Valley Civilization & Vedic Age",
+        "text": "Which of the following metals was unknown to the Indus Valley Civilization?",
+        "options": [
+            "Gold",
+            "Silver",
+            "Copper",
+            "Iron"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Iron was unknown to the Indus Valley Civilization.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indus Valley Civilization & Vedic Age"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2013"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-1c0883c6",
+        "year": 2016,
+        "subject": "History",
+        "topic": "Indus Valley Civilization & Vedic Age",
+        "text": "The social division of the Rig Vedic society was based on:",
+        "options": [
+            "Birth",
+            "Occupation",
+            "Wealth",
+            "Education"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The early Rig Vedic society was primarily divided based on occupation.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indus Valley Civilization & Vedic Age"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2016"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-b2a7ba3d",
+        "year": 2018,
+        "subject": "History",
+        "topic": "Indus Valley Civilization & Vedic Age",
+        "text": "Which of the following sites of the Indus Valley Civilization is located in Rajasthan?",
+        "options": [
+            "Lothal",
+            "Kalibangan",
+            "Mohenjodaro",
+            "Harappa"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Kalibangan is located in Rajasthan.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indus Valley Civilization & Vedic Age"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2018"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-7f9945a1",
+        "year": 1999,
+        "subject": "History",
+        "topic": "Indus Valley Civilization & Vedic Age",
+        "text": "The Indus Valley Civilization belonged to the:",
+        "options": [
+            "Paleolithic Age",
+            "Neolithic Age",
+            "Chalcolithic Age",
+            "Iron Age"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Indus Valley Civilization belonged to the Chalcolithic Age.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indus Valley Civilization & Vedic Age"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1999"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-dc49f59d",
+        "year": 2001,
+        "subject": "History",
+        "topic": "Indus Valley Civilization & Vedic Age",
+        "text": "The term 'Aryan' denotes:",
+        "options": [
+            "An ethnic race",
+            "A nomadic people",
+            "A language group",
+            "A superior race"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The term 'Aryan' denotes a language group.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indus Valley Civilization & Vedic Age"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2001"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-edb972da",
+        "year": 2003,
+        "subject": "History",
+        "topic": "Indus Valley Civilization & Vedic Age",
+        "text": "The script of the Indus Valley Civilization is:",
+        "options": [
+            "Brahmi",
+            "Kharosthi",
+            "Undeciphered",
+            "Sanskrit"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The script of the Indus Valley Civilization remains undeciphered.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indus Valley Civilization & Vedic Age"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2003"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-d805f540",
+        "year": 2007,
+        "subject": "History",
+        "topic": "Indus Valley Civilization & Vedic Age",
+        "text": "The Upanishads are also known as:",
+        "options": [
+            "Vedas",
+            "Vedangas",
+            "Puranas",
+            "Vedanta"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The Upanishads are also known as Vedanta.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indus Valley Civilization & Vedic Age"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2007"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-e6c0e25b",
+        "year": 2014,
+        "subject": "History",
+        "topic": "Indus Valley Civilization & Vedic Age",
+        "text": "The term 'Janapada' in the later Vedic period refers to:",
+        "options": [
+            "A small kingdom",
+            "A tribal assembly",
+            "A religious ritual",
+            "A type of tax"
+        ],
+        "correctAnswer": 0,
+        "explanation": "'Janapada' in the later Vedic period refers to a small kingdom.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indus Valley Civilization & Vedic Age"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2014"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-ca701626",
+        "year": 1997,
+        "subject": "History",
+        "topic": "Indus Valley Civilization & Vedic Age",
+        "text": "Which of the following was the chief characteristic of the Indus Valley Civilization?",
+        "options": [
+            "Town planning",
+            "Agriculture",
+            "Trade",
+            "Military organization"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Town planning was a chief characteristic of the Indus Valley Civilization.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indus Valley Civilization & Vedic Age"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1997"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-5edc9ba0",
+        "year": 2000,
+        "subject": "History",
+        "topic": "Indus Valley Civilization & Vedic Age",
+        "text": "The Harappan site of Dholavira is located in:",
+        "options": [
+            "Gujarat",
+            "Rajasthan",
+            "Haryana",
+            "Punjab"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Harappan site of Dholavira is located in Gujarat.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indus Valley Civilization & Vedic Age"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2000"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-af882036",
+        "year": 1996,
+        "subject": "History",
+        "topic": "Indus Valley Civilization & Vedic Age",
+        "text": "The Rigveda is divided into:",
+        "options": [
+            "Mandala",
+            "Sukta",
+            "Brahmana",
+            "Aranyaka"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Rigveda is divided into Mandalas.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indus Valley Civilization & Vedic Age"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1996"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-7fa05fdf",
+        "year": 1995,
+        "subject": "History",
+        "topic": "Indus Valley Civilization & Vedic Age",
+        "text": "Which of the following rivers is most mentioned in the Rigveda?",
+        "options": [
+            "Indus",
+            "Saraswati",
+            "Ganga",
+            "Yamuna"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Indus river is most frequently mentioned in the Rigveda.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indus Valley Civilization & Vedic Age"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1995"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-2f68c009",
+        "year": 2004,
+        "subject": "History",
+        "topic": "Indus Valley Civilization & Vedic Age",
+        "text": "The Harappan Civilization was discovered in the year:",
+        "options": [
+            "1901",
+            "1921",
+            "1935",
+            "1942"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Harappan Civilization was discovered in 1921.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indus Valley Civilization & Vedic Age"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2004"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-fe8ffbc4",
+        "year": 2019,
+        "subject": "History",
+        "topic": "Buddhism & Jainism: Philosophy & Architecture",
+        "text": "With reference to the religious history of India, consider the following statements:\n1. Sautrantika and Sammitiya were sects of Jainism.\n2. Sarvastivadin held that the constituents of phenomena were not wholly momentary, but existed forever in a latent form.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Sarvastivadin believed in the existence of all dharmas in the past, present, and future, while Sautrantika and Sammitiya were Buddhist sects.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Buddhism & Jainism: Philosophy & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2019"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-2d6db674",
+        "year": 2017,
+        "subject": "History",
+        "topic": "Buddhism & Jainism: Philosophy & Architecture",
+        "text": "With reference to the religious history of India, consider the following statements:\n1. The concept of Bodhisattva is central to Hinayana sect of Buddhism.\n2. Bodhisattva is a compassionate one on his way to enlightenment.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Bodhisattva is central to Mahayana Buddhism, not Hinayana.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Buddhism & Jainism: Philosophy & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2017"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-9d7bb56e",
+        "year": 2016,
+        "subject": "History",
+        "topic": "Buddhism & Jainism: Philosophy & Architecture",
+        "text": "Which of the following is/are the distinguishing characteristic(s) of 'Mahayana Buddhism'?\n1. Idol worship\n2. Emphasis on devotion\n3. Belief in Bodhisattvas\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Mahayana Buddhism emphasizes idol worship, devotion, and the concept of Bodhisattvas.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Buddhism & Jainism: Philosophy & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2016"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-d1193a25",
+        "year": 2013,
+        "subject": "History",
+        "topic": "Buddhism & Jainism: Philosophy & Architecture",
+        "text": "With reference to the history of ancient India, which of the following was/were common to both Buddhism and Jainism?\n1. Avoidance of extremities of penance and enjoyment\n2. Indifference to the authority of the Vedas\n3. Denial of efficacy of rituals\nSelect the correct answer using the codes given below:",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Both religions rejected Vedic authority and rituals, but Jainism emphasized extreme penance.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Buddhism & Jainism: Philosophy & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2013"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-2ea81a16",
+        "year": 2012,
+        "subject": "History",
+        "topic": "Buddhism & Jainism: Philosophy & Architecture",
+        "text": "The terms ‘Upasaka’ and ‘Upasika’ are associated with which of the following religions?",
+        "options": [
+            "Jainism",
+            "Buddhism",
+            "Hinduism",
+            "Islam"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Upasaka and Upasika refer to lay followers in Buddhism.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Buddhism & Jainism: Philosophy & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2012"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-6a4359da",
+        "year": 2011,
+        "subject": "History",
+        "topic": "Buddhism & Jainism: Philosophy & Architecture",
+        "text": "Which one of the following describes best the concept of ‘Nirvana’ in Buddhism?",
+        "options": [
+            "The extinction of the flame of desire",
+            "The complete annihilation of self",
+            "A state of bliss and rest",
+            "A mental stage beyond all comprehension"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Nirvana is the extinction of desire, leading to liberation.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Buddhism & Jainism: Philosophy & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2011"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-89126939",
+        "year": 2009,
+        "subject": "History",
+        "topic": "Buddhism & Jainism: Philosophy & Architecture",
+        "text": "Consider the following statements:\n1. Vardhamana Mahavira’s mother was the sister of Chetaka, a Lichchhavi chief.\n2. Gautama Buddha’s mother was a princess from the Kosala dynasty.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both statements are factually correct regarding the lineage of Mahavira and Buddha.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Buddhism & Jainism: Philosophy & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2009"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-59eb0761",
+        "year": 2008,
+        "subject": "History",
+        "topic": "Buddhism & Jainism: Philosophy & Architecture",
+        "text": "The concept of Anuvrata was advocated by",
+        "options": [
+            "Mahayana Buddhism",
+            "Hinayana Buddhism",
+            "Jainism",
+            "The Lokayata school"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Anuvrata refers to the five lesser vows in Jainism for lay followers.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Buddhism & Jainism: Philosophy & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2008"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-1011b18a",
+        "year": 2006,
+        "subject": "History",
+        "topic": "Buddhism & Jainism: Philosophy & Architecture",
+        "text": "Which of the following is not a sect of Buddhism?",
+        "options": [
+            "Digambara",
+            "Theravada",
+            "Mahayana",
+            "Vajrayana"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Digambara is a sect of Jainism, not Buddhism.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Buddhism & Jainism: Philosophy & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2006"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-0fa7b957",
+        "year": 2003,
+        "subject": "History",
+        "topic": "Buddhism & Jainism: Philosophy & Architecture",
+        "text": "The rock-cut architecture in Ajanta includes caves of which of the following religions?",
+        "options": [
+            "Buddhism",
+            "Jainism",
+            "Hinduism",
+            "All of the above"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Ajanta caves contain art related to Buddhism, Jainism, and Hinduism.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Buddhism & Jainism: Philosophy & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2003"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-0a4d8f75",
+        "year": 2022,
+        "subject": "History",
+        "topic": "Buddhism & Jainism: Philosophy & Architecture",
+        "text": "Consider the following pairs:\n1. Stupa: Depository of relics\n2. Chaitya: Place of worship\n3. Vihara: Dwelling place of monks\nWhich of the pairs given above is/are correctly matched?",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All three pairs correctly describe the function of Stupas, Chaityas, and Viharas.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Buddhism & Jainism: Philosophy & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2022"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-9a03901d",
+        "year": 2020,
+        "subject": "History",
+        "topic": "Buddhism & Jainism: Philosophy & Architecture",
+        "text": "Which of the following philosophical systems is/are associated with the concept of 'Syadvada'?",
+        "options": [
+            "Buddhism",
+            "Jainism",
+            "Ajivika",
+            "Ajñana"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Syadvada, the doctrine of 'maybe', is a core tenet of Jain philosophy.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Buddhism & Jainism: Philosophy & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2020"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-2eb0f233",
+        "year": 2018,
+        "subject": "History",
+        "topic": "Buddhism & Jainism: Philosophy & Architecture",
+        "text": "The Sravanabelagola Gomateshwara statue represents which of the following?",
+        "options": [
+            "Buddha",
+            "Mahavira",
+            "Bahubali",
+            "Parshvanatha"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Gomateshwara statue at Sravanabelagola represents Bahubali, a Jain saint.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Buddhism & Jainism: Philosophy & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2018"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-1a6ba43e",
+        "year": 2015,
+        "subject": "History",
+        "topic": "Buddhism & Jainism: Philosophy & Architecture",
+        "text": "Which of the following caves features both Buddhist and Jain art?",
+        "options": [
+            "Ellora Caves",
+            "Ajanta Caves",
+            "Karla Caves",
+            "Bhaja Caves"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Ellora Caves contain Buddhist, Hindu, and Jain cave temples.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Buddhism & Jainism: Philosophy & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2015"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-0e60ae2a",
+        "year": 2014,
+        "subject": "History",
+        "topic": "Buddhism & Jainism: Philosophy & Architecture",
+        "text": "The Nagarjuna Konda stupa is associated with which school of Buddhism?",
+        "options": [
+            "Hinayana",
+            "Mahayana",
+            "Vajrayana",
+            "Theravada"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Nagarjuna Konda stupa is associated with Mahayana Buddhism.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Buddhism & Jainism: Philosophy & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2014"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-2d8410b0",
+        "year": 2010,
+        "subject": "History",
+        "topic": "Buddhism & Jainism: Philosophy & Architecture",
+        "text": "Which of the following sites is known for its Jain cave temples?",
+        "options": [
+            "Badami",
+            "Elephanta",
+            "Ajanta",
+            "Karle"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Badami is known for its early Chalukya cave temples, including Jain ones.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Buddhism & Jainism: Philosophy & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2010"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-d657685d",
+        "year": 2007,
+        "subject": "History",
+        "topic": "Buddhism & Jainism: Philosophy & Architecture",
+        "text": "The 'Tripitakas' are sacred books of which religion?",
+        "options": [
+            "Buddhism",
+            "Jainism",
+            "Hinduism",
+            "Zoroastrianism"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Tripitakas (Vinaya, Sutta, Abhidhamma) are the sacred texts of Buddhism.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Buddhism & Jainism: Philosophy & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2007"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-5c61b0f2",
+        "year": 2005,
+        "subject": "History",
+        "topic": "Buddhism & Jainism: Philosophy & Architecture",
+        "text": "The earliest Buddhist literature was written in",
+        "options": [
+            "Pali",
+            "Sanskrit",
+            "Prakrit",
+            "Aramaic"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The earliest Buddhist texts were written in Pali.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Buddhism & Jainism: Philosophy & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2005"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-8e18d1e1",
+        "year": 2004,
+        "subject": "History",
+        "topic": "Buddhism & Jainism: Philosophy & Architecture",
+        "text": "Which of the following is associated with the Ajivika sect?",
+        "options": [
+            "Ghosala Maskariputra",
+            "Mahavira",
+            "Gautama Buddha",
+            "Ajita Kesakambali"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Ghosala Maskariputra founded the Ajivika sect.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Buddhism & Jainism: Philosophy & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2004"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-0e0c4c4a",
+        "year": 2002,
+        "subject": "History",
+        "topic": "Buddhism & Jainism: Philosophy & Architecture",
+        "text": "The 'Sallekhana' practice is associated with which religion?",
+        "options": [
+            "Buddhism",
+            "Jainism",
+            "Hinduism",
+            "Sikhism"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Sallekhana is a Jain practice of fasting to death.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Buddhism & Jainism: Philosophy & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2002"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-ea50a03d",
+        "year": 2023,
+        "subject": "History",
+        "topic": "Buddhism & Jainism: Philosophy & Architecture",
+        "text": "Which of the following sites is renowned for its Jain temples and is located in Rajasthan?",
+        "options": [
+            "Mount Abu",
+            "Khajuraho",
+            "Sanchi",
+            "Amaravati"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Mount Abu is famous for its Dilwara Jain temples in Rajasthan.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Buddhism & Jainism: Philosophy & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2023"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-914d5e01",
+        "year": 2001,
+        "subject": "History",
+        "topic": "Buddhism & Jainism: Philosophy & Architecture",
+        "text": "The 'Angas' are sacred texts of which religion?",
+        "options": [
+            "Buddhism",
+            "Jainism",
+            "Hinduism",
+            "Ajivika"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Angas are the principal sacred texts of Jainism.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Buddhism & Jainism: Philosophy & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2001"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-0b671a5b",
+        "year": 1999,
+        "subject": "History",
+        "topic": "Buddhism & Jainism: Philosophy & Architecture",
+        "text": "Which of the following rulers patronized Jainism?",
+        "options": [
+            "Kharavela",
+            "Ashoka",
+            "Kanishka",
+            "Harshavardhana"
+        ],
+        "correctAnswer": 0,
+        "explanation": "King Kharavela of Kalinga was a known patron of Jainism.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Buddhism & Jainism: Philosophy & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1999"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-880083dc",
+        "year": 1997,
+        "subject": "History",
+        "topic": "Buddhism & Jainism: Philosophy & Architecture",
+        "text": "The 'Four Noble Truths' are a central concept in which religion?",
+        "options": [
+            "Buddhism",
+            "Jainism",
+            "Hinduism",
+            "Zoroastrianism"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Four Noble Truths are fundamental to Buddhist philosophy.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Buddhism & Jainism: Philosophy & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1997"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-6d564735",
+        "year": 1995,
+        "subject": "History",
+        "topic": "Buddhism & Jainism: Philosophy & Architecture",
+        "text": "The concept of 'Ahimsa' is most strongly emphasized in which of the following religions?",
+        "options": [
+            "Buddhism",
+            "Jainism",
+            "Hinduism",
+            "Sikhism"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Ahimsa (non-violence) is a core principle of Jainism.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Buddhism & Jainism: Philosophy & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1995"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-ead42636",
+        "year": 2000,
+        "subject": "History",
+        "topic": "Buddhism & Jainism: Philosophy & Architecture",
+        "text": "Which of the following is NOT a part of early Jain literature?",
+        "options": [
+            "Angas",
+            "Upangas",
+            "Puranas",
+            "Prakirnas"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Puranas are part of Hindu literature, not early Jain literature.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Buddhism & Jainism: Philosophy & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2000"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-1c60c9fe",
+        "year": 2003,
+        "subject": "History",
+        "topic": "Buddhism & Jainism: Philosophy & Architecture",
+        "text": "The Gandhara School of Art was influenced by which of the following?",
+        "options": [
+            "Greek and Roman art",
+            "Persian art",
+            "Indian art",
+            "Egyptian art"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Gandhara School of Art was heavily influenced by Greek and Roman artistic styles.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Buddhism & Jainism: Philosophy & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2003"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-017f9672",
+        "year": 2008,
+        "subject": "History",
+        "topic": "Buddhism & Jainism: Philosophy & Architecture",
+        "text": "Which of the following sites is associated with the life of Parshvanatha, the 23rd Jain Tirthankara?",
+        "options": [
+            "Sravasti",
+            "Vaishali",
+            "Sammeda Shikhar",
+            "Pawapuri"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Sammeda Shikhar is believed to be the place where Parshvanatha attained Nirvana.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Buddhism & Jainism: Philosophy & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2008"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-d80963eb",
+        "year": 2016,
+        "subject": "History",
+        "topic": "Buddhism & Jainism: Philosophy & Architecture",
+        "text": "The Barabar Caves, dating back to the Mauryan period, are primarily associated with which religious group?",
+        "options": [
+            "Ajivikas",
+            "Buddhists",
+            "Jains",
+            "Hindus"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Barabar Caves were primarily used by the Ajivikas.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Buddhism & Jainism: Philosophy & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2016"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-b0b56e14",
+        "year": 2021,
+        "subject": "History",
+        "topic": "Buddhism & Jainism: Philosophy & Architecture",
+        "text": "Which of the following architectural features is commonly found in Jain temples?",
+        "options": [
+            "Toranas",
+            "Chattrimukha",
+            "Gopurams",
+            "Stupas"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Chattrimukha, a four-faced structure, is a common feature in Jain temples.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Buddhism & Jainism: Philosophy & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2021"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-cdf027af",
+        "year": 2017,
+        "subject": "History",
+        "topic": "Mauryan Empire: Administration & Art",
+        "text": "Which of the following describes the most appropriate relationship between the Mauryan state and the Kalinga War?",
+        "options": [
+            "The Kalinga War led to the complete collapse of the Mauryan Empire.",
+            "The Kalinga War prompted Ashoka to adopt a policy of Dhamma and non-aggression.",
+            "The Kalinga War had no significant impact on the Mauryan Empire.",
+            "The Kalinga War resulted in the expansion of the Mauryan Empire to its greatest extent."
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Kalinga War led Ashoka to embrace Dhamma and renounce further conquest.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mauryan Empire: Administration & Art"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2017"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-1041b155",
+        "year": 2015,
+        "subject": "History",
+        "topic": "Mauryan Empire: Administration & Art",
+        "text": "With reference to the Mauryan administration, consider the following statements: 1. The Mauryan empire was divided into provinces, each under a prince or a governor. 2. The Mauryan administration was highly centralized. Which of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both statements are correct regarding Mauryan provincial administration.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mauryan Empire: Administration & Art"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2015"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-9f6d90ef",
+        "year": 2013,
+        "subject": "History",
+        "topic": "Mauryan Empire: Administration & Art",
+        "text": "Which of the following is/are the unique features of the Mauryan art and architecture? 1. Use of stone in architecture. 2. Development of stupas. 3. Construction of pillars with animal capitals. Select the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All three features are characteristic of Mauryan art and architecture.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mauryan Empire: Administration & Art"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2013"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-46e3eb46",
+        "year": 2010,
+        "subject": "History",
+        "topic": "Mauryan Empire: Administration & Art",
+        "text": "Consider the following statements regarding Mauryan administration: 1. The Mauryan Empire had a well-organized system of espionage. 2. The Mauryan rulers maintained a large standing army. Which of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both espionage and a large army were features of Mauryan administration.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mauryan Empire: Administration & Art"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2010"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-279396a4",
+        "year": 2008,
+        "subject": "History",
+        "topic": "Mauryan Empire: Administration & Art",
+        "text": "The Mauryan administration was characterized by:",
+        "options": [
+            "A highly decentralized system with autonomous village republics.",
+            "A centralized system with a strong bureaucracy.",
+            "A feudal system with powerful regional lords.",
+            "A theocratic system with religious leaders holding significant power."
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Mauryan administration was highly centralized with a strong bureaucracy.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mauryan Empire: Administration & Art"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2008"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-a307deb9",
+        "year": 2022,
+        "subject": "History",
+        "topic": "Mauryan Empire: Administration & Art",
+        "text": "Which of the following officials in the Mauryan administration was responsible for maintaining law and order in cities?",
+        "options": [
+            "Rajukas",
+            "Yuktas",
+            "Nagaraka",
+            "Pradeshikas"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Nagaraka was responsible for maintaining law and order in cities.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mauryan Empire: Administration & Art"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2022"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-5a1e37f7",
+        "year": 2020,
+        "subject": "History",
+        "topic": "Mauryan Empire: Administration & Art",
+        "text": "The term 'Dhamma' in Ashokan inscriptions refers to:",
+        "options": [
+            "A specific religious sect.",
+            "A set of ethical principles and moral conduct.",
+            "A system of taxation.",
+            "A type of currency."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Dhamma refers to a set of ethical principles and moral conduct.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mauryan Empire: Administration & Art"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2020"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-a0576987",
+        "year": 2018,
+        "subject": "History",
+        "topic": "Mauryan Empire: Administration & Art",
+        "text": "Which of the following best describes the role of 'Dharmamahamatras' in the Mauryan Empire?",
+        "options": [
+            "Military commanders.",
+            "Revenue collectors.",
+            "Officials appointed to propagate Dhamma.",
+            "Judicial officers."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Dharmamahamatras were appointed to propagate Dhamma.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mauryan Empire: Administration & Art"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2018"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-522b6985",
+        "year": 2016,
+        "subject": "History",
+        "topic": "Mauryan Empire: Administration & Art",
+        "text": "The Sarnath Lion Capital is associated with which of the following rulers?",
+        "options": [
+            "Chandragupta Maurya",
+            "Bindusara",
+            "Ashoka",
+            "Kanishka"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Sarnath Lion Capital is associated with Ashoka.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mauryan Empire: Administration & Art"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2016"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-676b52df",
+        "year": 2014,
+        "subject": "History",
+        "topic": "Mauryan Empire: Administration & Art",
+        "text": "Which of the following was NOT a feature of Mauryan art?",
+        "options": [
+            "Pillars with animal capitals",
+            "Rock-cut caves",
+            "Terracotta figurines",
+            "Bronze sculptures"
+        ],
+        "correctAnswer": 3,
+        "explanation": "While terracotta figurines existed, they weren't a defining feature of Mauryan art compared to the others.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mauryan Empire: Administration & Art"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2014"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-ba1e16ee",
+        "year": 2012,
+        "subject": "History",
+        "topic": "Mauryan Empire: Administration & Art",
+        "text": "The Mauryan Empire's revenue system was primarily based on:",
+        "options": [
+            "Land revenue",
+            "Trade taxes",
+            "Tribute from conquered territories",
+            "All of the above"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The Mauryan revenue system relied on land revenue, trade taxes, and tribute.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mauryan Empire: Administration & Art"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2012"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-bd32c8d5",
+        "year": 2011,
+        "subject": "History",
+        "topic": "Mauryan Empire: Administration & Art",
+        "text": "Which of the following sources provides information about Mauryan administration?",
+        "options": [
+            "Arthashastra",
+            "Indica",
+            "Ashokan Edicts",
+            "All of the above"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All three sources provide valuable insights into Mauryan administration.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mauryan Empire: Administration & Art"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2011"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-f691a21a",
+        "year": 2009,
+        "subject": "History",
+        "topic": "Mauryan Empire: Administration & Art",
+        "text": "The Mauryan pillars are primarily made of:",
+        "options": [
+            "Sandstone",
+            "Granite",
+            "Marble",
+            "Limestone"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Mauryan pillars were primarily made of sandstone.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mauryan Empire: Administration & Art"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2009"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-80ce2459",
+        "year": 2007,
+        "subject": "History",
+        "topic": "Mauryan Empire: Administration & Art",
+        "text": "The concept of 'Dhamma Vijay' is associated with:",
+        "options": [
+            "Military conquest",
+            "Religious conversion",
+            "Conquest through righteousness",
+            "Economic dominance"
+        ],
+        "correctAnswer": 2,
+        "explanation": "'Dhamma Vijay' means conquest through righteousness.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mauryan Empire: Administration & Art"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2007"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-8142080a",
+        "year": 2006,
+        "subject": "History",
+        "topic": "Mauryan Empire: Administration & Art",
+        "text": "Who among the following was the Greek ambassador to the Mauryan court?",
+        "options": [
+            "Pliny",
+            "Strabo",
+            "Megasthenes",
+            "Ptolemy"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Megasthenes was the Greek ambassador to the Mauryan court.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mauryan Empire: Administration & Art"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2006"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-ecd7a178",
+        "year": 2005,
+        "subject": "History",
+        "topic": "Mauryan Empire: Administration & Art",
+        "text": "The Mauryan Empire declined primarily due to:",
+        "options": [
+            "Foreign invasions",
+            "Economic crisis",
+            "Weak rulers",
+            "Religious conflicts"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Weak rulers contributed significantly to the Mauryan decline.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mauryan Empire: Administration & Art"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2005"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-8fe7cbce",
+        "year": 2004,
+        "subject": "History",
+        "topic": "Mauryan Empire: Administration & Art",
+        "text": "The 'Sanchi Stupa' is associated with which of the following religions?",
+        "options": [
+            "Hinduism",
+            "Jainism",
+            "Buddhism",
+            "Ajivika"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Sanchi Stupa is associated with Buddhism.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mauryan Empire: Administration & Art"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2004"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-e548da1a",
+        "year": 2003,
+        "subject": "History",
+        "topic": "Mauryan Empire: Administration & Art",
+        "text": "The 'Arthashastra' primarily deals with:",
+        "options": [
+            "Economics",
+            "Politics",
+            "Religion",
+            "Art and Architecture"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Arthashastra primarily deals with politics and statecraft.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mauryan Empire: Administration & Art"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2003"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-ade67a69",
+        "year": 2002,
+        "subject": "History",
+        "topic": "Mauryan Empire: Administration & Art",
+        "text": "The Mauryan rulers promoted which of the following languages?",
+        "options": [
+            "Sanskrit",
+            "Prakrit",
+            "Tamil",
+            "Pali"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Mauryan rulers promoted Prakrit.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mauryan Empire: Administration & Art"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2002"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-cda771a0",
+        "year": 2001,
+        "subject": "History",
+        "topic": "Mauryan Empire: Administration & Art",
+        "text": "The 'Lomas Rishi Cave' is an example of:",
+        "options": [
+            "Mauryan architecture",
+            "Gupta architecture",
+            "Indo-Islamic architecture",
+            "Vijayanagara architecture"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Lomas Rishi Cave is an example of Mauryan architecture.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mauryan Empire: Administration & Art"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2001"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-e6c3d4e2",
+        "year": 2019,
+        "subject": "History",
+        "topic": "Mauryan Empire: Administration & Art",
+        "text": "Consider the following statements regarding Mauryan art: 1. It was influenced by Persian art. 2. It was primarily religious in nature. Which of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both statements are correct about Mauryan art's influences and nature.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mauryan Empire: Administration & Art"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2019"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-77052776",
+        "year": 2000,
+        "subject": "History",
+        "topic": "Mauryan Empire: Administration & Art",
+        "text": "The 'Sudarsana Lake' was constructed during the reign of:",
+        "options": [
+            "Chandragupta Maurya",
+            "Ashoka",
+            "Kanishka",
+            "Harshavardhana"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Sudarsana Lake was constructed during Chandragupta Maurya's reign.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mauryan Empire: Administration & Art"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2000"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-55895a63",
+        "year": 1999,
+        "subject": "History",
+        "topic": "Mauryan Empire: Administration & Art",
+        "text": "Which of the following was a major port during the Mauryan period?",
+        "options": [
+            "Tamralipti",
+            "Broach",
+            "Surat",
+            "Calicut"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Tamralipti was a major port during the Mauryan period.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mauryan Empire: Administration & Art"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1999"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-6d02be59",
+        "year": 1998,
+        "subject": "History",
+        "topic": "Mauryan Empire: Administration & Art",
+        "text": "The Mauryan Empire was divided into provinces, each headed by a:",
+        "options": [
+            "Governor",
+            "King",
+            "Prime Minister",
+            "Chief Justice"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Provinces were headed by a Governor.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mauryan Empire: Administration & Art"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1998"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-d41bc04d",
+        "year": 1997,
+        "subject": "History",
+        "topic": "Mauryan Empire: Administration & Art",
+        "text": "The 'Stupa' architecture in India is primarily associated with:",
+        "options": [
+            "Hinduism",
+            "Jainism",
+            "Buddhism",
+            "Islam"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Stupas are primarily associated with Buddhism.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mauryan Empire: Administration & Art"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1997"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-671d6bde",
+        "year": 1996,
+        "subject": "History",
+        "topic": "Mauryan Empire: Administration & Art",
+        "text": "The Mauryan administration's emphasis on 'Dhamma' primarily aimed at:",
+        "options": [
+            "Promoting religious conversion",
+            "Ensuring social harmony and ethical governance",
+            "Expanding the empire's territory",
+            "Increasing tax revenue"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Dhamma aimed at social harmony and ethical governance.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mauryan Empire: Administration & Art"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1996"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-6e4a9007",
+        "year": 2023,
+        "subject": "History",
+        "topic": "Mauryan Empire: Administration & Art",
+        "text": "Which of the following best describes the function of 'Samaharta' in Mauryan administration?",
+        "options": [
+            "Chief Military Commander",
+            "Chief Revenue Collector",
+            "Chief Justice",
+            "Chief Priest"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Samaharta was the Chief Revenue Collector.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mauryan Empire: Administration & Art"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2023"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-481f98cc",
+        "year": 1995,
+        "subject": "History",
+        "topic": "Mauryan Empire: Administration & Art",
+        "text": "The Mauryan art is best exemplified by their:",
+        "options": [
+            "Cave architecture",
+            "Stupas and Pillars",
+            "Sculptures",
+            "Temple architecture"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Mauryan art is best exemplified by their Stupas and Pillars.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mauryan Empire: Administration & Art"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1995"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-e2f9f16a",
+        "year": 2003,
+        "subject": "History",
+        "topic": "Mauryan Empire: Administration & Art",
+        "text": "Consider the following statements regarding the Mauryan Empire: 1. The Mauryan Empire was the first empire to unify most of the Indian subcontinent. 2. The Mauryan Empire had a highly developed system of roads and irrigation. Which of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both statements are correct regarding the Mauryan Empire's unification and infrastructure.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mauryan Empire: Administration & Art"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2003"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-e0da561c",
+        "year": 2001,
+        "subject": "History",
+        "topic": "Mauryan Empire: Administration & Art",
+        "text": "Which of the following is NOT a characteristic feature of Ashokan pillars?",
+        "options": [
+            "Monolithic structure",
+            "Highly polished surface",
+            "Animal capital",
+            "Brick construction"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Ashokan pillars were not made of brick.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mauryan Empire: Administration & Art"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2001"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-a20ea137",
+        "year": 2018,
+        "subject": "History",
+        "topic": "Gupta Period: Golden Age of Art & Science",
+        "text": "Which of the following are characteristic features of Gupta art? 1. Emphasis on spiritual expression. 2. Use of local materials. 3. Synthesis of Indian and foreign styles. Select the correct answer using the code given below.",
+        "options": [
+            "1 and 2 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Gupta art emphasized spiritual expression, used local materials, and synthesized Indian and foreign styles.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gupta Period: Golden Age of Art & Science"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2018"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-c6695cd4",
+        "year": 2020,
+        "subject": "History",
+        "topic": "Gupta Period: Golden Age of Art & Science",
+        "text": "Consider the following statements regarding the Gupta period: 1. It witnessed the construction of numerous rock-cut caves. 2. The decimal system, including the concept of zero, was developed during this period. Which of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The decimal system with zero was developed during the Gupta period, but rock-cut caves existed before.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gupta Period: Golden Age of Art & Science"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2020"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-ab184a52",
+        "year": 2015,
+        "subject": "History",
+        "topic": "Gupta Period: Golden Age of Art & Science",
+        "text": "Which of the following is/are the most likely reason/reasons for the decline of the Gupta empire? 1. Inferior successors of the Gupta rulers. 2. Invasions by the Hunas. 3. Weakening of the economic structure. Select the correct answer using the code given below:",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Inferior successors, Huna invasions, and a weakening economy all contributed to the Gupta decline.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gupta Period: Golden Age of Art & Science"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2015"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-f703808f",
+        "year": 2017,
+        "subject": "History",
+        "topic": "Gupta Period: Golden Age of Art & Science",
+        "text": "The Gupta period is often referred to as the 'Golden Age' of India. Which of the following factors best support this claim? 1. Significant advancements in science and technology. 2. Flourishing of art and literature. 3. Political stability and economic prosperity. Select the correct answer using the code given below:",
+        "options": [
+            "1 and 2 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All three factors – science, art, and stability – contributed to the 'Golden Age' designation.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gupta Period: Golden Age of Art & Science"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2017"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-b52b3cb3",
+        "year": 2019,
+        "subject": "History",
+        "topic": "Gupta Period: Golden Age of Art & Science",
+        "text": "Which of the following literary works are attributed to Kalidasa, a prominent figure of the Gupta period? 1. Raghuvamsha. 2. Abhijnanashakuntalam. 3. Kadambari. Select the correct answer using the code given below:",
+        "options": [
+            "1 and 2 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Raghuvamsha and Abhijnanashakuntalam are by Kalidasa; Kadambari is by Banabhatta.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gupta Period: Golden Age of Art & Science"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2019"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-57a6e191",
+        "year": 2021,
+        "subject": "History",
+        "topic": "Gupta Period: Golden Age of Art & Science",
+        "text": "Consider the following statements regarding the Ajanta caves: 1. They depict stories from the Jataka tales. 2. They were primarily patronized by the Gupta rulers. Which of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Ajanta caves depict Jataka tales, but were patronized by various dynasties, not just Guptas.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gupta Period: Golden Age of Art & Science"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2021"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-347b5f1e",
+        "year": 2022,
+        "subject": "History",
+        "topic": "Gupta Period: Golden Age of Art & Science",
+        "text": "Which of the following mathematicians is credited with the concept of zero and the decimal system during the Gupta period?",
+        "options": [
+            "Aryabhata",
+            "Varahamihira",
+            "Brahmagupta",
+            "Bhaskara I"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Aryabhata is credited with significant contributions to the decimal system and concept of zero.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gupta Period: Golden Age of Art & Science"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2022"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-a30deccf",
+        "year": 2023,
+        "subject": "History",
+        "topic": "Gupta Period: Golden Age of Art & Science",
+        "text": "Consider the following statements regarding the Gupta coinage: 1. Gupta coins were primarily made of gold. 2. They depicted images of the Gupta rulers and their deities. Which of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Gupta coins were mostly gold and featured rulers and deities.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gupta Period: Golden Age of Art & Science"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2023"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-181ce385",
+        "year": 2016,
+        "subject": "History",
+        "topic": "Gupta Period: Golden Age of Art & Science",
+        "text": "Which of the following is NOT a characteristic feature of Gupta sculpture?",
+        "options": [
+            "Emphasis on grace and elegance",
+            "Use of elaborate ornamentation",
+            "Depiction of human emotions",
+            "Dominance of abstract forms"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Gupta sculpture emphasized grace, ornamentation, and emotions, not abstract forms.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gupta Period: Golden Age of Art & Science"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2016"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-61353333",
+        "year": 2014,
+        "subject": "History",
+        "topic": "Gupta Period: Golden Age of Art & Science",
+        "text": "The Allahabad Pillar inscription is associated with which of the following Gupta rulers?",
+        "options": [
+            "Chandragupta I",
+            "Samudragupta",
+            "Chandragupta II",
+            "Skandagupta"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Allahabad Pillar inscription is associated with Samudragupta.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gupta Period: Golden Age of Art & Science"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2014"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-c5a0a935",
+        "year": 2005,
+        "subject": "History",
+        "topic": "Gupta Period: Golden Age of Art & Science",
+        "text": "Which of the following statements is/are correct regarding the Gupta administration? 1. The king was the head of the state and possessed absolute power. 2. The empire was divided into provinces, districts, and villages. Select the correct answer using the code given below:",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Gupta administration had a king as head and a hierarchical division of the empire.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gupta Period: Golden Age of Art & Science"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2005"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-99f2478c",
+        "year": 2008,
+        "subject": "History",
+        "topic": "Gupta Period: Golden Age of Art & Science",
+        "text": "Which of the following is/are the main features of the Gupta style of painting? 1. Use of vibrant colors. 2. Depiction of scenes from daily life. 3. Emphasis on religious themes. Select the correct answer using the code given below:",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Gupta paintings used vibrant colors, depicted daily life, and emphasized religious themes.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gupta Period: Golden Age of Art & Science"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2008"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-0a7154df",
+        "year": 2010,
+        "subject": "History",
+        "topic": "Gupta Period: Golden Age of Art & Science",
+        "text": "Consider the following statements regarding the Gupta society: 1. The caste system was rigid and strictly enforced. 2. Women enjoyed a high status and were actively involved in public life. Which of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The caste system was rigid in Gupta society, and women's status declined.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gupta Period: Golden Age of Art & Science"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2010"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-d61cd21b",
+        "year": 2003,
+        "subject": "History",
+        "topic": "Gupta Period: Golden Age of Art & Science",
+        "text": "Which of the following is/are the important ports during the Gupta period? 1. Tamralipti. 2. Broach. 3. Muziris. Select the correct answer using the code given below:",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1 and 2 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Tamralipti and Broach were important Gupta ports; Muziris was earlier.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gupta Period: Golden Age of Art & Science"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2003"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-5d855c9f",
+        "year": 2006,
+        "subject": "History",
+        "topic": "Gupta Period: Golden Age of Art & Science",
+        "text": "Consider the following statements regarding the Gupta economy: 1. Agriculture was the main occupation of the people. 2. Trade and commerce flourished both internally and externally. Which of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Agriculture was primary, and trade flourished during the Gupta period.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gupta Period: Golden Age of Art & Science"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2006"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-d180332b",
+        "year": 2009,
+        "subject": "History",
+        "topic": "Gupta Period: Golden Age of Art & Science",
+        "text": "Which of the following is/are the important literary works of the Gupta period? 1. Panchatantra. 2. Mrichchhakatika. 3. Buddhacharita. Select the correct answer using the code given below:",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1 and 2 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Panchatantra and Mrichchhakatika are Gupta works; Buddhacharita is earlier.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gupta Period: Golden Age of Art & Science"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2009"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-d244d14f",
+        "year": 2011,
+        "subject": "History",
+        "topic": "Gupta Period: Golden Age of Art & Science",
+        "text": "Which of the following is/are the important scientific achievements of the Gupta period? 1. Development of the concept of zero. 2. Discovery of the law of gravitation. 3. Formulation of the heliocentric theory. Select the correct answer using the code given below:",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The concept of zero was developed; gravitation and heliocentric theory came later.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gupta Period: Golden Age of Art & Science"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2011"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-f49dac58",
+        "year": 2004,
+        "subject": "History",
+        "topic": "Gupta Period: Golden Age of Art & Science",
+        "text": "Which of the following is/are the important religious developments during the Gupta period? 1. Rise of Mahayana Buddhism. 2. Revival of Brahmanism. 3. Emergence of Bhakti cults. Select the correct answer using the code given below:",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Brahmanism revived and Bhakti cults emerged; Mahayana Buddhism was earlier.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gupta Period: Golden Age of Art & Science"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2004"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-022ada91",
+        "year": 2007,
+        "subject": "History",
+        "topic": "Gupta Period: Golden Age of Art & Science",
+        "text": "Consider the following statements regarding the Gupta art and architecture: 1. The Dashavatara Temple at Deogarh is a fine example of Gupta architecture. 2. The paintings at Ajanta and Ellora caves were primarily patronized by the Gupta rulers. Which of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Dashavatara Temple is Gupta architecture; Ajanta and Ellora had diverse patrons.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gupta Period: Golden Age of Art & Science"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2007"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-974443dd",
+        "year": 2012,
+        "subject": "History",
+        "topic": "Gupta Period: Golden Age of Art & Science",
+        "text": "Which of the following Gupta rulers is known for his military conquests and expansion of the empire?",
+        "options": [
+            "Chandragupta I",
+            "Samudragupta",
+            "Chandragupta II",
+            "Kumaragupta I"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Samudragupta is known for his military conquests and expansion.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gupta Period: Golden Age of Art & Science"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2012"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-ec5eb0b6",
+        "year": 1998,
+        "subject": "History",
+        "topic": "Gupta Period: Golden Age of Art & Science",
+        "text": "The Gupta period saw significant advancements in astronomy. Which of the following texts is attributed to Aryabhata?",
+        "options": [
+            "Surya Siddhanta",
+            "Aryabhatiya",
+            "Pancha Siddhantika",
+            "Brihat Samhita"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Aryabhatiya is attributed to Aryabhata, a key figure in Gupta astronomy.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gupta Period: Golden Age of Art & Science"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1998"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-3074a1ac",
+        "year": 2000,
+        "subject": "History",
+        "topic": "Gupta Period: Golden Age of Art & Science",
+        "text": "Which of the following best describes the nature of land grants during the Gupta period?",
+        "options": [
+            "Exclusively for religious purposes",
+            "Primarily to military officials",
+            "Both religious and secular purposes",
+            "Only to Brahmins"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Land grants were given for both religious and secular purposes during the Gupta era.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gupta Period: Golden Age of Art & Science"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2000"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-98ea59a6",
+        "year": 2002,
+        "subject": "History",
+        "topic": "Gupta Period: Golden Age of Art & Science",
+        "text": "The Gupta period is known for its classical Sanskrit literature. Which of the following plays is attributed to Shudraka?",
+        "options": [
+            "Abhijnanashakuntalam",
+            "Mrichchhakatika",
+            "Uttararamacharita",
+            "Mudrarakshasa"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Mrichchhakatika is attributed to Shudraka, a prominent playwright of the Gupta period.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gupta Period: Golden Age of Art & Science"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2002"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-613aa281",
+        "year": 1999,
+        "subject": "History",
+        "topic": "Gupta Period: Golden Age of Art & Science",
+        "text": "Which of the following best describes the economic system during the Gupta period?",
+        "options": [
+            "Barter system",
+            "Feudalism",
+            "Mixed economy with agriculture and trade",
+            "Command economy"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Gupta economy was a mixed economy with agriculture and trade playing significant roles.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gupta Period: Golden Age of Art & Science"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1999"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-16579bf7",
+        "year": 2001,
+        "subject": "History",
+        "topic": "Gupta Period: Golden Age of Art & Science",
+        "text": "Which of the following is NOT a characteristic of Gupta temples?",
+        "options": [
+            "Shikhara",
+            "Garbhagriha",
+            "Mandapa",
+            "Dravida Style Gopurams"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Gupta temples had Shikharas, Garbhagrihas, and Mandapas, but not Dravida style Gopurams.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gupta Period: Golden Age of Art & Science"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2001"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-aa6de031",
+        "year": 1997,
+        "subject": "History",
+        "topic": "Gupta Period: Golden Age of Art & Science",
+        "text": "Which of the following best describes the religious policy of the Gupta rulers?",
+        "options": [
+            "Strict adherence to Buddhism",
+            "Religious intolerance",
+            "Patronage of Hinduism with tolerance for other religions",
+            "Forced conversion to Hinduism"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Gupta rulers patronized Hinduism but were tolerant of other religions.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gupta Period: Golden Age of Art & Science"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1997"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-c09acd74",
+        "year": 1996,
+        "subject": "History",
+        "topic": "Gupta Period: Golden Age of Art & Science",
+        "text": "Which of the following is a significant contribution of Varahamihira during the Gupta period?",
+        "options": [
+            "Development of the decimal system",
+            "Formulation of the laws of motion",
+            "Compilation of the Brihat Samhita",
+            "Discovery of the theory of relativity"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Varahamihira compiled the Brihat Samhita, a significant work on astronomy and astrology.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gupta Period: Golden Age of Art & Science"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1996"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-aa05fbcd",
+        "year": 1995,
+        "subject": "History",
+        "topic": "Gupta Period: Golden Age of Art & Science",
+        "text": "Which of the following is a characteristic feature of Gupta era paintings?",
+        "options": [
+            "Use of only primary colors",
+            "Emphasis on realism",
+            "Depiction of courtly life",
+            "Use of perspective"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Gupta era paintings often depicted courtly life and scenes.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gupta Period: Golden Age of Art & Science"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1995"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-a5dad74e",
+        "year": 2013,
+        "subject": "History",
+        "topic": "Gupta Period: Golden Age of Art & Science",
+        "text": "Consider the following statements: 1. The Gupta period saw a decline in urban centers. 2. The Gupta period witnessed a flourishing of trade with Southeast Asia. Which of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Urban centers declined, but trade with Southeast Asia flourished during the Gupta period.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gupta Period: Golden Age of Art & Science"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2013"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-8a77a3e8",
+        "year": 2024,
+        "subject": "History",
+        "topic": "Gupta Period: Golden Age of Art & Science",
+        "text": "With reference to the art and architectural developments during the Gupta period, which of the following is/are true? 1. The use of stone as the primary building material became widespread. 2. The concept of 'Nagara' style of temple architecture gained prominence. Select the correct answer using the code given below:",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Stone usage increased and Nagara style emerged during the Gupta period.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gupta Period: Golden Age of Art & Science"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2024"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-8469939a",
+        "year": 2019,
+        "subject": "History",
+        "topic": "Bhakti & Sufi Movements",
+        "text": "With reference to the religious history of India, consider the following statements:\n1. Sthaviravadins belong to Hinayana.\n2. Mahasanghikas were the forerunners of Mahayana.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both statements are correct regarding early Buddhist schools.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Bhakti & Sufi Movements"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2019"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-97a84881",
+        "year": 2018,
+        "subject": "History",
+        "topic": "Bhakti & Sufi Movements",
+        "text": "Which of the following statements is/are correct regarding Sufism in India?\n1. Sufis believed in the concept of Wahdat-ul-Wujud.\n2. Sufi saints like Nizamuddin Auliya emphasized on Sama.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both Wahdat-ul-Wujud and Sama were important aspects of Sufism.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Bhakti & Sufi Movements"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2018"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-33e3cb72",
+        "year": 2017,
+        "subject": "History",
+        "topic": "Bhakti & Sufi Movements",
+        "text": "Consider the following statements regarding the Bhakti movement:\n1. It emphasized the importance of personal devotion and love for God.\n2. It rejected the caste system and promoted social equality.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Bhakti movement stressed devotion and often challenged caste hierarchies.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Bhakti & Sufi Movements"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2017"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-a3faca29",
+        "year": 2016,
+        "subject": "History",
+        "topic": "Bhakti & Sufi Movements",
+        "text": "Which of the following Sufi saints is associated with the Chishti order?\n",
+        "options": [
+            "Sheikh Abdul Qadir Jilani",
+            "Khwaja Moinuddin Chishti",
+            "Sheikh Ahmad Sirhindi",
+            "Shah Waliullah Dehlawi"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Khwaja Moinuddin Chishti founded the Chishti order in India.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Bhakti & Sufi Movements"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2016"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-1d9162d5",
+        "year": 2015,
+        "subject": "History",
+        "topic": "Bhakti & Sufi Movements",
+        "text": "Who among the following was associated with the Bhakti cult of Maharashtra?",
+        "options": [
+            "Vallabhacharya",
+            "Namadeva",
+            "Dyaneshwar",
+            "Chaitanya"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Namadeva was a prominent figure in the Bhakti movement of Maharashtra.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Bhakti & Sufi Movements"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2015"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-cbe13fde",
+        "year": 2014,
+        "subject": "History",
+        "topic": "Bhakti & Sufi Movements",
+        "text": "Which of the following statements is/are correct about Kabir?\n1. He was a disciple of Ramananda.\n2. He opposed idol worship.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Kabir was a disciple of Ramananda and opposed idol worship.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Bhakti & Sufi Movements"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2014"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-75b6948b",
+        "year": 2013,
+        "subject": "History",
+        "topic": "Bhakti & Sufi Movements",
+        "text": "The Sufi saint who maintained that devotional music was one way of coming closer to God was",
+        "options": [
+            "Mu’in-ud-din Chisti",
+            "Baba Farid",
+            "Saiyyid Muhammad Gesu Daraz",
+            "Shah Alam Bukhari"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Mu’in-ud-din Chisti emphasized the importance of devotional music.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Bhakti & Sufi Movements"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2013"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-6a369f2f",
+        "year": 2012,
+        "subject": "History",
+        "topic": "Bhakti & Sufi Movements",
+        "text": "Which of the following statements is/are correct regarding the Sufi concept of 'Fana'?\n1. It refers to the annihilation of the self.\n2. It is the ultimate goal of Sufi practice.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "'Fana' represents the annihilation of the self and is a Sufi goal.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Bhakti & Sufi Movements"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2012"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-f4ea4c83",
+        "year": 2011,
+        "subject": "History",
+        "topic": "Bhakti & Sufi Movements",
+        "text": "With reference to the history of India, the terms ‘Kulam’ and ‘Dronavapa’ denote",
+        "options": [
+            "measurement of land",
+            "coins of different values",
+            "classification of urban land",
+            "religious rituals"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Kulam and Dronavapa were units used for land measurement.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Bhakti & Sufi Movements"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2011"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-2385fb9a",
+        "year": 2010,
+        "subject": "History",
+        "topic": "Bhakti & Sufi Movements",
+        "text": "The Bhakti saint who used music to propagate his teachings was",
+        "options": [
+            "Tukaram",
+            "Tyagaraja",
+            "Purandaradasa",
+            "Eknath"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Tyagaraja was a Carnatic music composer and Bhakti saint.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Bhakti & Sufi Movements"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2010"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-d848aea7",
+        "year": 2009,
+        "subject": "History",
+        "topic": "Bhakti & Sufi Movements",
+        "text": "Which of the following statements is/are correct regarding the impact of Sufism on Indian society?\n1. It promoted religious tolerance.\n2. It contributed to the development of Urdu language.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Sufism fostered tolerance and influenced Urdu's development.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Bhakti & Sufi Movements"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2009"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-59318018",
+        "year": 2008,
+        "subject": "History",
+        "topic": "Bhakti & Sufi Movements",
+        "text": "The famous Sufi shrine at Ajmer is associated with",
+        "options": [
+            "Khwaja Moinuddin Chishti",
+            "Baba Farid",
+            "Qutbuddin Bakhtiyar Kaki",
+            "Nizamuddin Auliya"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Ajmer shrine is dedicated to Khwaja Moinuddin Chishti.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Bhakti & Sufi Movements"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2008"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-3ac3f458",
+        "year": 2007,
+        "subject": "History",
+        "topic": "Bhakti & Sufi Movements",
+        "text": "Which of the following Bhakti saints advocated for the abolition of the caste system?",
+        "options": [
+            "Ramanuja",
+            "Vallabhacharya",
+            "Ramananda",
+            "Nimbarkacharya"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Ramananda advocated for social equality and challenged caste.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Bhakti & Sufi Movements"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2007"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-91e3f6e8",
+        "year": 2006,
+        "subject": "History",
+        "topic": "Bhakti & Sufi Movements",
+        "text": "The Sufi order that emphasized the importance of meditation and contemplation was",
+        "options": [
+            "Chishti",
+            "Suhrawardi",
+            "Qadiri",
+            "Naqshbandi"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The Naqshbandi order emphasized silent meditation and contemplation.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Bhakti & Sufi Movements"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2006"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-c4344ec3",
+        "year": 2005,
+        "subject": "History",
+        "topic": "Bhakti & Sufi Movements",
+        "text": "Which of the following is NOT a characteristic of the Bhakti movement?",
+        "options": [
+            "Emphasis on personal devotion",
+            "Rejection of rituals and ceremonies",
+            "Acceptance of the caste system",
+            "Use of vernacular languages"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Bhakti movement largely rejected the caste system.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Bhakti & Sufi Movements"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2005"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-ca48f26b",
+        "year": 2004,
+        "subject": "History",
+        "topic": "Bhakti & Sufi Movements",
+        "text": "The Sufi saint who is known as 'Gharib Nawaz' was",
+        "options": [
+            "Nizamuddin Auliya",
+            "Moinuddin Chishti",
+            "Baba Farid",
+            "Qutbuddin Bakhtiyar Kaki"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Moinuddin Chishti is popularly known as 'Gharib Nawaz'.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Bhakti & Sufi Movements"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2004"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-0affd194",
+        "year": 2003,
+        "subject": "History",
+        "topic": "Bhakti & Sufi Movements",
+        "text": "Which of the following statements is/are correct regarding the teachings of Guru Nanak?\n1. He emphasized the unity of God.\n2. He rejected idol worship.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Guru Nanak emphasized monotheism and rejected idol worship.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Bhakti & Sufi Movements"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2003"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-04b83df1",
+        "year": 2002,
+        "subject": "History",
+        "topic": "Bhakti & Sufi Movements",
+        "text": "The Bhakti saint who is considered to be the founder of the Varkari sect was",
+        "options": [
+            "Dnyaneshwar",
+            "Namdev",
+            "Eknath",
+            "Tukaram"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Dnyaneshwar is considered the founder of the Varkari sect.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Bhakti & Sufi Movements"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2002"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-8c883c10",
+        "year": 2001,
+        "subject": "History",
+        "topic": "Bhakti & Sufi Movements",
+        "text": "Which of the following Sufi orders was most popular in India?",
+        "options": [
+            "Qadiri",
+            "Naqshbandi",
+            "Chishti",
+            "Suhrawardi"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Chishti order was the most popular Sufi order in India.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Bhakti & Sufi Movements"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2001"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-f4168de6",
+        "year": 2000,
+        "subject": "History",
+        "topic": "Bhakti & Sufi Movements",
+        "text": "The Bhakti saint who composed the 'Abhangas' was",
+        "options": [
+            "Tukaram",
+            "Namdev",
+            "Eknath",
+            "Dnyaneshwar"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Tukaram composed the 'Abhangas', devotional poems.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Bhakti & Sufi Movements"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2000"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-43a27f8e",
+        "year": 1999,
+        "subject": "History",
+        "topic": "Bhakti & Sufi Movements",
+        "text": "Which of the following is associated with the Sufi concept of 'Wahdat-ul-Wujud'?",
+        "options": [
+            "Unity of God",
+            "Annihilation of the self",
+            "Love for all beings",
+            "Rejection of worldly possessions"
+        ],
+        "correctAnswer": 0,
+        "explanation": "'Wahdat-ul-Wujud' signifies the unity of existence or God.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Bhakti & Sufi Movements"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1999"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-f57080c3",
+        "year": 1998,
+        "subject": "History",
+        "topic": "Bhakti & Sufi Movements",
+        "text": "The Bhakti saint who is known for his teachings on 'Advaita Vedanta' was",
+        "options": [
+            "Shankaracharya",
+            "Ramanujacharya",
+            "Madhvacharya",
+            "Nimbarkacharya"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Shankaracharya is known for his Advaita Vedanta philosophy.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Bhakti & Sufi Movements"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1998"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-2070aab1",
+        "year": 2022,
+        "subject": "History",
+        "topic": "Bhakti & Sufi Movements",
+        "text": "Consider the following pairs:\nSaint : Teaching\n1. Dadu Dayal : Rejection of caste\n2. Mirabai : Devotion to Krishna\n3. Guru Nanak : Emphasis on pilgrimage\nWhich of the pairs given above is/are correctly matched?",
+        "options": [
+            "1 and 2 only",
+            "2 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Dadu Dayal rejected caste, Mirabai was devoted to Krishna, Nanak opposed pilgrimage.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Bhakti & Sufi Movements"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2022"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-ebb650ee",
+        "year": 2023,
+        "subject": "History",
+        "topic": "Bhakti & Sufi Movements",
+        "text": "Which of the following statements best describes the philosophy of Vallabhacharya?",
+        "options": [
+            "Advaita Vedanta",
+            "Vishishtadvaita",
+            "Dvaitadvaita",
+            "Shuddhadvaita"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Vallabhacharya propounded the philosophy of Shuddhadvaita (pure non-dualism).",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Bhakti & Sufi Movements"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2023"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-0a56003d",
+        "year": 1997,
+        "subject": "History",
+        "topic": "Bhakti & Sufi Movements",
+        "text": "The term 'Khanqah' is associated with which of the following?",
+        "options": [
+            "Sufi monasteries",
+            "Bhakti temples",
+            "Jain caves",
+            "Buddhist stupas"
+        ],
+        "correctAnswer": 0,
+        "explanation": "'Khanqah' refers to Sufi monasteries or hospices.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Bhakti & Sufi Movements"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1997"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-169fc180",
+        "year": 2024,
+        "subject": "History",
+        "topic": "Bhakti & Sufi Movements",
+        "text": "Consider the following statements regarding the influence of Sufi saints:\n1. They often mediated between the rulers and the common people.\n2. Their teachings were exclusively for Muslims.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Sufi saints often acted as intermediaries, and their teachings were inclusive.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Bhakti & Sufi Movements"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2024"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-d865ebc7",
+        "year": 1996,
+        "subject": "History",
+        "topic": "Bhakti & Sufi Movements",
+        "text": "Which of the following pairs is correctly matched?\n",
+        "options": [
+            "Kabir - Suhrawardi order",
+            "Nizamuddin Auliya - Chishti order",
+            "Sheikh Ahmad Sirhindi - Qadiri order",
+            "Bahauddin Zakariya - Naqshbandi order"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Nizamuddin Auliya was a prominent saint of the Chishti order.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Bhakti & Sufi Movements"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1996"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-25cf4003",
+        "year": 1995,
+        "subject": "History",
+        "topic": "Bhakti & Sufi Movements",
+        "text": "The Bhakti movement in South India was primarily led by",
+        "options": [
+            "Alvars and Nayanars",
+            "Sufi saints",
+            "Buddhist monks",
+            "Jain ascetics"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Alvars and Nayanars were the primary leaders of the Bhakti movement in South India.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Bhakti & Sufi Movements"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1995"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-5cf5c65e",
+        "year": 2020,
+        "subject": "History",
+        "topic": "Bhakti & Sufi Movements",
+        "text": "Which of the following is/are the core teachings of Sufism?\n1. Emphasis on love and devotion to God.\n2. Rejection of worldly possessions.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Sufism emphasizes love for God and detachment from worldly things.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Bhakti & Sufi Movements"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2020"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-4af09332",
+        "year": 2021,
+        "subject": "History",
+        "topic": "Bhakti & Sufi Movements",
+        "text": "Consider the following statements:\n1. The Bhakti movement originated in South India.\n2. The Sufi movement originated in Persia.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both statements are correct regarding the origins of the movements.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Bhakti & Sufi Movements"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2021"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-89fe73fc",
+        "year": 2017,
+        "subject": "History",
+        "topic": "Mughal Administration, Art & Architecture",
+        "text": "Which of the following Mughal emperors shifted emphasis from illustrated manuscripts to album and individual portrait?",
+        "options": [
+            "Humayun",
+            "Akbar",
+            "Jahangir",
+            "Shah Jahan"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Jahangir was known for his love of art and portraiture.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mughal Administration, Art & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2017"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-4efe39d9",
+        "year": 2015,
+        "subject": "History",
+        "topic": "Mughal Administration, Art & Architecture",
+        "text": "Consider the following statements regarding the Mughal administration:\n1. Mansabdari system was a unique feature of the Mughal administration.\n2. Jagir system was an integral part of the Mughal revenue system.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both Mansabdari and Jagir systems were key features.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mughal Administration, Art & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2015"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-20839d2e",
+        "year": 2013,
+        "subject": "History",
+        "topic": "Mughal Administration, Art & Architecture",
+        "text": "Which one of the following monuments has a dome which is said to be one of the largest in the world?",
+        "options": [
+            "Jama Masjid, Delhi",
+            "Gol Gumbaz, Bijapur",
+            "Buland Darwaza, Fatehpur Sikri",
+            "Taj Mahal, Agra"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Gol Gumbaz in Bijapur has one of the largest domes.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mughal Administration, Art & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2013"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-2ffd99a8",
+        "year": 2020,
+        "subject": "History",
+        "topic": "Mughal Administration, Art & Architecture",
+        "text": "With reference to Mughal India, what is/are the difference/differences between Jagirdar and Zamindar?\n1. Jagirdars were holders of land assignments in lieu of salary, whereas Zamindars were holders of revenue rights without obligation to perform any duty other than revenue collection.\n2. Jagirdars were responsible for police and judicial duties in their assignments, whereas Zamindars were not.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Jagirdars held land assignments, Zamindars had revenue rights.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mughal Administration, Art & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2020"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-656a9a9f",
+        "year": 2019,
+        "subject": "History",
+        "topic": "Mughal Administration, Art & Architecture",
+        "text": "Consider the following statements regarding the reign of Shah Jahan:\n1. The Peacock Throne was commissioned during his reign.\n2. He introduced the Chahar Taslim custom.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both the Peacock Throne and Chahar Taslim were introduced.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mughal Administration, Art & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2019"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-12cc2c71",
+        "year": 2016,
+        "subject": "History",
+        "topic": "Mughal Administration, Art & Architecture",
+        "text": "Which of the following Mughal emperors is credited with the construction of the Red Fort in Delhi?",
+        "options": [
+            "Akbar",
+            "Jahangir",
+            "Shah Jahan",
+            "Aurangzeb"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Shah Jahan commissioned the Red Fort in Delhi.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mughal Administration, Art & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2016"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-bc1afc15",
+        "year": 2014,
+        "subject": "History",
+        "topic": "Mughal Administration, Art & Architecture",
+        "text": "The Mughal painting reached its zenith during the reign of which emperor?",
+        "options": [
+            "Akbar",
+            "Humayun",
+            "Jahangir",
+            "Shah Jahan"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Jahangir's reign is considered the peak of Mughal painting.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mughal Administration, Art & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2014"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-3ef2f743",
+        "year": 2012,
+        "subject": "History",
+        "topic": "Mughal Administration, Art & Architecture",
+        "text": "Which of the following Mughal emperors abolished the practice of Sijda?",
+        "options": [
+            "Akbar",
+            "Jahangir",
+            "Shah Jahan",
+            "Aurangzeb"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Shah Jahan abolished the practice of Sijda.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mughal Administration, Art & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2012"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-223b127f",
+        "year": 2018,
+        "subject": "History",
+        "topic": "Mughal Administration, Art & Architecture",
+        "text": "Consider the following statements regarding the Mughal architecture:\n1. Pietra dura inlay work was extensively used in the Taj Mahal.\n2. Charbagh style gardens were a common feature of Mughal architecture.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both Pietra dura and Charbagh style are Mughal features.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mughal Administration, Art & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2018"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-c52d4e71",
+        "year": 2011,
+        "subject": "History",
+        "topic": "Mughal Administration, Art & Architecture",
+        "text": "Who among the following was the finance minister of Akbar?",
+        "options": [
+            "Birbal",
+            "Todar Mal",
+            "Raja Man Singh",
+            "Tansen"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Todar Mal was Akbar's finance minister.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mughal Administration, Art & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2011"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-c70e0625",
+        "year": 2009,
+        "subject": "History",
+        "topic": "Mughal Administration, Art & Architecture",
+        "text": "The system of 'Dahsala' was introduced by:",
+        "options": [
+            "Akbar",
+            "Sher Shah",
+            "Shah Jahan",
+            "Aurangzeb"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Akbar introduced the Dahsala system.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mughal Administration, Art & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2009"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-138bb78d",
+        "year": 2007,
+        "subject": "History",
+        "topic": "Mughal Administration, Art & Architecture",
+        "text": "Which of the following Mughal rulers is known for his religious tolerance and the introduction of 'Ibadat Khana'?",
+        "options": [
+            "Babur",
+            "Humayun",
+            "Akbar",
+            "Jahangir"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Akbar is known for religious tolerance and Ibadat Khana.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mughal Administration, Art & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2007"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-4d6de1fb",
+        "year": 2005,
+        "subject": "History",
+        "topic": "Mughal Administration, Art & Architecture",
+        "text": "The 'Zabt' system was related to which aspect of Mughal administration?",
+        "options": [
+            "Military",
+            "Revenue",
+            "Judicial",
+            "Religious"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Zabt system was related to revenue administration.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mughal Administration, Art & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2005"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-2b148f2e",
+        "year": 2003,
+        "subject": "History",
+        "topic": "Mughal Administration, Art & Architecture",
+        "text": "Who among the following was the architect of the Taj Mahal?",
+        "options": [
+            "Ustad Isa",
+            "Ustad Ahmad Lahauri",
+            "Both Ustad Isa and Ustad Ahmad Lahauri",
+            "None of the above"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both Ustad Isa and Ustad Ahmad Lahauri were architects.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mughal Administration, Art & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2003"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-178c2c15",
+        "year": 2001,
+        "subject": "History",
+        "topic": "Mughal Administration, Art & Architecture",
+        "text": "The 'Ain-i-Akbari' provides detailed information about:",
+        "options": [
+            "Akbar's religious beliefs",
+            "Mughal administration",
+            "Akbar's military campaigns",
+            "Akbar's personal life"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Ain-i-Akbari details Mughal administration.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mughal Administration, Art & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2001"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-b29b0809",
+        "year": 1999,
+        "subject": "History",
+        "topic": "Mughal Administration, Art & Architecture",
+        "text": "The 'Mansabdari' system was borrowed from:",
+        "options": [
+            "Persia",
+            "Turkey",
+            "Mongolia",
+            "Afghanistan"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Mansabdari system was borrowed from Mongolia.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mughal Administration, Art & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1999"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-04d343c1",
+        "year": 2022,
+        "subject": "History",
+        "topic": "Mughal Administration, Art & Architecture",
+        "text": "Which of the following best describes the 'Mahzar Nama' issued by Akbar?",
+        "options": [
+            "A decree on land revenue",
+            "A document asserting religious authority",
+            "A military proclamation",
+            "A trade agreement"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Mahzar Nama asserted Akbar's religious authority.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mughal Administration, Art & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2022"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-2703d8de",
+        "year": 2023,
+        "subject": "History",
+        "topic": "Mughal Administration, Art & Architecture",
+        "text": "Consider the following pairs:\n1. Diwan-i-Insha: Royal Correspondence\n2. Mir Bakshi: Military Affairs\n3. Qazi-ul-Quzat: Religious Affairs\nWhich of the pairs given above are correctly matched?",
+        "options": [
+            "1 and 2 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All the pairs are correctly matched.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mughal Administration, Art & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2023"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-63e5f3aa",
+        "year": 2000,
+        "subject": "History",
+        "topic": "Mughal Administration, Art & Architecture",
+        "text": "The 'Ibadat Khana' at Fatehpur Sikri was:",
+        "options": [
+            "A mosque",
+            "A temple",
+            "A hall for religious discussions",
+            "A library"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Ibadat Khana was a hall for religious discussions.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mughal Administration, Art & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2000"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-5d8c7142",
+        "year": 2002,
+        "subject": "History",
+        "topic": "Mughal Administration, Art & Architecture",
+        "text": "The 'Gulbadan Begum' is known for writing:",
+        "options": [
+            "Akbarnama",
+            "Humayunnama",
+            "Baburnama",
+            "Tuzuk-i-Jahangiri"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Gulbadan Begum wrote Humayunnama.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mughal Administration, Art & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2002"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-a9c4c263",
+        "year": 2004,
+        "subject": "History",
+        "topic": "Mughal Administration, Art & Architecture",
+        "text": "The 'Diwan-i-Aam' and 'Diwan-i-Khas' are located in:",
+        "options": [
+            "Agra Fort",
+            "Red Fort, Delhi",
+            "Fatehpur Sikri",
+            "Lahore Fort"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Diwan-i-Aam and Diwan-i-Khas are in Red Fort, Delhi.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mughal Administration, Art & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2004"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-ec8e999f",
+        "year": 2006,
+        "subject": "History",
+        "topic": "Mughal Administration, Art & Architecture",
+        "text": "The 'Buland Darwaza' was built by Akbar to commemorate his victory over:",
+        "options": [
+            "Gujarat",
+            "Deccan",
+            "Bengal",
+            "Kashmir"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Buland Darwaza commemorates victory over Gujarat.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mughal Administration, Art & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2006"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-471185ba",
+        "year": 2008,
+        "subject": "History",
+        "topic": "Mughal Administration, Art & Architecture",
+        "text": "The 'Tuzuk-i-Jahangiri' is the autobiography of:",
+        "options": [
+            "Babur",
+            "Humayun",
+            "Akbar",
+            "Jahangir"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Tuzuk-i-Jahangiri is Jahangir's autobiography.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mughal Administration, Art & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2008"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-ff2e1e28",
+        "year": 2010,
+        "subject": "History",
+        "topic": "Mughal Administration, Art & Architecture",
+        "text": "The 'Din-i-Ilahi' was:",
+        "options": [
+            "A new religion",
+            "A Sufi order",
+            "A system of land revenue",
+            "A military rank"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Din-i-Ilahi was a new religion.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mughal Administration, Art & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2010"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-fca595bf",
+        "year": 1998,
+        "subject": "History",
+        "topic": "Mughal Administration, Art & Architecture",
+        "text": "Which Mughal emperor banned music and dancing at court?",
+        "options": [
+            "Akbar",
+            "Jahangir",
+            "Shah Jahan",
+            "Aurangzeb"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Aurangzeb banned music and dancing at court.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mughal Administration, Art & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1998"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-a8fc7caf",
+        "year": 1997,
+        "subject": "History",
+        "topic": "Mughal Administration, Art & Architecture",
+        "text": "The Mughal painting style was a blend of:",
+        "options": [
+            "Persian and Indian",
+            "Turkish and Persian",
+            "Arabian and Indian",
+            "European and Indian"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Mughal painting blended Persian and Indian styles.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mughal Administration, Art & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1997"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-495be201",
+        "year": 1996,
+        "subject": "History",
+        "topic": "Mughal Administration, Art & Architecture",
+        "text": "The 'Ijaradari' system was introduced during the reign of:",
+        "options": [
+            "Akbar",
+            "Jahangir",
+            "Shah Jahan",
+            "Farrukhsiyar"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Ijaradari system was introduced during Farrukhsiyar's reign.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mughal Administration, Art & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1996"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-8a6492ab",
+        "year": 1995,
+        "subject": "History",
+        "topic": "Mughal Administration, Art & Architecture",
+        "text": "The 'Charbagh' style of garden was first introduced by:",
+        "options": [
+            "Babur",
+            "Humayun",
+            "Akbar",
+            "Jahangir"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Babur first introduced the Charbagh style.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mughal Administration, Art & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1995"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-628ada7b",
+        "year": 2021,
+        "subject": "History",
+        "topic": "Mughal Administration, Art & Architecture",
+        "text": "Who among the following translated the 'Rajatarangini' into Persian during the Mughal period?",
+        "options": [
+            "Abul Fazl",
+            "Faizi",
+            "Mulla Shah Badakhshi",
+            "Abdul Qadir Badauni"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Mulla Shah Badakhshi translated Rajatarangini into Persian.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mughal Administration, Art & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2021"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-da5bfc58",
+        "year": 2024,
+        "subject": "History",
+        "topic": "Mughal Administration, Art & Architecture",
+        "text": "Consider the following statements regarding the Mughal administration:\n1. The Subedar was the head of the province.\n2. The Faujdar was responsible for maintaining law and order in the districts.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both Subedar and Faujdar had important administrative roles.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Mughal Administration, Art & Architecture"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2024"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-571c273d",
+        "year": 2016,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "text": "Which of the following statements regarding the Vijayanagara Empire is/are correct?\n1. Krishnadeva Raya built the Hazara Rama Temple.\n2. The empire was known for its efficient village administration.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Krishnadeva Raya built the Hazara Rama Temple, and the Vijayanagara Empire had an efficient village administration.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Vijayanagara Empire"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2016"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-3ef02ea5",
+        "year": 2018,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "text": "Consider the following statements regarding the socio-economic conditions during the Vijayanagara Empire:\n1. Agriculture was the main occupation of the people.\n2. Trade and commerce flourished, with both internal and external trade.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both agriculture and trade flourished during the Vijayanagara Empire.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Vijayanagara Empire"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2018"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-7bf75cd8",
+        "year": 2020,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "text": "The Vijayanagara ruler Krishnadeva Raya's work Amuktamalyada was in which language?",
+        "options": [
+            "Telugu",
+            "Tamil",
+            "Kannada",
+            "Sanskrit"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Amuktamalyada was written in Telugu by Krishnadeva Raya.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Vijayanagara Empire"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2020"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-1dbd6924",
+        "year": 2015,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "text": "Which of the following foreign travelers visited the Vijayanagara Empire?\n1. Nicolo de Conti\n2. Abdur Razzak\n3. Domingo Paes\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 and 2 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All three travelers, Nicolo de Conti, Abdur Razzak, and Domingo Paes, visited the Vijayanagara Empire.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Vijayanagara Empire"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2015"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-9651b006",
+        "year": 2017,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "text": "Consider the following statements regarding the Nayankara system:\n1. It was a system of military land grants.\n2. It was prevalent during the Vijayanagara Empire.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Nayankara system, a system of military land grants, was prevalent during the Vijayanagara Empire.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Vijayanagara Empire"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2017"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-730e0f30",
+        "year": 2022,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "text": "Which of the following was NOT a feature of the Vijayanagara administration?",
+        "options": [
+            "Centralized control over provinces",
+            "Nayankara system",
+            "Village autonomy",
+            "Strong navy"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Vijayanagara administration was decentralized, not centrally controlled.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Vijayanagara Empire"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2022"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-523fdc4b",
+        "year": 2019,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "text": "Who among the following was the founder of the Vijayanagara Empire?",
+        "options": [
+            "Harihara and Bukka",
+            "Krishnadeva Raya",
+            "Ramaraya",
+            "Sadasiva Raya"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Harihara and Bukka founded the Vijayanagara Empire.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Vijayanagara Empire"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2019"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-33a8ade0",
+        "year": 2021,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "text": "The Battle of Talikota was fought in which year?",
+        "options": [
+            "1526 AD",
+            "1565 AD",
+            "1600 AD",
+            "1761 AD"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Battle of Talikota was fought in 1565 AD.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Vijayanagara Empire"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2021"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-f9de5cf5",
+        "year": 2014,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "text": "Which of the following dynasties ruled the Vijayanagara Empire?\n1. Sangama\n2. Saluva\n3. Tuluva\n4. Aravidu\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 and 2 only",
+            "2 and 3 only",
+            "1, 2 and 3 only",
+            "1, 2, 3 and 4"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All four dynasties, Sangama, Saluva, Tuluva, and Aravidu, ruled the Vijayanagara Empire.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Vijayanagara Empire"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2014"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-4df6954f",
+        "year": 2013,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "text": "Who was the most famous ruler of the Tuluva dynasty?",
+        "options": [
+            "Krishnadeva Raya",
+            "Achyuta Deva Raya",
+            "Vira Narasimha Raya",
+            "Sadasiva Raya"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Krishnadeva Raya was the most famous ruler of the Tuluva dynasty.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Vijayanagara Empire"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2013"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-20218461",
+        "year": 2005,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "text": "The Italian traveler Nicolo Conti visited Vijayanagara Empire during the reign of which ruler?",
+        "options": [
+            "Deva Raya I",
+            "Deva Raya II",
+            "Krishnadeva Raya",
+            "Achyuta Deva Raya"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Nicolo Conti visited during the reign of Deva Raya I.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Vijayanagara Empire"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2005"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-8c3bc5e3",
+        "year": 2008,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "text": "Which of the following was the administrative unit during the Vijayanagara period?",
+        "options": [
+            "Nadu",
+            "Kottams",
+            "Mandalam",
+            "All of the above"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Nadu, Kottams and Mandalam were all administrative units.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Vijayanagara Empire"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2008"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-79cf693b",
+        "year": 2002,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "text": "Who was the founder of the Saluva Dynasty in Vijayanagara?",
+        "options": [
+            "Saluva Narasimha",
+            "Imadi Narasimha",
+            "Narasimha Raya II",
+            "None of the above"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Saluva Narasimha founded the Saluva Dynasty.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Vijayanagara Empire"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2002"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-bb206004",
+        "year": 2006,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "text": "The Vijayanagara rulers borrowed the concept of 'Amara-Nayaka' from which kingdom?",
+        "options": [
+            "Chola",
+            "Hoysala",
+            "Kakatiya",
+            "Pandya"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Amara-Nayaka system was borrowed from the Kakatiya kingdom.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Vijayanagara Empire"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2006"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-f28a07e4",
+        "year": 2009,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "text": "Which of the following temples is known for its musical pillars during the Vijayanagara period?",
+        "options": [
+            "Vitthala Temple, Hampi",
+            "Hazara Rama Temple, Hampi",
+            "Virupaksha Temple, Hampi",
+            "None of the above"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Vitthala Temple is known for its musical pillars.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Vijayanagara Empire"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2009"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-38704c01",
+        "year": 2011,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "text": "Who among the following wrote 'Madhura Vijayam'?",
+        "options": [
+            "Gangadevi",
+            "Tirumalamba",
+            "Ramanuja",
+            "None of the above"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Gangadevi wrote 'Madhura Vijayam'.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Vijayanagara Empire"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2011"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-32f0a486",
+        "year": 2023,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "text": "Consider the following statements about the Vijayanagara Empire:\n1. It was founded on the banks of the Tungabhadra River.\n2. It faced constant conflict with the Bahmani Sultanate.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Vijayanagara Empire was founded on the banks of the Tungabhadra and faced conflict with the Bahmani Sultanate.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Vijayanagara Empire"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2023"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-9632ac41",
+        "year": 1998,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "text": "Which of the following was the main source of revenue for the Vijayanagara Empire?",
+        "options": [
+            "Land Revenue",
+            "Trade",
+            "Tributes",
+            "Spoils of War"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Land revenue was the main source of income.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Vijayanagara Empire"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1998"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-bece7dcb",
+        "year": 2001,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "text": "The Vijayanagara Empire declined after the Battle of...",
+        "options": [
+            "Panipat",
+            "Talikota",
+            "Khanwa",
+            "Chandawar"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Vijayanagara Empire declined after the Battle of Talikota.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Vijayanagara Empire"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2001"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-f6482ece",
+        "year": 2004,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "text": "Who among the following was a contemporary of Krishnadeva Raya?",
+        "options": [
+            "Firdausi",
+            "Surdas",
+            "Tulsidas",
+            "Nanak"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Surdas was a contemporary of Krishnadeva Raya.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Vijayanagara Empire"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2004"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-67093494",
+        "year": 2010,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "text": "Consider the following statements regarding the administration of Vijayanagara Empire:\n1. The king was the supreme head of the state.\n2. The empire was divided into provinces called 'Rajyas'.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The king was the supreme head, and the empire was divided into Rajyas.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Vijayanagara Empire"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2010"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-eb1ffaef",
+        "year": 2012,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "text": "The 'Ashtadiggajas' were associated with which ruler?",
+        "options": [
+            "Shivaji",
+            "Krishnadeva Raya",
+            "Harshavardhana",
+            "Pulakeshin II"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Ashtadiggajas were associated with Krishnadeva Raya.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Vijayanagara Empire"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2012"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-fdfb1f1b",
+        "year": 1999,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "text": "Which of the following foreign travelers left detailed accounts of the Vijayanagara Empire?",
+        "options": [
+            "Ibn Battuta",
+            "Marco Polo",
+            "Abdur Razzaq",
+            "Fa-Hien"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Abdur Razzaq left detailed accounts.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Vijayanagara Empire"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1999"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-a262c18d",
+        "year": 2003,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "text": "The Vijayanagara rulers promoted which language?",
+        "options": [
+            "Sanskrit",
+            "Telugu",
+            "Kannada",
+            "All of the above"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Vijayanagara rulers promoted all three languages.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Vijayanagara Empire"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2003"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-2978911d",
+        "year": 2007,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "text": "The Vijayanagara Empire was divided into provinces, each under a governor known as...",
+        "options": [
+            "Nayaka",
+            "Mahamandaleshwara",
+            "Amara Nayaka",
+            "Rayas"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Provinces were under Mahamandaleshwara.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Vijayanagara Empire"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2007"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-e7a6d87d",
+        "year": 1997,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "text": "Which of the following was a port city during the Vijayanagara period?",
+        "options": [
+            "Goa",
+            "Calicut",
+            "Masulipatnam",
+            "All of the above"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All were important port cities.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Vijayanagara Empire"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1997"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-d1b0f786",
+        "year": 2024,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "text": "Consider the following statements regarding the Vijayanagara army:\n1. It consisted of infantry, cavalry, and elephants.\n2. It had a strong naval force.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Vijayanagara army had infantry, cavalry, elephants, and a strong navy.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Vijayanagara Empire"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2024"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-b635c345",
+        "year": 1996,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "text": "The Vijayanagara rulers were patrons of...",
+        "options": [
+            "Vaishnavism",
+            "Shaivism",
+            "Jainism",
+            "Buddhism"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Vijayanagara rulers were primarily patrons of Vaishnavism.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Vijayanagara Empire"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1996"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-ad98f43f",
+        "year": 2000,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "text": "Who among the following was known as 'Andhra Bhoja'?",
+        "options": [
+            "Krishnadeva Raya",
+            "Achyuta Deva Raya",
+            "Ramaraya",
+            "Sadasiva Raya"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Krishnadeva Raya was known as 'Andhra Bhoja'.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Vijayanagara Empire"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2000"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-5a079c93",
+        "year": 1995,
+        "subject": "History",
+        "topic": "Vijayanagara Empire",
+        "text": "Which of the following is NOT a characteristic feature of Vijayanagara architecture?",
+        "options": [
+            "Tall Raya Gopurams",
+            "Elaborate carvings",
+            "Use of Dravidian style",
+            "Use of Arches and Domes"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Vijayanagara architecture primarily used Dravidian style without prominent arches and domes.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Vijayanagara Empire"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1995"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-b3d6e2b5",
+        "year": 2017,
+        "subject": "History",
+        "topic": "Advent of Europeans & British Expansion",
+        "text": "With reference to Pondicherry (now Puducherry), consider the following statements:\n1. The first European power to occupy Pondicherry was the Portuguese.\n2. The second European power to occupy Pondicherry was the French.\n3. The English never occupied Pondicherry.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Portuguese were the first Europeans to occupy Pondicherry.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Advent of Europeans & British Expansion"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2017"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-44d5b752",
+        "year": 2015,
+        "subject": "History",
+        "topic": "Advent of Europeans & British Expansion",
+        "text": "Who among the following was/were associated with the introduction of the Ryotwari Settlement in India during the British rule?\n1. Lord Cornwallis\n2. Alexander Read\n3. Thomas Munro\nSelect the correct answer using the code given below:",
+        "options": [
+            "1 only",
+            "1 and 2 only",
+            "2 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Alexander Read and Thomas Munro were associated with the Ryotwari Settlement.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Advent of Europeans & British Expansion"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2015"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-e7c8f46b",
+        "year": 2013,
+        "subject": "History",
+        "topic": "Advent of Europeans & British Expansion",
+        "text": "Which one of the following is the correct chronological order of the battles fought in India in the 18th century?",
+        "options": [
+            "Battle of Wandiwash, Battle of Buxar, Battle of Ambur, Battle of Plassey",
+            "Battle of Ambur, Battle of Plassey, Battle of Wandiwash, Battle of Buxar",
+            "Battle of Wandiwash, Battle of Plassey, Battle of Ambur, Battle of Buxar",
+            "Battle of Ambur, Battle of Buxar, Battle of Wandiwash, Battle of Plassey"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The correct chronological order is Ambur, Plassey, Wandiwash, Buxar.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Advent of Europeans & British Expansion"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2013"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-65990fb8",
+        "year": 2011,
+        "subject": "History",
+        "topic": "Advent of Europeans & British Expansion",
+        "text": "Who among the following rulers abolished the system of Zamindari?",
+        "options": [
+            "Sir Charles Metcalfe",
+            "Lord William Bentinck",
+            "Sir Charles Wood",
+            "Lord Dalhousie"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Lord William Bentinck took steps towards abolishing Zamindari.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Advent of Europeans & British Expansion"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2011"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-9cf2998c",
+        "year": 2008,
+        "subject": "History",
+        "topic": "Advent of Europeans & British Expansion",
+        "text": "The English East India Company was started as:",
+        "options": [
+            "A trading company",
+            "A military company",
+            "A religious company",
+            "A political company"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The East India Company was initially established for trade.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Advent of Europeans & British Expansion"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2008"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-8028e60f",
+        "year": 2005,
+        "subject": "History",
+        "topic": "Advent of Europeans & British Expansion",
+        "text": "Which of the following statements is/are correct regarding the Subsidiary Alliance system introduced by Lord Wellesley?\n1. It aimed to establish British paramountcy in India.\n2. Indian rulers were allowed to maintain their own armies.\n3. The British were responsible for protecting the allied state from external threats.\nSelect the correct answer using the code given below:",
+        "options": [
+            "1 only",
+            "1 and 3 only",
+            "2 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Subsidiary Alliance aimed at British paramountcy and protection from external threats.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Advent of Europeans & British Expansion"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2005"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-4eef7c0f",
+        "year": 2003,
+        "subject": "History",
+        "topic": "Advent of Europeans & British Expansion",
+        "text": "The Battle of Plassey was fought in:",
+        "options": [
+            "1757",
+            "1764",
+            "1775",
+            "1782"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Battle of Plassey was fought in 1757.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Advent of Europeans & British Expansion"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2003"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-80bf0233",
+        "year": 2001,
+        "subject": "History",
+        "topic": "Advent of Europeans & British Expansion",
+        "text": "Which of the following European trading companies was the first to establish factories in India?",
+        "options": [
+            "English East India Company",
+            "Dutch East India Company",
+            "Portuguese East India Company",
+            "French East India Company"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Portuguese were the first to establish factories in India.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Advent of Europeans & British Expansion"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2001"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-41ec2d61",
+        "year": 1999,
+        "subject": "History",
+        "topic": "Advent of Europeans & British Expansion",
+        "text": "The Permanent Settlement was introduced by:",
+        "options": [
+            "Lord Cornwallis",
+            "Lord Wellesley",
+            "Lord William Bentinck",
+            "Lord Dalhousie"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Permanent Settlement was introduced by Lord Cornwallis.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Advent of Europeans & British Expansion"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1999"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-ae97f39f",
+        "year": 1997,
+        "subject": "History",
+        "topic": "Advent of Europeans & British Expansion",
+        "text": "The Doctrine of Lapse was introduced by:",
+        "options": [
+            "Lord Dalhousie",
+            "Lord Curzon",
+            "Lord Ripon",
+            "Lord Canning"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Doctrine of Lapse was introduced by Lord Dalhousie.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Advent of Europeans & British Expansion"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1997"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-13c91480",
+        "year": 2020,
+        "subject": "History",
+        "topic": "Advent of Europeans & British Expansion",
+        "text": "Consider the following events related to British expansion in India:\n1. Annexation of Sindh\n2. Second Anglo-Sikh War\n3. Subsidiary Alliance with Awadh\nArrange these events in chronological order.",
+        "options": [
+            "1-2-3",
+            "3-1-2",
+            "2-3-1",
+            "1-3-2"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The correct chronological order is Subsidiary Alliance, Annexation of Sindh, Second Anglo-Sikh War.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Advent of Europeans & British Expansion"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2020"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-83e9f7ba",
+        "year": 2018,
+        "subject": "History",
+        "topic": "Advent of Europeans & British Expansion",
+        "text": "Which of the following statements is/are correct regarding the Regulating Act of 1773?\n1. It established the Supreme Court at Calcutta.\n2. It designated the Governor of Bengal as the Governor-General of Bengal.\n3. It prohibited private trade by the Company's servants.\nSelect the correct answer using the code given below:",
+        "options": [
+            "1 only",
+            "1 and 2 only",
+            "2 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All the statements regarding the Regulating Act of 1773 are correct.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Advent of Europeans & British Expansion"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2018"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-d205e789",
+        "year": 2016,
+        "subject": "History",
+        "topic": "Advent of Europeans & British Expansion",
+        "text": "The Dual System of Government in Bengal was abolished by:",
+        "options": [
+            "Lord Clive",
+            "Warren Hastings",
+            "Lord Cornwallis",
+            "Lord Wellesley"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Warren Hastings abolished the Dual System of Government in Bengal.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Advent of Europeans & British Expansion"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2016"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-e9e9d5a5",
+        "year": 2014,
+        "subject": "History",
+        "topic": "Advent of Europeans & British Expansion",
+        "text": "Consider the following statements regarding the Charter Act of 1813:\n1. It ended the trade monopoly of the East India Company in India except for trade in tea and trade with China.\n2. It asserted the sovereignty of the British Crown over the Indian territories held by the Company.\n3. The revenues of India were now controlled by the British Parliament.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 and 2 only",
+            "2 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Statements 1 and 2 are correct regarding the Charter Act of 1813.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Advent of Europeans & British Expansion"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2014"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-4e5df12a",
+        "year": 2012,
+        "subject": "History",
+        "topic": "Advent of Europeans & British Expansion",
+        "text": "Which of the following battles established British supremacy in India?",
+        "options": [
+            "Battle of Buxar",
+            "Battle of Plassey",
+            "Battle of Wandiwash",
+            "Battle of Seringapatam"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Battle of Buxar firmly established British supremacy in India.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Advent of Europeans & British Expansion"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2012"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-02d26b5e",
+        "year": 2010,
+        "subject": "History",
+        "topic": "Advent of Europeans & British Expansion",
+        "text": "Who among the following introduced the Permanent Settlement in Bengal?",
+        "options": [
+            "Lord Dalhousie",
+            "Lord Curzon",
+            "Lord Cornwallis",
+            "Warren Hastings"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Lord Cornwallis introduced the Permanent Settlement in Bengal.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Advent of Europeans & British Expansion"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2010"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-4e9dfe34",
+        "year": 2007,
+        "subject": "History",
+        "topic": "Advent of Europeans & British Expansion",
+        "text": "The main reason for the economic exploitation of India by the British was:",
+        "options": [
+            "To obtain raw materials for their industries",
+            "To create a market for their finished goods",
+            "To establish political dominance",
+            "Both (a) and (b)"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The British exploited India for raw materials and to sell finished goods.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Advent of Europeans & British Expansion"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2007"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-d90184e0",
+        "year": 2004,
+        "subject": "History",
+        "topic": "Advent of Europeans & British Expansion",
+        "text": "The system of civil services in India was started by:",
+        "options": [
+            "Lord Cornwallis",
+            "Lord Wellesley",
+            "Lord William Bentinck",
+            "Lord Dalhousie"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Lord Cornwallis is credited with starting the civil services in India.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Advent of Europeans & British Expansion"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2004"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-54e854fc",
+        "year": 2002,
+        "subject": "History",
+        "topic": "Advent of Europeans & British Expansion",
+        "text": "The Battle of Wandiwash was fought between:",
+        "options": [
+            "The English and the French",
+            "The English and the Dutch",
+            "The English and the Portuguese",
+            "The English and the Marathas"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Battle of Wandiwash was fought between the English and the French.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Advent of Europeans & British Expansion"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2002"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-36c26438",
+        "year": 2000,
+        "subject": "History",
+        "topic": "Advent of Europeans & British Expansion",
+        "text": "The Ryotwari system was introduced in:",
+        "options": [
+            "Madras and Bombay",
+            "Bengal and Bihar",
+            "Punjab and Delhi",
+            "None of the above"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Ryotwari system was introduced in Madras and Bombay.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Advent of Europeans & British Expansion"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2000"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-a4dcc611",
+        "year": 1998,
+        "subject": "History",
+        "topic": "Advent of Europeans & British Expansion",
+        "text": "The Charter Act of 1833 did which of the following?\n1. Ended the East India Company's commercial activities.\n2. Made the Governor-General of Bengal the Governor-General of India.\n3. Established a law member in the Governor-General's Council.\nSelect the correct answer using the code given below:",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All the statements are correct regarding the Charter Act of 1833.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Advent of Europeans & British Expansion"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1998"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-0f00d11f",
+        "year": 2021,
+        "subject": "History",
+        "topic": "Advent of Europeans & British Expansion",
+        "text": "Consider the following statements regarding the impact of British rule on the Indian economy:\n1. The British introduced a uniform currency system.\n2. The British promoted the growth of Indian industries.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The British introduced a uniform currency system, but did not promote Indian industries.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Advent of Europeans & British Expansion"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2021"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-56b206ad",
+        "year": 2022,
+        "subject": "History",
+        "topic": "Advent of Europeans & British Expansion",
+        "text": "Which of the following factors contributed to the success of the British in India?\n1. Superior military technology\n2. Political disunity among Indian rulers\n3. Economic policies that favored the British\nSelect the correct answer using the code given below:",
+        "options": [
+            "1 only",
+            "1 and 2 only",
+            "2 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All the factors contributed to the success of the British in India.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Advent of Europeans & British Expansion"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2022"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-4a04f451",
+        "year": 2023,
+        "subject": "History",
+        "topic": "Advent of Europeans & British Expansion",
+        "text": "Consider the following statements regarding the economic policies of the British in India:\n1. The British promoted the cultivation of cash crops.\n2. The British encouraged the development of traditional Indian handicrafts.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The British promoted cash crops but discouraged traditional handicrafts.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Advent of Europeans & British Expansion"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2023"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-9c485c20",
+        "year": 1996,
+        "subject": "History",
+        "topic": "Advent of Europeans & British Expansion",
+        "text": "The first Governor-General of India was:",
+        "options": [
+            "Warren Hastings",
+            "Lord William Bentinck",
+            "Lord Dalhousie",
+            "Lord Canning"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Lord William Bentinck was the first Governor-General of India.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Advent of Europeans & British Expansion"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1996"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-740e9ed9",
+        "year": 2006,
+        "subject": "History",
+        "topic": "Advent of Europeans & British Expansion",
+        "text": "Which of the following was NOT a reason for the decline of the Mughal Empire?\n",
+        "options": [
+            "Succession disputes",
+            "Religious intolerance",
+            "Economic prosperity",
+            "Weak rulers"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Economic prosperity was not a reason for the decline of the Mughal Empire.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Advent of Europeans & British Expansion"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2006"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-31163785",
+        "year": 2009,
+        "subject": "History",
+        "topic": "Advent of Europeans & British Expansion",
+        "text": "The Sati Prohibition Act was passed in which year?",
+        "options": [
+            "1829",
+            "1833",
+            "1835",
+            "1856"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Sati Prohibition Act was passed in 1829.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Advent of Europeans & British Expansion"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2009"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-8c6ee7b1",
+        "year": 1995,
+        "subject": "History",
+        "topic": "Advent of Europeans & British Expansion",
+        "text": "Who among the following introduced the Subsidiary Alliance system?",
+        "options": [
+            "Lord Clive",
+            "Lord Wellesley",
+            "Lord Dalhousie",
+            "Warren Hastings"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Lord Wellesley introduced the Subsidiary Alliance system.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Advent of Europeans & British Expansion"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1995"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-499e3d43",
+        "year": 2019,
+        "subject": "History",
+        "topic": "Advent of Europeans & British Expansion",
+        "text": "Consider the following statements regarding the impact of British rule on Indian society:\n1. The British introduced Western education.\n2. The British promoted social reforms such as the abolition of Sati.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The British introduced Western education and promoted social reforms.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Advent of Europeans & British Expansion"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2019"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-e53c4feb",
+        "year": 2024,
+        "subject": "History",
+        "topic": "Advent of Europeans & British Expansion",
+        "text": "Which of the following statements is/are correct regarding the Charter Act of 1853?\n1. It introduced open competition for recruitment to the civil services.\n2. It extended the Company's rule for an indefinite period.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Charter Act of 1853 introduced open competition for civil services.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Advent of Europeans & British Expansion"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2024"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-a547eb3f",
+        "year": 2019,
+        "subject": "History",
+        "topic": "Social-Religious Reform Movements (19th Century)",
+        "text": "With reference to the religious history of India, consider the following statements:\n1. Sthaviravadins belong to the Hinayana sect.\n2. Mahasanghikas were the forerunners of Mahayana Buddhism.\n3. Lokayata sect was an atheistic sect.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 and 2 only",
+            "2 and 3 only",
+            "3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All three statements accurately describe aspects of Indian religious history.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Social-Religious Reform Movements (19th Century)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2019"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-6534258a",
+        "year": 2018,
+        "subject": "History",
+        "topic": "Social-Religious Reform Movements (19th Century)",
+        "text": "Who among the following founded the 'All India Trade Union Congress'?",
+        "options": [
+            "V.V. Giri",
+            "S.A. Dange",
+            "N.M. Joshi",
+            "Lala Lajpat Rai"
+        ],
+        "correctAnswer": 2,
+        "explanation": "N.M. Joshi was a key founder of the All India Trade Union Congress.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Social-Religious Reform Movements (19th Century)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2018"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-cb23efc3",
+        "year": 2017,
+        "subject": "History",
+        "topic": "Social-Religious Reform Movements (19th Century)",
+        "text": "With reference to the history of India, the terms 'kulyavapa' and 'dronavapa' denote",
+        "options": [
+            "measurement of land",
+            "coins of different monetary value",
+            "classification of urban land",
+            "religious rituals"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Kulyavapa and dronavapa were units used for land measurement.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Social-Religious Reform Movements (19th Century)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2017"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-03922c5b",
+        "year": 2016,
+        "subject": "History",
+        "topic": "Social-Religious Reform Movements (19th Century)",
+        "text": "The object of the Butler Committee of 1927 was to",
+        "options": [
+            "define the jurisdiction of the Central and Provincial Governments",
+            "define the powers of the Secretary of State for India",
+            "impose censorship on national press",
+            "improve the relationship between the Government of India and the Indian States"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The Butler Committee aimed to improve relations between British India and the Princely States.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Social-Religious Reform Movements (19th Century)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2016"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-4c044b97",
+        "year": 2015,
+        "subject": "History",
+        "topic": "Social-Religious Reform Movements (19th Century)",
+        "text": "Consider the following statements regarding Brahmo Samaj:\n1. It opposed idolatry.\n2. It denied the need for a priestly class for interpreting religious texts.\n3. It popularized the doctrine that the scriptures are infallible.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 and 2 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Brahmo Samaj opposed idolatry and priestly interpretation, but did not believe in scriptural infallibility.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Social-Religious Reform Movements (19th Century)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2015"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-4915e0be",
+        "year": 2014,
+        "subject": "History",
+        "topic": "Social-Religious Reform Movements (19th Century)",
+        "text": "Who among the following was/were associated with the introduction of Ryotwari Settlement in India during the British rule?\n1. Lord Cornwallis\n2. Alexander Read\n3. Thomas Munro\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "1 and 2 only",
+            "2 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Alexander Read and Thomas Munro were instrumental in the Ryotwari Settlement.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Social-Religious Reform Movements (19th Century)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2014"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-cb14f2d8",
+        "year": 2013,
+        "subject": "History",
+        "topic": "Social-Religious Reform Movements (19th Century)",
+        "text": "The Montagu-Chelmsford Report dealt with",
+        "options": [
+            "social reforms",
+            "reforms in police administration",
+            "constitutional reforms",
+            "reforms in the judiciary"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Montagu-Chelmsford Report focused on constitutional reforms in India.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Social-Religious Reform Movements (19th Century)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2013"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-bb9434d1",
+        "year": 2012,
+        "subject": "History",
+        "topic": "Social-Religious Reform Movements (19th Century)",
+        "text": "Consider the following statements:\n1. Arya Samaj was founded by Swami Dayanand Saraswati.\n2. The Theosophical Society was founded by Annie Besant.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Arya Samaj was indeed founded by Swami Dayanand Saraswati; Annie Besant popularized the Theosophical Society in India, but it was founded by others.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Social-Religious Reform Movements (19th Century)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2012"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-c73367bb",
+        "year": 2011,
+        "subject": "History",
+        "topic": "Social-Religious Reform Movements (19th Century)",
+        "text": "Who among the following was the founder of the 'Radhasoami Satsang' at Agra?",
+        "options": [
+            "Haridas Swami",
+            "Shiv Dayal Saheb",
+            "Swami Shraddhanand",
+            "None of the above"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Shiv Dayal Saheb founded the Radhasoami Satsang at Agra.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Social-Religious Reform Movements (19th Century)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2011"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-6056ce77",
+        "year": 2010,
+        "subject": "History",
+        "topic": "Social-Religious Reform Movements (19th Century)",
+        "text": "Consider the following statements regarding the Theosophical Society:\n1. It was founded by Madame H.P. Blavatsky and Colonel H.S. Olcott.\n2. It advocated the revival and strengthening of ancient religions of Hinduism, Zoroastrianism and Buddhism.\n3. It accepted the doctrine of reincarnation.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All three statements accurately describe the Theosophical Society's beliefs and activities.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Social-Religious Reform Movements (19th Century)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2010"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-30e3b6e0",
+        "year": 2009,
+        "subject": "History",
+        "topic": "Social-Religious Reform Movements (19th Century)",
+        "text": "Who among the following was associated with the suppression of 'Thugs'?",
+        "options": [
+            "General Henry Prendergast",
+            "Captain William Sleeman",
+            "Lord William Bentinck",
+            "Lord Dalhousie"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Captain William Sleeman is known for his role in suppressing the Thuggee cult.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Social-Religious Reform Movements (19th Century)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2009"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-badf2d3b",
+        "year": 2008,
+        "subject": "History",
+        "topic": "Social-Religious Reform Movements (19th Century)",
+        "text": "Consider the following statements:\n1. Swami Dayanand Saraswati founded the Arya Samaj.\n2. The Arya Samaj opposed idolatry.\n3. Swami Dayanand Saraswati's book 'Satyarth Prakash' is a guide to the principles of the Arya Samaj.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 and 2 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All three statements are correct regarding Swami Dayanand Saraswati and the Arya Samaj.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Social-Religious Reform Movements (19th Century)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2008"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-a9cf0716",
+        "year": 2007,
+        "subject": "History",
+        "topic": "Social-Religious Reform Movements (19th Century)",
+        "text": "Who among the following advocated for the abolition of the caste system and untouchability?",
+        "options": [
+            "Jyotiba Phule",
+            "B.R. Ambedkar",
+            "Mahatma Gandhi",
+            "All of the above"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All three figures actively campaigned against the caste system and untouchability.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Social-Religious Reform Movements (19th Century)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2007"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-d7672c5d",
+        "year": 2006,
+        "subject": "History",
+        "topic": "Social-Religious Reform Movements (19th Century)",
+        "text": "Which of the following organizations was founded by Jyotiba Phule?",
+        "options": [
+            "Prarthana Samaj",
+            "Arya Samaj",
+            "Satyashodhak Samaj",
+            "Brahmo Samaj"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Jyotiba Phule founded the Satyashodhak Samaj.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Social-Religious Reform Movements (19th Century)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2006"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-264d42cf",
+        "year": 2005,
+        "subject": "History",
+        "topic": "Social-Religious Reform Movements (19th Century)",
+        "text": "Who among the following was a prominent leader of the Aligarh Movement?",
+        "options": [
+            "Sir Syed Ahmed Khan",
+            "Badruddin Tyabji",
+            "Maulana Abul Kalam Azad",
+            "Muhammad Ali Jinnah"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Sir Syed Ahmed Khan was the founder and a prominent leader of the Aligarh Movement.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Social-Religious Reform Movements (19th Century)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2005"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-5aae0d8e",
+        "year": 2004,
+        "subject": "History",
+        "topic": "Social-Religious Reform Movements (19th Century)",
+        "text": "The 'Age of Consent Act' of 1891 aimed to",
+        "options": [
+            "raise the age of marriage for girls",
+            "prohibit sati",
+            "legalize widow remarriage",
+            "abolish child marriage"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Age of Consent Act of 1891 raised the age of consent for sexual intercourse for girls.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Social-Religious Reform Movements (19th Century)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2004"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-a0149787",
+        "year": 2003,
+        "subject": "History",
+        "topic": "Social-Religious Reform Movements (19th Century)",
+        "text": "Which of the following movements was started by Swami Vivekananda?",
+        "options": [
+            "Arya Samaj",
+            "Brahmo Samaj",
+            "Ramakrishna Mission",
+            "Theosophical Society"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Swami Vivekananda founded the Ramakrishna Mission.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Social-Religious Reform Movements (19th Century)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2003"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-11adaf6d",
+        "year": 2002,
+        "subject": "History",
+        "topic": "Social-Religious Reform Movements (19th Century)",
+        "text": "Who among the following founded the 'Servants of India Society'?",
+        "options": [
+            "Gopal Krishna Gokhale",
+            "Mahatma Gandhi",
+            "B.R. Ambedkar",
+            "Jawaharlal Nehru"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Gopal Krishna Gokhale founded the Servants of India Society.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Social-Religious Reform Movements (19th Century)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2002"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-b8f94c8f",
+        "year": 2001,
+        "subject": "History",
+        "topic": "Social-Religious Reform Movements (19th Century)",
+        "text": "The 'Tattvabodhini Sabha' was founded by",
+        "options": [
+            "Debendranath Tagore",
+            "Keshab Chandra Sen",
+            "Atmaram Pandurang",
+            "Swami Dayanand Saraswati"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Debendranath Tagore founded the Tattvabodhini Sabha.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Social-Religious Reform Movements (19th Century)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2001"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-5e09dea0",
+        "year": 2000,
+        "subject": "History",
+        "topic": "Social-Religious Reform Movements (19th Century)",
+        "text": "Which of the following was NOT a feature of the social reform movements in the 19th century?",
+        "options": [
+            "Emphasis on reason and rationality",
+            "Challenge to traditional social hierarchies",
+            "Promotion of women's education",
+            "Rejection of all Western ideas"
+        ],
+        "correctAnswer": 3,
+        "explanation": "While some reformers were critical of certain aspects of Western culture, they did not reject all Western ideas.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Social-Religious Reform Movements (19th Century)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2000"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-3a4fdf86",
+        "year": 1999,
+        "subject": "History",
+        "topic": "Social-Religious Reform Movements (19th Century)",
+        "text": "Who among the following advocated for the education of women and the upliftment of the depressed classes?",
+        "options": [
+            "Ishwar Chandra Vidyasagar",
+            "Swami Vivekananda",
+            "Jyotiba Phule",
+            "All of the above"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All three figures were strong advocates for women's education and the upliftment of the depressed classes.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Social-Religious Reform Movements (19th Century)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1999"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-4a39474b",
+        "year": 1998,
+        "subject": "History",
+        "topic": "Social-Religious Reform Movements (19th Century)",
+        "text": "The 'Wahabi Movement' aimed at",
+        "options": [
+            "purifying Islam",
+            "promoting Hindu-Muslim unity",
+            "establishing a separate Muslim state",
+            "spreading Western education among Muslims"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Wahabi Movement aimed at purifying Islam from what they perceived as un-Islamic influences.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Social-Religious Reform Movements (19th Century)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1998"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-13eebc35",
+        "year": 1997,
+        "subject": "History",
+        "topic": "Social-Religious Reform Movements (19th Century)",
+        "text": "Which of the following organizations was associated with the 'Young Bengal Movement'?",
+        "options": [
+            "Brahmo Samaj",
+            "Hindu College",
+            "Tattvabodhini Sabha",
+            "Prarthana Samaj"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Young Bengal Movement was closely associated with Hindu College.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Social-Religious Reform Movements (19th Century)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1997"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-824ba24e",
+        "year": 1996,
+        "subject": "History",
+        "topic": "Social-Religious Reform Movements (19th Century)",
+        "text": "Who among the following was a strong advocate for widow remarriage?",
+        "options": [
+            "Raja Ram Mohan Roy",
+            "Ishwar Chandra Vidyasagar",
+            "Swami Dayanand Saraswati",
+            "Keshab Chandra Sen"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Ishwar Chandra Vidyasagar was a prominent advocate for widow remarriage.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Social-Religious Reform Movements (19th Century)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1996"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-3b39eda9",
+        "year": 2024,
+        "subject": "History",
+        "topic": "Social-Religious Reform Movements (19th Century)",
+        "text": "Consider the following statements regarding the impact of the social reform movements in 19th century India:\n1. They led to a complete eradication of caste-based discrimination.\n2. They contributed to the rise of nationalism.\n3. They had a limited impact on the lives of women.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 and 2 only",
+            "2 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The movements did not eradicate caste discrimination, and they significantly improved women's lives.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Social-Religious Reform Movements (19th Century)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2024"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-170a0339",
+        "year": 2023,
+        "subject": "History",
+        "topic": "Social-Religious Reform Movements (19th Century)",
+        "text": "Which of the following best describes the relationship between social reform movements and the Indian National Congress?",
+        "options": [
+            "The Congress actively promoted social reform as its primary goal.",
+            "The Congress largely avoided social reform to focus on political independence.",
+            "The Congress opposed social reform movements.",
+            "The Congress was founded by social reformers."
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Congress prioritized political independence, often deferring social reform to avoid internal divisions.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Social-Religious Reform Movements (19th Century)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2023"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-99428375",
+        "year": 2022,
+        "subject": "History",
+        "topic": "Social-Religious Reform Movements (19th Century)",
+        "text": "Consider the following pairs:\nMovement: Leader\n1. Aligarh Movement: Muhammad Iqbal\n2. Arya Samaj: Swami Dayanand Saraswati\n3. Brahmo Samaj: Raja Ram Mohan Roy\nWhich of the pairs given above is/are correctly matched?",
+        "options": [
+            "1 and 2 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Muhammad Iqbal was not the leader of Aligarh Movement.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Social-Religious Reform Movements (19th Century)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2022"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-e27296f3",
+        "year": 2021,
+        "subject": "History",
+        "topic": "Social-Religious Reform Movements (19th Century)",
+        "text": "Which of the following social reformers is known for his efforts in promoting education among women and establishing schools for girls?",
+        "options": [
+            "Swami Vivekananda",
+            "Raja Ram Mohan Roy",
+            "Jyotiba Phule",
+            "Dayananda Saraswati"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Jyotiba Phule is renowned for his pioneering work in women's education.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Social-Religious Reform Movements (19th Century)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2021"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-acef5d8d",
+        "year": 2020,
+        "subject": "History",
+        "topic": "Social-Religious Reform Movements (19th Century)",
+        "text": "Consider the following statements regarding the social and religious reform movements in India during the 19th century:\n1. They were primarily focused on addressing the issues of the upper castes.\n2. They often drew inspiration from Western ideas and values.\n3. They played a significant role in promoting national consciousness.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 and 2 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The movements addressed issues across castes and significantly contributed to nationalism.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Social-Religious Reform Movements (19th Century)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2020"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-841c40ad",
+        "year": 2017,
+        "subject": "History",
+        "topic": "Revolt of 1857 & Rise of Nationalism",
+        "text": "With reference to the history of India, the term ‘Rakhmabai Case’ of 1884 pertained to:\n",
+        "options": [
+            "Women’s right to gain education",
+            "Age of Consent",
+            "Restitution of conjugal rights",
+            "Women’s right to seek employment"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Rakhmabai case (1884) was related to the restitution of conjugal rights.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Revolt of 1857 & Rise of Nationalism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2017"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-1079cbf7",
+        "year": 2018,
+        "subject": "History",
+        "topic": "Revolt of 1857 & Rise of Nationalism",
+        "text": "Consider the following statements regarding the Revolt of 1857:\n1. It was primarily a mutiny of sepoys in the Bengal Army.\n2. The revolt was widespread, encompassing all regions of India.\n3. The revolt was triggered by the introduction of the Enfield rifle cartridges.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 and 2 only",
+            "3 only",
+            "2 and 3 only",
+            "1 and 3 only"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The revolt was triggered by the Enfield rifle cartridges and was primarily a sepoy mutiny.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Revolt of 1857 & Rise of Nationalism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2018"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-c33f38bb",
+        "year": 2019,
+        "subject": "History",
+        "topic": "Revolt of 1857 & Rise of Nationalism",
+        "text": "Who among the following was/were associated with the suppression of the Revolt of 1857 in Delhi?\n1. John Nicholson\n2. Colin Campbell\n3. Hugh Rose\nSelect the correct answer using the code given below:",
+        "options": [
+            "1 only",
+            "1 and 2 only",
+            "2 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 1,
+        "explanation": "John Nicholson was associated with the suppression of the Revolt of 1857 in Delhi.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Revolt of 1857 & Rise of Nationalism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2019"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-50e2c499",
+        "year": 2020,
+        "subject": "History",
+        "topic": "Revolt of 1857 & Rise of Nationalism",
+        "text": "Which of the following factors contributed to the rise of Indian nationalism in the late 19th century?\n1. Economic exploitation by the British.\n2. Western education and its impact.\n3. Socio-religious reform movements.\nSelect the correct answer using the code given below:",
+        "options": [
+            "1 and 2 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 4,
+        "explanation": "All the factors contributed to the rise of Indian nationalism.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Revolt of 1857 & Rise of Nationalism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2020"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-27622082",
+        "year": 2021,
+        "subject": "History",
+        "topic": "Revolt of 1857 & Rise of Nationalism",
+        "text": "Who among the following organized the 'Asiatic Society of Bengal'?",
+        "options": [
+            "William Jones",
+            "Warren Hastings",
+            "Lord Curzon",
+            "Lord Wellesley"
+        ],
+        "correctAnswer": 0,
+        "explanation": "William Jones organized the Asiatic Society of Bengal.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Revolt of 1857 & Rise of Nationalism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2021"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-6f972873",
+        "year": 2022,
+        "subject": "History",
+        "topic": "Revolt of 1857 & Rise of Nationalism",
+        "text": "Consider the following pairs:\n1. Radhakanta Deb : Founder of Hindu College, Calcutta\n2. Lakshmi Bai : Died in Gwalior\n3. Surendranath Banerjee : Founder of the Indian Association\nWhich of the pairs given above is/are correct?",
+        "options": [
+            "1 and 2",
+            "2 and 3",
+            "2 only",
+            "1 and 3"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Lakshmi Bai died in Gwalior and Surendranath Banerjee founded the Indian Association.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Revolt of 1857 & Rise of Nationalism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2022"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-155c7f41",
+        "year": 2023,
+        "subject": "History",
+        "topic": "Revolt of 1857 & Rise of Nationalism",
+        "text": "Who among the following was the founder of the 'Ghadar Party'?",
+        "options": [
+            "Bhagat Singh",
+            "Lala Hardayal",
+            "Subhas Chandra Bose",
+            "Sardar Vallabhbhai Patel"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Lala Hardayal was the founder of the Ghadar Party.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Revolt of 1857 & Rise of Nationalism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2023"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-a4a5ece1",
+        "year": 2015,
+        "subject": "History",
+        "topic": "Revolt of 1857 & Rise of Nationalism",
+        "text": "Who among the following rulers was the first to organize Haj pilgrimage at state expense?",
+        "options": [
+            "Alauddin Khilji",
+            "Firoz Shah Tughlaq",
+            "Akbar",
+            "Aurangzeb"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Akbar was the first to organize Haj pilgrimage at state expense.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Revolt of 1857 & Rise of Nationalism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2015"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-b0d3af43",
+        "year": 2016,
+        "subject": "History",
+        "topic": "Revolt of 1857 & Rise of Nationalism",
+        "text": "The Ilbert Bill controversy was related to:",
+        "options": [
+            "Imposition of restrictions on Indian newspapers and magazines.",
+            "Imposition of restrictions on the education of Indian women.",
+            "Removal of disqualifications imposed on Indian magistrates with regard to the trial of Europeans.",
+            "Enactment of laws to control the activities of Indian revolutionaries."
+        ],
+        "correctAnswer": 3,
+        "explanation": "The Ilbert Bill controversy was related to the trial of Europeans by Indian magistrates.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Revolt of 1857 & Rise of Nationalism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2016"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-a5f7f59d",
+        "year": 2014,
+        "subject": "History",
+        "topic": "Revolt of 1857 & Rise of Nationalism",
+        "text": "The Vernacular Press Act was passed by which of the following Viceroys?",
+        "options": [
+            "Lord Lytton",
+            "Lord Ripon",
+            "Lord Curzon",
+            "Lord Dalhousie"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Vernacular Press Act was passed by Lord Lytton.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Revolt of 1857 & Rise of Nationalism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2014"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-6a03fad9",
+        "year": 2013,
+        "subject": "History",
+        "topic": "Revolt of 1857 & Rise of Nationalism",
+        "text": "Who among the following was the founder of the 'Servants of India Society'?",
+        "options": [
+            "Gopal Krishna Gokhale",
+            "Mahatma Gandhi",
+            "B.G. Tilak",
+            "Dadabhai Naoroji"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Gopal Krishna Gokhale founded the Servants of India Society.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Revolt of 1857 & Rise of Nationalism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2013"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-85b1aeb1",
+        "year": 2012,
+        "subject": "History",
+        "topic": "Revolt of 1857 & Rise of Nationalism",
+        "text": "The Lucknow Pact of 1916 was an agreement between:",
+        "options": [
+            "The Indian National Congress and the Muslim League",
+            "The British Government and the Indian National Congress",
+            "The British Government and the Muslim League",
+            "The Indian National Congress and the Home Rule League"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Lucknow Pact was between the Indian National Congress and the Muslim League.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Revolt of 1857 & Rise of Nationalism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2012"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-8ad5f02b",
+        "year": 2011,
+        "subject": "History",
+        "topic": "Revolt of 1857 & Rise of Nationalism",
+        "text": "Who among the following was the founder of the 'Anushilan Samiti'?",
+        "options": [
+            "Pramathanath Mitra",
+            "Aurobindo Ghosh",
+            "Barindra Kumar Ghosh",
+            "All of the above"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All of them were founders of the Anushilan Samiti.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Revolt of 1857 & Rise of Nationalism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2011"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-49a630da",
+        "year": 2010,
+        "subject": "History",
+        "topic": "Revolt of 1857 & Rise of Nationalism",
+        "text": "Consider the following statements regarding the 'Swadeshi Movement':\n1. It aimed at promoting indigenous industries and boycotting foreign goods.\n2. It was primarily a political movement with limited social impact.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Swadeshi Movement aimed at promoting indigenous industries.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Revolt of 1857 & Rise of Nationalism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2010"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-c897636b",
+        "year": 2009,
+        "subject": "History",
+        "topic": "Revolt of 1857 & Rise of Nationalism",
+        "text": "Who among the following was the leader of the revolt of 1857 in Kanpur?",
+        "options": [
+            "Nana Sahib",
+            "Kunwar Singh",
+            "Lakshmi Bai",
+            "Tantia Tope"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Nana Sahib was the leader of the revolt of 1857 in Kanpur.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Revolt of 1857 & Rise of Nationalism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2009"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-1111370d",
+        "year": 2008,
+        "subject": "History",
+        "topic": "Revolt of 1857 & Rise of Nationalism",
+        "text": "The 'Drain of Wealth' theory was propounded by:",
+        "options": [
+            "Dadabhai Naoroji",
+            "M.G. Ranade",
+            "G.K. Gokhale",
+            "B.G. Tilak"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Dadabhai Naoroji propounded the 'Drain of Wealth' theory.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Revolt of 1857 & Rise of Nationalism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2008"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-b6b7c112",
+        "year": 2007,
+        "subject": "History",
+        "topic": "Revolt of 1857 & Rise of Nationalism",
+        "text": "The 'Partition of Bengal' was carried out by Lord Curzon in:",
+        "options": [
+            "1905",
+            "1906",
+            "1907",
+            "1908"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Partition of Bengal was carried out in 1905.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Revolt of 1857 & Rise of Nationalism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2007"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-2eafa7ed",
+        "year": 2006,
+        "subject": "History",
+        "topic": "Revolt of 1857 & Rise of Nationalism",
+        "text": "The 'Indian National Congress' was founded in:",
+        "options": [
+            "1885",
+            "1886",
+            "1887",
+            "1888"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Indian National Congress was founded in 1885.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Revolt of 1857 & Rise of Nationalism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2006"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-9ed8fc0a",
+        "year": 2005,
+        "subject": "History",
+        "topic": "Revolt of 1857 & Rise of Nationalism",
+        "text": "The 'Young Bengal Movement' was led by:",
+        "options": [
+            "Henry Louis Vivian Derozio",
+            "Debendranath Tagore",
+            "Ishwar Chandra Vidyasagar",
+            "Keshab Chandra Sen"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Henry Louis Vivian Derozio led the Young Bengal Movement.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Revolt of 1857 & Rise of Nationalism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2005"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-6d31e264",
+        "year": 2004,
+        "subject": "History",
+        "topic": "Revolt of 1857 & Rise of Nationalism",
+        "text": "The 'Santhal Rebellion' took place in:",
+        "options": [
+            "1855-56",
+            "1857-58",
+            "1859-60",
+            "1860-61"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Santhal Rebellion took place in 1855-56.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Revolt of 1857 & Rise of Nationalism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2004"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-bb6ce9fb",
+        "year": 2003,
+        "subject": "History",
+        "topic": "Revolt of 1857 & Rise of Nationalism",
+        "text": "The 'Wahabi Movement' was led by:",
+        "options": [
+            "Syed Ahmed Barelvi",
+            "Shah Waliullah",
+            "Titu Mir",
+            "Shariatullah"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Syed Ahmed Barelvi led the Wahabi Movement.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Revolt of 1857 & Rise of Nationalism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2003"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-d29c2bb8",
+        "year": 2002,
+        "subject": "History",
+        "topic": "Revolt of 1857 & Rise of Nationalism",
+        "text": "The 'Indigo Revolt' took place in:",
+        "options": [
+            "Bengal",
+            "Bihar",
+            "Orissa",
+            "Madras"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Indigo Revolt took place in Bengal.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Revolt of 1857 & Rise of Nationalism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2002"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-5e6bd28e",
+        "year": 2001,
+        "subject": "History",
+        "topic": "Revolt of 1857 & Rise of Nationalism",
+        "text": "The 'Moplah Rebellion' of 1921 took place in:",
+        "options": [
+            "Malabar",
+            "Telangana",
+            "Vidarbha",
+            "Marathwada"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Moplah Rebellion of 1921 took place in Malabar.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Revolt of 1857 & Rise of Nationalism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2001"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-62e727ad",
+        "year": 2000,
+        "subject": "History",
+        "topic": "Revolt of 1857 & Rise of Nationalism",
+        "text": "The 'Khilafat Movement' was started by:",
+        "options": [
+            "Ali Brothers",
+            "Mahatma Gandhi",
+            "Jawaharlal Nehru",
+            "Subhas Chandra Bose"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Khilafat Movement was started by the Ali Brothers.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Revolt of 1857 & Rise of Nationalism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2000"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-9ed7d2bf",
+        "year": 1999,
+        "subject": "History",
+        "topic": "Revolt of 1857 & Rise of Nationalism",
+        "text": "The 'Bardoli Satyagraha' was led by:",
+        "options": [
+            "Sardar Vallabhbhai Patel",
+            "Mahatma Gandhi",
+            "Jawaharlal Nehru",
+            "Subhas Chandra Bose"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Sardar Vallabhbhai Patel led the Bardoli Satyagraha.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Revolt of 1857 & Rise of Nationalism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1999"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-c31324b1",
+        "year": 1998,
+        "subject": "History",
+        "topic": "Revolt of 1857 & Rise of Nationalism",
+        "text": "The 'Quit India Movement' was launched in:",
+        "options": [
+            "1942",
+            "1943",
+            "1944",
+            "1945"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Quit India Movement was launched in 1942.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Revolt of 1857 & Rise of Nationalism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1998"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-9c35a77a",
+        "year": 1997,
+        "subject": "History",
+        "topic": "Revolt of 1857 & Rise of Nationalism",
+        "text": "The 'Simon Commission' was boycotted by the Indian National Congress because:",
+        "options": [
+            "It had no Indian member",
+            "It was formed to suppress the nationalist movement",
+            "It was formed to divide India",
+            "It was formed to promote communalism"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Simon Commission was boycotted because it had no Indian member.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Revolt of 1857 & Rise of Nationalism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1997"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-0b1c2be4",
+        "year": 1996,
+        "subject": "History",
+        "topic": "Revolt of 1857 & Rise of Nationalism",
+        "text": "The 'Poona Sarvajanik Sabha' was founded by:",
+        "options": [
+            "M.G. Ranade",
+            "G.K. Gokhale",
+            "B.G. Tilak",
+            "Dadabhai Naoroji"
+        ],
+        "correctAnswer": 0,
+        "explanation": "M.G. Ranade founded the Poona Sarvajanik Sabha.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Revolt of 1857 & Rise of Nationalism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1996"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-2aeafdc1",
+        "year": 1995,
+        "subject": "History",
+        "topic": "Revolt of 1857 & Rise of Nationalism",
+        "text": "The 'Indian Councils Act of 1892' introduced the principle of:",
+        "options": [
+            "Nomination",
+            "Election",
+            "Direct Rule",
+            "Dyarchy"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Indian Councils Act of 1892 introduced the principle of Nomination.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Revolt of 1857 & Rise of Nationalism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1995"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-3024f0bc",
+        "year": 2024,
+        "subject": "History",
+        "topic": "Revolt of 1857 & Rise of Nationalism",
+        "text": "Which of the following best describes the impact of the Revolt of 1857 on the British administration in India?",
+        "options": [
+            "It led to the complete withdrawal of the British from India.",
+            "It resulted in the transfer of power from the East India Company to the British Crown.",
+            "It had no significant impact on the British administration.",
+            "It led to the immediate independence of India."
+        ],
+        "correctAnswer": 1,
+        "explanation": "The revolt led to the transfer of power to the British Crown.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Revolt of 1857 & Rise of Nationalism"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2024"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-0c5fac37",
+        "year": 2018,
+        "subject": "History",
+        "topic": "Indian National Congress (Moderate & Extremist Phase)",
+        "text": "Which of the following statements is/are correct regarding the Moderate phase of the Indian National Congress? 1. They believed in constitutional methods and peaceful means. 2. They advocated for complete independence from British rule. 3. They aimed at gradual reforms within the existing framework.",
+        "options": [
+            "1 and 2 only",
+            "1 and 3 only",
+            "2 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Moderates advocated for gradual reforms and believed in constitutional methods, not complete independence.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indian National Congress (Moderate & Extremist Phase)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2018"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-7860f6e9",
+        "year": 2020,
+        "subject": "History",
+        "topic": "Indian National Congress (Moderate & Extremist Phase)",
+        "text": "Consider the following statements regarding the Swadeshi Movement: 1. It was primarily an economic movement aimed at promoting Indian industries. 2. It led to the establishment of national schools and colleges. 3. It was supported by both Moderate and Extremist leaders within the Congress.",
+        "options": [
+            "1 and 2 only",
+            "1 and 3 only",
+            "2 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The Swadeshi Movement had economic and educational dimensions and garnered support from both factions.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indian National Congress (Moderate & Extremist Phase)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2020"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-60ea8208",
+        "year": 2015,
+        "subject": "History",
+        "topic": "Indian National Congress (Moderate & Extremist Phase)",
+        "text": "Which of the following leaders is associated with the Extremist faction of the Indian National Congress?",
+        "options": [
+            "Gopal Krishna Gokhale",
+            "Surendranath Banerjee",
+            "Bal Gangadhar Tilak",
+            "Dadabhai Naoroji"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Bal Gangadhar Tilak was a prominent leader of the Extremist faction.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indian National Congress (Moderate & Extremist Phase)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2015"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-c33aceb8",
+        "year": 2012,
+        "subject": "History",
+        "topic": "Indian National Congress (Moderate & Extremist Phase)",
+        "text": "The Surat Split in 1907 was primarily caused by:",
+        "options": [
+            "Disagreements over the methods of protest",
+            "Differences in ideology regarding social reforms",
+            "Personal rivalries between leaders",
+            "British policies of divide and rule"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Surat Split was mainly due to disagreements over the methods of protest between Moderates and Extremists.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indian National Congress (Moderate & Extremist Phase)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2012"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-84519d76",
+        "year": 2010,
+        "subject": "History",
+        "topic": "Indian National Congress (Moderate & Extremist Phase)",
+        "text": "Who among the following was NOT a Moderate leader of the Indian National Congress?",
+        "options": [
+            "Dadabhai Naoroji",
+            "Gopal Krishna Gokhale",
+            "Bipin Chandra Pal",
+            "Surendranath Banerjee"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Bipin Chandra Pal was a prominent Extremist leader.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indian National Congress (Moderate & Extremist Phase)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2010"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-c2f6283f",
+        "year": 2008,
+        "subject": "History",
+        "topic": "Indian National Congress (Moderate & Extremist Phase)",
+        "text": "The Extremist leaders of the Indian National Congress advocated for:",
+        "options": [
+            "Self-governance within the British Empire",
+            "Complete independence from British rule",
+            "Gradual reforms through constitutional means",
+            "Cooperation with the British government"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Extremists aimed for complete independence, unlike the Moderates.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indian National Congress (Moderate & Extremist Phase)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2008"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-9b22f440",
+        "year": 2005,
+        "subject": "History",
+        "topic": "Indian National Congress (Moderate & Extremist Phase)",
+        "text": "Which of the following events is associated with the rise of Extremism in the Indian National Congress?",
+        "options": [
+            "The Partition of Bengal",
+            "The Morley-Minto Reforms",
+            "The Gandhi-Irwin Pact",
+            "The Simon Commission"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Partition of Bengal fueled the rise of Extremism.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indian National Congress (Moderate & Extremist Phase)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2005"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-0a7ae4e2",
+        "year": 2003,
+        "subject": "History",
+        "topic": "Indian National Congress (Moderate & Extremist Phase)",
+        "text": "The Moderate leaders of the Indian National Congress were also known as:",
+        "options": [
+            "Revolutionaries",
+            "Nationalists",
+            "Petitioners",
+            "Terrorists"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Moderates were often referred to as 'Petitioners' due to their methods.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indian National Congress (Moderate & Extremist Phase)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2003"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-8598e909",
+        "year": 2000,
+        "subject": "History",
+        "topic": "Indian National Congress (Moderate & Extremist Phase)",
+        "text": "Who among the following was a prominent Moderate leader known for his emphasis on constitutionalism?",
+        "options": [
+            "Aurobindo Ghosh",
+            "Lala Lajpat Rai",
+            "Gopal Krishna Gokhale",
+            "Bipin Chandra Pal"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Gopal Krishna Gokhale was known for his emphasis on constitutionalism.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indian National Congress (Moderate & Extremist Phase)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2000"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-5846ba43",
+        "year": 1998,
+        "subject": "History",
+        "topic": "Indian National Congress (Moderate & Extremist Phase)",
+        "text": "The Extremist leaders advocated for Swaraj, which meant:",
+        "options": [
+            "Self-governance within the British Empire",
+            "Complete independence",
+            "Dominion status",
+            "Provincial autonomy"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Swaraj for Extremists meant complete independence.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indian National Congress (Moderate & Extremist Phase)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1998"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-c772e413",
+        "year": 2022,
+        "subject": "History",
+        "topic": "Indian National Congress (Moderate & Extremist Phase)",
+        "text": "Which of the following methods was NOT typically employed by the Moderate leaders of the Indian National Congress?",
+        "options": [
+            "Petitions to the British government",
+            "Constitutional agitation",
+            "Mass mobilization and strikes",
+            "Public awareness campaigns"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Moderates did not typically employ mass mobilization and strikes.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indian National Congress (Moderate & Extremist Phase)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2022"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-8d4e3f26",
+        "year": 2019,
+        "subject": "History",
+        "topic": "Indian National Congress (Moderate & Extremist Phase)",
+        "text": "The concept of 'passive resistance' was primarily advocated by which group within the Indian National Congress?",
+        "options": [
+            "Moderates",
+            "Extremists",
+            "Revolutionaries",
+            "Socialists"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Extremists often advocated for passive resistance.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indian National Congress (Moderate & Extremist Phase)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2019"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-85e86e8a",
+        "year": 2016,
+        "subject": "History",
+        "topic": "Indian National Congress (Moderate & Extremist Phase)",
+        "text": "Which of the following newspapers was associated with the Extremist ideology?",
+        "options": [
+            "The Hindu",
+            "Amrita Bazar Patrika",
+            "Kesari",
+            "The Statesman"
+        ],
+        "correctAnswer": 2,
+        "explanation": "'Kesari' was associated with Bal Gangadhar Tilak and Extremist ideology.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indian National Congress (Moderate & Extremist Phase)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2016"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-cd5e8886",
+        "year": 2013,
+        "subject": "History",
+        "topic": "Indian National Congress (Moderate & Extremist Phase)",
+        "text": "The Morley-Minto Reforms of 1909 were criticized by the Extremists because:",
+        "options": [
+            "They did not grant complete independence",
+            "They introduced communal representation",
+            "They failed to address economic grievances",
+            "All of the above"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Extremists criticized the reforms for various reasons, including communal representation and lack of independence.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indian National Congress (Moderate & Extremist Phase)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2013"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-e31b8f88",
+        "year": 2011,
+        "subject": "History",
+        "topic": "Indian National Congress (Moderate & Extremist Phase)",
+        "text": "Which of the following statements best describes the Moderate approach to Indian nationalism?",
+        "options": [
+            "Revolutionary and violent",
+            "Constitutional and gradual",
+            "Radical and immediate",
+            "Passive and submissive"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Moderate approach was constitutional and gradual.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indian National Congress (Moderate & Extremist Phase)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2011"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-399b87ff",
+        "year": 2009,
+        "subject": "History",
+        "topic": "Indian National Congress (Moderate & Extremist Phase)",
+        "text": "The 'Lal-Bal-Pal' trio is associated with which ideology within the Indian National Congress?",
+        "options": [
+            "Moderate",
+            "Extremist",
+            "Socialist",
+            "Communist"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The 'Lal-Bal-Pal' trio represented the Extremist ideology.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indian National Congress (Moderate & Extremist Phase)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2009"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-36882bc1",
+        "year": 2007,
+        "subject": "History",
+        "topic": "Indian National Congress (Moderate & Extremist Phase)",
+        "text": "Which of the following events led to the decline of the Extremist phase in the Indian National Congress?",
+        "options": [
+            "The Rowlatt Act",
+            "The arrest of prominent Extremist leaders",
+            "The Gandhi-Irwin Pact",
+            "The Simon Commission"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The arrest of prominent Extremist leaders weakened the movement.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indian National Congress (Moderate & Extremist Phase)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2007"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-976b1a49",
+        "year": 2004,
+        "subject": "History",
+        "topic": "Indian National Congress (Moderate & Extremist Phase)",
+        "text": "The Moderates believed that India could achieve self-governance through:",
+        "options": [
+            "Violent revolution",
+            "Constitutional means and gradual reforms",
+            "Mass civil disobedience",
+            "Armed struggle"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Moderates believed in constitutional means and gradual reforms.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indian National Congress (Moderate & Extremist Phase)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2004"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-3b23f7d0",
+        "year": 2002,
+        "subject": "History",
+        "topic": "Indian National Congress (Moderate & Extremist Phase)",
+        "text": "Which of the following was a key demand of the Extremist leaders during the Swadeshi Movement?",
+        "options": [
+            "Complete independence",
+            "Dominion status",
+            "Provincial autonomy",
+            "Increased representation in legislative councils"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Extremists aimed for complete independence during the Swadeshi Movement.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indian National Congress (Moderate & Extremist Phase)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2002"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-eb192cf8",
+        "year": 1999,
+        "subject": "History",
+        "topic": "Indian National Congress (Moderate & Extremist Phase)",
+        "text": "The Moderates' approach to British rule can be best described as:",
+        "options": [
+            "Confrontational",
+            "Cooperative",
+            "Revolutionary",
+            "Submissive"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Moderates adopted a cooperative approach with the British.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indian National Congress (Moderate & Extremist Phase)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1999"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-9139704e",
+        "year": 2023,
+        "subject": "History",
+        "topic": "Indian National Congress (Moderate & Extremist Phase)",
+        "text": "Consider the following statements: 1. Moderates believed in the efficacy of prayers and petitions. 2. Extremists advocated for self-reliance and constructive programs. Which of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both statements accurately describe the beliefs of Moderates and Extremists.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indian National Congress (Moderate & Extremist Phase)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2023"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-3d7bedd4",
+        "year": 2017,
+        "subject": "History",
+        "topic": "Indian National Congress (Moderate & Extremist Phase)",
+        "text": "Which of the following events is considered a turning point leading to the rise of Extremism within the Indian National Congress?",
+        "options": [
+            "The Ilbert Bill controversy",
+            "The formation of the Indian National Congress",
+            "The passing of the Vernacular Press Act",
+            "The execution of Bhagat Singh"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Ilbert Bill controversy exposed racial inequalities and fueled Extremism.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indian National Congress (Moderate & Extremist Phase)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2017"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-b307670b",
+        "year": 2014,
+        "subject": "History",
+        "topic": "Indian National Congress (Moderate & Extremist Phase)",
+        "text": "Which of the following best describes the political goal of the Moderate nationalists in the Indian National Congress?",
+        "options": [
+            "Complete independence from British rule",
+            "Dominion status within the British Empire",
+            "Self-government through constitutional reforms",
+            "Revolutionary overthrow of British rule"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Moderates aimed for self-government through constitutional reforms.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indian National Congress (Moderate & Extremist Phase)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2014"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-0fac2714",
+        "year": 2006,
+        "subject": "History",
+        "topic": "Indian National Congress (Moderate & Extremist Phase)",
+        "text": "The Extremist leaders of the Indian National Congress differed from the Moderates in their:",
+        "options": [
+            "Belief in the need for social reforms",
+            "Commitment to Indian nationalism",
+            "Methods of achieving Swaraj",
+            "Support for education"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The main difference was in their methods of achieving Swaraj.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indian National Congress (Moderate & Extremist Phase)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2006"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-6217e9cf",
+        "year": 2001,
+        "subject": "History",
+        "topic": "Indian National Congress (Moderate & Extremist Phase)",
+        "text": "Which of the following movements is most closely associated with the Extremist phase of the Indian National Congress?",
+        "options": [
+            "The Non-Cooperation Movement",
+            "The Civil Disobedience Movement",
+            "The Swadeshi Movement",
+            "The Quit India Movement"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Swadeshi Movement is closely associated with the Extremist phase.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indian National Congress (Moderate & Extremist Phase)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2001"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-568af0c5",
+        "year": 1997,
+        "subject": "History",
+        "topic": "Indian National Congress (Moderate & Extremist Phase)",
+        "text": "The primary objective of the Moderate leaders in the early years of the Indian National Congress was to:",
+        "options": [
+            "Overthrow British rule through armed rebellion",
+            "Secure complete independence immediately",
+            "Create political awareness and unity among Indians",
+            "Promote social reforms through revolutionary means"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Moderates focused on creating political awareness and unity.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indian National Congress (Moderate & Extremist Phase)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1997"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-810c9c67",
+        "year": 1996,
+        "subject": "History",
+        "topic": "Indian National Congress (Moderate & Extremist Phase)",
+        "text": "Which of the following statements is NOT true about the Moderate phase of the Indian National Congress?",
+        "options": [
+            "They believed in constitutional methods.",
+            "They aimed for complete independence.",
+            "They sought gradual reforms.",
+            "They relied on petitions and prayers."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Moderates did not aim for complete independence.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indian National Congress (Moderate & Extremist Phase)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1996"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-12e8120c",
+        "year": 1995,
+        "subject": "History",
+        "topic": "Indian National Congress (Moderate & Extremist Phase)",
+        "text": "Who among the following was known as the 'uncrowned king of Bengal' and was a prominent Moderate leader?",
+        "options": [
+            "Surendranath Banerjee",
+            "Dadabhai Naoroji",
+            "Gopal Krishna Gokhale",
+            "Pherozeshah Mehta"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Surendranath Banerjee was known as the 'uncrowned king of Bengal'.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indian National Congress (Moderate & Extremist Phase)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1995"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-8cce74d7",
+        "year": 2021,
+        "subject": "History",
+        "topic": "Indian National Congress (Moderate & Extremist Phase)",
+        "text": "With reference to the Indian freedom struggle, who of the following was/were associated with the 'Extremist' wing of the Congress? 1. Aurobindo Ghosh 2. M.G. Ranade 3. Rash Behari Bose",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Aurobindo Ghosh and Rash Behari Bose were associated with the Extremist wing.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indian National Congress (Moderate & Extremist Phase)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2021"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-c984c948",
+        "year": 2005,
+        "subject": "History",
+        "topic": "Indian National Congress (Moderate & Extremist Phase)",
+        "text": "Consider the following statements regarding the differences between Moderates and Extremists in the Indian National Congress: 1. Moderates believed in gradual reforms through constitutional means, while Extremists advocated for more assertive methods. 2. Moderates primarily appealed to the educated elite, while Extremists sought to mobilize the masses. Which of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both statements accurately reflect the differences between Moderates and Extremists.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Indian National Congress (Moderate & Extremist Phase)"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2005"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-84c5aa7d",
+        "year": 2020,
+        "subject": "History",
+        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
+        "text": "With reference to the proposals of Cripps Mission, consider the following statements:\n1. The Constituent Assembly would have members nominated by the Provincial Assemblies as well as by the Princely States.\n2. Any Province which was not prepared to accept the new Constitution would have the right to sign a separate agreement with Britain regarding its future status.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both statements regarding the Cripps Mission are correct.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2020"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-00eb609f",
+        "year": 2019,
+        "subject": "History",
+        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
+        "text": "With reference to the Indian freedom struggle, consider the following events:\n1. Mutiny of Royal Indian Navy\n2. Quit India Movement Launched\n3. Second Round Table Conference\nWhat is the correct chronological sequence of the above events?",
+        "options": [
+            "1-2-3",
+            "2-3-1",
+            "3-2-1",
+            "3-1-2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The correct chronological order is 3-2-1 (Second Round Table Conference, Quit India, RIN Mutiny).",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2019"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-0dc1b7a6",
+        "year": 2018,
+        "subject": "History",
+        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
+        "text": "The Gandhi-Irwin Pact included which of the following?\n1. Invitation to Congress to participate in the Round Table Conference\n2. Acceptance of Congress demand for complete independence\n3. Withdrawal of Ordinances promulgated in connection with the Civil Disobedience Movement\n4. Acceptance of Congress demand for enquiry into police excesses\nSelect the correct answer using the code given below.",
+        "options": [
+            "1, 2 and 4",
+            "1 and 3 only",
+            "2, 3 and 4",
+            "1 only"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Gandhi-Irwin Pact included invitation to RTC and withdrawal of ordinances.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2018"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-5db1cd41",
+        "year": 2015,
+        "subject": "History",
+        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
+        "text": "Which of the following led to the introduction of English as a medium of instruction in India?\n1. The Charter Act of 1813\n2. General Committee of Public Instruction, 1823\n3. Lord Macaulay’s Minute of 1835\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 and 2 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 1,
+        "explanation": "English as a medium was solidified by the General Committee and Macaulay's Minute.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2015"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-d716b9a1",
+        "year": 2014,
+        "subject": "History",
+        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
+        "text": "The Cripps proposals were rejected by the Indian National Congress because:\n",
+        "options": [
+            "They offered dominion status instead of complete independence.",
+            "They suggested partition of India.",
+            "They did not offer any real share in the administration.",
+            "All of the above"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The Cripps proposals were rejected for all the reasons mentioned.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2014"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-bf4908a7",
+        "year": 2013,
+        "subject": "History",
+        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
+        "text": "Who among the following was/were associated with the formation of the 'Swaraj Party'?\n1. Subhas Chandra Bose\n2. Motilal Nehru\n3. C. R. Das\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Motilal Nehru and C.R. Das were associated with the Swaraj Party.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2013"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-e5bff97c",
+        "year": 2012,
+        "subject": "History",
+        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
+        "text": "The main reason for the split in the Congress at Surat in 1907 was:",
+        "options": [
+            "Lack of faith in the leadership of moderates",
+            "Extremists' inability to negotiate with the government",
+            "Ambition of Tilak to become the President of the Congress",
+            "Difference over the strategy of the National Movement"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The split was primarily due to differences in the strategy of the National Movement.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2012"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-9e459455",
+        "year": 2011,
+        "subject": "History",
+        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
+        "text": "Which one of the following events happened earliest?",
+        "options": [
+            "Swami Dayanand established Arya Samaj",
+            "Dinabandhu Mitra wrote Neel Darpan",
+            "Bankim Chandra Chattopadhyay wrote Anandmath",
+            "Satyendranath Tagore became the first Indian to succeed in the Indian Civil Services"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Satyendranath Tagore passed the ICS exam in 1863, earliest among the options.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2011"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-b989bae9",
+        "year": 2010,
+        "subject": "History",
+        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
+        "text": "Consider the following statements regarding the Quit India Movement:\n1. It was launched after the failure of the Cripps Mission.\n2. It was a non-violent movement led by Mahatma Gandhi.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 0,
+        "explanation": "While Gandhi called for non-violence, the Quit India movement saw widespread violence.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2010"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-35c700de",
+        "year": 2009,
+        "subject": "History",
+        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
+        "text": "Which of the following statements is/are correct regarding the Non-Cooperation Movement?\n1. It was launched in response to the Rowlatt Act.\n2. It aimed at achieving Swaraj within a year.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Non-Cooperation Movement was launched primarily due to the Khilafat issue and aimed for Swaraj.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2009"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-a9690389",
+        "year": 2008,
+        "subject": "History",
+        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
+        "text": "The resolution for 'Quit India' was passed in which session of the Indian National Congress?",
+        "options": [
+            "Lahore",
+            "Bombay",
+            "Calcutta",
+            "Tripura"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Quit India resolution was passed in the Bombay session of the INC.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2008"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-316f1e58",
+        "year": 2007,
+        "subject": "History",
+        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
+        "text": "The Gandhi-Irwin Pact was signed in which year?",
+        "options": [
+            "1929",
+            "1930",
+            "1931",
+            "1932"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Gandhi-Irwin Pact was signed in 1931.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2007"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-fead9de0",
+        "year": 2006,
+        "subject": "History",
+        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
+        "text": "Who among the following was not associated with the Non-Cooperation Movement?",
+        "options": [
+            "Mahatma Gandhi",
+            "Jawaharlal Nehru",
+            "Sardar Vallabhbhai Patel",
+            "Muhammad Ali Jinnah"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Muhammad Ali Jinnah was not actively involved in the Non-Cooperation Movement.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2006"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-19b14efd",
+        "year": 2005,
+        "subject": "History",
+        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
+        "text": "The Civil Disobedience Movement was launched in response to:",
+        "options": [
+            "The Simon Commission Report",
+            "The Gandhi-Irwin Pact",
+            "The Communal Award",
+            "The August Offer"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Civil Disobedience Movement was launched after the rejection of the Simon Commission Report.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2005"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-4e7235c1",
+        "year": 2004,
+        "subject": "History",
+        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
+        "text": "Which of the following events led to the suspension of the Non-Cooperation Movement?",
+        "options": [
+            "Jallianwala Bagh Massacre",
+            "Chauri Chaura Incident",
+            "Kakori Conspiracy",
+            "Bardoli Satyagraha"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Chauri Chaura incident led to the suspension of the Non-Cooperation Movement.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2004"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-b09d6437",
+        "year": 2003,
+        "subject": "History",
+        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
+        "text": "Who among the following leaders was not present at the time of the Quit India Movement?",
+        "options": [
+            "Mahatma Gandhi",
+            "Jawaharlal Nehru",
+            "Sardar Vallabhbhai Patel",
+            "Subhas Chandra Bose"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Subhas Chandra Bose was not in India during the Quit India Movement.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2003"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-5f102c38",
+        "year": 2002,
+        "subject": "History",
+        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
+        "text": "The Dandi March was associated with which of the following movements?",
+        "options": [
+            "Non-Cooperation Movement",
+            "Civil Disobedience Movement",
+            "Quit India Movement",
+            "Home Rule Movement"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Dandi March was the start of the Civil Disobedience Movement.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2002"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-bf0c42ee",
+        "year": 2001,
+        "subject": "History",
+        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
+        "text": "Which of the following was a major impact of the Quit India Movement?",
+        "options": [
+            "Immediate independence of India",
+            "Weakening of the British government's resolve to rule India",
+            "Strengthening of the Muslim League",
+            "Division of India"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Quit India Movement weakened the British resolve to continue ruling India.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2001"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-3958cc5f",
+        "year": 2000,
+        "subject": "History",
+        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
+        "text": "The slogan 'Do or Die' is associated with which of the following movements?",
+        "options": [
+            "Non-Cooperation Movement",
+            "Civil Disobedience Movement",
+            "Quit India Movement",
+            "Khilafat Movement"
+        ],
+        "correctAnswer": 2,
+        "explanation": "'Do or Die' was a slogan given by Gandhi during the Quit India Movement.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2000"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-278db37a",
+        "year": 1999,
+        "subject": "History",
+        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
+        "text": "The Simon Commission was boycotted by the Indian National Congress because:",
+        "options": [
+            "It was an all-White commission",
+            "It was formed to suppress the Indian National Movement",
+            "It was formed to divide India",
+            "It was formed to promote communalism"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Simon Commission was boycotted because it had no Indian members.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1999"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-6aa3b08f",
+        "year": 2021,
+        "subject": "History",
+        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
+        "text": "Who among the following advocated for the establishment of 'Lok Sevak Sangh' after the dissolution of the Indian National Congress?",
+        "options": [
+            "Jayaprakash Narayan",
+            "Acharya Narendra Dev",
+            "Mahatma Gandhi",
+            "Vinoba Bhave"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Mahatma Gandhi advocated for the establishment of 'Lok Sevak Sangh'.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2021"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-9e260cbf",
+        "year": 2022,
+        "subject": "History",
+        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
+        "text": "Consider the following statements regarding the impact of the Non-Cooperation Movement:\n1. It led to the widespread participation of women in the national movement.\n2. It resulted in the establishment of numerous national schools and colleges.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both statements are correct regarding the impact of the Non-Cooperation Movement.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2022"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-60423ecf",
+        "year": 2023,
+        "subject": "History",
+        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
+        "text": "Which of the following events is considered the immediate cause for the launch of the Quit India Movement?",
+        "options": [
+            "Failure of the Cripps Mission",
+            "The August Offer",
+            "The Second World War",
+            "The Simon Commission Report"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The failure of the Cripps Mission was the immediate cause for the Quit India Movement.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2023"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-f69f5f83",
+        "year": 1998,
+        "subject": "History",
+        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
+        "text": "The Poona Pact was an agreement between:",
+        "options": [
+            "Gandhi and Nehru",
+            "Gandhi and Ambedkar",
+            "Nehru and Ambedkar",
+            "Gandhi and Jinnah"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Poona Pact was an agreement between Gandhi and Ambedkar.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1998"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-89930c99",
+        "year": 1997,
+        "subject": "History",
+        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
+        "text": "The Bardoli Satyagraha was led by:",
+        "options": [
+            "Mahatma Gandhi",
+            "Sardar Vallabhbhai Patel",
+            "Jawaharlal Nehru",
+            "Vinoba Bhave"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Bardoli Satyagraha was led by Sardar Vallabhbhai Patel.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1997"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-9e02d7e2",
+        "year": 1996,
+        "subject": "History",
+        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
+        "text": "The Khilafat Movement was primarily aimed at:",
+        "options": [
+            "Supporting the Ottoman Caliphate",
+            "Promoting Hindu-Muslim unity",
+            "Achieving Swaraj",
+            "Opposing the Rowlatt Act"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Khilafat Movement aimed at supporting the Ottoman Caliphate.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1996"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-b7e777c1",
+        "year": 2024,
+        "subject": "History",
+        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
+        "text": "Which of the following statements best describes the impact of the Civil Disobedience Movement on the Indian economy?",
+        "options": [
+            "It led to a significant increase in industrial production.",
+            "It resulted in a widespread boycott of foreign goods, impacting British trade.",
+            "It had no noticeable impact on the Indian economy.",
+            "It primarily affected the agricultural sector."
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Civil Disobedience Movement significantly impacted British trade through boycotts.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2024"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-75946a0b",
+        "year": 1995,
+        "subject": "History",
+        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
+        "text": "Which of the following events marked the beginning of the Gandhian era in Indian politics?",
+        "options": [
+            "Champaran Satyagraha",
+            "Dandi March",
+            "Quit India Movement",
+            "Non-Cooperation Movement"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Champaran Satyagraha is considered the beginning of the Gandhian era.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 1995"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-f08e33b5",
+        "year": 2016,
+        "subject": "History",
+        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
+        "text": "Consider the following statements:\n1. The Non-Cooperation Movement was launched in 1920.\n2. One of the reasons for launching the Non-Cooperation Movement was the Jallianwala Bagh massacre.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both statements are correct regarding the Non-Cooperation Movement.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2016"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-26dbd4b6",
+        "year": 2017,
+        "subject": "History",
+        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
+        "text": "Which of the following statements is/are correct regarding the Quit India Movement?\n1. It was a spontaneous movement.\n2. It was led by Mahatma Gandhi.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Quit India Movement was largely spontaneous after the initial arrests of leaders.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
+            },
+            {
+                "type": "pyq",
+                "label": "UPSC 2017"
+            }
+        ]
     }
-];
+];\n
