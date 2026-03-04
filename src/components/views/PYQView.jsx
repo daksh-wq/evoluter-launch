@@ -38,11 +38,20 @@ const PYQView = ({ startCustomTest }) => {
     const handleGenerateTest = () => {
         if (filteredQuestions.length === 0) return;
 
-        // Use the passed handler from App.jsx to start the test with these specific questions.
-        // We will pass the questions directly. Duration = 1.5 mins per question
+        // CRITICAL: Deduplicate by ID + text to ensure no question ever repeats
+        const seenIds = new Set();
+        const seenTexts = new Set();
+        const uniqueQuestions = filteredQuestions.filter(q => {
+            const textKey = (q.text || '').trim().toLowerCase().substring(0, 100);
+            if (seenIds.has(q.id) || seenTexts.has(textKey)) return false;
+            seenIds.add(q.id);
+            if (textKey) seenTexts.add(textKey);
+            return true;
+        });
+
         const testTitle = `UPSC PYQs - ${selectedSubject !== 'All' ? selectedSubject : 'Mixed'} (${selectedYear !== 'All' ? selectedYear : 'All Years'})`;
         if (startCustomTest) {
-            startCustomTest(filteredQuestions, testTitle);
+            startCustomTest(uniqueQuestions, testTitle);
         }
     };
 

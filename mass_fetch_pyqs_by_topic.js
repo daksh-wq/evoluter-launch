@@ -224,7 +224,7 @@ async function run() {
         console.log("Processing Topic " + (i + 1) + " of " + tasks.length + "...");
 
         const promises = batch.map(async (task) => {
-            process.stdout.write("   -> Fetching 30 qs for " + task.topic + "\\n");
+            process.stdout.write("   -> Fetching 30 qs for " + task.topic + "\n");
             const qs = await fetchQuestionsForTopic(task.subject, task.topic);
             if (qs && qs.length) {
                 allQuestions.push(...qs);
@@ -234,15 +234,15 @@ async function run() {
 
         const results = await Promise.all(promises);
         const fetchedCount = results.reduce((a, b) => a + b, 0);
-        console.log("✅ Topic complete. Extracted " + fetchedCount + " new questions. Total Database Size: " + allQuestions.length + "\\n");
+        console.log("✅ Topic complete. Extracted " + fetchedCount + " new questions. Total Database Size: " + allQuestions.length + "\n");
 
         // Save incrementally after every single topic to cleanly build up the array
-        const fileContent = "/**\\n" +
-            " * UPSC Previous Year Questions (PYQs) Database\\n" +
-            " * Massive comprehensive dataset auto-extracted sequentially across specific syllabus topics.\\n" +
-            " * Total Questions: " + allQuestions.length + "\\n" +
-            " */\\n\\n" +
-            "export const PYQ_DATABASE = " + JSON.stringify(allQuestions, null, 4) + ";\\n";
+        const fileContent = "/**\n" +
+            " * UPSC Previous Year Questions (PYQs) Database\n" +
+            " * Massive comprehensive dataset auto-extracted sequentially across specific syllabus topics.\n" +
+            " * Total Questions: " + allQuestions.length + "\n" +
+            " */\n\n" +
+            "export const PYQ_DATABASE = " + JSON.stringify(allQuestions, null, 4) + ";\n";
 
         fs.writeFileSync('src/constants/pyqDatabase.js', fileContent);
         console.log("   -> 💾 Database securely saved to src/constants/pyqDatabase.js");
@@ -250,7 +250,7 @@ async function run() {
         await sleep(3000);
     }
 
-    console.log("\\n🎉 Completed sequential extraction! Total dataset size: " + allQuestions.length + " PYQs.");
+    console.log("\n🎉 Completed sequential extraction! Total dataset size: " + allQuestions.length + " PYQs.");
 }
 
 run();

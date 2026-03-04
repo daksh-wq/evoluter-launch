@@ -16,6 +16,21 @@ const shuffleArray = (array) => {
     return arr;
 };
 
+// CRITICAL: Deduplicate questions by both ID and question text to prevent repeats
+const deduplicateQuestions = (questions) => {
+    const seenIds = new Set();
+    const seenTexts = new Set();
+    return questions.filter(q => {
+        const textKey = (q.text || '').trim().toLowerCase().substring(0, 100);
+        if (seenIds.has(q.id) || seenTexts.has(textKey)) {
+            return false;
+        }
+        seenIds.add(q.id);
+        if (textKey) seenTexts.add(textKey);
+        return true;
+    });
+};
+
 /**
  * Service for handling Test-related database operations
  */
@@ -175,7 +190,8 @@ export const testService = {
                 finalQuestions = [...finalQuestions, ...aiQuestions];
             }
 
-            // 3. Output Validated Mixed Batch
+            // 3. DEDUPLICATE then Output Validated Mixed Batch
+            finalQuestions = deduplicateQuestions(finalQuestions);
             if (finalQuestions && finalQuestions.length > 0) {
                 // Return shuffled array if we mixed PYQs and AI, otherwise normal
                 return pyqPercentage > 0 ? shuffleArray(finalQuestions) : finalQuestions;

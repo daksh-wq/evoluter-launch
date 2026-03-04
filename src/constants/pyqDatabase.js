@@ -1,4 +1,9 @@
-/**\n * UPSC Previous Year Questions (PYQs) Database\n * Massive comprehensive dataset auto-extracted sequentially across specific syllabus topics.\n * Total Questions: 1452\n */\n\nexport const PYQ_DATABASE = [
+/**
+ * UPSC Previous Year Questions (PYQs) Database
+ * Auto-extracted dataset across UPSC syllabus topics.
+ */
+
+export const PYQ_DATABASE = [
     {
         "id": "pyq-1990-c8f09527",
         "year": 1990,
@@ -42107,4 +42112,4 @@
             }
         ]
     }
-];\n
+];
