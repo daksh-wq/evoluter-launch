@@ -98,10 +98,15 @@ export function useAuth() {
                         }
                         setAuthLoading(false); // Clear loading state after first snapshot resolving
                     }, (error) => {
-                        logger.error("Error listening to user data:", error);
-                        setAuthLoading(false);
+                        if (error.code === 'permission-denied') {
+                            logger.warn("Snapshot permission denied (expected during signup):", error.message);
+                            setUserData(null);
+                            setAuthLoading(false);
+                        } else {
+                            logger.error("Error listening to user data:", error);
+                            setAuthLoading(false);
+                        }
                     });
-
                 } catch (error) {
                     logger.error("Error setting up user listener:", error);
                     setAuthLoading(false);

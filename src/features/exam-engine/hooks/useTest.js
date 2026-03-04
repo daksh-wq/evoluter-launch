@@ -81,7 +81,7 @@ export function useTest() {
 
         try {
             // 1. Generate Content (Delegate to Service)
-            const questions = await testService.generateTestContent(topic, count, difficulty, targetExam, null, resourceContent, pyqPercentage);
+            const questions = await testService.generateTestContent(topic, count, difficulty, targetExam, () => {}, resourceContent, pyqPercentage);
 
             clearInterval(progressInterval);
             setGenerationProgress(100);

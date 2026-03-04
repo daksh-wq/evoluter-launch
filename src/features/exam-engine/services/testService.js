@@ -6,17 +6,23 @@ import { generateMockQuestions } from '@/utils/helpers';
 import { optimizeQuestionsForStorage } from '../utils/testLogic'; // We'll need to export this or just inline it if circular dep concerns arise, but util -> service is fine.
 import { PYQ_DATABASE } from '@/constants/pyqDatabase';
 
-// Deep sanitizer: Firestore rejects `undefined` values. This strips them recursively.
-const sanitizeForFirestore = (obj) => {
+// Sanitizer: Firestore rejects `undefined` values. Strip them (non-recursive for safety).
+const sanitizeForFirestore = (obj, depth = 0) => {
+    if (depth > 10) return null; // Safety: prevent infinite recursion
     if (obj === null || obj === undefined) return null;
     if (typeof obj !== 'object') return obj;
+    // Don't recurse into Date objects or Firestore Timestamps
+    if (obj instanceof Date) return obj;
+    if (obj.toDate && typeof obj.toDate === 'function') return obj;
     if (Array.isArray(obj)) {
-        return obj.map(item => sanitizeForFirestore(item)).filter(item => item !== undefined);
+        return obj
+            .filter(item => item !== undefined)
+            .map(item => sanitizeForFirestore(item, depth + 1));
     }
     const clean = {};
     for (const [key, value] of Object.entries(obj)) {
         if (value === undefined) continue;
-        clean[key] = sanitizeForFirestore(value);
+        clean[key] = sanitizeForFirestore(value, depth + 1);
     }
     return clean;
 };
@@ -202,7 +208,10 @@ export const testService = {
                 } else {
                     aiQuestions = await generateQuestions(topic || 'Mixed Subject', aiCount, difficulty, targetExam, onProgress);
                 }
-                finalQuestions = [...finalQuestions, ...aiQuestions];
+                // Safely handle null/undefined AI results
+                if (aiQuestions && Array.isArray(aiQuestions)) {
+                    finalQuestions = [...finalQuestions, ...aiQuestions];
+                }
             }
 
             // 3. DEDUPLICATE then Output Validated Mixed Batch
