@@ -49,6 +49,11 @@ service cloud.firestore {
         allow read, write: if isOwner(userId);
       }
 
+      // User session history (private)
+      match /history/{historyId} {
+        allow read, write: if isOwner(userId);
+      }
+
       // User test sessions for proctoring (private)
       match /test_sessions/{sessionId} {
         allow read, write: if isOwner(userId);
