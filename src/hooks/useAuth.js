@@ -83,6 +83,16 @@ export function useAuth() {
                             }
                             prevBatchesLengthRef.current = currentBatches.length;
 
+                            // Auto-migrate unsupported exams (like SSC CGL or Banking) to UPSC CSE
+                            const validExams = ['UPSC CSE', 'State PSC'];
+                            if (data.role === 'student' && data.targetExam && !validExams.includes(data.targetExam)) {
+                                logger.info(`Auto-migrating user ${currentUser.uid} exam from ${data.targetExam} to UPSC CSE`);
+                                import('firebase/firestore').then(({ updateDoc }) => {
+                                    updateDoc(userDocRef, { targetExam: 'UPSC CSE' }).catch(e => logger.error("Failed to migrate exam:", e));
+                                });
+                                data.targetExam = 'UPSC CSE'; // Update local immediately
+                            }
+
                             // Only set userData if onboarding is complete
                             if (isOnboardingComplete(data)) {
                                 setUserData(data);

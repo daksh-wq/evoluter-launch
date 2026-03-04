@@ -174,7 +174,7 @@ const OnboardingView = ({ user, onComplete }) => {
                     <Target size={16} className="text-[#2278B0]" /> Target Exam
                 </label>
                 <div className="grid grid-cols-2 gap-3">
-                    {['UPSC CSE', 'State PSC', 'SSC CGL', 'Banking'].map((exam) => (
+                    {['UPSC CSE', 'State PSC'].map((exam) => (
                         <div
                             key={exam}
                             onClick={() => setTargetExam(exam)}

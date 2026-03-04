@@ -10,19 +10,13 @@ const STATIC_EXAM_DATES = {
     2026: {
         'UPSC CSE': '2026-05-24',
         'UPSC': '2026-05-24',
-        'Banking': '2026-10-15',
-        'IBPS PO': '2026-10-15',
-        'SBI PO': '2026-11-01',
-        'SSC CGL': '2026-09-01',
-        'SSC': '2026-09-01',
         'NEET': '2026-05-03',
         'JEE Advanced': '2026-05-17',
         'JEE': '2026-01-24', // Mains Session 1 approx
         'GATE': '2026-02-07'
     },
     2025: {
-        'UPSC CSE': '2025-05-25',
-        'Banking': '2025-10-15'
+        'UPSC CSE': '2025-05-25'
     }
 };
 
@@ -37,8 +31,7 @@ export const useExamDate = (examName = 'UPSC CSE', targetYear) => {
             const year = targetYear || new Date().getFullYear();
 
             // 1. Check Static Dates First (Fastest & Most Reliable)
-            const staticDate = STATIC_EXAM_DATES[year]?.[examName] ||
-                (examName.includes('Banking') ? STATIC_EXAM_DATES[year]?.['Banking'] : null);
+            const staticDate = STATIC_EXAM_DATES[year]?.[examName];
 
             if (staticDate) {
                 calculateDays(staticDate);

@@ -160,7 +160,7 @@ export async function generateQuestions(topic, count = 5, difficulty = 'Hard', t
         const prompt = `You are a strict Question Setter for ${targetExam}. Generate ${batchSize} ${difficulty} MCQs STRICTLY on the topic: '${topic}'${context ? ` (specifically '${subtopic}')` : ''}.
  
  Rules:
- 1. **EXAM STYLE**: Questions MUST follow the pattern of ${targetExam} (e.g., if Banking -> Data/Current Affairs, if UPSC -> Conceptual/Statement-based).
+ 1. **EXAM STYLE**: Questions MUST follow the pattern of ${targetExam} (e.g., if target Exam is UPSC CSE -> Conceptual/Statement-based, if State PSC -> Factual/Direct).
  2. **STRICT TEXT ADHERENCE**: Questions MUST be 100% relevant to the topic.
  2. **Difficulty**: ${difficulty}. 
  3. **Output**: Return ONLY a JSON Array. NO markdown. NO "json" prefix.

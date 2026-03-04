@@ -264,8 +264,6 @@ const ProfileView = ({ user, userData, onLogout }) => {
                                         >
                                             <option>UPSC CSE</option>
                                             <option>State PSC</option>
-                                            <option>SSC CGL</option>
-                                            <option>Banking</option>
                                         </select>
                                     ) : (
                                         <div className="font-bold text-slate-800">{formData.targetExam}</div>
