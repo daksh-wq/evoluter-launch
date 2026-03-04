@@ -1,6 +1,7 @@
 /**
  * UPSC Previous Year Questions (PYQs) Database
  * Auto-extracted dataset across UPSC syllabus topics.
+ * Total Questions: 1206
  */
 
 export const PYQ_DATABASE = [
@@ -440,35 +441,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-1991-0012d518",
-        "year": 1991,
-        "subject": "Polity",
-        "topic": "Constitutional Amendments",
-        "text": "Which of the following amendments to the Constitution of India empowered the President to send back any matter for reconsideration by the Council of Ministers?",
-        "options": [
-            "39th Amendment",
-            "42nd Amendment",
-            "44th Amendment",
-            "52nd Amendment"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The 44th Amendment Act of 1978 empowered the President to send back any advice given by the Council of Ministers for reconsideration. However, if the Council resends the same advice, the President is bound to act according to it.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Constitutional Amendments"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1991"
-            }
-        ]
-    },
-    {
         "id": "pyq-1991-37dcf779",
         "year": 1991,
         "subject": "History",
@@ -527,35 +499,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-1991-d716a56d",
-        "year": 1991,
-        "subject": "Geography",
-        "topic": "Physical Geography",
-        "text": "Which one of the following is the characteristic climate of the Tropical Savannah Region?",
-        "options": [
-            "Warm and dry throughout the year",
-            "Hot and humid throughout the year",
-            "Alternating wet and dry seasons",
-            "Cold and wet throughout the year"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The Tropical Savannah climate is characterized by distinct wet and dry seasons. During the wet season, rainfall is abundant, while the dry season experiences little to no rainfall.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Physical Geography"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1991"
-            }
-        ]
-    },
-    {
         "id": "pyq-1991-41e7171e",
         "year": 1991,
         "subject": "Environment",
@@ -577,35 +520,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Pollution"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1991"
-            }
-        ]
-    },
-    {
-        "id": "pyq-1991-13b299b5",
-        "year": 1991,
-        "subject": "Science",
-        "topic": "Biology",
-        "text": "Which one of the following is a fish?",
-        "options": [
-            "Starfish",
-            "Jellyfish",
-            "Silverfish",
-            "Dogfish"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Dogfish is a type of small shark, and sharks are cartilaginous fish. The other options are invertebrates and not true fish.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Science"
-            },
-            {
-                "type": "topic",
-                "label": "Biology"
             },
             {
                 "type": "pyq",
@@ -875,35 +789,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-1993-d032700c",
-        "year": 1993,
-        "subject": "Polity",
-        "topic": "Constitutional Amendments",
-        "text": "Which of the following amendments to the Constitution of India empowered the President to send back any matter for reconsideration by the Council of Ministers?",
-        "options": [
-            "39th",
-            "42nd",
-            "44th",
-            "52nd"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The 44th Amendment empowered the President to send back any matter for reconsideration by the Council of Ministers. This amendment aimed to restore the balance between the President and the Council of Ministers, which had been altered by the 42nd Amendment.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Constitutional Amendments"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1993"
-            }
-        ]
-    },
-    {
         "id": "pyq-1993-99b6116c",
         "year": 1993,
         "subject": "History",
@@ -962,35 +847,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-1993-f10ebea9",
-        "year": 1993,
-        "subject": "Geography",
-        "topic": "Physical Geography",
-        "text": "Which one of the following is the characteristic climate of the Tropical Savannah Region?",
-        "options": [
-            "Warm and dry throughout the year",
-            "Hot and humid throughout the year",
-            "Alternating wet and dry seasons",
-            "Cold and wet throughout the year"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The Tropical Savannah Region is characterized by alternating wet and dry seasons. This is due to the seasonal movement of the Intertropical Convergence Zone (ITCZ).",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Physical Geography"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1993"
-            }
-        ]
-    },
-    {
         "id": "pyq-1993-78893325",
         "year": 1993,
         "subject": "Environment",
@@ -1012,64 +868,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Pollution"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1993"
-            }
-        ]
-    },
-    {
-        "id": "pyq-1993-bb00d073",
-        "year": 1993,
-        "subject": "Science",
-        "topic": "Biology",
-        "text": "Which one of the following is a fish?",
-        "options": [
-            "Starfish",
-            "Silverfish",
-            "Dogfish",
-            "Crayfish"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Dogfish is a type of small shark, making it a fish. The others are invertebrates: Starfish (echinoderm), Silverfish (insect), and Crayfish (crustacean).",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Science"
-            },
-            {
-                "type": "topic",
-                "label": "Biology"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1993"
-            }
-        ]
-    },
-    {
-        "id": "pyq-1993-d4ba803b",
-        "year": 1993,
-        "subject": "Polity",
-        "topic": "Fundamental Rights",
-        "text": "Which of the following writs can be issued to secure the release of a person who is found to be unlawfully detained?",
-        "options": [
-            "Habeas Corpus",
-            "Mandamus",
-            "Certiorari",
-            "Quo Warranto"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Habeas Corpus is a writ issued to produce a person who has been detained, before a court, to determine the legality of their detention. If the detention is found to be unlawful, the person is released.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Fundamental Rights"
             },
             {
                 "type": "pyq",
@@ -1306,35 +1104,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "pyq",
                 "label": "UPSC 1993"
-            }
-        ]
-    },
-    {
-        "id": "pyq-1994-a58b2ae1",
-        "year": 1994,
-        "subject": "Polity",
-        "topic": "Constitutional Amendments",
-        "text": "Which of the following amendments to the Constitution of India empowered the President to send back any matter for reconsideration by the Council of Ministers?",
-        "options": [
-            "39th",
-            "42nd",
-            "44th",
-            "52nd"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The 44th Amendment empowered the President to send back any matter for reconsideration by the Council of Ministers. This amendment aimed to restore the balance of power between the President and the Council of Ministers.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Constitutional Amendments"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1994"
             }
         ]
     },
@@ -1629,93 +1398,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-1994-f342ef70",
-        "year": 1994,
-        "subject": "Science",
-        "topic": "Physics",
-        "text": "The ozone layer protects us from:",
-        "options": [
-            "Infrared rays",
-            "Ultraviolet rays",
-            "X-rays",
-            "Gamma rays"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The ozone layer protects us from harmful ultraviolet (UV) rays from the sun. It absorbs a significant portion of the UV radiation, preventing it from reaching the Earth's surface.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Science"
-            },
-            {
-                "type": "topic",
-                "label": "Physics"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1994"
-            }
-        ]
-    },
-    {
-        "id": "pyq-1994-60edcb73",
-        "year": 1994,
-        "subject": "Polity",
-        "topic": "Parliament",
-        "text": "The Speaker of the Lok Sabha can ask a member to stop speaking and let another member speak. This phenomenon is called:",
-        "options": [
-            "Crossing the floor",
-            "Yielding the floor",
-            "Point of order",
-            "Calling attention motion"
-        ],
-        "correctAnswer": 1,
-        "explanation": "When the Speaker of the Lok Sabha asks a member to stop speaking and let another member speak, it is called 'Yielding the floor'.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Parliament"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1994"
-            }
-        ]
-    },
-    {
-        "id": "pyq-1994-5cf59cc8",
-        "year": 1994,
-        "subject": "History",
-        "topic": "Modern History",
-        "text": "Who among the following was the founder of the 'Gadar Party'?",
-        "options": [
-            "Bhagat Singh",
-            "Lala Hardayal",
-            "B.R. Ambedkar",
-            "Subhas Chandra Bose"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Lala Hardayal was the founder of the Gadar Party. The Gadar Party was formed to overthrow British rule in India.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Modern History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1994"
-            }
-        ]
-    },
-    {
         "id": "pyq-1994-0d2524ac",
         "year": 1994,
         "subject": "Economy",
@@ -1832,35 +1514,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-1992-1943c146",
-        "year": 1992,
-        "subject": "Geography",
-        "topic": "Physical Geography",
-        "text": "Which one of the following is the characteristic climate of the Tropical Savannah Region?\n(a) Warm and dry throughout the year\n(b) Hot and wet throughout the year\n(c) Alternating wet and dry seasons\n(d) Cold and wet throughout the year",
-        "options": [
-            "Warm and dry throughout the year",
-            "Hot and wet throughout the year",
-            "Alternating wet and dry seasons",
-            "Cold and wet throughout the year"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The Tropical Savannah Region is characterized by alternating wet and dry seasons. It experiences a distinct wet season followed by a prolonged dry season.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Physical Geography"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1992"
-            }
-        ]
-    },
-    {
         "id": "pyq-1992-b4c2a546",
         "year": 1992,
         "subject": "Environment",
@@ -1940,35 +1593,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Fundamental Rights"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1992"
-            }
-        ]
-    },
-    {
-        "id": "pyq-1992-03892bf1",
-        "year": 1992,
-        "subject": "History",
-        "topic": "Medieval History",
-        "text": "Who among the following Sultans of Delhi is known to have introduced a token currency?\n(a) Iltutmish\n(b) Balban\n(c) Muhammad bin Tughluq\n(d) Alauddin Khalji",
-        "options": [
-            "Iltutmish",
-            "Balban",
-            "Muhammad bin Tughluq",
-            "Alauddin Khalji"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Muhammad bin Tughluq is known to have introduced a token currency. He introduced bronze and copper coins whose value was equal to that of silver coins. This experiment failed due to the widespread forging of the new coins.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Medieval History"
             },
             {
                 "type": "pyq",
@@ -2180,35 +1804,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-1999-55d99b8c",
-        "year": 1999,
-        "subject": "Polity",
-        "topic": "Parliament",
-        "text": "The Parliament can make any law for the whole or any part of India for implementing international treaties:\n1. with the consent of all the States.\n2. with the consent of the majority of the States.\n3. with the consent of the States concerned.\n4. without the consent of any State.",
-        "options": [
-            "Only 1 is correct",
-            "Only 2 is correct",
-            "Only 3 is correct",
-            "Only 4 is correct"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Article 253 of the Indian Constitution empowers the Parliament to make any law for the whole or any part of India for implementing international treaties, agreements, and conventions. This can be done without the consent of any state.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Parliament"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1999"
-            }
-        ]
-    },
-    {
         "id": "pyq-1999-15417772",
         "year": 1999,
         "subject": "History",
@@ -2259,35 +1854,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Banking"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1999"
-            }
-        ]
-    },
-    {
-        "id": "pyq-1999-e75c0f67",
-        "year": 1999,
-        "subject": "Geography",
-        "topic": "Physical Geography",
-        "text": "Which one of the following is the characteristic climate of the Tropical Savannah Region?",
-        "options": [
-            "Rainfall throughout the year",
-            "Rainfall in winter only",
-            "An extremely short dry season",
-            "A definite dry and wet season"
-        ],
-        "correctAnswer": 3,
-        "explanation": "The Tropical Savannah Region is characterized by a distinct dry and wet season. Rainfall is concentrated in the wet season, while the dry season is prolonged.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Physical Geography"
             },
             {
                 "type": "pyq",
@@ -2404,35 +1970,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Medieval History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1999"
-            }
-        ]
-    },
-    {
-        "id": "pyq-1999-26d0f76c",
-        "year": 1999,
-        "subject": "Economy",
-        "topic": "Economic Planning",
-        "text": "The main objective of the First Five Year Plan was",
-        "options": [
-            "Industrial development",
-            "Agricultural development",
-            "Development of infrastructure",
-            "Development of ports"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The First Five Year Plan (1951-1956) primarily focused on agricultural development, aiming to increase food production and improve the rural economy.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Economy"
-            },
-            {
-                "type": "topic",
-                "label": "Economic Planning"
             },
             {
                 "type": "pyq",
@@ -2702,35 +2239,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-1998-7d81dd6b",
-        "year": 1998,
-        "subject": "Geography",
-        "topic": "Physical Geography",
-        "text": "Which one of the following is the characteristic climate of the Tropical Savannah Region?",
-        "options": [
-            "Warm and dry climate throughout the year",
-            "Hot and wet climate throughout the year",
-            "Alternating wet and dry seasons",
-            "Cold and wet climate"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The Tropical Savannah Region is characterized by alternating wet and dry seasons. It has a distinct wet season and a dry season.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Physical Geography"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1998"
-            }
-        ]
-    },
-    {
         "id": "pyq-1998-ac53fda2",
         "year": 1998,
         "subject": "Environment",
@@ -2781,64 +2289,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Biology"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1998"
-            }
-        ]
-    },
-    {
-        "id": "pyq-1998-af4f3e6e",
-        "year": 1998,
-        "subject": "Polity",
-        "topic": "Constitutional Amendments",
-        "text": "Which of the following amendments to the Constitution of India empowered the President to send back any matter for reconsideration by the Council of Ministers?",
-        "options": [
-            "39th",
-            "42nd",
-            "44th",
-            "52nd"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The 44th Amendment to the Constitution of India empowered the President to send back any matter for reconsideration by the Council of Ministers.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Constitutional Amendments"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1998"
-            }
-        ]
-    },
-    {
-        "id": "pyq-1998-81699c84",
-        "year": 1998,
-        "subject": "History",
-        "topic": "Medieval History",
-        "text": "Who among the following Sultans of Delhi is known to have experimented with agriculture?",
-        "options": [
-            "Alauddin Khilji",
-            "Muhammad-bin-Tughlaq",
-            "Firoz Tughlaq",
-            "Ghiyasuddin Tughlaq"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Muhammad-bin-Tughlaq is known to have experimented with agriculture, including the establishment of a separate department for agriculture called 'Diwan-i-Kohi'.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Medieval History"
             },
             {
                 "type": "pyq",
@@ -2963,64 +2413,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-1998-13acedbb",
-        "year": 1998,
-        "subject": "Polity",
-        "topic": "Fundamental Rights",
-        "text": "Which of the following rights is NOT explicitly mentioned as a Fundamental Right in the Constitution of India but has been interpreted as such by the Supreme Court?",
-        "options": [
-            "Right to Equality",
-            "Right to Freedom of Speech and Expression",
-            "Right to Life and Personal Liberty",
-            "Right to Privacy"
-        ],
-        "correctAnswer": 3,
-        "explanation": "The Right to Privacy is not explicitly mentioned as a Fundamental Right in the Constitution of India but has been interpreted as such by the Supreme Court under Article 21 (Right to Life and Personal Liberty).",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Fundamental Rights"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1998"
-            }
-        ]
-    },
-    {
-        "id": "pyq-1998-46da910f",
-        "year": 1998,
-        "subject": "History",
-        "topic": "Modern History",
-        "text": "Who among the following was the founder of the 'Gadar Party'?",
-        "options": [
-            "Bhagat Singh",
-            "Lala Hardayal",
-            "B.R. Ambedkar",
-            "Subhas Chandra Bose"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Lala Hardayal was the founder of the Gadar Party, which was formed in 1913 in the United States to fight for India's independence.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Modern History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1998"
-            }
-        ]
-    },
-    {
         "id": "pyq-1998-629e7b2e",
         "year": 1998,
         "subject": "Economy",
@@ -3046,35 +2438,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "pyq",
                 "label": "UPSC 1998"
-            }
-        ]
-    },
-    {
-        "id": "pyq-1997-d7c61b8a",
-        "year": 1997,
-        "subject": "Polity",
-        "topic": "Constitutional Amendments",
-        "text": "Which of the following amendments to the Constitution of India empowered the President to send back any matter for reconsideration by the Council of Ministers?",
-        "options": [
-            "39th",
-            "42nd",
-            "44th",
-            "52nd"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The 44th Amendment Act of 1978 empowered the President to send back any advice given by the Council of Ministers for reconsideration. However, if the Council of Ministers sends the same advice again, the President is bound to act according to it.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Constitutional Amendments"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1997"
             }
         ]
     },
@@ -3137,35 +2500,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-1997-cfff60b9",
-        "year": 1997,
-        "subject": "Geography",
-        "topic": "Physical Geography",
-        "text": "Which one of the following is the characteristic climate of the Tropical Savannah Region?",
-        "options": [
-            "Warm and dry throughout the year",
-            "Hot and wet throughout the year",
-            "Alternating wet and dry seasons",
-            "Cold and wet throughout the year"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The Tropical Savannah climate is characterized by alternating wet and dry seasons. There is a distinct wet season during the summer months and a dry season during the winter months.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Physical Geography"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1997"
-            }
-        ]
-    },
-    {
         "id": "pyq-1997-04a0fe30",
         "year": 1997,
         "subject": "Environment",
@@ -3195,35 +2529,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-1997-ed11f6fd",
-        "year": 1997,
-        "subject": "Science",
-        "topic": "Biology",
-        "text": "Which one of the following is a fish?",
-        "options": [
-            "Starfish",
-            "Silverfish",
-            "Dogfish",
-            "Jellyfish"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Dogfish is a type of small shark, and therefore a fish. Starfish, silverfish, and jellyfish are invertebrates and belong to different taxonomic groups.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Science"
-            },
-            {
-                "type": "topic",
-                "label": "Biology"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1997"
-            }
-        ]
-    },
-    {
         "id": "pyq-1997-08119dae",
         "year": 1997,
         "subject": "Polity",
@@ -3245,35 +2550,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Fundamental Rights"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1997"
-            }
-        ]
-    },
-    {
-        "id": "pyq-1997-856ccc0c",
-        "year": 1997,
-        "subject": "History",
-        "topic": "Medieval History",
-        "text": "Who among the following Sultans of Delhi is known to have introduced a token currency?",
-        "options": [
-            "Iltutmish",
-            "Balban",
-            "Muhammad bin Tughluq",
-            "Alauddin Khalji"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Muhammad bin Tughluq introduced a token currency made of brass and copper. This was done to address a shortage of silver, but the experiment failed due to the ease of counterfeiting.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Medieval History"
             },
             {
                 "type": "pyq",
@@ -3369,64 +2645,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-1997-e8df93d8",
-        "year": 1997,
-        "subject": "Science",
-        "topic": "Physics",
-        "text": "The ozone layer restricts",
-        "options": [
-            "Visible light",
-            "Infrared radiation",
-            "X-rays and gamma rays",
-            "Ultraviolet radiation"
-        ],
-        "correctAnswer": 3,
-        "explanation": "The ozone layer in the Earth's stratosphere absorbs most of the harmful ultraviolet (UV) radiation from the sun, preventing it from reaching the Earth's surface.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Science"
-            },
-            {
-                "type": "topic",
-                "label": "Physics"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1997"
-            }
-        ]
-    },
-    {
-        "id": "pyq-1997-ce3705f6",
-        "year": 1997,
-        "subject": "Polity",
-        "topic": "Parliament",
-        "text": "The Speaker of the Lok Sabha can ask a member to stop speaking and let another member speak. This phenomenon is called:",
-        "options": [
-            "Decorum",
-            "Crossing the floor",
-            "Yielding the floor",
-            "Point of order"
-        ],
-        "correctAnswer": 2,
-        "explanation": "When the Speaker of the Lok Sabha asks a member to stop speaking and allow another member to speak, it is called 'Yielding the floor'. This is a parliamentary procedure to allow another member to express their views.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Parliament"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1997"
-            }
-        ]
-    },
-    {
         "id": "pyq-1997-adcbbc74",
         "year": 1997,
         "subject": "History",
@@ -3456,93 +2674,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-1997-3f55a2af",
-        "year": 1997,
-        "subject": "Economy",
-        "topic": "Inflation",
-        "text": "Deflation is",
-        "options": [
-            "Sudden fall of currency value",
-            "Fall in the level of prices",
-            "Rise in the level of prices",
-            "None of these"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Deflation is a decrease in the general price level of goods and services in an economy. It occurs when the inflation rate falls below 0%.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Economy"
-            },
-            {
-                "type": "topic",
-                "label": "Inflation"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1997"
-            }
-        ]
-    },
-    {
-        "id": "pyq-1996-7f881d7a",
-        "year": 1996,
-        "subject": "Polity",
-        "topic": "Parliament",
-        "text": "The Parliament can make any law for the whole or any part of India for implementing international treaties:\n(a) with the consent of all the States\n(b) with the consent of the majority of the States\n(c) with the consent of the States concerned\n(d) without the consent of any State",
-        "options": [
-            "with the consent of all the States",
-            "with the consent of the majority of the States",
-            "with the consent of the States concerned",
-            "without the consent of any State"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Article 253 of the Indian Constitution empowers the Parliament to make any law for the whole or any part of India for implementing international treaties, agreements, and conventions. This power can be exercised even without the consent of any state.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Parliament"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1996"
-            }
-        ]
-    },
-    {
-        "id": "pyq-1996-153cc7ce",
-        "year": 1996,
-        "subject": "History",
-        "topic": "Ancient History",
-        "text": "Which one of the following is NOT a Harappan site?\n(a) Chanhudaro\n(b) Kot Diji\n(c) Sohgaura\n(d) Desalpur",
-        "options": [
-            "Chanhudaro",
-            "Kot Diji",
-            "Sohgaura",
-            "Desalpur"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Sohgaura is not a Harappan site. It is known for the Sohgaura copper plate inscription, which is associated with the Mauryan period.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Ancient History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1996"
-            }
-        ]
-    },
-    {
         "id": "pyq-1996-6cc178b1",
         "year": 1996,
         "subject": "Economy",
@@ -3564,35 +2695,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Banking"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1996"
-            }
-        ]
-    },
-    {
-        "id": "pyq-1996-ce073b5a",
-        "year": 1996,
-        "subject": "Geography",
-        "topic": "Physical Geography",
-        "text": "Which one of the following is the characteristic climate of the Tropical Savannah Region?\n(a) Rainfall throughout the year\n(b) Rainfall only in winter\n(c) Definite dry and wet season\n(d) Extremely low humidity throughout the year",
-        "options": [
-            "Rainfall throughout the year",
-            "Rainfall only in winter",
-            "Definite dry and wet season",
-            "Extremely low humidity throughout the year"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The Tropical Savannah Region is characterized by a distinct dry and wet season. The wet season is associated with the movement of the Intertropical Convergence Zone (ITCZ).",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Physical Geography"
             },
             {
                 "type": "pyq",
@@ -3688,35 +2790,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-1996-2f139426",
-        "year": 1996,
-        "subject": "History",
-        "topic": "Medieval History",
-        "text": "Who among the following Sultans of Delhi is known to have introduced a token currency?\n(a) Iltutmish\n(b) Alauddin Khalji\n(c) Muhammad-bin-Tughluq\n(d) Firoz Tughluq",
-        "options": [
-            "Iltutmish",
-            "Alauddin Khalji",
-            "Muhammad-bin-Tughluq",
-            "Firoz Tughluq"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Muhammad-bin-Tughluq introduced a token currency made of brass and copper. This was done due to a shortage of silver, but the experiment failed due to the ease of counterfeiting.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Medieval History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1996"
-            }
-        ]
-    },
-    {
         "id": "pyq-1996-7b366a86",
         "year": 1996,
         "subject": "Economy",
@@ -3738,35 +2811,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Economic Planning"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1996"
-            }
-        ]
-    },
-    {
-        "id": "pyq-1996-934cda07",
-        "year": 1996,
-        "subject": "Geography",
-        "topic": "Indian Geography",
-        "text": "Which one of the following is the most important factor for the location of jute industry along the Hooghly basin?\n(a) Proximity to coal fields\n(b) Cheap labour\n(c) Proximity to areas producing jute\n(d) Availability of water transport",
-        "options": [
-            "Proximity to coal fields",
-            "Cheap labour",
-            "Proximity to areas producing jute",
-            "Availability of water transport"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The most important factor for the location of the jute industry along the Hooghly basin is the proximity to areas producing jute. The Hooghly basin is located in the jute-growing region of West Bengal, which provides a readily available supply of raw materials.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Indian Geography"
             },
             {
                 "type": "pyq",
@@ -3862,35 +2906,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-1996-de35aa51",
-        "year": 1996,
-        "subject": "History",
-        "topic": "Modern History",
-        "text": "Who among the following was the founder of the 'All India Trade Union Congress'?\n(a) Mahatma Gandhi\n(b) Lala Lajpat Rai\n(c) N.M. Joshi\n(d) Sardar Vallabhbhai Patel",
-        "options": [
-            "Mahatma Gandhi",
-            "Lala Lajpat Rai",
-            "N.M. Joshi",
-            "Sardar Vallabhbhai Patel"
-        ],
-        "correctAnswer": 2,
-        "explanation": "N.M. Joshi was one of the founders of the All India Trade Union Congress (AITUC) in 1920. Lala Lajpat Rai was its first president.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Modern History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1996"
-            }
-        ]
-    },
-    {
         "id": "pyq-1996-fda16b3e",
         "year": 1996,
         "subject": "Economy",
@@ -3916,35 +2931,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "pyq",
                 "label": "UPSC 1996"
-            }
-        ]
-    },
-    {
-        "id": "pyq-1995-2197e8c7",
-        "year": 1995,
-        "subject": "Polity",
-        "topic": "Parliament",
-        "text": "The Parliament can make any law for the whole or any part of India for implementing international treaties:\n(a) with the consent of all the States\n(b) with the consent of the majority of the States\n(c) with the consent of the States concerned\n(d) without the consent of any State",
-        "options": [
-            "with the consent of all the States",
-            "with the consent of the majority of the States",
-            "with the consent of the States concerned",
-            "without the consent of any State"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Article 253 of the Indian Constitution empowers the Parliament to make any law for the whole or any part of India for implementing international treaties, agreements, and conventions. This can be done without the consent of any state.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Parliament"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1995"
             }
         ]
     },
@@ -3999,35 +2985,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Banking"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1995"
-            }
-        ]
-    },
-    {
-        "id": "pyq-1995-586ff335",
-        "year": 1995,
-        "subject": "Geography",
-        "topic": "Physical Geography",
-        "text": "Which one of the following is the characteristic climate of the Tropical Savannah Region?\n(a) Rainfall throughout the year\n(b) Rainfall in winter only\n(c) An extremely short dry season\n(d) A definite dry and wet season",
-        "options": [
-            "Rainfall throughout the year",
-            "Rainfall in winter only",
-            "An extremely short dry season",
-            "A definite dry and wet season"
-        ],
-        "correctAnswer": 3,
-        "explanation": "The Tropical Savannah Region is characterized by a distinct dry and wet season. The wet season is associated with the Intertropical Convergence Zone (ITCZ), while the dry season occurs when the ITCZ moves away.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Physical Geography"
             },
             {
                 "type": "pyq",
@@ -4123,35 +3080,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-1995-1e2855bd",
-        "year": 1995,
-        "subject": "History",
-        "topic": "Medieval History",
-        "text": "Who among the following was associated with the local self-government in the Chol a Empire?\n(a) Kakatiya\n(b) Pallava\n(c) Chera\n(d) Pandya",
-        "options": [
-            "Kakatiya",
-            "Pallava",
-            "Chera",
-            "Pandya"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The Chola Empire is well-known for its highly organized system of local self-government. While the other dynasties were contemporaries in South India, the Pallavas were most closely associated with the Cholas and their administrative systems.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Medieval History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1995"
-            }
-        ]
-    },
-    {
         "id": "pyq-1995-70c37cbb",
         "year": 1995,
         "subject": "Economy",
@@ -4173,35 +3101,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Fiscal Policy"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1995"
-            }
-        ]
-    },
-    {
-        "id": "pyq-1995-43f778fb",
-        "year": 1995,
-        "subject": "Geography",
-        "topic": "Indian Geography",
-        "text": "Which one of the following is the most important factor for the location of jute industry along the Hooghly basin?\n(a) Proximity to coal fields\n(b) Cheap labour\n(c) Proximity to jute producing areas\n(d) Availability of water transport",
-        "options": [
-            "Proximity to coal fields",
-            "Cheap labour",
-            "Proximity to jute producing areas",
-            "Availability of water transport"
-        ],
-        "correctAnswer": 3,
-        "explanation": "The most important factor for the location of the jute industry along the Hooghly basin is the proximity to jute-producing areas. The Hooghly basin is located in the heart of the jute-growing region of West Bengal, which provides a readily available supply of raw materials.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Indian Geography"
             },
             {
                 "type": "pyq",
@@ -4260,64 +3159,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Physics"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1995"
-            }
-        ]
-    },
-    {
-        "id": "pyq-1995-fc896f04",
-        "year": 1995,
-        "subject": "Polity",
-        "topic": "Constitutional Amendments",
-        "text": "Which of the following amendments to the Constitution of India empowered the President to send back any matter for reconsideration by the Council of Ministers?\n(a) 39th\n(b) 42nd\n(c) 44th\n(d) 52nd",
-        "options": [
-            "39th",
-            "42nd",
-            "44th",
-            "52nd"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The 44th Amendment to the Constitution of India empowered the President to send back any matter for reconsideration by the Council of Ministers. However, if the Council of Ministers sends the same advice again, the President is bound to act in accordance with it.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Constitutional Amendments"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1995"
-            }
-        ]
-    },
-    {
-        "id": "pyq-1995-19e881be",
-        "year": 1995,
-        "subject": "History",
-        "topic": "Modern History",
-        "text": "Who among the following was the founder of the 'All India Trade Union Congress'?\n(a) Mahatma Gandhi\n(b) Lala Lajpat Rai\n(c) N.M. Joshi\n(d) Sardar Vallabhbhai Patel",
-        "options": [
-            "Mahatma Gandhi",
-            "Lala Lajpat Rai",
-            "N.M. Joshi",
-            "Sardar Vallabhbhai Patel"
-        ],
-        "correctAnswer": 2,
-        "explanation": "N.M. Joshi was one of the founders of the All India Trade Union Congress (AITUC) in 1920. Lala Lajpat Rai was its first president.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Modern History"
             },
             {
                 "type": "pyq",
@@ -4442,64 +3283,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2004-13a89802",
-        "year": 2004,
-        "subject": "Geography",
-        "topic": "Physical Geography",
-        "text": "Which one of the following is the characteristic climate of the Tropical Savannah Region?",
-        "options": [
-            "Warm and dry climate throughout the year",
-            "Hot and wet climate throughout the year",
-            "Alternating wet and dry climate",
-            "Cold and wet climate throughout the year"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The Tropical Savannah Region is characterized by an alternating wet and dry climate. It experiences a distinct wet season and a dry season.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Physical Geography"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2004"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2004-e5b0494e",
-        "year": 2004,
-        "subject": "Environment",
-        "topic": "Pollution",
-        "text": "Which one of the following is mainly responsible for depletion of the ozone layer?",
-        "options": [
-            "Carbon dioxide",
-            "Carbon monoxide",
-            "Chlorofluorocarbons",
-            "Methane"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Chlorofluorocarbons (CFCs) are the main culprit behind the depletion of the ozone layer. When CFCs reach the stratosphere, they are broken down by UV radiation, releasing chlorine atoms, which then catalyze the destruction of ozone molecules.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Environment"
-            },
-            {
-                "type": "topic",
-                "label": "Pollution"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2004"
-            }
-        ]
-    },
-    {
         "id": "pyq-2004-e397d6c9",
         "year": 2004,
         "subject": "Science",
@@ -4521,35 +3304,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Biology"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2004"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2004-acca828a",
-        "year": 2004,
-        "subject": "Polity",
-        "topic": "Fundamental Rights",
-        "text": "Which one of the following rights was described by Dr. B.R. Ambedkar as the 'heart and soul of the Constitution'?",
-        "options": [
-            "Right to Equality",
-            "Right to Freedom",
-            "Right to Constitutional Remedies",
-            "Right to Property"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Dr. B.R. Ambedkar described the Right to Constitutional Remedies (Article 32) as the 'heart and soul of the Constitution' because it provides a mechanism for citizens to enforce their fundamental rights through the courts.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Fundamental Rights"
             },
             {
                 "type": "pyq",
@@ -4732,35 +3486,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2004-ef7c923f",
-        "year": 2004,
-        "subject": "History",
-        "topic": "Modern History",
-        "text": "Who among the following founded the 'All India Depressed Classes Federation' in 1920?",
-        "options": [
-            "Mahatma Gandhi",
-            "Jyotiba Phule",
-            "B.R. Ambedkar",
-            "Jagjivan Ram"
-        ],
-        "correctAnswer": 2,
-        "explanation": "B.R. Ambedkar founded the 'All India Depressed Classes Federation' in 1920 to advocate for the rights and upliftment of the depressed classes (Dalits).",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Modern History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2004"
-            }
-        ]
-    },
-    {
         "id": "pyq-2004-7baf9063",
         "year": 2004,
         "subject": "Economy",
@@ -4790,296 +3515,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2000-c0afa43e",
-        "year": 2000,
-        "subject": "Polity",
-        "topic": "Constitutional Amendments",
-        "text": "Which of the following amendments to the Constitution of India empowered the President to send back any matter for reconsideration by the Council of Ministers?",
-        "options": [
-            "39th",
-            "42nd",
-            "44th",
-            "52nd"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The 44th Amendment Act of 1978 empowered the President to send back any advice given by the Council of Ministers for reconsideration. However, if the Council sends the same advice again, the President is bound to act according to it.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Constitutional Amendments"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2000"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2000-9333e25a",
-        "year": 2000,
-        "subject": "History",
-        "topic": "Ancient History",
-        "text": "The Gandhara style of art is a combination of",
-        "options": [
-            "Roman and Indian styles",
-            "Greek and Indian styles",
-            "Islamic and Indian styles",
-            "None of these"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The Gandhara style of art, which flourished in the Gandhara region (present-day Pakistan and Afghanistan), is a fusion of Greek and Indian artistic traditions. It is characterized by its Hellenistic influences, particularly in the depiction of the Buddha and other figures.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Ancient History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2000"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2000-e1265c5e",
-        "year": 2000,
-        "subject": "Economy",
-        "topic": "Banking",
-        "text": "Which of the following is not a function of the Reserve Bank of India?",
-        "options": [
-            "Banker to the Government",
-            "Banker to other Banks",
-            "Regulating Foreign Exchange",
-            "Dealing in all kinds of banking business"
-        ],
-        "correctAnswer": 3,
-        "explanation": "The Reserve Bank of India (RBI) acts as the banker to the Government and other banks, and it regulates foreign exchange. However, it does not deal in all kinds of banking business directly with the public. That is the function of commercial banks.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Economy"
-            },
-            {
-                "type": "topic",
-                "label": "Banking"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2000"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2000-a1aff5f3",
-        "year": 2000,
-        "subject": "Geography",
-        "topic": "Physical Geography",
-        "text": "Which one of the following is the characteristic climate of the Tropical Savannah Region?",
-        "options": [
-            "Warm and dry throughout the year",
-            "Hot and wet throughout the year",
-            "Alternating wet and dry seasons",
-            "Cold and wet throughout the year"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The Tropical Savannah Region is characterized by alternating wet and dry seasons. It experiences a distinct wet season with high rainfall and a dry season with little or no rainfall.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Physical Geography"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2000"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2000-31a0699c",
-        "year": 2000,
-        "subject": "Environment",
-        "topic": "Pollution",
-        "text": "Which of the following is the main cause of acid rain?",
-        "options": [
-            "Carbon dioxide",
-            "Carbon monoxide",
-            "Sulphur dioxide",
-            "Ammonia"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Sulphur dioxide (SO2) is a major contributor to acid rain. It is released into the atmosphere primarily from the burning of fossil fuels, industrial processes, and volcanic eruptions. In the atmosphere, SO2 reacts with water, oxygen, and other chemicals to form sulfuric acid, which then falls to the earth as acid rain.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Environment"
-            },
-            {
-                "type": "topic",
-                "label": "Pollution"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2000"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2000-f7cec9cb",
-        "year": 2000,
-        "subject": "Science",
-        "topic": "Biology",
-        "text": "Which one of the following is mainly responsible for the depletion of the ozone layer?",
-        "options": [
-            "Carbon dioxide",
-            "Methane",
-            "Chlorofluorocarbons",
-            "Nitrogen dioxide"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Chlorofluorocarbons (CFCs) are the primary cause of ozone layer depletion. When CFCs reach the stratosphere, they are broken down by UV radiation, releasing chlorine atoms. These chlorine atoms then catalyze the destruction of ozone molecules.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Science"
-            },
-            {
-                "type": "topic",
-                "label": "Biology"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2000"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2000-8ab19e02",
-        "year": 2000,
-        "subject": "Polity",
-        "topic": "Fundamental Rights",
-        "text": "Which of the following rights is not explicitly mentioned in the Constitution of India but has been interpreted as a fundamental right by the Supreme Court?",
-        "options": [
-            "Right to Equality",
-            "Right to Freedom of Speech and Expression",
-            "Right to Privacy",
-            "Right to Constitutional Remedies"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The Right to Privacy is not explicitly mentioned in the Constitution of India. However, the Supreme Court has interpreted it as an intrinsic part of Article 21 (Right to Life and Personal Liberty).",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Fundamental Rights"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2000"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2000-4df63bee",
-        "year": 2000,
-        "subject": "History",
-        "topic": "Medieval History",
-        "text": "Who among the following Sultans of Delhi is known to have introduced a token currency?",
-        "options": [
-            "Iltutmish",
-            "Balban",
-            "Muhammad bin Tughluq",
-            "Alauddin Khalji"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Muhammad bin Tughluq introduced a token currency made of brass and copper. He did this because of a shortage of silver, but the experiment failed due to the ease of counterfeiting the coins.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Medieval History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2000"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2000-ca49443a",
-        "year": 2000,
-        "subject": "Economy",
-        "topic": "Economic Planning",
-        "text": "The concept of 'Five Year Plans' in India was borrowed from",
-        "options": [
-            "USA",
-            "USSR",
-            "UK",
-            "China"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The concept of Five Year Plans in India was borrowed from the USSR (Soviet Union). India adopted this model to promote planned economic development.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Economy"
-            },
-            {
-                "type": "topic",
-                "label": "Economic Planning"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2000"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2000-927fb34e",
-        "year": 2000,
-        "subject": "Geography",
-        "topic": "Indian Geography",
-        "text": "Which of the following rivers does not originate in India?",
-        "options": [
-            "Beas",
-            "Chenab",
-            "Ravi",
-            "Sutlej"
-        ],
-        "correctAnswer": 3,
-        "explanation": "The Sutlej River originates in the Tibetan Plateau near Lake Rakshastal and enters India through the Shipki La pass. The other rivers listed (Beas, Chenab, and Ravi) originate in India.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Indian Geography"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2000"
-            }
-        ]
-    },
-    {
         "id": "pyq-2000-9f511e04",
         "year": 2000,
         "subject": "Environment",
@@ -5101,93 +3536,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Biodiversity"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2000"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2000-785e6f9f",
-        "year": 2000,
-        "subject": "Science",
-        "topic": "Physics",
-        "text": "The ozone layer restricts",
-        "options": [
-            "Visible light",
-            "Infrared radiation",
-            "X-rays and gamma rays",
-            "Ultraviolet radiation"
-        ],
-        "correctAnswer": 3,
-        "explanation": "The ozone layer in the Earth's stratosphere absorbs a significant portion of the Sun's harmful ultraviolet (UV) radiation, particularly UVB and UVC rays. This absorption protects life on Earth from the damaging effects of UV radiation.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Science"
-            },
-            {
-                "type": "topic",
-                "label": "Physics"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2000"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2000-594563a8",
-        "year": 2000,
-        "subject": "Polity",
-        "topic": "Directive Principles",
-        "text": "Which part of the Constitution of India deals with the Directive Principles of State Policy?",
-        "options": [
-            "Part II",
-            "Part III",
-            "Part IV",
-            "Part V"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Part IV of the Constitution of India (Articles 36-51) deals with the Directive Principles of State Policy (DPSPs). These principles are guidelines to the state, aiming to create a 'Welfare State'.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Directive Principles"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2000"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2000-7ea10108",
-        "year": 2000,
-        "subject": "History",
-        "topic": "Modern History",
-        "text": "Who among the following was the founder of the 'Gadar Party'?",
-        "options": [
-            "Bhagat Singh",
-            "Lala Hardayal",
-            "B.R. Ambedkar",
-            "Subhas Chandra Bose"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Lala Hardayal was a key founder of the Gadar Party, which was formed in 1913 in the United States to fight for India's independence from British rule.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Modern History"
             },
             {
                 "type": "pyq",
@@ -5225,64 +3573,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2001-6d54a6d9",
-        "year": 2001,
-        "subject": "Polity",
-        "topic": "Fundamental Rights",
-        "text": "Which one of the following rights was described by Dr. B.R. Ambedkar as the 'heart and soul of the Constitution'?",
-        "options": [
-            "Right to Equality",
-            "Right to Freedom of Religion",
-            "Right to Constitutional Remedies",
-            "Right to Property"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Dr. B.R. Ambedkar described the Right to Constitutional Remedies (Article 32) as the 'heart and soul of the Constitution' because it provides a mechanism for enforcing all other fundamental rights.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Fundamental Rights"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2001"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2001-3baccd8f",
-        "year": 2001,
-        "subject": "History",
-        "topic": "Ancient History",
-        "text": "The Gandhara style of art is a combination of",
-        "options": [
-            "Roman and Indian styles",
-            "Greek and Indian styles",
-            "Islamic and Indian styles",
-            "None of the above"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The Gandhara style of art, which flourished in the region of Gandhara (present-day Pakistan and Afghanistan), is a fusion of Greek and Indian artistic traditions. It is characterized by its Hellenistic influences in depicting Buddhist themes.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Ancient History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2001"
-            }
-        ]
-    },
-    {
         "id": "pyq-2001-5a5756d7",
         "year": 2001,
         "subject": "Economy",
@@ -5312,122 +3602,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2001-76d50a0a",
-        "year": 2001,
-        "subject": "Geography",
-        "topic": "Physical Geography",
-        "text": "Which one of the following is the characteristic climate of the Tropical Savannah Region?",
-        "options": [
-            "Warm and dry throughout the year",
-            "Hot and wet throughout the year",
-            "Alternating wet and dry seasons",
-            "Cold and wet throughout the year"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The Tropical Savannah Region is characterized by alternating wet and dry seasons. It experiences a distinct wet season with high rainfall and a dry season with little or no rainfall.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Physical Geography"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2001"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2001-984981a7",
-        "year": 2001,
-        "subject": "Environment",
-        "topic": "Pollution",
-        "text": "Which of the following is the main cause of acid rain?",
-        "options": [
-            "Carbon dioxide",
-            "Carbon monoxide",
-            "Sulphur dioxide",
-            "Ammonia"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Sulphur dioxide (SO2) is a major contributor to acid rain. It is released into the atmosphere primarily from the burning of fossil fuels and industrial processes. It reacts with water, oxygen, and other chemicals to form sulfuric acid, which falls to the earth as acid rain.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Environment"
-            },
-            {
-                "type": "topic",
-                "label": "Pollution"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2001"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2001-7bfe4eee",
-        "year": 2001,
-        "subject": "Science",
-        "topic": "Biology",
-        "text": "Which one of the following is a fish?",
-        "options": [
-            "Starfish",
-            "Silverfish",
-            "Dogfish",
-            "Jellyfish"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Dogfish is a type of small shark, and sharks are cartilaginous fish. The other options are invertebrates and not classified as fish.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Science"
-            },
-            {
-                "type": "topic",
-                "label": "Biology"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2001"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2001-d3312aca",
-        "year": 2001,
-        "subject": "History",
-        "topic": "Medieval History",
-        "text": "Who among the following Sultans of Delhi is known to have introduced a token currency?",
-        "options": [
-            "Iltutmish",
-            "Balban",
-            "Muhammad bin Tughluq",
-            "Alauddin Khalji"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Muhammad bin Tughluq introduced a token currency made of brass and copper. This was done due to a shortage of silver, but the experiment failed due to the ease of counterfeiting.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Medieval History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2001"
-            }
-        ]
-    },
-    {
         "id": "pyq-2001-394984b0",
         "year": 2001,
         "subject": "Polity",
@@ -5449,180 +3623,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Parliament"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2001"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2001-45e698ef",
-        "year": 2001,
-        "subject": "Economy",
-        "topic": "Economic Growth and Development",
-        "text": "The main objective of the First Five Year Plan was",
-        "options": [
-            "Industrial development",
-            "Agricultural development",
-            "Development of infrastructure",
-            "Poverty alleviation"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The First Five Year Plan (1951-1956) primarily focused on agricultural development. Due to the partition of India and Pakistan, the agricultural sector was in distress, and the plan aimed to increase food production and improve the agricultural infrastructure.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Economy"
-            },
-            {
-                "type": "topic",
-                "label": "Economic Growth and Development"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2001"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2001-cc99b68c",
-        "year": 2001,
-        "subject": "Geography",
-        "topic": "Indian Geography",
-        "text": "The highest peak in India is",
-        "options": [
-            "Kanchenjunga",
-            "Nanda Devi",
-            "Mount Everest",
-            "K2 (Godwin Austen)"
-        ],
-        "correctAnswer": 3,
-        "explanation": "K2 (Godwin Austen) is the highest peak in India. While Mount Everest is the highest peak in the world, it is located in Nepal. Kanchenjunga is the third highest peak in the world and is located on the border of India and Nepal.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Indian Geography"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2001"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2001-9e9e0e4f",
-        "year": 2001,
-        "subject": "Environment",
-        "topic": "Biodiversity",
-        "text": "Which of the following is an example of an endangered species in India?",
-        "options": [
-            "Tiger",
-            "Lion",
-            "Indian Rhinoceros",
-            "All of the above"
-        ],
-        "correctAnswer": 3,
-        "explanation": "While tigers and lions face conservation challenges, the Indian Rhinoceros is particularly vulnerable and classified as endangered due to habitat loss and poaching.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Environment"
-            },
-            {
-                "type": "topic",
-                "label": "Biodiversity"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2001"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2001-bc4cbc23",
-        "year": 2001,
-        "subject": "Science",
-        "topic": "Physics",
-        "text": "The speed of light is maximum in",
-        "options": [
-            "Vacuum",
-            "Water",
-            "Glass",
-            "Diamond"
-        ],
-        "correctAnswer": 0,
-        "explanation": "The speed of light is maximum in a vacuum because there are no particles to interact with. When light passes through a medium like water, glass, or diamond, it interacts with the atoms in the material, slowing it down.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Science"
-            },
-            {
-                "type": "topic",
-                "label": "Physics"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2001"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2001-b1579190",
-        "year": 2001,
-        "subject": "History",
-        "topic": "Modern History",
-        "text": "Who among the following was the founder of the 'Gadar Party'?",
-        "options": [
-            "Bhagat Singh",
-            "Lala Hardayal",
-            "Sukhdev",
-            "Shivaram Rajguru"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Lala Hardayal was the founder of the Gadar Party, which was formed in 1913 in the United States to fight for India's independence from British rule.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Modern History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2001"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2001-b295dec6",
-        "year": 2001,
-        "subject": "Polity",
-        "topic": "Constitutional Amendments",
-        "text": "Which of the following amendments to the Constitution of India relates to the issue of defection?",
-        "options": [
-            "51st",
-            "52nd",
-            "60th",
-            "61st"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The 52nd Amendment to the Constitution of India, passed in 1985, is related to the issue of defection. It added the Tenth Schedule to the Constitution, which outlines the provisions for disqualification of Members of Parliament and State Legislatures on the ground of defection.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Constitutional Amendments"
             },
             {
                 "type": "pyq",
@@ -5710,93 +3710,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Ancient History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2002"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2002-1acd2596",
-        "year": 2002,
-        "subject": "Economy",
-        "topic": "Banking",
-        "text": "Which of the following measures would result in an increase in the money supply in the economy?\n1. Purchase of government securities from the public by the Central Bank.\n2. Deposit of currency in banks by the public.\n3. Borrowing by the government from the Central Bank.\n4. Sale of government securities to the public by the Central Bank.\nSelect the correct answer using the codes given below:\n(a) 1 only\n(b) 1 and 2 only\n(c) 2 and 4 only\n(d) 1 and 3 only",
-        "options": [
-            "1 only",
-            "1 and 2 only",
-            "2 and 4 only",
-            "1 and 3 only"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Purchasing government securities by the Central Bank injects money into the economy, increasing the money supply. Borrowing by the government from the Central Bank also increases the money supply. Depositing currency in banks does not directly increase the money supply, it just changes the form of money. Selling government securities by the Central Bank reduces the money supply.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Economy"
-            },
-            {
-                "type": "topic",
-                "label": "Banking"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2002"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2002-f709469e",
-        "year": 2002,
-        "subject": "Geography",
-        "topic": "Climatology",
-        "text": "Which one of the following is the characteristic climate of the Tropical Savannah Region?\n(a) Rainfall throughout the year\n(b) Rainfall only in winter\n(c) An extremely short dry season\n(d) A definite dry and wet season",
-        "options": [
-            "Rainfall throughout the year",
-            "Rainfall only in winter",
-            "An extremely short dry season",
-            "A definite dry and wet season"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Tropical Savannah regions are characterized by a distinct dry and wet season. The wet season is associated with the movement of the Intertropical Convergence Zone (ITCZ).",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Climatology"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2002"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2002-a07fe46b",
-        "year": 2002,
-        "subject": "Environment",
-        "topic": "Pollution",
-        "text": "Which one of the following is the most important strategy for the conservation of biodiversity?\n(a) Prevention of over-exploitation\n(b) Preservation of habitats\n(c) Inclusion of more national parks and biosphere reserves\n(d) All of the above",
-        "options": [
-            "Prevention of over-exploitation",
-            "Preservation of habitats",
-            "Inclusion of more national parks and biosphere reserves",
-            "All of the above"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Preservation of habitats is the most crucial strategy. While preventing over-exploitation and increasing protected areas are important, preserving the natural habitats ensures the survival of species and their interactions within the ecosystem. Overexploitation and lack of protected areas are symptoms of habitat loss.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Environment"
-            },
-            {
-                "type": "topic",
-                "label": "Biodiversity"
             },
             {
                 "type": "pyq",
@@ -6037,35 +3950,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2002-7142943f",
-        "year": 2002,
-        "subject": "Polity",
-        "topic": "Fundamental Rights",
-        "text": "Which one of the following rights was described by Dr. B.R. Ambedkar as the 'heart and soul of the Constitution'?\n(a) Right to Equality\n(b) Right to Freedom of Religion\n(c) Right to Constitutional Remedies\n(d) Right to Property",
-        "options": [
-            "Right to Equality",
-            "Right to Freedom of Religion",
-            "Right to Constitutional Remedies",
-            "Right to Property"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Dr. B.R. Ambedkar described the Right to Constitutional Remedies (Article 32) as the 'heart and soul of the Constitution' because it provides a mechanism for enforcing all other fundamental rights.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Fundamental Rights"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2002"
-            }
-        ]
-    },
-    {
         "id": "pyq-2002-2d5b75f3",
         "year": 2002,
         "subject": "Economy",
@@ -6091,35 +3975,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "pyq",
                 "label": "UPSC 2002"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2003-eeeb6451",
-        "year": 2003,
-        "subject": "Polity",
-        "topic": "Parliament",
-        "text": "Which one of the following statements is correct?\n(a) In India, the same person cannot be appointed as Governor for two or more States at the same time.\n(b) The Judges of the High Court of the States are appointed by the Governor of the State just as the Judges of the Supreme Court are appointed by the President.\n(c) No procedure has been laid down in the Constitution of India for the removal of a Governor from his/her office.\n(d) In the event of the death of the President while in office, the Vice-President can act as President for a maximum period of one year.",
-        "options": [
-            "In India, the same person cannot be appointed as Governor for two or more States at the same time.",
-            "The Judges of the High Court of the States are appointed by the Governor of the State just as the Judges of the Supreme Court are appointed by the President.",
-            "No procedure has been laid down in the Constitution of India for the removal of a Governor from his/her office.",
-            "In the event of the death of the President while in office, the Vice-President can act as President for a maximum period of one year."
-        ],
-        "correctAnswer": 2,
-        "explanation": "The Governor holds office during the pleasure of the President. While there is no explicit procedure for removal, the President can remove a Governor at any time. The other options are incorrect because a person can be a Governor for multiple states, High Court judges are appointed by the President, and the Vice-President can only act as President for a maximum of six months.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Parliament"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2003"
             }
         ]
     },
@@ -6174,64 +4029,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Banking"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2003"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2003-660b1e1c",
-        "year": 2003,
-        "subject": "Geography",
-        "topic": "Physical Geography",
-        "text": "Which one of the following is the characteristic climate of the Tropical Savannah Region?\n(a) Rainfall throughout the year\n(b) Rainfall only in winter\n(c) Extremely low humidity\n(d) Definite dry and wet season",
-        "options": [
-            "Rainfall throughout the year",
-            "Rainfall only in winter",
-            "Extremely low humidity",
-            "Definite dry and wet season"
-        ],
-        "correctAnswer": 3,
-        "explanation": "The Tropical Savannah Region is characterized by a distinct dry and wet season. This is due to the seasonal movement of the Intertropical Convergence Zone (ITCZ).",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Physical Geography"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2003"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2003-77b8c51f",
-        "year": 2003,
-        "subject": "Environment",
-        "topic": "Pollution",
-        "text": "Which one of the following is mainly responsible for depletion of the ozone layer?\n(a) Carbon dioxide\n(b) Sulphur dioxide\n(c) Carbon monoxide\n(d) Chlorofluorocarbons",
-        "options": [
-            "Carbon dioxide",
-            "Sulphur dioxide",
-            "Carbon monoxide",
-            "Chlorofluorocarbons"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Chlorofluorocarbons (CFCs) are the primary cause of ozone layer depletion. They release chlorine atoms into the stratosphere, which catalyze the destruction of ozone molecules.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Environment"
-            },
-            {
-                "type": "topic",
-                "label": "Pollution"
             },
             {
                 "type": "pyq",
@@ -6414,35 +4211,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2003-311ade34",
-        "year": 2003,
-        "subject": "Science",
-        "topic": "Physics",
-        "text": "The instrument used to see distant objects on the Earth is\n(a) Simple microscope\n(b) Compound microscope\n(c) Telescope\n(d) Terrestrial telescope",
-        "options": [
-            "Simple microscope",
-            "Compound microscope",
-            "Telescope",
-            "Terrestrial telescope"
-        ],
-        "correctAnswer": 3,
-        "explanation": "A terrestrial telescope is specifically designed for viewing distant objects on Earth. Regular telescopes can produce inverted images, which is not suitable for terrestrial viewing. Terrestrial telescopes use an erecting system to produce upright images.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Science"
-            },
-            {
-                "type": "topic",
-                "label": "Physics"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2003"
-            }
-        ]
-    },
-    {
         "id": "pyq-2003-df53198c",
         "year": 2003,
         "subject": "History",
@@ -6617,122 +4385,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2005-6174b868",
-        "year": 2005,
-        "subject": "Geography",
-        "topic": "Physical Geography",
-        "text": "Which one of the following is the characteristic climate of the Tropical Savannah Region?",
-        "options": [
-            "Warm and dry throughout the year",
-            "Hot and wet throughout the year",
-            "Alternating wet and dry seasons",
-            "Cold and wet throughout the year"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The Tropical Savannah Region is characterized by alternating wet and dry seasons. It experiences a distinct wet season during the high-sun period and a dry season during the low-sun period.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Physical Geography"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2005"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2005-86ccc923",
-        "year": 2005,
-        "subject": "Environment",
-        "topic": "Pollution",
-        "text": "Which one of the following is the most important strategy for the conservation of biodiversity?",
-        "options": [
-            "Preservation of habitats",
-            "International treaties",
-            "Eradication of predators",
-            "Rearing of endangered species"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Preservation of habitats is the most important strategy for the conservation of biodiversity. Protecting the natural environment where species live is crucial for their survival.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Environment"
-            },
-            {
-                "type": "topic",
-                "label": "Pollution"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2005"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2005-1dcafd4f",
-        "year": 2005,
-        "subject": "Science",
-        "topic": "Biology",
-        "text": "Which one of the following is mainly responsible for the depletion of the ozone layer?",
-        "options": [
-            "Carbon dioxide",
-            "Methane",
-            "Carbon monoxide",
-            "Chlorofluorocarbons"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Chlorofluorocarbons (CFCs) are the main cause of ozone layer depletion. When CFCs reach the stratosphere, they are broken down by UV radiation, releasing chlorine atoms, which then catalyze the destruction of ozone molecules.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Science"
-            },
-            {
-                "type": "topic",
-                "label": "Biology"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2005"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2005-e577a300",
-        "year": 2005,
-        "subject": "Polity",
-        "topic": "Fundamental Rights",
-        "text": "Which one of the following rights was described by Dr. B.R. Ambedkar as the 'heart and soul of the Constitution'?",
-        "options": [
-            "Right to Equality",
-            "Right to Freedom of Religion",
-            "Right to Constitutional Remedies",
-            "Right to Property"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Dr. B.R. Ambedkar described the Right to Constitutional Remedies (Article 32) as the 'heart and soul of the Constitution' because it provides a mechanism for citizens to enforce their fundamental rights through the courts.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Fundamental Rights"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2005"
-            }
-        ]
-    },
-    {
         "id": "pyq-2005-ec7c75bd",
         "year": 2005,
         "subject": "History",
@@ -6820,64 +4472,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2005-ecae8b74",
-        "year": 2005,
-        "subject": "Environment",
-        "topic": "Ecology",
-        "text": "Which one of the following is an artificial ecosystem?",
-        "options": [
-            "Pond",
-            "Crop field",
-            "Lake",
-            "Forest"
-        ],
-        "correctAnswer": 1,
-        "explanation": "A crop field is an artificial ecosystem because it is created and maintained by humans for agricultural purposes. The other options are natural ecosystems.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Environment"
-            },
-            {
-                "type": "topic",
-                "label": "Ecology"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2005"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2005-17ad650a",
-        "year": 2005,
-        "subject": "Science",
-        "topic": "Physics",
-        "text": "The instrument used to see distant objects on the Earth is",
-        "options": [
-            "Simple microscope",
-            "Compound microscope",
-            "Astronomical telescope",
-            "Terrestrial telescope"
-        ],
-        "correctAnswer": 3,
-        "explanation": "A terrestrial telescope is used to see distant objects on the Earth. Astronomical telescopes are used for viewing celestial objects.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Science"
-            },
-            {
-                "type": "topic",
-                "label": "Physics"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2005"
-            }
-        ]
-    },
-    {
         "id": "pyq-2005-2aa4b199",
         "year": 2005,
         "subject": "Polity",
@@ -6899,35 +4493,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Parliament"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2005"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2005-22a358e2",
-        "year": 2005,
-        "subject": "History",
-        "topic": "Modern History",
-        "text": "Who among the following founded the 'All India Depressed Classes Federation' in 1920?",
-        "options": [
-            "Mahatma Gandhi",
-            "Jyotiba Phule",
-            "B.R. Ambedkar",
-            "Jagjivan Ram"
-        ],
-        "correctAnswer": 2,
-        "explanation": "B.R. Ambedkar founded the 'All India Depressed Classes Federation' in 1920 to advocate for the rights and upliftment of the depressed classes (Dalits).",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Modern History"
             },
             {
                 "type": "pyq",
@@ -6961,35 +4526,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "pyq",
                 "label": "UPSC 2005"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2006-4da8645b",
-        "year": 2006,
-        "subject": "Polity",
-        "topic": "Constitutional Amendments",
-        "text": "Which one of the following Amendments of the Constitution of India deals with the issue of strengthening of the Panchayati Raj?",
-        "options": [
-            "42nd Amendment",
-            "44th Amendment",
-            "73rd Amendment",
-            "86th Amendment"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The 73rd Amendment Act of 1992 deals with the issue of strengthening of the Panchayati Raj Institutions. It added Part IX to the Constitution, titled 'The Panchayats' and a new Eleventh Schedule containing 29 subjects.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Constitutional Amendments"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2006"
             }
         ]
     },
@@ -7052,35 +4588,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2006-42869f5a",
-        "year": 2006,
-        "subject": "Geography",
-        "topic": "Physical Geography",
-        "text": "Which one of the following is the characteristic climate of the Tropical Savannah Region?",
-        "options": [
-            "Warm and dry throughout the year",
-            "Hot and wet throughout the year",
-            "Warm with definite dry and wet seasons",
-            "Cool and wet throughout the year"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The Tropical Savannah Region is characterized by a warm climate with distinct dry and wet seasons. The dry season is typically longer and more pronounced than in equatorial regions.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Physical Geography"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2006"
-            }
-        ]
-    },
-    {
         "id": "pyq-2006-fea459b8",
         "year": 2006,
         "subject": "Environment",
@@ -7102,122 +4609,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Biodiversity"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2006"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2006-88c116bd",
-        "year": 2006,
-        "subject": "Science",
-        "topic": "Biology",
-        "text": "Which one of the following is mainly responsible for the depletion of the ozone layer?",
-        "options": [
-            "Carbon dioxide",
-            "Methane",
-            "Carbon monoxide",
-            "Chlorofluorocarbons"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Chlorofluorocarbons (CFCs) are the primary cause of ozone layer depletion. When CFCs reach the stratosphere, they are broken down by UV radiation, releasing chlorine atoms that catalyze the destruction of ozone molecules.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Science"
-            },
-            {
-                "type": "topic",
-                "label": "Biology"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2006"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2006-2a1f99dc",
-        "year": 2006,
-        "subject": "Polity",
-        "topic": "Fundamental Rights",
-        "text": "Which one of the following rights was described by Dr. B.R. Ambedkar as the 'heart and soul of the Constitution'?",
-        "options": [
-            "Right to Equality",
-            "Right to Freedom",
-            "Right to Constitutional Remedies",
-            "Right to Property"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Dr. B.R. Ambedkar described the Right to Constitutional Remedies (Article 32) as the 'heart and soul of the Constitution' because it provides a mechanism for enforcing all other fundamental rights.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Fundamental Rights"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2006"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2006-e3452e7f",
-        "year": 2006,
-        "subject": "History",
-        "topic": "Medieval History",
-        "text": "Who among the following was associated with the introduction of the Ryotwari Settlement in Madras?",
-        "options": [
-            "Lord Cornwallis",
-            "Thomas Munro",
-            "John Shore",
-            "Lord William Bentinck"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Thomas Munro is associated with the introduction of the Ryotwari Settlement in Madras. He implemented it in the early 19th century as Governor of Madras.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Medieval History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2006"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2006-41a98a1b",
-        "year": 2006,
-        "subject": "Economy",
-        "topic": "Fiscal Policy",
-        "text": "The main objective of the Fiscal Responsibility and Budget Management Act, 2003 is to:",
-        "options": [
-            "Eliminate revenue deficit",
-            "Reduce fiscal deficit",
-            "Reduce public debt",
-            "All of the above"
-        ],
-        "correctAnswer": 3,
-        "explanation": "The Fiscal Responsibility and Budget Management (FRBM) Act, 2003, aimed to reduce fiscal deficit, eliminate revenue deficit, and stabilize the public debt. Therefore, 'All of the above' is the correct answer.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Economy"
-            },
-            {
-                "type": "topic",
-                "label": "Fiscal Policy"
             },
             {
                 "type": "pyq",
@@ -7313,64 +4704,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2006-92866249",
-        "year": 2006,
-        "subject": "Polity",
-        "topic": "Parliament",
-        "text": "The Parliament can make any law for the whole or any part of India for implementing international treaties:",
-        "options": [
-            "With the consent of all the States",
-            "With the consent of the majority of States",
-            "With the consent of the States concerned",
-            "Without the consent of any State"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Under Article 253 of the Constitution, Parliament has the power to make any law for the whole or any part of India for implementing international treaties, agreements, or conventions. This can be done without the consent of any state.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Parliament"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2006"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2006-580a85d2",
-        "year": 2006,
-        "subject": "History",
-        "topic": "Modern History",
-        "text": "Who among the following founded the 'All India Depressed Classes Federation' in 1920?",
-        "options": [
-            "Mahatma Gandhi",
-            "Jyotiba Phule",
-            "B.R. Ambedkar",
-            "Jagjivan Ram"
-        ],
-        "correctAnswer": 2,
-        "explanation": "B.R. Ambedkar founded the All India Depressed Classes Federation in 1920 to advocate for the rights and upliftment of the depressed classes (Dalits).",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Modern History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2006"
-            }
-        ]
-    },
-    {
         "id": "pyq-2006-04cf016f",
         "year": 2006,
         "subject": "Economy",
@@ -7429,35 +4762,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2009-5342e3f7",
-        "year": 2009,
-        "subject": "History",
-        "topic": "Ancient History",
-        "text": "With reference to the religious history of India, consider the following statements:\n1. The concept of Bodhisattva is central to Hinayana sect of Buddhism.\n2. Bodhisattva is a compassionate one on his way to enlightenment.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The concept of Bodhisattva is central to Mahayana Buddhism, not Hinayana. Bodhisattvas are beings who postpone their own enlightenment to help others achieve it. Statement 2 is correct.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Ancient History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2009"
-            }
-        ]
-    },
-    {
         "id": "pyq-2009-a0726124",
         "year": 2009,
         "subject": "Economy",
@@ -7508,35 +4812,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Climate"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2009"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2009-f7db3bc8",
-        "year": 2009,
-        "subject": "Environment",
-        "topic": "Biodiversity",
-        "text": "Which one of the following is the correct sequence of ecosystems in the order of decreasing productivity?",
-        "options": [
-            "Oceans, lakes, grasslands, mangroves",
-            "Mangroves, oceans, grasslands, lakes",
-            "Mangroves, grasslands, lakes, oceans",
-            "Oceans, mangroves, grasslands, lakes"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Mangroves are highly productive ecosystems, followed by grasslands, then lakes, and finally oceans, which have lower productivity per unit area due to nutrient limitations and vastness.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Environment"
-            },
-            {
-                "type": "topic",
-                "label": "Biodiversity"
             },
             {
                 "type": "pyq",
@@ -7748,35 +5023,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2009-b31676d9",
-        "year": 2009,
-        "subject": "Polity",
-        "topic": "Parliament",
-        "text": "The Parliament can make any law for the whole or any part of India for implementing international treaties",
-        "options": [
-            "with the consent of all the States",
-            "with the consent of the majority of States",
-            "with the consent of the States concerned",
-            "without the consent of any State"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Article 253 of the Indian Constitution empowers the Parliament to make any law for the whole or any part of India for implementing international treaties, agreements, or conventions. This can be done without the consent of any state.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Parliament"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2009"
-            }
-        ]
-    },
-    {
         "id": "pyq-2009-2c9bb8bd",
         "year": 2009,
         "subject": "History",
@@ -7835,64 +5081,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2007-d96d19d2",
-        "year": 2007,
-        "subject": "Polity",
-        "topic": "Constitutional Amendments",
-        "text": "Which one of the following Amendments of the Constitution of India deals with the issue of strengthening of the Panchayati Raj?",
-        "options": [
-            "42nd Amendment",
-            "44th Amendment",
-            "73rd Amendment",
-            "86th Amendment"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The 73rd Amendment Act of 1992 deals with the issue of strengthening the Panchayati Raj Institutions (PRIs). It added Part IX to the Constitution, titled 'The Panchayats' and a new Eleventh Schedule containing 29 functional items of the Panchayats.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Constitutional Amendments"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2007"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2007-9519fc81",
-        "year": 2007,
-        "subject": "History",
-        "topic": "Ancient History",
-        "text": "With reference to the religious history of India, consider the following statements:\n1. The concept of Bodhisattva is central to Hinayana sect of Buddhism.\n2. Bodhisattva is a compassionate one on his way to enlightenment.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The concept of Bodhisattva is central to Mahayana Buddhism, not Hinayana. Bodhisattvas are enlightened beings who postpone their own nirvana to help others achieve enlightenment. Therefore, statement 2 is correct, and statement 1 is incorrect.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Ancient History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2007"
-            }
-        ]
-    },
-    {
         "id": "pyq-2007-52471c42",
         "year": 2007,
         "subject": "Economy",
@@ -7914,35 +5102,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Banking"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2007"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2007-05abde68",
-        "year": 2007,
-        "subject": "Geography",
-        "topic": "Physical Geography",
-        "text": "Which one of the following is the characteristic climate of the Tropical Savannah Region?",
-        "options": [
-            "Warm and dry throughout the year",
-            "Hot and wet throughout the year",
-            "Warm and wet in summer and cool and dry in winter",
-            "Cool and dry in summer and warm and wet in winter"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The Tropical Savannah Region is characterized by a distinct wet and dry season. It is warm and wet in summer due to the influence of the Intertropical Convergence Zone (ITCZ) and cool and dry in winter due to the influence of subtropical high-pressure systems.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Physical Geography"
             },
             {
                 "type": "pyq",
@@ -7980,93 +5139,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2007-b90ef0cc",
-        "year": 2007,
-        "subject": "Science",
-        "topic": "Biology",
-        "text": "Which one of the following is mainly responsible for the depletion of the ozone layer?",
-        "options": [
-            "Carbon dioxide",
-            "Methane",
-            "Carbon monoxide",
-            "Chlorofluorocarbons"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Chlorofluorocarbons (CFCs) are the primary cause of ozone layer depletion. When CFCs reach the stratosphere, they are broken down by UV radiation, releasing chlorine atoms. These chlorine atoms then catalyze the destruction of ozone molecules.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Science"
-            },
-            {
-                "type": "topic",
-                "label": "Biology"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2007"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2007-e70432bc",
-        "year": 2007,
-        "subject": "Polity",
-        "topic": "Fundamental Rights",
-        "text": "Which of the following are envisaged by the Right against Exploitation in the Constitution of India?\n1. Prohibition of traffic in human beings and forced labour.\n2. Abolition of untouchability.\n3. Protection of the interests of minorities.\n4. Prohibition of employment of children in factories and mines.\nSelect the correct answer using the code given below:",
-        "options": [
-            "1, 2 and 4 only",
-            "2, 3 and 4 only",
-            "1 and 4 only",
-            "1, 2, 3 and 4"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The Right against Exploitation (Articles 23 and 24) includes the prohibition of traffic in human beings and forced labor (Article 23) and the prohibition of employment of children in factories and mines (Article 24). Abolition of untouchability is under Article 17 (Right to Equality), and protection of the interests of minorities is under Articles 29 and 30 (Cultural and Educational Rights).",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Fundamental Rights"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2007"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2007-59a8dfca",
-        "year": 2007,
-        "subject": "History",
-        "topic": "Medieval History",
-        "text": "Who among the following was associated as secretary with the Hindu Female School which later came to be known as Bethune Female School?",
-        "options": [
-            "Debendranath Tagore",
-            "Ishwar Chandra Vidyasagar",
-            "Madan Mohan Malaviya",
-            "Annie Besant"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Ishwar Chandra Vidyasagar was closely associated as a secretary with the Hindu Female School, which was later known as Bethune Female School. He played a significant role in promoting women's education during that period.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Medieval History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2007"
-            }
-        ]
-    },
-    {
         "id": "pyq-2007-ceded8f6",
         "year": 2007,
         "subject": "Economy",
@@ -8088,64 +5160,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Economic Growth and Development"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2007"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2007-67b434ef",
-        "year": 2007,
-        "subject": "Geography",
-        "topic": "Indian Geography",
-        "text": "Which one of the following pairs of states of India indicates the easternmost and westernmost states?",
-        "options": [
-            "Assam and Rajasthan",
-            "Arunachal Pradesh and Rajasthan",
-            "Assam and Gujarat",
-            "Arunachal Pradesh and Gujarat"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Arunachal Pradesh is the easternmost state of India, and Gujarat is the westernmost state.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Indian Geography"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2007"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2007-2ad0817b",
-        "year": 2007,
-        "subject": "Environment",
-        "topic": "Biodiversity",
-        "text": "Which one of the following is the correct sequence of ecosystems in the order of decreasing productivity?",
-        "options": [
-            "Oceans, lakes, grasslands, mangroves",
-            "Mangroves, grasslands, lakes, oceans",
-            "Mangroves, oceans, grasslands, lakes",
-            "Oceans, mangroves, grasslands, lakes"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The correct sequence of ecosystems in decreasing order of productivity is: Mangroves, grasslands, lakes, and oceans. Mangroves are highly productive due to nutrient-rich conditions and high biodiversity. Grasslands are moderately productive, while lakes and oceans have lower productivity due to nutrient limitations and other factors.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Environment"
-            },
-            {
-                "type": "topic",
-                "label": "Biodiversity"
             },
             {
                 "type": "pyq",
@@ -8183,64 +5197,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2007-109b9085",
-        "year": 2007,
-        "subject": "Polity",
-        "topic": "Parliament",
-        "text": "The Parliament can make any law for the whole or any part of India for implementing international treaties",
-        "options": [
-            "With the consent of all the States",
-            "With the consent of the majority of States",
-            "With the consent of the States concerned",
-            "Without the consent of any State"
-        ],
-        "correctAnswer": 3,
-        "explanation": "According to Article 253 of the Indian Constitution, Parliament has the power to make any law for the whole or any part of India for implementing international treaties, agreements, or conventions. This can be done without the consent of any state.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Parliament"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2007"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2007-41b4236b",
-        "year": 2007,
-        "subject": "History",
-        "topic": "Modern History",
-        "text": "Who among the following was/were associated with the introduction of the Ryotwari Settlement in India during the British rule?\n1. Lord Cornwallis\n2. Alexander Read\n3. Thomas Munro\nSelect the correct answer using the code given below:",
-        "options": [
-            "1 only",
-            "1 and 2 only",
-            "2 and 3 only",
-            "1, 2 and 3"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Alexander Read and Thomas Munro were associated with the introduction of the Ryotwari Settlement. Lord Cornwallis is associated with the Permanent Settlement.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Modern History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2007"
-            }
-        ]
-    },
-    {
         "id": "pyq-2007-bd238884",
         "year": 2007,
         "subject": "Economy",
@@ -8266,209 +5222,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "pyq",
                 "label": "UPSC 2007"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2008-ebb92084",
-        "year": 2008,
-        "subject": "Polity",
-        "topic": "Constitutional Amendments",
-        "text": "Which one of the following Schedules of the Constitution of India contains provisions regarding disqualification of a Member of Parliament or a State Legislature on the ground of defection?",
-        "options": [
-            "Schedule 1",
-            "Schedule 2",
-            "Schedule 10",
-            "Schedule 5"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The Tenth Schedule of the Constitution of India contains provisions regarding the disqualification of Members of Parliament and State Legislatures on the ground of defection. It was added by the 52nd Amendment Act, 1985, also known as the Anti-Defection Law.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Constitutional Amendments"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2008"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2008-66802be1",
-        "year": 2008,
-        "subject": "History",
-        "topic": "Ancient History",
-        "text": "With reference to the religious history of India, consider the following statements:\n1. The concept of Bodhisattva is central to Hinayana sect of Buddhism.\n2. Bodhisattva is a compassionate one on his way to enlightenment.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The concept of Bodhisattva is central to Mahayana Buddhism, not Hinayana. Bodhisattvas are enlightened beings who postpone their own nirvana to help others achieve enlightenment. Therefore, statement 2 is correct, and statement 1 is incorrect.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Ancient History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2008"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2008-d9c3ce7b",
-        "year": 2008,
-        "subject": "Economy",
-        "topic": "Banking",
-        "text": "The terms 'Marginal Standing Facility Rate' and 'Net Demand and Time Liabilities', sometimes appearing in news, are used in relation to",
-        "options": [
-            "Banking operations",
-            "Communication networking",
-            "Military strategies",
-            "Supply and demand of agricultural products"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Marginal Standing Facility Rate (MSF) and Net Demand and Time Liabilities (NDTL) are terms used in relation to banking operations. MSF is the rate at which banks can borrow overnight funds from the RBI against government securities. NDTL represents the difference between a bank's demand and time liabilities (deposits) and its assets with other banks.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Economy"
-            },
-            {
-                "type": "topic",
-                "label": "Banking"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2008"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2008-80d1a04f",
-        "year": 2008,
-        "subject": "Geography",
-        "topic": "Climate",
-        "text": "Which one of the following is the characteristic climate of the Tropical Savannah Region?",
-        "options": [
-            "Warm and dry throughout the year",
-            "Hot and wet throughout the year",
-            "Warm and wet in summer and cool and dry in winter",
-            "Cool and dry in summer and warm and wet in winter"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The Tropical Savannah Region is characterized by a warm and wet climate in summer and a cool and dry climate in winter. This is due to the seasonal shift in wind patterns and the influence of the Intertropical Convergence Zone (ITCZ).",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Climate"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2008"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2008-8bc08b9c",
-        "year": 2008,
-        "subject": "Environment",
-        "topic": "Biodiversity",
-        "text": "Which one of the following is the correct sequence of ecosystems in the order of decreasing productivity?",
-        "options": [
-            "Oceans, lakes, grasslands, mangroves",
-            "Mangroves, grasslands, lakes, oceans",
-            "Mangroves, oceans, grasslands, lakes",
-            "Oceans, mangroves, grasslands, lakes"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The correct sequence of ecosystems in decreasing order of productivity is: Mangroves, grasslands, lakes, and oceans. Mangroves are highly productive due to nutrient-rich conditions and high biodiversity. Grasslands are moderately productive, followed by lakes. Oceans have relatively lower productivity compared to the other three.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Environment"
-            },
-            {
-                "type": "topic",
-                "label": "Biodiversity"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2008"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2008-d07a98b9",
-        "year": 2008,
-        "subject": "Science",
-        "topic": "Biology",
-        "text": "Which one of the following is mainly responsible for the depletion of the ozone layer?",
-        "options": [
-            "Carbon dioxide",
-            "Methane",
-            "Carbon monoxide",
-            "Chlorofluorocarbons"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Chlorofluorocarbons (CFCs) are the main cause of ozone layer depletion. When CFCs reach the stratosphere, they are broken down by UV radiation, releasing chlorine atoms. These chlorine atoms act as catalysts, destroying ozone molecules.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Science"
-            },
-            {
-                "type": "topic",
-                "label": "Biology"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2008"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2008-3949db97",
-        "year": 2008,
-        "subject": "Polity",
-        "topic": "Fundamental Rights",
-        "text": "Which of the following are envisaged by the Right against Exploitation in the Constitution of India?\n1. Prohibition of traffic in human beings and forced labour.\n2. Abolition of untouchability.\n3. Protection of the interests of minorities.\n4. Prohibition of employment of children in factories and mines.\nSelect the correct answer using the code given below:",
-        "options": [
-            "1, 2 and 3 only",
-            "2 and 4 only",
-            "1 and 4 only",
-            "1, 2, 3 and 4"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The Right against Exploitation (Articles 23 and 24) includes the prohibition of traffic in human beings and forced labor (Article 23) and the prohibition of employment of children in factories and mines (Article 24). Abolition of untouchability is covered under Article 17 (Right to Equality), and protection of the interests of minorities is covered under Articles 29 and 30 (Cultural and Educational Rights).",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Fundamental Rights"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2008"
             }
         ]
     },
@@ -8581,122 +5334,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Pollution"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2008"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2008-f01a8bb6",
-        "year": 2008,
-        "subject": "Science",
-        "topic": "Physics",
-        "text": "The nucleus of an atom consists of",
-        "options": [
-            "Electrons and protons",
-            "Electrons and neutrons",
-            "Protons and neutrons",
-            "All of these"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The nucleus of an atom consists of protons and neutrons. Electrons orbit the nucleus.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Science"
-            },
-            {
-                "type": "topic",
-                "label": "Physics"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2008"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2008-780291ea",
-        "year": 2008,
-        "subject": "Polity",
-        "topic": "Parliament",
-        "text": "The Parliament can make any law for the whole or any part of India for implementing international treaties",
-        "options": [
-            "with the consent of all the States",
-            "with the consent of the majority of States",
-            "with the consent of the States concerned",
-            "without the consent of any State"
-        ],
-        "correctAnswer": 3,
-        "explanation": "According to Article 253 of the Constitution, Parliament has the power to make any law for the whole or any part of India for implementing international treaties, agreements, or conventions with any other country or countries or any decisions made at any international conference, association, or other body. This can be done without the consent of any State.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Parliament"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2008"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2008-8cc3e417",
-        "year": 2008,
-        "subject": "History",
-        "topic": "Modern History",
-        "text": "Who among the following was associated as Secretary with Hindu Female School which later came to be known as Bethune Female School?",
-        "options": [
-            "Debendranath Tagore",
-            "Ishwar Chandra Vidyasagar",
-            "Annie Besant",
-            "Sarojini Naidu"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Ishwar Chandra Vidyasagar was associated as Secretary with the Hindu Female School, which later came to be known as Bethune Female School. He played a crucial role in promoting women's education in India.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Modern History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2008"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2008-37fccf50",
-        "year": 2008,
-        "subject": "Economy",
-        "topic": "Fiscal Policy",
-        "text": "The main objective of the Fiscal Responsibility and Budget Management Act, 2003 is to",
-        "options": [
-            "eliminate revenue deficit",
-            "reduce fiscal deficit",
-            "eliminate fiscal deficit",
-            "reduce revenue deficit"
-        ],
-        "correctAnswer": 3,
-        "explanation": "The main objective of the Fiscal Responsibility and Budget Management (FRBM) Act, 2003 is to reduce the revenue deficit and bring down the fiscal deficit to a sustainable level. The Act aimed to promote fiscal discipline and efficient management of public finances.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Economy"
-            },
-            {
-                "type": "topic",
-                "label": "Fiscal Policy"
             },
             {
                 "type": "pyq",
@@ -8937,64 +5574,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2013-2300ce46",
-        "year": 2013,
-        "subject": "Economy",
-        "topic": "Banking",
-        "text": "The terms 'Marginal Standing Facility Rate' and 'Net Demand and Time Liabilities', sometimes appearing in news, are used in relation to",
-        "options": [
-            "Banking operations",
-            "Communication networking",
-            "Military strategies",
-            "Supply and demand of agricultural products"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Both Marginal Standing Facility Rate (MSF) and Net Demand and Time Liabilities (NDTL) are terms related to banking operations and monetary policy.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Economy"
-            },
-            {
-                "type": "topic",
-                "label": "Banking"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2013"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2013-4635e242",
-        "year": 2013,
-        "subject": "Geography",
-        "topic": "Indian Geography",
-        "text": "Consider the following rivers:\n1. Brahmani\n2. Nagavali\n3. Subarnarekha\n4. Vamsadhara\nWhich of the above rivers rise from Eastern Ghats?",
-        "options": [
-            "1 and 2",
-            "2 and 4",
-            "3 and 4",
-            "1 and 3"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Nagavali and Vamsadhara rivers originate from the Eastern Ghats. Brahmani originates from the Chota Nagpur Plateau, and Subarnarekha originates near Ranchi.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Indian Geography"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2013"
-            }
-        ]
-    },
-    {
         "id": "pyq-2013-a37bed68",
         "year": 2013,
         "subject": "Environment",
@@ -9161,93 +5740,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Constitutional Amendments"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2011"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2011-cb1bc892",
-        "year": 2011,
-        "subject": "History",
-        "topic": "Ancient History",
-        "text": "With reference to the religious history of India, consider the following statements:\n1. The concept of Bodhisattva is central to Hinayana sect of Buddhism.\n2. Bodhisattva is a compassionate one on his way to enlightenment.\n3. Bodhisattva delays achieving his own salvation to help all sentient beings on their path to it.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 and 3 only",
-            "2 only",
-            "1, 2 and 3"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The concept of Bodhisattva is central to Mahayana Buddhism, not Hinayana. Bodhisattvas are compassionate beings who delay their own enlightenment to help others.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Ancient History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2011"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2011-3e96d85e",
-        "year": 2011,
-        "subject": "Economy",
-        "topic": "Inflation",
-        "text": "Consider the following statements:\n1. Inflation benefits the debtors.\n2. Inflation benefits the bondholders.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Inflation benefits debtors because they repay loans with money that is worth less than when they borrowed it. Inflation hurts bondholders because the real value of their fixed income payments decreases.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Economy"
-            },
-            {
-                "type": "topic",
-                "label": "Inflation"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2011"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2011-95b2d65c",
-        "year": 2011,
-        "subject": "Geography",
-        "topic": "Climate",
-        "text": "Which one of the following is the characteristic climate of the Tropical Savannah Region?",
-        "options": [
-            "Warm and dry throughout the year",
-            "Hot and wet throughout the year",
-            "Warm temperate climate with pronounced wet and dry seasons",
-            "Dry and wet seasons"
-        ],
-        "correctAnswer": 3,
-        "explanation": "The Tropical Savannah Region is characterized by distinct dry and wet seasons. The wet season is typically during the summer months, while the dry season occurs during the winter months.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Climate"
             },
             {
                 "type": "pyq",
@@ -9430,122 +5922,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2011-e1f312d1",
-        "year": 2011,
-        "subject": "Environment",
-        "topic": "Pollution",
-        "text": "Which of the following is/are the indicator(s) of air pollution?\n1. Lichens\n2. Mosses\n3. Fungi\n4. Algae\nSelect the correct answer using the codes given below:",
-        "options": [
-            "1 only",
-            "1 and 2 only",
-            "2, 3 and 4 only",
-            "1, 2, 3 and 4"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Lichens and mosses are sensitive to air pollution and are often used as bioindicators. Fungi and algae are less reliable indicators of air quality.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Environment"
-            },
-            {
-                "type": "topic",
-                "label": "Pollution"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2011"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2011-747b174d",
-        "year": 2011,
-        "subject": "Science",
-        "topic": "Physics",
-        "text": "The absorption of ink by blotting paper involves",
-        "options": [
-            "capillary action phenomenon",
-            "viscosity of ink",
-            "diffusion of ink",
-            "siphon action"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Blotting paper absorbs ink due to capillary action. The small pores in the paper act as capillaries, drawing the ink upwards.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Science"
-            },
-            {
-                "type": "topic",
-                "label": "Physics"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2011"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2011-413fd791",
-        "year": 2011,
-        "subject": "Polity",
-        "topic": "Parliament",
-        "text": "The Parliament can make any law for the whole or any part of India for implementing international treaties",
-        "options": [
-            "with the consent of all the States",
-            "with the consent of the majority of States",
-            "with the consent of the States concerned",
-            "without the consent of any State"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Under Article 253 of the Constitution, Parliament has the power to make any law for the whole or any part of India for implementing international treaties, agreements, or conventions, without the consent of any State.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Parliament"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2011"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2011-7667a411",
-        "year": 2011,
-        "subject": "History",
-        "topic": "Modern History",
-        "text": "Who among the following was/were associated with the introduction of Ryotwari Settlement in India during the British rule?\n1. Lord Cornwallis\n2. Alexander Read\n3. Thomas Munro\nSelect the correct answer using the codes given below:",
-        "options": [
-            "1 only",
-            "1 and 2 only",
-            "2 and 3 only",
-            "1, 2 and 3"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Alexander Read and Thomas Munro were instrumental in introducing the Ryotwari Settlement. Lord Cornwallis is associated with the Permanent Settlement.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Modern History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2011"
-            }
-        ]
-    },
-    {
         "id": "pyq-2011-3a60fdf9",
         "year": 2011,
         "subject": "Economy",
@@ -9596,93 +5972,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Constitutional Bodies"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2012"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2012-6c1fcf14",
-        "year": 2012,
-        "subject": "History",
-        "topic": "Ancient History",
-        "text": "With reference to the religious history of India, consider the following statements:\n1. The concept of Bodhisattva is central to Hinayana sect of Buddhism.\n2. Bodhisattva is a compassionate one on his way to enlightenment.\n3. Bodhisattva delays achieving his own salvation to help all sentient beings on their path to it.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 and 3 only",
-            "2 only",
-            "1, 2 and 3"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The concept of Bodhisattva is central to Mahayana Buddhism, not Hinayana. Bodhisattvas are indeed compassionate beings who delay their own enlightenment to help others. Therefore, statements 2 and 3 are correct.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Ancient History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2012"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2012-2b01a46d",
-        "year": 2012,
-        "subject": "Economy",
-        "topic": "Inflation",
-        "text": "Consider the following statements:\n1. Inflation benefits the debtors.\n2. Inflation benefits the bondholders.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Inflation benefits debtors because they repay loans with money that is worth less than when they borrowed it. Inflation hurts bondholders because the real value of their fixed income stream decreases.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Economy"
-            },
-            {
-                "type": "topic",
-                "label": "Inflation"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2012"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2012-57014687",
-        "year": 2012,
-        "subject": "Geography",
-        "topic": "Climate",
-        "text": "Which one of the following is the characteristic climate of the Tropical Savannah Region?",
-        "options": [
-            "Warm and dry throughout the year",
-            "Hot and wet throughout the year",
-            "Warm and wet in summer and cool and dry in winter",
-            "Cool and dry in summer and warm and wet in winter"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Tropical Savannah regions are characterized by warm and wet summers and cool and dry winters. This is due to the seasonal shift in the Intertropical Convergence Zone (ITCZ).",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Climate"
             },
             {
                 "type": "pyq",
@@ -9807,35 +6096,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2012-6584d84e",
-        "year": 2012,
-        "subject": "Economy",
-        "topic": "Economic Growth and Development",
-        "text": "The terms 'Marginal Standing Facility Rate' and 'Net Demand and Time Liabilities' are sometimes seen in the news relating to",
-        "options": [
-            "Banking operations",
-            "Communication networking",
-            "Military strategies",
-            "Supply and demand of agricultural products"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Both Marginal Standing Facility Rate (MSF) and Net Demand and Time Liabilities (NDTL) are related to banking operations. MSF is the rate at which banks borrow overnight funds from the RBI against government securities, and NDTL is a measure of a bank's liabilities.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Economy"
-            },
-            {
-                "type": "topic",
-                "label": "Banking"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2012"
-            }
-        ]
-    },
-    {
         "id": "pyq-2012-8fb7791c",
         "year": 2012,
         "subject": "Geography",
@@ -9923,64 +6183,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2012-85db3d33",
-        "year": 2012,
-        "subject": "Polity",
-        "topic": "Parliament",
-        "text": "The Parliament of India exercises control over the functions of the Council of Ministers through",
-        "options": [
-            "Adjournment motion",
-            "Question hour",
-            "Half-an-hour discussion",
-            "All of the above"
-        ],
-        "correctAnswer": 3,
-        "explanation": "The Parliament exercises control over the Council of Ministers through various mechanisms, including the Adjournment motion, Question hour, and Half-an-hour discussion. These tools allow MPs to scrutinize the government's actions and hold them accountable.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Parliament"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2012"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2012-38dc65c6",
-        "year": 2012,
-        "subject": "History",
-        "topic": "Modern History",
-        "text": "Who among the following was/were associated with the introduction of Ryotwari Settlement in India during the British rule?\n1. Lord Cornwallis\n2. Alexander Read\n3. Thomas Munro\nSelect the correct answer using the codes given below:",
-        "options": [
-            "1 only",
-            "1 and 2 only",
-            "2 and 3 only",
-            "1, 2 and 3"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Alexander Read and Thomas Munro were associated with the introduction of the Ryotwari Settlement. Lord Cornwallis is associated with the Permanent Settlement.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Modern History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2012"
-            }
-        ]
-    },
-    {
         "id": "pyq-2012-8b800129",
         "year": 2012,
         "subject": "Economy",
@@ -10006,296 +6208,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "pyq",
                 "label": "UPSC 2012"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2010-8d03c04e",
-        "year": 2010,
-        "subject": "Polity",
-        "topic": "Constitutional Amendments",
-        "text": "Which of the following Amendments to the Constitution of India empowered the President to send back any matter for reconsideration by the Council of Ministers?",
-        "options": [
-            "39th",
-            "40th",
-            "42nd",
-            "44th"
-        ],
-        "correctAnswer": 3,
-        "explanation": "The 44th Amendment Act of 1978 empowered the President to send back any advice given by the Council of Ministers for reconsideration. However, if the Council sends the same advice again, the President is bound to act according to it.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Constitutional Amendments"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2010"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2010-4fe83e1d",
-        "year": 2010,
-        "subject": "History",
-        "topic": "Ancient History",
-        "text": "With reference to the religious history of India, consider the following statements:\n1. The concept of Bodhisattva is central to Hinayana sect of Buddhism.\n2. Bodhisattva is a compassionate one on his way to enlightenment.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The concept of Bodhisattva is central to the Mahayana sect of Buddhism, not Hinayana. Bodhisattvas are enlightened beings who postpone their own nirvana to help others achieve enlightenment. Statement 2 is correct.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Ancient History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2010"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2010-55f298eb",
-        "year": 2010,
-        "subject": "Economy",
-        "topic": "Inflation",
-        "text": "Consider the following:\n1. Inflation\n2. Higher interest rates\n3. Higher exchange rate\nWhich of the above would necessarily increase the competitiveness of the economy?",
-        "options": [
-            "1 only",
-            "2 and 3",
-            "1 and 3",
-            "None"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Inflation can make exports cheaper. A higher exchange rate (appreciation) makes exports more expensive and imports cheaper, reducing competitiveness. Higher interest rates typically attract foreign investment, potentially strengthening the currency and reducing competitiveness.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Economy"
-            },
-            {
-                "type": "topic",
-                "label": "Inflation"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2010"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2010-36e1a946",
-        "year": 2010,
-        "subject": "Geography",
-        "topic": "Climate",
-        "text": "Which one of the following is the characteristic climate of the Tropical Savannah Region?",
-        "options": [
-            "Warm and dry throughout the year",
-            "Hot and wet throughout the year",
-            "Warm temperate climate with moderate rainfall",
-            "Dry and wet season"
-        ],
-        "correctAnswer": 3,
-        "explanation": "The Tropical Savannah Region is characterized by distinct dry and wet seasons. The dry season is typically long and hot, while the wet season is shorter and brings significant rainfall.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Climate"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2010"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2010-f3a706fd",
-        "year": 2010,
-        "subject": "Environment",
-        "topic": "Biodiversity",
-        "text": "Which one of the following is the correct sequence of ecosystems in the order of decreasing productivity?",
-        "options": [
-            "Mangroves > Grasslands > Lakes > Oceans",
-            "Mangroves > Oceans > Grasslands > Lakes",
-            "Oceans > Mangroves > Lakes > Grasslands",
-            "Oceans > Lakes > Grasslands > Mangroves"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Mangroves are highly productive ecosystems due to nutrient-rich conditions and high biodiversity. Grasslands are moderately productive. Lakes have lower productivity than grasslands. Oceans have the lowest average productivity due to nutrient limitations in many areas.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Environment"
-            },
-            {
-                "type": "topic",
-                "label": "Biodiversity"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2010"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2010-f944eb23",
-        "year": 2010,
-        "subject": "Science",
-        "topic": "Biology",
-        "text": "What is test-tube baby?",
-        "options": [
-            "When a baby grows in a test-tube",
-            "When fertilization is external and development is internal",
-            "When fertilization is internal and development is external",
-            "When fertilization and development both are external"
-        ],
-        "correctAnswer": 1,
-        "explanation": "A test-tube baby is the result of in vitro fertilization (IVF), where fertilization occurs outside the body (external), and the resulting embryo is then implanted in the woman's uterus for development (internal).",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Science"
-            },
-            {
-                "type": "topic",
-                "label": "Biology"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2010"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2010-bb948ae0",
-        "year": 2010,
-        "subject": "Polity",
-        "topic": "Fundamental Rights",
-        "text": "Which one of the following is not explicitly stated in the Constitution of India as a fundamental right?",
-        "options": [
-            "Equality before law",
-            "Right to freedom of speech and expression",
-            "Right to life and personal liberty",
-            "Right to equal means of livelihood"
-        ],
-        "correctAnswer": 3,
-        "explanation": "The right to equal means of livelihood is not explicitly stated as a fundamental right in the Constitution of India. While the Directive Principles of State Policy (DPSP) aim to secure an adequate means of livelihood for all citizens, it is not a fundamental right.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Fundamental Rights"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2010"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2010-07c48a26",
-        "year": 2010,
-        "subject": "History",
-        "topic": "Medieval History",
-        "text": "Who among the following was associated with the introduction of the Ryotwari Settlement in Madras?",
-        "options": [
-            "Lord Cornwallis",
-            "Sir John Shore",
-            "Thomas Munro",
-            "Lord Hastings"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Thomas Munro, as Governor of Madras, was instrumental in introducing and implementing the Ryotwari Settlement in the Madras Presidency. This system directly collected revenue from the cultivators (ryots).",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Medieval History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2010"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2010-3795860f",
-        "year": 2010,
-        "subject": "Economy",
-        "topic": "Fiscal Policy",
-        "text": "The Fiscal Responsibility and Budget Management Act, 2003 aims at:",
-        "options": [
-            "Reducing fiscal deficits",
-            "Promoting revenue deficits",
-            "Increasing the size of the government",
-            "Promoting trade surpluses"
-        ],
-        "correctAnswer": 0,
-        "explanation": "The Fiscal Responsibility and Budget Management (FRBM) Act, 2003, primarily aims at reducing fiscal deficits and promoting fiscal discipline in the country. It sets targets for reducing the fiscal deficit and revenue deficit.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Economy"
-            },
-            {
-                "type": "topic",
-                "label": "Fiscal Policy"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2010"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2010-b7790003",
-        "year": 2010,
-        "subject": "Geography",
-        "topic": "Indian Geography",
-        "text": "Which one of the following pairs of states of India indicates the easternmost and westernmost state?",
-        "options": [
-            "Assam and Rajasthan",
-            "Arunachal Pradesh and Rajasthan",
-            "Assam and Gujarat",
-            "Arunachal Pradesh and Gujarat"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Arunachal Pradesh is the easternmost state of India, and Gujarat is the westernmost state.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Indian Geography"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2010"
             }
         ]
     },
@@ -10329,122 +6241,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2010-a3622b61",
-        "year": 2010,
-        "subject": "Science",
-        "topic": "Physics",
-        "text": "The absorption of ink by blotting paper involves",
-        "options": [
-            "capillary action phenomenon",
-            "viscosity of ink",
-            "diffusion of ink",
-            "siphon action"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Blotting paper absorbs ink due to capillary action. The small pores in the paper act as capillaries, drawing the ink upwards against gravity.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Science"
-            },
-            {
-                "type": "topic",
-                "label": "Physics"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2010"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2010-3afa9d6a",
-        "year": 2010,
-        "subject": "Polity",
-        "topic": "Parliament",
-        "text": "The Parliament can make any law for the whole or any part of India for implementing international treaties",
-        "options": [
-            "with the consent of all the States",
-            "with the consent of the majority of States",
-            "with the consent of the States concerned",
-            "without the consent of any State"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Under Article 253 of the Constitution, Parliament has the power to make any law for the whole or any part of India for implementing international treaties, agreements, or conventions. This power can be exercised even without the consent of any State.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Parliament"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2010"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2010-25e6b63f",
-        "year": 2010,
-        "subject": "History",
-        "topic": "Modern History",
-        "text": "Who among the following was/were associated with the introduction of Ryotwari Settlement in India during the British rule?\n1. Lord Cornwallis\n2. Alexander Read\n3. Thomas Munro\nSelect the correct answer using the code given below:",
-        "options": [
-            "1 only",
-            "1 and 2 only",
-            "2 and 3 only",
-            "1, 2 and 3"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Alexander Read and Thomas Munro were associated with the introduction and implementation of the Ryotwari Settlement. Lord Cornwallis is primarily associated with the Permanent Settlement.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Modern History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2010"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2010-6a05f6d5",
-        "year": 2010,
-        "subject": "Economy",
-        "topic": "Banking",
-        "text": "The terms ‘Marginal Standing Facility Rate’ and ‘Net Demand and Time Liabilities’, sometimes appearing in news, are used in relation to",
-        "options": [
-            "Banking operations",
-            "Communication networking",
-            "Military strategies",
-            "Supply and demand of agricultural products"
-        ],
-        "correctAnswer": 0,
-        "explanation": "The Marginal Standing Facility (MSF) rate and Net Demand and Time Liabilities (NDTL) are terms used in relation to banking operations. MSF is a rate at which banks can borrow overnight funds from the RBI, and NDTL is a measure of a bank's deposit base.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Economy"
-            },
-            {
-                "type": "topic",
-                "label": "Banking"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2010"
-            }
-        ]
-    },
-    {
         "id": "pyq-2014-0f25778d",
         "year": 2014,
         "subject": "Polity",
@@ -10466,35 +6262,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Parliament"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2014"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2014-dd490515",
-        "year": 2014,
-        "subject": "History",
-        "topic": "Ancient History",
-        "text": "With reference to the religious history of India, consider the following statements:\n1. Sautrantika and Sammitiya were the sects of Jainism.\n2. Sarvastivadin held that the constituents of phenomena were not wholly momentary, but existed forever in a latent form.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Sautrantika and Sammitiya were sects of Buddhism, not Jainism. Sarvastivadin held the view that the constituents of phenomena were not wholly momentary but existed forever in a latent form. Therefore, statement 2 is correct.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Ancient History"
             },
             {
                 "type": "pyq",
@@ -10648,93 +6415,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2014-c423c706",
-        "year": 2014,
-        "subject": "History",
-        "topic": "Medieval History",
-        "text": "Which one of the following foreign travellers elaborately discussed about diamonds and diamond mines of India?",
-        "options": [
-            "Francois Bernier",
-            "Jean-Baptiste Tavernier",
-            "Jean Thevenot",
-            "Abbe Barthelemy Carre"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Jean-Baptiste Tavernier, a French gem merchant and traveler, extensively wrote about diamonds and diamond mines in India during his travels in the 17th century.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Medieval History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2014"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2014-dfd323df",
-        "year": 2014,
-        "subject": "Economy",
-        "topic": "Economic Growth and Development",
-        "text": "The terms ‘Marginal Standing Facility Rate’ and ‘Net Demand and Time Liabilities’ are sometimes seen in the news relating to",
-        "options": [
-            "Banking operations",
-            "Communication networking",
-            "Military strategies",
-            "Supply and demand of agricultural products"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Marginal Standing Facility Rate (MSF) and Net Demand and Time Liabilities (NDTL) are terms related to banking operations. MSF is the rate at which banks can borrow overnight funds from the RBI, and NDTL represents the difference between a bank's demand and time liabilities (deposits) and its assets.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Economy"
-            },
-            {
-                "type": "topic",
-                "label": "Economic Growth and Development"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2014"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2014-6a00d6b4",
-        "year": 2014,
-        "subject": "Geography",
-        "topic": "Indian Geography",
-        "text": "Consider the following rivers:\n1. Brahmani\n2. Nagavali\n3. Subarnarekha\n4. Vamsadhara\nWhich of the above rivers rise from the Eastern Ghats?",
-        "options": [
-            "1 and 2",
-            "2 and 4",
-            "3 and 4",
-            "1 and 3"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Nagavali and Vamsadhara rivers originate from the Eastern Ghats. Brahmani originates from the Chota Nagpur Plateau, and Subarnarekha also originates from near Ranchi, away from the Eastern Ghats.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Indian Geography"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2014"
-            }
-        ]
-    },
-    {
         "id": "pyq-2014-52b890dc",
         "year": 2014,
         "subject": "Environment",
@@ -10822,64 +6502,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2014-c27bf415",
-        "year": 2014,
-        "subject": "History",
-        "topic": "Modern History",
-        "text": "Who among the following was/were associated with the introduction of Ryotwari Settlement in India during the British rule?\n1. Lord Cornwallis\n2. Alexander Read\n3. Thomas Munro\nSelect the correct answer using the code given below:",
-        "options": [
-            "1 only",
-            "2 and 3 only",
-            "1 and 3 only",
-            "1, 2 and 3"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Alexander Read and Thomas Munro were associated with the introduction of the Ryotwari Settlement. Lord Cornwallis is associated with the Permanent Settlement.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Modern History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2014"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2014-240f8051",
-        "year": 2014,
-        "subject": "Economy",
-        "topic": "Inflation",
-        "text": "Consider the following statements:\n1. Inflation benefits the debtors.\n2. Inflation benefits the bondholders.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Inflation benefits debtors because they repay loans with money that is worth less than when they borrowed it. Inflation hurts bondholders because the real value of their fixed-income investments decreases.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Economy"
-            },
-            {
-                "type": "topic",
-                "label": "Inflation"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2014"
-            }
-        ]
-    },
-    {
         "id": "pyq-2018-3138234c",
         "year": 2018,
         "subject": "Polity",
@@ -10930,35 +6552,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Banking"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2018"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2018-ff10a60b",
-        "year": 2018,
-        "subject": "History",
-        "topic": "Ancient History",
-        "text": "Which one of the following is not a Harappan site?",
-        "options": [
-            "Chanhudaro",
-            "Kot Diji",
-            "Sohgaura",
-            "Desalpur"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Sohgaura is not a Harappan site. It is known for the Sohgaura copper plate inscription, which is associated with the Mauryan Empire.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Ancient History"
             },
             {
                 "type": "pyq",
@@ -11046,64 +6639,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Biology"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2018"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2018-361b6924",
-        "year": 2018,
-        "subject": "Polity",
-        "topic": "Constitutional Bodies",
-        "text": "Consider the following statements:\n1. The Election Commission of India is a five-member body.\n2. Union Ministry of Home Affairs decides the election schedule for the conduct of both general elections and bye-elections.\n3. Election Commission resolves the disputes relating to splits/mergers of recognised political parties.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 and 2 only",
-            "2 only",
-            "2 and 3 only",
-            "3 only"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Statement 1 is incorrect. The Election Commission is a multi-member body, but it is not permanently a five-member body. It consists of a Chief Election Commissioner and such number of other Election Commissioners as the President may fix from time to time. Statement 2 is incorrect. The Election Commission decides the election schedule. Statement 3 is correct.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Constitutional Bodies"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2018"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2018-cf403cdf",
-        "year": 2018,
-        "subject": "Economy",
-        "topic": "Inflation",
-        "text": "Consider the following statements:\n1. Inflation benefits the debtors.\n2. Inflation benefits the bondholders.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Statement 1 is correct. Inflation erodes the real value of money, making it easier for debtors to repay their debts. Statement 2 is incorrect. Inflation reduces the real return on bonds, hurting bondholders.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Economy"
-            },
-            {
-                "type": "topic",
-                "label": "Inflation"
             },
             {
                 "type": "pyq",
@@ -11344,35 +6879,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2019-feb6e269",
-        "year": 2019,
-        "subject": "History",
-        "topic": "Ancient History",
-        "text": "With reference to the religious history of India, consider the following statements:\n1. Sthaviravadins belong to Hinayana.\n2. Mahasanghikas were the forerunners of Mahayana.\n3. Buddhism did not advocate anything for women.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 and 2 only",
-            "2 only",
-            "1 and 3 only",
-            "3 only"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Sthaviravadins are an early Buddhist school, considered part of Hinayana. Mahasanghikas are considered forerunners of Mahayana. Buddhism did advocate for women, allowing them to become nuns.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Ancient History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2019"
-            }
-        ]
-    },
-    {
         "id": "pyq-2019-d430e94d",
         "year": 2019,
         "subject": "Economy",
@@ -11481,35 +6987,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Biotechnology"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2019"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2019-0673e0c6",
-        "year": 2019,
-        "subject": "Polity",
-        "topic": "Fundamental Rights",
-        "text": "Right to Privacy is protected as an intrinsic part of Right to Life and Personal Liberty. Which of the following in the Constitution of India correctly and appropriately imply the above statement?",
-        "options": [
-            "Article 14 & the provisions under the 42nd Amendment",
-            "Article 17 and Directive Principles of State Policy",
-            "Article 21 and the freedoms guaranteed in Part III",
-            "Article 24 and the provisions under the 44th Amendment"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The Supreme Court has recognized the Right to Privacy as an intrinsic part of Article 21 (Right to Life and Personal Liberty) and the freedoms guaranteed in Part III (Fundamental Rights) of the Constitution.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Fundamental Rights"
             },
             {
                 "type": "pyq",
@@ -11779,35 +7256,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2015-9c6b6e31",
-        "year": 2015,
-        "subject": "History",
-        "topic": "Ancient History",
-        "text": "With reference to the religious history of India, consider the following statements:\n1. Sthaviravadins belong to Hinayana.\n2. Mahasanghikas were forerunners of Mahayana.\n3. Buddhism did not advocate anything for women.",
-        "options": [
-            "1 and 2 only",
-            "2 and 3 only",
-            "1 and 3 only",
-            "1, 2 and 3"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Statement 1 is correct. Sthaviravadins are associated with the Theravada school, which is considered Hinayana. Statement 2 is correct. Mahasanghikas are considered forerunners of Mahayana. Statement 3 is incorrect. Buddhism allowed women to become nuns.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Ancient History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2015"
-            }
-        ]
-    },
-    {
         "id": "pyq-2015-8315a1e2",
         "year": 2015,
         "subject": "Economy",
@@ -11829,35 +7277,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Banking"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2015"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2015-3795ac5b",
-        "year": 2015,
-        "subject": "Geography",
-        "topic": "Climate",
-        "text": "The jet aircrafts fly very easily and smoothly in the lower stratosphere. What could be the appropriate explanation?\n1. There are no clouds or water vapour in the lower stratosphere.\n2. There are no vertical winds in the lower stratosphere.",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Both statements are correct. The lower stratosphere is relatively stable with little turbulence, clouds, or water vapor, making it ideal for jet aircraft.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Climate"
             },
             {
                 "type": "pyq",
@@ -11924,35 +7343,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2015-1ef4626f",
-        "year": 2015,
-        "subject": "Polity",
-        "topic": "Constitutional Amendments",
-        "text": "The main advantage of the parliamentary form of government is that\n",
-        "options": [
-            "the executive remains responsible to the legislature",
-            "the executive is elected by the legislature",
-            "the executive is elected directly by the people",
-            "the executive is independent of the legislature"
-        ],
-        "correctAnswer": 0,
-        "explanation": "The key advantage of the parliamentary system is the executive's accountability to the legislature. The executive (Council of Ministers) is drawn from and responsible to the Parliament.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Constitutional Amendments"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2015"
-            }
-        ]
-    },
-    {
         "id": "pyq-2015-8486b704",
         "year": 2015,
         "subject": "History",
@@ -11974,35 +7364,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Medieval History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2015"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2015-4e4b269a",
-        "year": 2015,
-        "subject": "Economy",
-        "topic": "Inflation",
-        "text": "Consider the following statements:\n1. Inflation benefits the debtors.\n2. Inflation benefits the creditors.",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Inflation benefits debtors because they repay loans with money that is worth less than when they borrowed it. Creditors are disadvantaged as the money they receive back has less purchasing power.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Economy"
-            },
-            {
-                "type": "topic",
-                "label": "Inflation"
             },
             {
                 "type": "pyq",
@@ -12098,35 +7459,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2015-b1a031dd",
-        "year": 2015,
-        "subject": "Polity",
-        "topic": "Fundamental Rights",
-        "text": "Consider the following statements:\n1. The Constitution of India defines its ‘basic structure’ in terms of federalism, secularism, fundamental rights and democracy.\n2. The Constitution of India provides for ‘judicial review’ to safeguard the ‘citizens’ liberties and to preserve the ideals on which the Constitution is based.",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Statement 1 is incorrect. The Constitution does not explicitly define 'basic structure'; it is a judicial interpretation. Statement 2 is correct. Judicial review is a constitutional mechanism to protect citizens' rights and uphold constitutional ideals.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Fundamental Rights"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2015"
-            }
-        ]
-    },
-    {
         "id": "pyq-2015-f418e0dd",
         "year": 2015,
         "subject": "History",
@@ -12185,64 +7517,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2016-90fef366",
-        "year": 2016,
-        "subject": "Polity",
-        "topic": "Parliament",
-        "text": "The Parliament (Prevention of Disqualification) Act, 1959 exempts certain offices from disqualification on the ground of ‘office of profit’. What is the purpose of this Act?\n1. It allows the Parliament to make laws specifying the offices which shall not cause disqualification.\n2. It indemnifies a person holding an office which he/she would otherwise be disqualified from holding.\n3. If the provisions of this Act are inconsistent with those of the Constitution, this Act shall prevail over the Constitution.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 and 2 only",
-            "3 only",
-            "2 and 3 only",
-            "1, 2 and 3"
-        ],
-        "correctAnswer": 0,
-        "explanation": "The Parliament (Prevention of Disqualification) Act, 1959, aims to exempt certain offices from disqualification on the ground of 'office of profit,' allowing Parliament to specify which offices do not cause disqualification and indemnifying individuals holding such offices. However, it cannot override the Constitution.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Parliament"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2016"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2016-058943b0",
-        "year": 2016,
-        "subject": "History",
-        "topic": "Ancient History",
-        "text": "With reference to the religious history of India, consider the following statements:\n1. Sthaviravadins belong to Hinayana.\n2. Mahasanghikas was an early school of Buddhism whose followers adhered to the teachings of the Buddha in their original form.\n3. The advancement of Mahasanghikas led to the rise of Mahayana Buddhism.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 and 2",
-            "2 and 3",
-            "3 only",
-            "1, 2 and 3"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Sthaviravadins belong to Theravada, not Hinayana. Mahasanghikas were an early school of Buddhism, but their interpretations led to the development of Mahayana Buddhism. Therefore, only statement 3 is correct.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Ancient History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2016"
-            }
-        ]
-    },
-    {
         "id": "pyq-2016-9999e488",
         "year": 2016,
         "subject": "Economy",
@@ -12264,35 +7538,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Banking"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2016"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2016-a9f8ad96",
-        "year": 2016,
-        "subject": "Geography",
-        "topic": "Climate",
-        "text": "The jet aircrafts fly very easily and smoothly in the lower stratosphere. What could be the appropriate explanation?\n1. There are no clouds or water vapour in the lower stratosphere.\n2. There are no vertical winds in the lower stratosphere.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The lower stratosphere is ideal for jet aircraft because it has few clouds and minimal vertical wind, leading to smoother flights.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Climate"
             },
             {
                 "type": "pyq",
@@ -12417,35 +7662,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2016-c8b4c663",
-        "year": 2016,
-        "subject": "Economy",
-        "topic": "Inflation",
-        "text": "Consider the following statements:\n1. Inflation benefits the debtors.\n2. Inflation benefits the bondholders.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Inflation benefits debtors because they repay loans with money that is worth less than when they borrowed it. Bondholders are negatively affected by inflation as the real value of their fixed income decreases.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Economy"
-            },
-            {
-                "type": "topic",
-                "label": "Inflation"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2016"
-            }
-        ]
-    },
-    {
         "id": "pyq-2016-6e994784",
         "year": 2016,
         "subject": "Geography",
@@ -12562,64 +7778,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2016-05e2d200",
-        "year": 2016,
-        "subject": "History",
-        "topic": "Modern History",
-        "text": "Who among the following was associated as Secretary with Hindu Female School which later came to be known as Bethune Female School?",
-        "options": [
-            "Debendranath Tagore",
-            "Ishwar Chandra Vidyasagar",
-            "Madan Mohan Malaviya",
-            "Annie Besant"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Ishwar Chandra Vidyasagar was associated as Secretary with the Hindu Female School, which later became known as Bethune Female School.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Modern History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2016"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2016-187f97e0",
-        "year": 2016,
-        "subject": "Economy",
-        "topic": "Fiscal Policy",
-        "text": "What is/are the purpose/purposes of Government of India’s ‘Sovereign Gold Bond Scheme’ and ‘Gold Monetization Scheme’?\n1. To bring the idle gold lying with Indian households into the economy.\n2. To promote FDI in the gold and jewellery sector.\n3. To reduce India’s dependence on gold imports.\nSelect the correct answer using the code given below:",
-        "options": [
-            "1 only",
-            "2 and 3 only",
-            "1 and 3 only",
-            "1, 2 and 3"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The Sovereign Gold Bond Scheme and Gold Monetization Scheme aim to bring idle gold into the economy and reduce India's dependence on gold imports. They do not directly promote FDI in the gold and jewellery sector.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Economy"
-            },
-            {
-                "type": "topic",
-                "label": "Fiscal Policy"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2016"
-            }
-        ]
-    },
-    {
         "id": "pyq-2017-6bc70f92",
         "year": 2017,
         "subject": "Polity",
@@ -12641,35 +7799,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "President"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2017"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2017-697b2005",
-        "year": 2017,
-        "subject": "History",
-        "topic": "Ancient History",
-        "text": "Which one of the following was a very important seaport in the Kakatiya kingdom?",
-        "options": [
-            "Kakinada",
-            "Motupalli",
-            "Machilipatnam",
-            "Nelluru"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Motupalli was a very important seaport in the Kakatiya kingdom. It was known for its trade and commerce, especially with foreign countries. Marco Polo visited Motupalli and praised its prosperity.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Ancient History"
             },
             {
                 "type": "pyq",
@@ -12707,35 +7836,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2017-2c861642",
-        "year": 2017,
-        "subject": "Geography",
-        "topic": "Climate",
-        "text": "The jet aircrafts fly very easily and smoothly in the lower stratosphere. What could be the appropriate explanation?\n1. There are no clouds or water vapour in the lower stratosphere.\n2. There are no vertical winds in the lower stratosphere.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Both statements are correct. The lower stratosphere is characterized by stable air, absence of clouds and water vapor, and lack of vertical winds, making it ideal for jet aircraft to fly smoothly and efficiently.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Climatology"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2017"
-            }
-        ]
-    },
-    {
         "id": "pyq-2017-1da01e65",
         "year": 2017,
         "subject": "Environment",
@@ -12765,64 +7865,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2017-56c66cd0",
-        "year": 2017,
-        "subject": "Science",
-        "topic": "Biology",
-        "text": "Consider the following statements:\n1. Genetic changes can be introduced in the cells that produce eggs or sperms of a prospective parent.\n2. A person's genome can be edited before birth at the early embryonic stage.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Both statements are correct. Genetic changes can be introduced in germline cells (eggs or sperm), and genome editing is possible at the early embryonic stage. These technologies raise ethical concerns but are scientifically feasible.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Science"
-            },
-            {
-                "type": "topic",
-                "label": "Biology"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2017"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2017-38d5c593",
-        "year": 2017,
-        "subject": "Polity",
-        "topic": "Constitutional Bodies",
-        "text": "Consider the following statements:\n1. The Election Commission of India is a five-member body.\n2. Union Ministry of Home Affairs decides the election schedule for the conduct of both general elections and bye-elections.\n3. Election Commission resolves the disputes relating to splits/mergers of recognised political parties.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 and 2 only",
-            "2 only",
-            "2 and 3 only",
-            "3 only"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Statement 1 is incorrect. The Election Commission of India is a multi-member body, but it typically consists of a Chief Election Commissioner and two Election Commissioners. Statement 2 is incorrect. The Election Commission, not the Union Ministry of Home Affairs, decides the election schedule. Statement 3 is correct. The Election Commission resolves disputes related to splits or mergers of recognized political parties.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Election Commission"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2017"
-            }
-        ]
-    },
-    {
         "id": "pyq-2017-ef1c0d6f",
         "year": 2017,
         "subject": "History",
@@ -12844,35 +7886,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Medieval History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2017"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2017-5109a661",
-        "year": 2017,
-        "subject": "Economy",
-        "topic": "Economic Growth and Development",
-        "text": "The terms 'Marginal Standing Facility Rate' and 'Net Demand and Time Liabilities' are sometimes seen in the news relating to\n",
-        "options": [
-            "Banking operations",
-            "Communication networking",
-            "Military strategies",
-            "Supply and demand of agricultural products"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Marginal Standing Facility Rate (MSF) and Net Demand and Time Liabilities (NDTL) are terms related to banking operations. MSF is the rate at which banks can borrow overnight funds from the RBI against government securities. NDTL represents the difference between a bank's demand and time liabilities (deposits) and its assets with the banking system.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Economy"
-            },
-            {
-                "type": "topic",
-                "label": "Banking"
             },
             {
                 "type": "pyq",
@@ -12968,35 +7981,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2017-fee1bd4e",
-        "year": 2017,
-        "subject": "Polity",
-        "topic": "Fundamental Rights",
-        "text": "Right to Privacy is protected as an intrinsic part of Right to Life and Personal Liberty. Which of the following in the Constitution of India correctly and appropriately imply the above statement?",
-        "options": [
-            "Article 14 & Article 21",
-            "Article 15 & Article 19",
-            "Article 17 & Article 21",
-            "Article 21 & Article 23"
-        ],
-        "correctAnswer": 0,
-        "explanation": "The Right to Privacy is protected as an intrinsic part of Right to Life and Personal Liberty under Article 21. Article 14 guarantees equality before the law. The Supreme Court has interpreted Article 21 to include the right to privacy.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Fundamental Rights"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2017"
-            }
-        ]
-    },
-    {
         "id": "pyq-2017-6a58f85d",
         "year": 2017,
         "subject": "History",
@@ -13018,35 +8002,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Modern History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2017"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2017-305bad93",
-        "year": 2017,
-        "subject": "Economy",
-        "topic": "Inflation",
-        "text": "Consider the following statements:\n1. Inflation benefits the debtors.\n2. Inflation benefits the bondholders.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Statement 1 is correct. Inflation benefits debtors because they repay their loans with money that is worth less than when they borrowed it. Statement 2 is incorrect. Inflation hurts bondholders because the real value of their fixed-income investments decreases as prices rise.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Economy"
-            },
-            {
-                "type": "topic",
-                "label": "Inflation"
             },
             {
                 "type": "pyq",
@@ -13221,35 +8176,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Biotechnology"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2024"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2024-e56d3d2f",
-        "year": 2024,
-        "subject": "Polity",
-        "topic": "Fundamental Rights",
-        "text": "Which of the following rights is NOT explicitly mentioned as a Fundamental Right in the Indian Constitution?",
-        "options": [
-            "Right to Equality",
-            "Right to Freedom of Speech and Expression",
-            "Right to Privacy",
-            "Right to Constitutional Remedies"
-        ],
-        "correctAnswer": 2,
-        "explanation": "While the Right to Privacy is considered an intrinsic part of Article 21 (Right to Life and Personal Liberty) by the Supreme Court, it is not explicitly mentioned as a Fundamental Right in the Constitution.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Fundamental Rights"
             },
             {
                 "type": "pyq",
@@ -13925,35 +8851,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2022-c61b9e65",
-        "year": 2022,
-        "subject": "Polity",
-        "topic": "Parliament",
-        "text": "With reference to the Parliament of India, consider the following statements:\n1. A private member’s bill is a bill presented by a Member of Parliament who is not a Minister.\n2. Recently, a private member’s bill has been passed in the Parliament for the first time in its history.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Statement 1 is correct. A private member's bill is indeed introduced by a member of parliament who is not a minister. Statement 2 is incorrect. Several private member's bills have been passed, though rarely. Therefore, only statement 1 is correct.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Parliament"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2022"
-            }
-        ]
-    },
-    {
         "id": "pyq-2022-dfacfaff",
         "year": 2022,
         "subject": "History",
@@ -14070,64 +8967,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2022-0bfefe6b",
-        "year": 2022,
-        "subject": "Science",
-        "topic": "Biology",
-        "text": "Consider the following statements:\n1. Adenoviruses have single-stranded DNA genomes whereas retroviruses have double-stranded DNA genomes.\n2. Common cold is sometimes caused by adenoviruses whereas AIDS is caused by retroviruses.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Statement 1 is incorrect. Adenoviruses have double-stranded DNA genomes, while retroviruses have single-stranded RNA genomes that are reverse transcribed into double-stranded DNA. Statement 2 is correct. Adenoviruses can cause the common cold, and HIV (a retrovirus) causes AIDS. Therefore, only statement 2 is correct.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Science"
-            },
-            {
-                "type": "topic",
-                "label": "Biology"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2022"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2022-ed276ce2",
-        "year": 2022,
-        "subject": "Polity",
-        "topic": "Constitutional Bodies",
-        "text": "Consider the following statements:\n1. The Constitution of India classifies ministers into four ranks i.e., Cabinet Minister, Minister of State with Independent Charge, Minister of State and Deputy Minister.\n2. The total number of ministers in the Union Government, including the Prime Minister, shall not exceed 15 percent of the total number of members of the Lok Sabha.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Statement 1 is incorrect. The Constitution does not classify ministers into ranks. These are conventions. Statement 2 is correct. The 91st Constitutional Amendment Act of 2003 limited the size of the Council of Ministers to 15% of the Lok Sabha's total strength. Therefore, only statement 2 is correct.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Constitutional Bodies"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2022"
-            }
-        ]
-    },
-    {
         "id": "pyq-2022-01454729",
         "year": 2022,
         "subject": "History",
@@ -14149,35 +8988,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Medieval History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2022"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2022-e1a2d262",
-        "year": 2022,
-        "subject": "Economy",
-        "topic": "Inflation",
-        "text": "With reference to the Indian economy, consider the following:\n1. Bank rate\n2. Open market operations\n3. Public debt\n4. Public revenue\nWhich of the above is/are component/components of Monetary Policy?",
-        "options": [
-            "1 only",
-            "1 and 2 only",
-            "3 and 4",
-            "1, 2, 3 and 4"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Bank rate and open market operations are direct tools of monetary policy used by the Reserve Bank of India (RBI). Public debt and public revenue are components of fiscal policy, which is managed by the government. Therefore, only 1 and 2 are components of Monetary Policy.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Economy"
-            },
-            {
-                "type": "topic",
-                "label": "Inflation"
             },
             {
                 "type": "pyq",
@@ -14273,64 +9083,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2022-71ca2caa",
-        "year": 2022,
-        "subject": "Polity",
-        "topic": "Fundamental Rights",
-        "text": "Right to Privacy is protected as an intrinsic part of Right to Life and Personal Liberty. Which of the following in the Constitution of India correctly and appropriately imply the above statement?",
-        "options": [
-            "Article 14 & Article 21",
-            "Article 15 & Article 19",
-            "Article 17 & Article 24",
-            "Article 21 & Article 25"
-        ],
-        "correctAnswer": 0,
-        "explanation": "The Supreme Court has recognized the Right to Privacy as an intrinsic part of Article 21 (Right to Life and Personal Liberty). While Article 14 (Equality before Law) is also relevant to ensuring fairness and non-arbitrariness, Article 21 is the primary basis for the Right to Privacy. Therefore, Article 14 & Article 21 correctly imply the statement.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Fundamental Rights"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2022"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2022-e67298f1",
-        "year": 2022,
-        "subject": "History",
-        "topic": "Modern History",
-        "text": "In the context of Colonial India, Shah Nawaz Khan, Prem Kumar Sehgal and Gurbaksh Singh Dhillon are remembered as:",
-        "options": [
-            "Leaders of Swadeshi and Boycott Movement",
-            "Members of the Drafting Committee in the Constituent Assembly",
-            "Officers of the Indian National Army",
-            "Members of the Interim Government in 1946"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Shah Nawaz Khan, Prem Kumar Sehgal, and Gurbaksh Singh Dhillon were officers of the Indian National Army (INA), also known as the Azad Hind Fauj, which was formed by Subhas Chandra Bose. They were key figures in the INA trials after World War II.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Modern History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2022"
-            }
-        ]
-    },
-    {
         "id": "pyq-2022-0b514efd",
         "year": 2022,
         "subject": "Economy",
@@ -14360,35 +9112,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2020-3afc6ae2",
-        "year": 2020,
-        "subject": "Polity",
-        "topic": "Fundamental Rights",
-        "text": "Right to Privacy is protected as an intrinsic part of Right to Life and Personal Liberty. Which of the following in the Constitution of India correctly and appropriately imply the above statement?",
-        "options": [
-            "Article 14 and the provisions under the 42nd Amendment",
-            "Article 17 and Directive Principles of State Policy",
-            "Article 21 and the freedoms guaranteed in Part III",
-            "Article 24 and the provisions under the 44th Amendment"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The Supreme Court has declared the Right to Privacy as a fundamental right under Article 21 (Right to Life and Personal Liberty) of the Constitution. This right is intrinsically linked to the freedoms guaranteed in Part III of the Constitution, which deals with Fundamental Rights.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Fundamental Rights"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2020"
-            }
-        ]
-    },
-    {
         "id": "pyq-2020-f9054880",
         "year": 2020,
         "subject": "History",
@@ -14410,35 +9133,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Ancient History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2020"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2020-9b5af554",
-        "year": 2020,
-        "subject": "Economy",
-        "topic": "Banking",
-        "text": "With reference to the Indian economy, consider the following:\n1. Bank rate\n2. Open market operations\n3. Public debt\nWhich of the above is/are component/components of Monetary Policy?",
-        "options": [
-            "1 only",
-            "2 and 3 only",
-            "1 and 2 only",
-            "1, 2 and 3"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Monetary policy refers to the actions undertaken by a central bank to manipulate the money supply and credit conditions to stimulate or restrain economic activity. Bank Rate and Open Market Operations are direct instruments of monetary policy. Public debt is a part of fiscal policy.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Economy"
-            },
-            {
-                "type": "topic",
-                "label": "Banking"
             },
             {
                 "type": "pyq",
@@ -14534,35 +9228,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-2020-18fb0496",
-        "year": 2020,
-        "subject": "Polity",
-        "topic": "Constitutional Bodies",
-        "text": "Consider the following statements:\n1. The Election Commission of India is a five-member body.\n2. Union Ministry of Home Affairs decides the election schedule for the conduct of both general elections and bye-elections.\n3. The Election Commission resolves the disputes relating to split and mergers of recognised political parties.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "Only 3",
-            "1 and 2",
-            "2 and 3",
-            "1 and 3"
-        ],
-        "correctAnswer": 0,
-        "explanation": "The Election Commission of India is a three-member body (one Chief Election Commissioner and two Election Commissioners). The Election Commission decides the election schedule. The Election Commission resolves disputes related to splits and mergers of recognized political parties.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Constitutional Bodies"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2020"
-            }
-        ]
-    },
-    {
         "id": "pyq-2020-620be4f9",
         "year": 2020,
         "subject": "History",
@@ -14613,35 +9278,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Inflation"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2020"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2020-33ca3252",
-        "year": 2020,
-        "subject": "Geography",
-        "topic": "Indian Geography",
-        "text": "Consider the following rivers:\n1. Brahmani\n2. Nagavali\n3. Subarnarekha\n4. Vamsadhara\nWhich of the above rise from the Eastern Ghats?",
-        "options": [
-            "1 and 2",
-            "2 and 4",
-            "1 and 3",
-            "3 and 4"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Nagavali and Vamsadhara rivers originate from the Eastern Ghats. Brahmani originates from the Chota Nagpur Plateau, and Subarnarekha originates near Ranchi.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Geography"
-            },
-            {
-                "type": "topic",
-                "label": "Indian Geography"
             },
             {
                 "type": "pyq",
@@ -14791,64 +9427,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "pyq",
                 "label": "UPSC 2020"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2021-e8c1bd23",
-        "year": 2021,
-        "subject": "Polity",
-        "topic": "Fundamental Rights",
-        "text": "Right to Privacy is protected as an intrinsic part of Right to Life and Personal Liberty. Which of the following in the Constitution of India correctly and appropriately imply the above statement?",
-        "options": [
-            "Article 14 and the provisions under the 42nd Amendment",
-            "Article 17 and Directive Principles of State Policy",
-            "Article 21 and the freedoms guaranteed in Part III",
-            "Article 24 and the provisions under the 44th Amendment"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The Supreme Court in K.S. Puttaswamy v. Union of India (2017) held that the Right to Privacy is protected as an intrinsic part of Article 21 (Right to Life and Personal Liberty) and the freedoms guaranteed in Part III of the Constitution. Article 21 guarantees the right to life and personal liberty, and the Court interpreted this to include the right to privacy.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Fundamental Rights"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2021"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2021-881991ed",
-        "year": 2021,
-        "subject": "History",
-        "topic": "Ancient History",
-        "text": "Which one of the following is not a Harappan site?",
-        "options": [
-            "Chanhudaro",
-            "Kot Diji",
-            "Sohgaura",
-            "Desalpur"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Sohgaura is not a Harappan site. It is known for the Sohgaura copper plate inscription, which is associated with the Mauryan Empire. Chanhudaro, Kot Diji, and Desalpur are all Harappan sites.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Ancient History"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2021"
             }
         ]
     },
@@ -15164,35 +9742,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "topic",
                 "label": "Parliament"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2021"
-            }
-        ]
-    },
-    {
-        "id": "pyq-2021-2edab757",
-        "year": 2021,
-        "subject": "History",
-        "topic": "Modern History",
-        "text": "In the context of Colonial India, Shah Nawaz Khan, Prem Kumar Sehgal and Gurbaksh Singh Dhillon are remembered as",
-        "options": [
-            "leaders of Swadeshi and Boycott Movement",
-            "members of the Drafting Committee in the Constituent Assembly",
-            "officers of the Indian National Army",
-            "members of the Interim Government in 1946"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Shah Nawaz Khan, Prem Kumar Sehgal, and Gurbaksh Singh Dhillon were officers of the Indian National Army (INA), formed by Subhas Chandra Bose. They were prominent figures in the INA trials held after World War II.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Modern History"
             },
             {
                 "type": "pyq",
@@ -16767,35 +11316,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-poli-45c7d515",
-        "year": 2006,
-        "subject": "Polity",
-        "topic": "Making of the Constitution & Salient Features",
-        "text": "Which of the following is/are the feature(s) of the Indian Constitution that reflect its unitary character?\n1. Single Citizenship\n2. Integrated Judiciary\n3. All India Services\nSelect the correct answer using the codes given below:",
-        "options": [
-            "1 only",
-            "2 only",
-            "1 and 2 only",
-            "1, 2 and 3"
-        ],
-        "correctAnswer": 3,
-        "explanation": "All three features contribute to the unitary character of the Constitution.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Making of the Constitution & Salient Features"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2006"
-            }
-        ]
-    },
-    {
         "id": "pyq-poli-30b22ba4",
         "year": 1997,
         "subject": "Polity",
@@ -16912,35 +11432,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-poli-154fe4ad",
-        "year": 1995,
-        "subject": "Polity",
-        "topic": "Making of the Constitution & Salient Features",
-        "text": "Which of the following is/are the feature(s) of the Indian Constitution that reflect its secular character?\n1. Freedom of religion\n2. Equality before law\n3. No state religion\nSelect the correct answer using the codes given below:",
-        "options": [
-            "1 only",
-            "2 only",
-            "1 and 3 only",
-            "1, 2 and 3"
-        ],
-        "correctAnswer": 3,
-        "explanation": "All three features are essential to the secular nature of the Indian Constitution.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Making of the Constitution & Salient Features"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1995"
-            }
-        ]
-    },
-    {
         "id": "pyq-poli-7e6d66b7",
         "year": 2016,
         "subject": "Polity",
@@ -16966,35 +11457,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "pyq",
                 "label": "UPSC 2016"
-            }
-        ]
-    },
-    {
-        "id": "pyq-poli-6ac3072f",
-        "year": 2017,
-        "subject": "Polity",
-        "topic": "Preamble: Keywords and Significance",
-        "text": "With reference to the Constitution of India, consider the following statements:\n1. No court can question the wisdom of the President to refer any matter to the Supreme Court for its opinion under Article 143.\n2. The Preamble to the Constitution declares India to be a ‘Sovereign Socialist Secular Democratic Republic’.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Statement 2 is correct as the Preamble declares India to be a ‘Sovereign Socialist Secular Democratic Republic’.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Preamble: Keywords and Significance"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2017"
             }
         ]
     },
@@ -18507,35 +12969,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-poli-c7fd8c1c",
-        "year": 2013,
-        "subject": "Polity",
-        "topic": "Union & Territory (Articles 1-4) & Citizenship (Articles 5-11)",
-        "text": "Which of the following statements is correct regarding the acquisition of citizenship by naturalization?",
-        "options": [
-            "It is an automatic process for all foreigners residing in India.",
-            "It requires a minimum period of residence in India.",
-            "It is granted only to persons of Indian origin.",
-            "It is granted only to refugees."
-        ],
-        "correctAnswer": 1,
-        "explanation": "Naturalization requires a minimum period of residence and fulfillment of other conditions.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Union & Territory (Articles 1-4) & Citizenship (Articles 5-11)"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2013"
-            }
-        ]
-    },
-    {
         "id": "pyq-poli-a6d82094",
         "year": 2004,
         "subject": "Polity",
@@ -18768,35 +13201,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-poli-f2be4050",
-        "year": 2020,
-        "subject": "Polity",
-        "topic": "Fundamental Rights (Articles 12-35) - Writs, Restrictions, Case Laws",
-        "text": "Right to Privacy is protected as an intrinsic part of Right to Life and Personal Liberty. Which of the following in the Constitution of India correctly and appropriately imply the above statement?",
-        "options": [
-            "Article 14 and the provisions under the 42nd Amendment",
-            "Article 17 and the Directive Principles of State Policy",
-            "Article 21 and the freedoms guaranteed in Part III",
-            "Article 24 and the provisions under the 44th Amendment"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Article 21 guarantees the right to life and personal liberty, which includes the right to privacy.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Fundamental Rights (Articles 12-35) - Writs, Restrictions, Case Laws"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2020"
-            }
-        ]
-    },
-    {
         "id": "pyq-poli-339f5936",
         "year": 2021,
         "subject": "Polity",
@@ -18880,35 +13284,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "pyq",
                 "label": "UPSC 2015"
-            }
-        ]
-    },
-    {
-        "id": "pyq-poli-dd711036",
-        "year": 2016,
-        "subject": "Polity",
-        "topic": "Fundamental Rights (Articles 12-35) - Writs, Restrictions, Case Laws",
-        "text": "The Parliament can make any law for the whole or any part of India for implementing international treaties",
-        "options": [
-            "with the consent of all the States",
-            "with the consent of the majority of States",
-            "with the consent of the States concerned",
-            "without the consent of any State"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Parliament can make laws for implementing international treaties without state consent.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Fundamental Rights (Articles 12-35) - Writs, Restrictions, Case Laws"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2016"
             }
         ]
     },
@@ -19754,35 +14129,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-poli-faa143cd",
-        "year": 2015,
-        "subject": "Polity",
-        "topic": "Directive Principles of State Policy (DPSP) & Fundamental Duties",
-        "text": "The Constitution (Seventy-Third Amendment) Act, 1992 refers to",
-        "options": [
-            "Generation of employment for the educated unemployed",
-            "Providing reservation to women in Panchayats",
-            "Providing free and compulsory education for children between 6-14 years",
-            "Ensuring social security to the aged, disabled and sick"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The 73rd Amendment Act provides for reservation of seats for women in Panchayats.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Directive Principles of State Policy (DPSP) & Fundamental Duties"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2015"
-            }
-        ]
-    },
-    {
         "id": "pyq-poli-9cce2cd8",
         "year": 2012,
         "subject": "Polity",
@@ -19808,35 +14154,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "pyq",
                 "label": "UPSC 2012"
-            }
-        ]
-    },
-    {
-        "id": "pyq-poli-471f5440",
-        "year": 2011,
-        "subject": "Polity",
-        "topic": "Directive Principles of State Policy (DPSP) & Fundamental Duties",
-        "text": "Which of the following is/are among the Fundamental Duties of citizens laid down in the Indian Constitution?\n1. To preserve the rich heritage of our composite culture.\n2. To protect the weaker sections from social injustice.\n3. To develop the scientific temper, humanism and the spirit of inquiry and reform.\nSelect the correct answer using the code given below:",
-        "options": [
-            "Only 1",
-            "Only 2 and 3",
-            "Only 1 and 3",
-            "1, 2 and 3"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Protecting weaker sections is not a fundamental duty.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Directive Principles of State Policy (DPSP) & Fundamental Duties"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2011"
             }
         ]
     },
@@ -19899,35 +14216,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-poli-9dd94e6d",
-        "year": 2006,
-        "subject": "Polity",
-        "topic": "Directive Principles of State Policy (DPSP) & Fundamental Duties",
-        "text": "Which of the following is/are among the Fundamental Duties of citizens laid down in the Indian Constitution?\n1. To safeguard public property.\n2. To develop the scientific temper, humanism and the spirit of inquiry and reform.\n3. To strive towards excellence in all spheres of individual and collective activity.\nSelect the correct answer using the code given below:",
-        "options": [
-            "Only 1",
-            "Only 2",
-            "1 and 2",
-            "1, 2 and 3"
-        ],
-        "correctAnswer": 3,
-        "explanation": "All three are fundamental duties.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Directive Principles of State Policy (DPSP) & Fundamental Duties"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2006"
-            }
-        ]
-    },
-    {
         "id": "pyq-poli-90c99a7b",
         "year": 2005,
         "subject": "Polity",
@@ -19953,35 +14241,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "pyq",
                 "label": "UPSC 2005"
-            }
-        ]
-    },
-    {
-        "id": "pyq-poli-c7b74b8e",
-        "year": 2003,
-        "subject": "Polity",
-        "topic": "Directive Principles of State Policy (DPSP) & Fundamental Duties",
-        "text": "Which of the following is/are included in the Directive Principles of State Policy?\n1. Securing for citizens a uniform civil code.\n2. Organising agriculture and animal husbandry on modern and scientific lines.\n3. Protecting and improving the environment and safeguarding of forests and wild life.\nSelect the correct answer using the code given below:",
-        "options": [
-            "1 only",
-            "2 and 3 only",
-            "1 and 3 only",
-            "1, 2 and 3"
-        ],
-        "correctAnswer": 3,
-        "explanation": "All three are included in the Directive Principles.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Directive Principles of State Policy (DPSP) & Fundamental Duties"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2003"
             }
         ]
     },
@@ -20504,35 +14763,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "pyq",
                 "label": "UPSC 2019"
-            }
-        ]
-    },
-    {
-        "id": "pyq-poli-50ff34b0",
-        "year": 2021,
-        "subject": "Polity",
-        "topic": "Amendment of the Constitution (Basic Structure Doctrine)",
-        "text": "With reference to the Constitution of India, consider the following statements: 1. No High Court shall have the jurisdiction to question the validity of a Central Law. 2. An amendment to the Constitution of India cannot be called into question by any court on any ground. Which of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Both statements are incorrect due to judicial review and basic structure.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Amendment of the Constitution (Basic Structure Doctrine)"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2021"
             }
         ]
     },
@@ -22219,64 +16449,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-poli-460f5533",
-        "year": 2021,
-        "subject": "Polity",
-        "topic": "Federal System & Center-State Relations (Legislative, Admin, Financial)",
-        "text": "With reference to the Constitution of India, consider the following statements:\n1. No High Court shall have the jurisdiction to question the validity of a Central Law.\n2. An amendment to the Constitution of India cannot be called into question by any court.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Both statements are incorrect; High Courts can question Central Laws, and constitutional amendments can be challenged.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Federal System & Center-State Relations (Legislative, Admin, Financial)"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2021"
-            }
-        ]
-    },
-    {
-        "id": "pyq-poli-85435c82",
-        "year": 2020,
-        "subject": "Polity",
-        "topic": "Federal System & Center-State Relations (Legislative, Admin, Financial)",
-        "text": "The Parliament can make any law for the whole or any part of India for implementing international treaties\n1. with the consent of all the States\n2. with the consent of the majority of States\n3. with the consent of the States concerned\n4. without the consent of any State",
-        "options": [
-            "1 only",
-            "2 only",
-            "3 only",
-            "4 only"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Parliament can make laws for implementing international treaties without state consent.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Federal System & Center-State Relations (Legislative, Admin, Financial)"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2020"
-            }
-        ]
-    },
-    {
         "id": "pyq-poli-de98cdbd",
         "year": 2019,
         "subject": "Polity",
@@ -22364,35 +16536,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-poli-39ec683f",
-        "year": 2016,
-        "subject": "Polity",
-        "topic": "Federal System & Center-State Relations (Legislative, Admin, Financial)",
-        "text": "The main advantage of the parliamentary form of government is that",
-        "options": [
-            "the executive remains responsible to the legislature",
-            "the executive is elected by the legislature",
-            "the executive and legislature work independently",
-            "the executive is more stable"
-        ],
-        "correctAnswer": 0,
-        "explanation": "The executive's responsibility to the legislature is a key advantage.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Federal System & Center-State Relations (Legislative, Admin, Financial)"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2016"
-            }
-        ]
-    },
-    {
         "id": "pyq-poli-a2903348",
         "year": 2015,
         "subject": "Polity",
@@ -22418,35 +16561,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "pyq",
                 "label": "UPSC 2015"
-            }
-        ]
-    },
-    {
-        "id": "pyq-poli-f311cdbc",
-        "year": 2014,
-        "subject": "Polity",
-        "topic": "Federal System & Center-State Relations (Legislative, Admin, Financial)",
-        "text": "The power to increase the number of judges in the Supreme Court of India rests with",
-        "options": [
-            "The President of India",
-            "The Parliament",
-            "The Chief Justice of India",
-            "The Law Commission"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The Parliament has the power to increase the number of judges.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Federal System & Center-State Relations (Legislative, Admin, Financial)"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2014"
             }
         ]
     },
@@ -23263,35 +17377,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-poli-f81cb66f",
-        "year": 2016,
-        "subject": "Polity",
-        "topic": "Emergency Provisions (National, State, Financial)",
-        "text": "Under which Article of the Constitution of India can the President of India proclaim Financial Emergency?",
-        "options": [
-            "Article 352",
-            "Article 356",
-            "Article 360",
-            "Article 368"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Article 360 of the Constitution empowers the President to proclaim Financial Emergency.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Emergency Provisions (National, State, Financial)"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2016"
-            }
-        ]
-    },
-    {
         "id": "pyq-poli-15c69483",
         "year": 2015,
         "subject": "Polity",
@@ -23611,35 +17696,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-poli-fab0552e",
-        "year": 2004,
-        "subject": "Polity",
-        "topic": "Emergency Provisions (National, State, Financial)",
-        "text": "Under which of the following circumstances can the President of India declare a National Emergency?",
-        "options": [
-            "Internal Disturbance",
-            "Failure of Constitutional Machinery in a State",
-            "External Aggression",
-            "Financial Instability"
-        ],
-        "correctAnswer": 2,
-        "explanation": "National Emergency can be declared on grounds of external aggression.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Emergency Provisions (National, State, Financial)"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2004"
-            }
-        ]
-    },
-    {
         "id": "pyq-poli-3a6feb7e",
         "year": 2003,
         "subject": "Polity",
@@ -23694,64 +17750,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "pyq",
                 "label": "UPSC 2002"
-            }
-        ]
-    },
-    {
-        "id": "pyq-poli-9aef5139",
-        "year": 2001,
-        "subject": "Polity",
-        "topic": "Emergency Provisions (National, State, Financial)",
-        "text": "The proclamation of Emergency under Article 352 on the ground of 'armed rebellion' requires the written advice of:",
-        "options": [
-            "The Prime Minister",
-            "The Council of Ministers",
-            "The President",
-            "The Cabinet"
-        ],
-        "correctAnswer": 3,
-        "explanation": "The President requires written advice from the Cabinet for proclaiming emergency on the ground of armed rebellion.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Emergency Provisions (National, State, Financial)"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2001"
-            }
-        ]
-    },
-    {
-        "id": "pyq-poli-a3e5ddaf",
-        "year": 2000,
-        "subject": "Polity",
-        "topic": "Emergency Provisions (National, State, Financial)",
-        "text": "Which of the following statements is/are correct regarding the Financial Emergency?\n1. The President can reduce the salaries and allowances of all government employees, including judges of the Supreme Court and High Courts.\n2. The State Legislatures can be suspended during a Financial Emergency.\nSelect the correct answer using the code given below.",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Only the first statement is correct regarding the Financial Emergency.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Emergency Provisions (National, State, Financial)"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2000"
             }
         ]
     },
@@ -23926,93 +17924,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "pyq",
                 "label": "UPSC 2024"
-            }
-        ]
-    },
-    {
-        "id": "pyq-poli-c48b934a",
-        "year": 2017,
-        "subject": "Polity",
-        "topic": "President & Vice-President: Election, Powers, Impeachment",
-        "text": "With reference to the election of the President of India, consider the following statements:\n1. The value of the vote of each MLA varies from State to State.\n2. The value of the vote of MPs of the Lok Sabha is more than the value of the vote of MPs of the Rajya Sabha.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 0,
-        "explanation": "The value of an MLA's vote depends on the state's population, and the value of an MP's vote is the same for both houses.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "President & Vice-President: Election, Powers, Impeachment"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2017"
-            }
-        ]
-    },
-    {
-        "id": "pyq-poli-cfa70056",
-        "year": 2018,
-        "subject": "Polity",
-        "topic": "President & Vice-President: Election, Powers, Impeachment",
-        "text": "Consider the following statements:\n1. The President of India can summon a joint sitting of the Parliament to discuss and vote on a non-money bill.\n2. The President of India can dissolve the Lok Sabha if the Council of Ministers loses its majority.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The President can summon a joint sitting for non-money bills and dissolve Lok Sabha on loss of majority.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "President & Vice-President: Election, Powers, Impeachment"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2018"
-            }
-        ]
-    },
-    {
-        "id": "pyq-poli-2026b283",
-        "year": 2015,
-        "subject": "Polity",
-        "topic": "President & Vice-President: Election, Powers, Impeachment",
-        "text": "Which of the following are the discretionary powers of the Governor?\n1. Sending a report to the President of India about the affairs of the State.\n2. Appointing the Ministers.\n3. Reserving certain bills passed by the State Legislature for the consideration of the President of India.\n4. Making the rules for the more convenient transaction of the business of the State Government.\nSelect the correct answer using the code given below.",
-        "options": [
-            "1 and 2 only",
-            "1 and 3 only",
-            "2, 3 and 4 only",
-            "1, 2, 3 and 4"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Sending a report to the President and reserving bills are discretionary powers.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "President & Vice-President: Election, Powers, Impeachment"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2015"
             }
         ]
     },
@@ -24655,35 +18566,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-poli-329644d5",
-        "year": 2016,
-        "subject": "Polity",
-        "topic": "President & Vice-President: Election, Powers, Impeachment",
-        "text": "Which of the following is/are the exclusive power(s) of the Lok Sabha?\n1. To ratify the declaration of emergency.\n2. To pass a vote of no-confidence against the Council of Ministers.\n3. To impeach the President of India.\nSelect the correct answer using the code given below.",
-        "options": [
-            "1 only",
-            "2 only",
-            "1 and 3 only",
-            "2 and 3 only"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Only the Lok Sabha can pass a vote of no-confidence.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "President & Vice-President: Election, Powers, Impeachment"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2016"
-            }
-        ]
-    },
-    {
         "id": "pyq-poli-d7229fee",
         "year": 2014,
         "subject": "Polity",
@@ -24858,35 +18740,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-poli-8e5db85e",
-        "year": 2014,
-        "subject": "Polity",
-        "topic": "Prime Minister & Council of Ministers",
-        "text": "The power to decide an election petition is vested in the",
-        "options": [
-            "Parliament",
-            "Supreme Court",
-            "High Courts",
-            "Election Commission"
-        ],
-        "correctAnswer": 2,
-        "explanation": "High Courts have the power to decide an election petition.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Prime Minister & Council of Ministers"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2014"
-            }
-        ]
-    },
-    {
         "id": "pyq-poli-2d925adc",
         "year": 2013,
         "subject": "Polity",
@@ -24941,35 +18794,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "pyq",
                 "label": "UPSC 2012"
-            }
-        ]
-    },
-    {
-        "id": "pyq-poli-4f4017ef",
-        "year": 2011,
-        "subject": "Polity",
-        "topic": "Prime Minister & Council of Ministers",
-        "text": "The Parliament can make any law for the whole or any part of India for implementing international treaties",
-        "options": [
-            "with the consent of all the States",
-            "with the consent of the majority of States",
-            "with the consent of the States concerned",
-            "without the consent of any State"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Parliament can legislate on any subject to implement international treaties.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Prime Minister & Council of Ministers"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2011"
             }
         ]
     },
@@ -25177,64 +19001,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-poli-5c8f66bb",
-        "year": 2021,
-        "subject": "Polity",
-        "topic": "Prime Minister & Council of Ministers",
-        "text": "Consider the following statements:\n1. The President of India can return a non-money bill passed by the Parliament for reconsideration.\n2. The President of India can withhold assent to a bill passed by the Parliament.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The President has both suspensive veto and absolute veto powers.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Prime Minister & Council of Ministers"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2021"
-            }
-        ]
-    },
-    {
-        "id": "pyq-poli-76b40485",
-        "year": 2022,
-        "subject": "Polity",
-        "topic": "Prime Minister & Council of Ministers",
-        "text": "Which of the following are the discretionary powers of the Governor?\n1. Sending a report to the President of India about the affairs of the State.\n2. Reserving certain bills passed by the State Legislature for the consideration of the President of India.\n3. Appointing the Chief Minister.\nSelect the correct answer using the code given below.",
-        "options": [
-            "1 and 2 only",
-            "1 and 3 only",
-            "2 and 3 only",
-            "1, 2 and 3"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Appointing the CM is not a discretionary power if a clear majority exists.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Prime Minister & Council of Ministers"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2022"
-            }
-        ]
-    },
-    {
         "id": "pyq-poli-a13ffb7e",
         "year": 2023,
         "subject": "Polity",
@@ -25260,35 +19026,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "pyq",
                 "label": "UPSC 2023"
-            }
-        ]
-    },
-    {
-        "id": "pyq-poli-cab060c8",
-        "year": 1998,
-        "subject": "Polity",
-        "topic": "Prime Minister & Council of Ministers",
-        "text": "The President of India is elected by an electoral college comprising of:",
-        "options": [
-            "All members of Parliament",
-            "All members of State Legislative Assemblies",
-            "Elected members of both Houses of Parliament and elected members of the State Legislative Assemblies",
-            "Elected members of both Houses of Parliament"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The electoral college includes elected members of Parliament and State Assemblies.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Prime Minister & Council of Ministers"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1998"
             }
         ]
     },
@@ -25670,93 +19407,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-poli-a0db1695",
-        "year": 2017,
-        "subject": "Polity",
-        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
-        "text": "With reference to the Parliament of India, consider the following statements:\n1. A private member’s bill is a bill presented by a Member of Parliament who is not a Minister.\n2. Recently, a private member’s bill has been passed in the Parliament of India for the first time in its history.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Only statement 1 is correct as private member bills are rarely passed.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2017"
-            }
-        ]
-    },
-    {
-        "id": "pyq-poli-17533e05",
-        "year": 2018,
-        "subject": "Polity",
-        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
-        "text": "Consider the following statements:\n1. The Speaker of the Legislative Assembly shall vacate his/her office if he/she ceases to be a member of the Assembly.\n2. Whenever the Legislative Assembly is dissolved, the Speaker shall not vacate his/her office until immediately before the first meeting of the Assembly after the dissolution.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Both statements are correct regarding the Speaker's tenure.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2018"
-            }
-        ]
-    },
-    {
-        "id": "pyq-poli-d3f628d4",
-        "year": 2019,
-        "subject": "Polity",
-        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
-        "text": "Which of the following is/are the exclusive power(s) of Lok Sabha?\n1. To ratify the declaration of emergency.\n2. To pass a motion of no-confidence against the Council of Ministers.\n3. To impeach the President of India.\nSelect the correct answer using the code given below.",
-        "options": [
-            "1 and 2",
-            "2 only",
-            "1 and 3",
-            "3 only"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Only the Lok Sabha can pass a no-confidence motion.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2019"
-            }
-        ]
-    },
-    {
         "id": "pyq-poli-f2438f0c",
         "year": 2020,
         "subject": "Polity",
@@ -25869,64 +19519,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "pyq",
                 "label": "UPSC 2023"
-            }
-        ]
-    },
-    {
-        "id": "pyq-poli-c150c8ee",
-        "year": 2016,
-        "subject": "Polity",
-        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
-        "text": "The Parliament of India exercises control over the functions of the Council of Ministers through which of the following?\n1. Adjournment motion\n2. Question hour\n3. Committees\n4. Half-an-hour discussion\nSelect the correct answer using the code given below:",
-        "options": [
-            "1, 2 and 3 only",
-            "2, 3 and 4 only",
-            "1 and 4 only",
-            "1, 2, 3 and 4"
-        ],
-        "correctAnswer": 3,
-        "explanation": "All listed mechanisms are used for parliamentary control.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2016"
-            }
-        ]
-    },
-    {
-        "id": "pyq-poli-b78e4c70",
-        "year": 2015,
-        "subject": "Polity",
-        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
-        "text": "Which of the following are the methods of Parliamentary control over public finance in India?\n1. Placing Annual Financial Statement before the Parliament.\n2. Withdrawal of moneys from Consolidated Fund of India only after passing the Appropriation Bill.\n3. Provisions of supplementary grants and vote-on-account.\n4. Parliamentary control over the expenditure of public funds through the Estimates Committee.\nSelect the correct answer using the code given below:",
-        "options": [
-            "1, 2 and 3 only",
-            "2 and 4 only",
-            "1, 3 and 4 only",
-            "1, 2, 3 and 4"
-        ],
-        "correctAnswer": 4,
-        "explanation": "All listed methods contribute to parliamentary control over public finance.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2015"
             }
         ]
     },
@@ -26130,35 +19722,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "pyq",
                 "label": "UPSC 2008"
-            }
-        ]
-    },
-    {
-        "id": "pyq-poli-f6f19191",
-        "year": 2007,
-        "subject": "Polity",
-        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
-        "text": "The power to decide an election petition is vested in the",
-        "options": [
-            "Parliament",
-            "Supreme Court",
-            "High Courts",
-            "Election Commission"
-        ],
-        "correctAnswer": 2,
-        "explanation": "High Courts have the power to decide election petitions.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2007"
             }
         ]
     },
@@ -26395,35 +19958,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-poli-d2f81b79",
-        "year": 1998,
-        "subject": "Polity",
-        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
-        "text": "The Finance Bill is introduced in",
-        "options": [
-            "Lok Sabha",
-            "Rajya Sabha",
-            "Either House of Parliament",
-            "Joint Sitting of Parliament"
-        ],
-        "correctAnswer": 0,
-        "explanation": "The Finance Bill is introduced only in Lok Sabha.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1998"
-            }
-        ]
-    },
-    {
         "id": "pyq-poli-34772609",
         "year": 2024,
         "subject": "Polity",
@@ -26511,35 +20045,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-poli-e3552b8a",
-        "year": 1995,
-        "subject": "Polity",
-        "topic": "Parliament: Sessions, Motions, Bills, Committees, Budget",
-        "text": "The Speaker of the Lok Sabha can ask a member to stop speaking and let another member speak. This phenomenon is called:",
-        "options": [
-            "Crossing the floor",
-            "Yielding the floor",
-            "Point of order",
-            "Calling attention notice"
-        ],
-        "correctAnswer": 1,
-        "explanation": "This is called yielding the floor.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Parliament: Sessions, Motions, Bills, Committees, Budget"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1995"
-            }
-        ]
-    },
-    {
         "id": "pyq-poli-b5d81065",
         "year": 2017,
         "subject": "Polity",
@@ -26565,35 +20070,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "pyq",
                 "label": "UPSC 2017"
-            }
-        ]
-    },
-    {
-        "id": "pyq-poli-bc7fe4c4",
-        "year": 2015,
-        "subject": "Polity",
-        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
-        "text": "The power of the Supreme Court of India to decide disputes between the Centre and the States falls under its",
-        "options": [
-            "Advisory jurisdiction",
-            "Appellate jurisdiction",
-            "Original jurisdiction",
-            "Writ jurisdiction"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Disputes between the Centre and States fall under the Supreme Court's original jurisdiction.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2015"
             }
         ]
     },
@@ -26652,64 +20128,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "pyq",
                 "label": "UPSC 2020"
-            }
-        ]
-    },
-    {
-        "id": "pyq-poli-ae9b8402",
-        "year": 2016,
-        "subject": "Polity",
-        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
-        "text": "Which of the following are the discretionary powers of the Governor?\n1. Sending a report to the President of India about the affairs of the State.\n2. Reserving certain bills passed by the State Legislature for the consideration of the President.\n3. Appointing the Ministers.\n4. Making rules to regulate the procedure of the State Legislature.\nSelect the correct answer using the code given below.",
-        "options": [
-            "1 and 2 only",
-            "1, 2 and 3 only",
-            "1, 3 and 4 only",
-            "2, 3 and 4 only"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Sending reports and reserving bills are discretionary; appointing ministers and making rules are not.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2016"
-            }
-        ]
-    },
-    {
-        "id": "pyq-poli-ec60a32b",
-        "year": 2021,
-        "subject": "Polity",
-        "topic": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism",
-        "text": "With reference to the Constitution of India, consider the following statements:\n1. No High Court shall have the jurisdiction to question the validity of a Central Law.\n2. An amendment to the Constitution of India cannot be called into question by the Supreme Court of India.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 3,
-        "explanation": "High Courts can question Central Laws; Constitutional amendments are subject to judicial review.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Supreme Court: Jurisdiction, Judicial Review, judicial Activism"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2021"
             }
         ]
     },
@@ -27410,35 +20828,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-poli-b302e339",
-        "year": 2018,
-        "subject": "Polity",
-        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
-        "text": "Which of the following are the discretionary powers of the Governor?\n1. Sending a report to the President of India about the affairs of the State.\n2. Reserving certain bills passed by the State Legislature for the consideration of the President.\n3. Appointing the Chief Minister.\n4. Determining the amount payable by the State Government to the Autonomous District Council as royalty accruing from minerals.\nSelect the correct answer using the code given below.",
-        "options": [
-            "1 and 2 only",
-            "1 and 3 only",
-            "1, 2 and 3 only",
-            "1, 2 and 4 only"
-        ],
-        "correctAnswer": 3,
-        "explanation": "The Governor's discretionary powers include reporting to the President, reserving bills, and determining mineral royalty.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Governor: Powers, Discretionary Role, Center's Agent"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2018"
-            }
-        ]
-    },
-    {
         "id": "pyq-poli-684b8948",
         "year": 2014,
         "subject": "Polity",
@@ -27522,35 +20911,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "pyq",
                 "label": "UPSC 2016"
-            }
-        ]
-    },
-    {
-        "id": "pyq-poli-a39247f5",
-        "year": 2017,
-        "subject": "Polity",
-        "topic": "Governor: Powers, Discretionary Role, Center's Agent",
-        "text": "Consider the following statements regarding the powers of the Governor:\n1. The Governor can return a money bill for reconsideration by the State Legislature.\n2. The Governor can withhold assent to a bill passed by the State Legislature.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The Governor cannot return a money bill, but can withhold assent.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Governor: Powers, Discretionary Role, Center's Agent"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2017"
             }
         ]
     },
@@ -28309,35 +21669,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-poli-64d4cdca",
-        "year": 2015,
-        "subject": "Polity",
-        "topic": "State Legislature & Chief Minister",
-        "text": "Which of the following are the discretionary powers of the Governor?\n1. Sending a report to the President of India about the affairs of the State.\n2. Reserving certain bills passed by the State Legislature for the consideration of the President.\n3. Appointing the Ministers.\n4. Determining the amount payable by the State Government to the Autonomous District Council as royalty accruing from minerals.\nSelect the correct answer using the code given below.",
-        "options": [
-            "1 and 2 only",
-            "1, 2 and 3 only",
-            "1, 3 and 4 only",
-            "1, 2 and 4 only"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Appointing ministers is generally not a discretionary power.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "State Legislature & Chief Minister"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2015"
-            }
-        ]
-    },
-    {
         "id": "pyq-poli-bf9697b8",
         "year": 2018,
         "subject": "Polity",
@@ -28425,64 +21756,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-poli-8fade2e0",
-        "year": 2019,
-        "subject": "Polity",
-        "topic": "State Legislature & Chief Minister",
-        "text": "Consider the following statements regarding the powers of the Governor:\n1. The Governor can reserve a Bill passed by the State Legislature for the consideration of the President.\n2. The Governor can promulgate ordinances when the State Legislature is not in session.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Both statements are correct regarding the Governor's powers.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "State Legislature & Chief Minister"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2019"
-            }
-        ]
-    },
-    {
-        "id": "pyq-poli-a05ea82b",
-        "year": 2021,
-        "subject": "Polity",
-        "topic": "State Legislature & Chief Minister",
-        "text": "Which of the following statements is/are correct regarding the powers of the Governor?\n1. The Governor can return a money bill for reconsideration by the State Legislature.\n2. The Governor can withhold assent to a bill passed by the State Legislature.\nSelect the correct answer using the code given below.",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The Governor cannot return a money bill for reconsideration.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "State Legislature & Chief Minister"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2021"
-            }
-        ]
-    },
-    {
         "id": "pyq-poli-975d6e99",
         "year": 2022,
         "subject": "Polity",
@@ -28566,35 +21839,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "pyq",
                 "label": "UPSC 2014"
-            }
-        ]
-    },
-    {
-        "id": "pyq-poli-f4d0aae1",
-        "year": 2005,
-        "subject": "Polity",
-        "topic": "State Legislature & Chief Minister",
-        "text": "Which one of the following statements is correct?\n(a) In India, the same person cannot be appointed as Governor for two or more States at the same time.\n(b) The Judges of the High Court of the States in India are appointed by the Governor of the State just as the Judges of the Supreme Court are appointed by the President.\n(c) No procedure has been laid down in the Constitution of India for the removal of a Governor from his/her office.\n(d) In the event of the death of the President while in office, the Vice-President can act as President for a maximum period of six months.",
-        "options": [
-            "A",
-            "B",
-            "C",
-            "D"
-        ],
-        "correctAnswer": 3,
-        "explanation": "The Governor holds office at the pleasure of the President.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "State Legislature & Chief Minister"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2005"
             }
         ]
     },
@@ -28947,35 +22191,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-poli-bf43b6c4",
-        "year": 2001,
-        "subject": "Polity",
-        "topic": "State Legislature & Chief Minister",
-        "text": "Which of the following statements is/are correct regarding the ordinance-making power of the Governor?\n1. The Governor can promulgate an ordinance only when the State Legislature is not in session.\n2. The ordinance promulgated by the Governor has the same force and effect as an act of the State Legislature.\nSelect the correct answer using the code given below.",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Both statements are correct regarding the Governor's ordinance power.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "State Legislature & Chief Minister"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2001"
-            }
-        ]
-    },
-    {
         "id": "pyq-poli-6b40107f",
         "year": 2003,
         "subject": "Polity",
@@ -29146,35 +22361,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "pyq",
                 "label": "UPSC 2013"
-            }
-        ]
-    },
-    {
-        "id": "pyq-poli-7efac957",
-        "year": 2017,
-        "subject": "Polity",
-        "topic": "High Courts & Subordinate Courts",
-        "text": "With reference to the Constitution of India, consider the following statements:\n1. No High Court shall have the jurisdiction to question the validity of a Central Law.\n2. An amendment to the Constitution of India cannot be called into question by any High Court.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 3,
-        "explanation": "High Courts can question the validity of Central Laws and Constitutional amendments.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "High Courts & Subordinate Courts"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2017"
             }
         ]
     },
@@ -30948,35 +24134,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-poli-3c2cbc4f",
-        "year": 2014,
-        "subject": "Polity",
-        "topic": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST",
-        "text": "Consider the following statements: 1. The Election Commission of India is a constitutional body. 2. The Election Commission of India is responsible for conducting elections to the Parliament and State Legislatures, but has no concern with elections to local bodies. Which of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Statement 1 is correct, but statement 2 is incorrect as ECI does not conduct local body elections.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "Polity"
-            },
-            {
-                "type": "topic",
-                "label": "Constitutional Bodies: ECI, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2014"
-            }
-        ]
-    },
-    {
         "id": "pyq-poli-14303a8c",
         "year": 2010,
         "subject": "Polity",
@@ -31847,35 +25004,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-hist-71fb7c92",
-        "year": 2020,
-        "subject": "History",
-        "topic": "Indus Valley Civilization & Vedic Age",
-        "text": "Which one of the following is not a Harappan site?",
-        "options": [
-            "Chanhudaro",
-            "Kot Diji",
-            "Sohgaura",
-            "Desalpur"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Sohgaura is not a Harappan site; it is associated with the Mauryan period.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Indus Valley Civilization & Vedic Age"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2020"
-            }
-        ]
-    },
-    {
         "id": "pyq-hist-1094b74b",
         "year": 2021,
         "subject": "History",
@@ -32572,64 +25700,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-hist-fe8ffbc4",
-        "year": 2019,
-        "subject": "History",
-        "topic": "Buddhism & Jainism: Philosophy & Architecture",
-        "text": "With reference to the religious history of India, consider the following statements:\n1. Sautrantika and Sammitiya were sects of Jainism.\n2. Sarvastivadin held that the constituents of phenomena were not wholly momentary, but existed forever in a latent form.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Sarvastivadin believed in the existence of all dharmas in the past, present, and future, while Sautrantika and Sammitiya were Buddhist sects.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Buddhism & Jainism: Philosophy & Architecture"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2019"
-            }
-        ]
-    },
-    {
-        "id": "pyq-hist-2d6db674",
-        "year": 2017,
-        "subject": "History",
-        "topic": "Buddhism & Jainism: Philosophy & Architecture",
-        "text": "With reference to the religious history of India, consider the following statements:\n1. The concept of Bodhisattva is central to Hinayana sect of Buddhism.\n2. Bodhisattva is a compassionate one on his way to enlightenment.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Bodhisattva is central to Mahayana Buddhism, not Hinayana.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Buddhism & Jainism: Philosophy & Architecture"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2017"
-            }
-        ]
-    },
-    {
         "id": "pyq-hist-9d7bb56e",
         "year": 2016,
         "subject": "History",
@@ -33322,35 +26392,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "pyq",
                 "label": "UPSC 2000"
-            }
-        ]
-    },
-    {
-        "id": "pyq-hist-1c60c9fe",
-        "year": 2003,
-        "subject": "History",
-        "topic": "Buddhism & Jainism: Philosophy & Architecture",
-        "text": "The Gandhara School of Art was influenced by which of the following?",
-        "options": [
-            "Greek and Roman art",
-            "Persian art",
-            "Indian art",
-            "Egyptian art"
-        ],
-        "correctAnswer": 0,
-        "explanation": "The Gandhara School of Art was heavily influenced by Greek and Roman artistic styles.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Buddhism & Jainism: Philosophy & Architecture"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2003"
             }
         ]
     },
@@ -35178,35 +28219,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "pyq",
                 "label": "UPSC 2024"
-            }
-        ]
-    },
-    {
-        "id": "pyq-hist-8469939a",
-        "year": 2019,
-        "subject": "History",
-        "topic": "Bhakti & Sufi Movements",
-        "text": "With reference to the religious history of India, consider the following statements:\n1. Sthaviravadins belong to Hinayana.\n2. Mahasanghikas were the forerunners of Mahayana.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 only",
-            "2 only",
-            "Both 1 and 2",
-            "Neither 1 nor 2"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Both statements are correct regarding early Buddhist schools.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Bhakti & Sufi Movements"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2019"
             }
         ]
     },
@@ -37821,35 +30833,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-hist-44d5b752",
-        "year": 2015,
-        "subject": "History",
-        "topic": "Advent of Europeans & British Expansion",
-        "text": "Who among the following was/were associated with the introduction of the Ryotwari Settlement in India during the British rule?\n1. Lord Cornwallis\n2. Alexander Read\n3. Thomas Munro\nSelect the correct answer using the code given below:",
-        "options": [
-            "1 only",
-            "1 and 2 only",
-            "2 and 3 only",
-            "1, 2 and 3"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Alexander Read and Thomas Munro were associated with the Ryotwari Settlement.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Advent of Europeans & British Expansion"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2015"
-            }
-        ]
-    },
-    {
         "id": "pyq-hist-e7c8f46b",
         "year": 2013,
         "subject": "History",
@@ -38488,35 +31471,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-hist-9c485c20",
-        "year": 1996,
-        "subject": "History",
-        "topic": "Advent of Europeans & British Expansion",
-        "text": "The first Governor-General of India was:",
-        "options": [
-            "Warren Hastings",
-            "Lord William Bentinck",
-            "Lord Dalhousie",
-            "Lord Canning"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Lord William Bentinck was the first Governor-General of India.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Advent of Europeans & British Expansion"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 1996"
-            }
-        ]
-    },
-    {
         "id": "pyq-hist-740e9ed9",
         "year": 2006,
         "subject": "History",
@@ -38662,35 +31616,6 @@ export const PYQ_DATABASE = [
         ]
     },
     {
-        "id": "pyq-hist-a547eb3f",
-        "year": 2019,
-        "subject": "History",
-        "topic": "Social-Religious Reform Movements (19th Century)",
-        "text": "With reference to the religious history of India, consider the following statements:\n1. Sthaviravadins belong to the Hinayana sect.\n2. Mahasanghikas were the forerunners of Mahayana Buddhism.\n3. Lokayata sect was an atheistic sect.\nWhich of the statements given above is/are correct?",
-        "options": [
-            "1 and 2 only",
-            "2 and 3 only",
-            "3 only",
-            "1, 2 and 3"
-        ],
-        "correctAnswer": 3,
-        "explanation": "All three statements accurately describe aspects of Indian religious history.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Social-Religious Reform Movements (19th Century)"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2019"
-            }
-        ]
-    },
-    {
         "id": "pyq-hist-6534258a",
         "year": 2018,
         "subject": "History",
@@ -38803,35 +31728,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "pyq",
                 "label": "UPSC 2015"
-            }
-        ]
-    },
-    {
-        "id": "pyq-hist-4915e0be",
-        "year": 2014,
-        "subject": "History",
-        "topic": "Social-Religious Reform Movements (19th Century)",
-        "text": "Who among the following was/were associated with the introduction of Ryotwari Settlement in India during the British rule?\n1. Lord Cornwallis\n2. Alexander Read\n3. Thomas Munro\nSelect the correct answer using the code given below.",
-        "options": [
-            "1 only",
-            "1 and 2 only",
-            "2 and 3 only",
-            "1, 2 and 3"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Alexander Read and Thomas Munro were instrumental in the Ryotwari Settlement.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Social-Religious Reform Movements (19th Century)"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2014"
             }
         ]
     },
@@ -41326,35 +34222,6 @@ export const PYQ_DATABASE = [
             {
                 "type": "pyq",
                 "label": "UPSC 2018"
-            }
-        ]
-    },
-    {
-        "id": "pyq-hist-5db1cd41",
-        "year": 2015,
-        "subject": "History",
-        "topic": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India",
-        "text": "Which of the following led to the introduction of English as a medium of instruction in India?\n1. The Charter Act of 1813\n2. General Committee of Public Instruction, 1823\n3. Lord Macaulay’s Minute of 1835\nSelect the correct answer using the code given below.",
-        "options": [
-            "1 and 2 only",
-            "2 and 3 only",
-            "1 and 3 only",
-            "1, 2 and 3"
-        ],
-        "correctAnswer": 1,
-        "explanation": "English as a medium was solidified by the General Committee and Macaulay's Minute.",
-        "tags": [
-            {
-                "type": "subject",
-                "label": "History"
-            },
-            {
-                "type": "topic",
-                "label": "Gandhian Era: Non-Cooperation, Civil Disobedience, Quit India"
-            },
-            {
-                "type": "pyq",
-                "label": "UPSC 2015"
             }
         ]
     },

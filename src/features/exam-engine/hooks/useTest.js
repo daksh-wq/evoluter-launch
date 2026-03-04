@@ -39,7 +39,19 @@ export function useTest() {
      * Helper to initialize test state
      */
     const setupTestSession = (questions, durationSeconds) => {
-        setActiveTest(questions);
+        // CRITICAL: Final dedup gate — strip any duplicate questions by ID + text
+        const seenIds = new Set();
+        const seenTexts = new Set();
+        const uniqueQuestions = questions.filter(q => {
+            const textKey = (q.text || '').trim().toLowerCase().substring(0, 100);
+            if (seenIds.has(q.id)) return false;
+            if (textKey && textKey.length > 10 && seenTexts.has(textKey)) return false;
+            seenIds.add(q.id);
+            if (textKey && textKey.length > 10) seenTexts.add(textKey);
+            return true;
+        });
+
+        setActiveTest(uniqueQuestions);
         setActiveTestId(null);
         setCurrentQuestionIndex(0);
         setAnswers({});

@@ -44,7 +44,7 @@ const AIAssistant = ({ userData, userStats }) => {
     ]);
     const [input, setInput] = useState('');
     const [isTyping, setIsTyping] = useState(false);
-    const [model, setModel] = useState('gemini-2.0-flash'); // 'gemini-2.0-flash' | 'gemini-1.5-pro'
+    const [model, setModel] = useState('gemini-2.5-flash'); // 'gemini-2.5-flash' | 'gemini-1.5-pro'
     const [showModelMenu, setShowModelMenu] = useState(false);
 
     const messagesEndRef = useRef(null);
@@ -170,7 +170,7 @@ const AIAssistant = ({ userData, userStats }) => {
                         </h3>
                         <div className="flex items-center gap-1 text-[10px] text-blue-100 opacity-90">
                             <div className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse box-shadow-green" />
-                            Online • {model === 'gemini-2.0-flash' ? 'Evolve 1.2' : '1.2 Pro'}
+                            Online • {model === 'gemini-2.5-flash' ? 'Evolve 1.2' : '1.2 Pro'}
                         </div>
                     </div>
                 </div>
@@ -180,8 +180,8 @@ const AIAssistant = ({ userData, userStats }) => {
                             onClick={() => setShowModelMenu(!showModelMenu)}
                             className="text-[10px] font-bold bg-black/20 hover:bg-black/30 px-3 py-1.5 rounded-full transition-colors flex items-center gap-1 border border-white/10 backdrop-blur-sm"
                         >
-                            {model === 'gemini-2.0-flash' ? <Sparkles size={10} className="text-yellow-300" /> : <Cpu size={10} className="text-purple-300" />}
-                            {model === 'gemini-2.0-flash' ? '1.2' : 'Pro'}
+                            {model === 'gemini-2.5-flash' ? <Sparkles size={10} className="text-yellow-300" /> : <Cpu size={10} className="text-purple-300" />}
+                            {model === 'gemini-2.5-flash' ? '1.2' : 'Pro'}
                             <ChevronDown size={10} />
                         </button>
 
@@ -190,10 +190,10 @@ const AIAssistant = ({ userData, userStats }) => {
                             <div className="absolute top-full right-0 mt-3 w-48 bg-white/60 backdrop-blur-2xl rounded-xl shadow-2xl border border-white/40 overflow-hidden animate-in fade-in zoom-in-95 origin-top-right text-slate-800 ring-1 ring-black/5 z-50">
                                 <div className="p-1 space-y-1">
                                     <button
-                                        onClick={() => { setModel('gemini-2.0-flash'); setShowModelMenu(false); }}
-                                        className={`w-full text-left px-3 py-2.5 rounded-lg text-xs font-medium flex items-center gap-3 transition-colors ${model === 'gemini-2.0-flash' ? 'bg-blue-50/50 text-blue-700' : 'hover:bg-white/40 text-slate-600'}`}
+                                        onClick={() => { setModel('gemini-2.5-flash'); setShowModelMenu(false); }}
+                                        className={`w-full text-left px-3 py-2.5 rounded-lg text-xs font-medium flex items-center gap-3 transition-colors ${model === 'gemini-2.5-flash' ? 'bg-blue-50/50 text-blue-700' : 'hover:bg-white/40 text-slate-600'}`}
                                     >
-                                        <div className={`p-1.5 rounded-md ${model === 'gemini-2.0-flash' ? 'bg-blue-100/80 text-blue-600' : 'bg-slate-100/50 text-slate-500'}`}>
+                                        <div className={`p-1.5 rounded-md ${model === 'gemini-2.5-flash' ? 'bg-blue-100/80 text-blue-600' : 'bg-slate-100/50 text-slate-500'}`}>
                                             <Sparkles size={14} />
                                         </div>
                                         <div>

@@ -290,26 +290,6 @@ const Dashboard = ({
 
             {/* AI Neural Engine Section */}
             <div className="rounded-3xl bg-indigo-950 p-6 md:p-8 text-white relative overflow-hidden shadow-xl shadow-indigo-900/20">
-                {/* Background Animated Brain */}
-                <div className="absolute top-0 right-0 p-8 pointer-events-none">
-                    <div className="relative h-[200px] w-[200px]">
-                        {/* Outline Brain */}
-                        <Brain size={200} className="text-white opacity-10 absolute top-0 left-0" />
-
-                        {/* Progress Fill Brain */}
-                        <div
-                            className="absolute bottom-0 left-0 right-0 overflow-hidden transition-all duration-700 ease-out will-change-[height]"
-                            style={{ height: `${isGeneratingTest ? Math.max(5, generationProgress) : 0}%` }}
-                        >
-                            <Brain
-                                size={200}
-                                className={`text-blue-400 opacity-40 absolute bottom-0 left-0 ${isGeneratingTest ? 'animate-pulse' : ''}`}
-                                strokeWidth={2}
-                                fill="currentColor"
-                            />
-                        </div>
-                    </div>
-                </div>
                 <div className="relative z-10">
                     <div className="flex items-center gap-3 mb-4">
                         <div className="p-2 bg-white/20 backdrop-blur rounded-lg">

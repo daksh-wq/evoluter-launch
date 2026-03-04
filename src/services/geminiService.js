@@ -44,11 +44,11 @@ const BASE_URL = 'https://generativelanguage.googleapis.com/v1beta/models';
  * Make a request to Gemini API with retry logic and AbortController support
  * @param {string} prompt - The prompt to send to Gemini
  * @param {boolean} isJson - Whether to expect JSON response
- * @param {string} model - The model to use (default: 'gemini-2.0-flash')
+ * @param {string} model - The model to use (default: 'gemini-2.5-flash')
  * @param {AbortSignal} [signal] - Optional AbortSignal for cancellation
  * @returns {Promise<string|null>} Response text or null on failure
  */
-export async function callGemini(prompt, isJson = false, model = 'gemini-2.0-flash', signal = null) {
+export async function callGemini(prompt, isJson = false, model = 'gemini-2.5-flash', signal = null) {
     if (!API_KEY) {
         logger.warn("Gemini API Key missing. Returning null.");
         await delay(1000);
@@ -277,6 +277,15 @@ export async function generateQuestions(topic, count = 5, difficulty = 'Hard', t
 
     // Filter out nulls/empty
     allQuestions = allQuestions.filter(q => q && q.text && q.options && q.options.length >= 2);
+
+    // Deduplicate AI-generated questions (cross-batch dupes happen often)
+    const seenTexts = new Set();
+    allQuestions = allQuestions.filter(q => {
+        const key = (q.text || '').trim().toLowerCase().substring(0, 100);
+        if (key && seenTexts.has(key)) return false;
+        if (key) seenTexts.add(key);
+        return true;
+    });
 
     if (allQuestions.length === 0) return null;
     return allQuestions;
@@ -551,7 +560,7 @@ export async function suggestTestTopics(keyword, targetExam = 'UPSC CSE', signal
     ["Suggestion 1", "Suggestion 2", "Suggestion 3", "Suggestion 4", "Suggestion 5"]`;
 
     try {
-        const result = await callGemini(prompt, true, 'gemini-2.0-flash', signal);
+        const result = await callGemini(prompt, true, 'gemini-2.5-flash', signal);
         if (!result) return [];
 
         // Strip markdown if present
