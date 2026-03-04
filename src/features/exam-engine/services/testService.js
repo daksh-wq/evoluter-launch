@@ -6,6 +6,21 @@ import { generateMockQuestions } from '@/utils/helpers';
 import { optimizeQuestionsForStorage } from '../utils/testLogic'; // We'll need to export this or just inline it if circular dep concerns arise, but util -> service is fine.
 import { PYQ_DATABASE } from '@/constants/pyqDatabase';
 
+// Deep sanitizer: Firestore rejects `undefined` values. This strips them recursively.
+const sanitizeForFirestore = (obj) => {
+    if (obj === null || obj === undefined) return null;
+    if (typeof obj !== 'object') return obj;
+    if (Array.isArray(obj)) {
+        return obj.map(item => sanitizeForFirestore(item)).filter(item => item !== undefined);
+    }
+    const clean = {};
+    for (const [key, value] of Object.entries(obj)) {
+        if (value === undefined) continue;
+        clean[key] = sanitizeForFirestore(value);
+    }
+    return clean;
+};
+
 // Helper to shuffle an array
 const shuffleArray = (array) => {
     const arr = [...array];
@@ -45,13 +60,13 @@ export const testService = {
     async initTestSession(userId, testId, topic, questions) {
         try {
             const historyRef = doc(db, 'users', userId, 'history', testId);
-            await setDoc(historyRef, {
+            await setDoc(historyRef, sanitizeForFirestore({
                 timestamp: new Date(),
-                topic,
+                topic: topic || 'Mixed',
                 score: 0,
                 totalQuestions: questions.length,
                 questions: questions
-            });
+            }));
         } catch (error) {
             logger.error("Failed to init test session:", error);
             // Non-blocking error, allow test to continue
@@ -85,24 +100,24 @@ export const testService = {
                 terminationReason: options.terminationReason || null
             };
 
-            await setDoc(userHistoryRef, payload, { merge: true });
+            await setDoc(userHistoryRef, sanitizeForFirestore(payload), { merge: true });
 
             // 2. If Institution Test, Save to Institution's Records
             if (options.isInstitutionTest && options.originalTestId) {
                 // A. Save Attempt Detail
                 const attemptRef = doc(db, 'institution_tests', options.originalTestId, 'attempts', `${userId}_${Date.now()}`);
-                await setDoc(attemptRef, {
+                await setDoc(attemptRef, sanitizeForFirestore({
                     userId,
-                    studentName: auth.currentUser.displayName || 'Anonymous Student',
-                    studentEmail: auth.currentUser.email,
-                    score: results.score,
-                    percentage: results.percentage,
-                    timeTaken: results.timeTaken,
+                    studentName: auth.currentUser?.displayName || 'Anonymous Student',
+                    studentEmail: auth.currentUser?.email || '',
+                    score: results.score || 0,
+                    percentage: results.percentage || 0,
+                    timeTaken: results.timeTaken || 0,
                     submittedAt: new Date(),
-                    answers: answers, // Optional: Store full answers if detailed review needed
+                    answers: answers || {},
                     status: options.terminationReason ? 'terminated' : 'completed',
                     terminationReason: options.terminationReason || null
-                });
+                }));
 
                 // B. Update Aggregates on Test Document
                 const testRef = doc(db, 'institution_tests', options.originalTestId);
