@@ -184,7 +184,9 @@ export function useTest() {
     /**
      * Submit the test and calculate results
      */
-    const submitTest = useCallback(async (terminationReason = null) => {
+    const submitTest = useCallback(async (reasonInput = null) => {
+        // Prevent React Event objects from leaking into Firestore when used directly in onClick
+        const validReason = typeof reasonInput === 'string' ? reasonInput : null;
         if (!activeTest) return;
 
         // 1. Calculate Results (Pure Logic)
@@ -214,7 +216,7 @@ export function useTest() {
                     {
                         isInstitutionTest,
                         originalTestId: activeTestId,
-                        terminationReason,
+                        terminationReason: validReason,
                         testName: isInstitutionTest ? activeTestName : undefined,
                     }
                 );
