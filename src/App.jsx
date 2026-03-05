@@ -11,7 +11,6 @@ const LoginView = lazy(() => import('./components/views/LoginView'));
 const Dashboard = lazy(() => import('./components/views/Dashboard'));
 const LibraryView = lazy(() => import('./components/views/LibraryView'));
 const PYQView = lazy(() => import('./components/views/PYQView'));
-const MainsEvaluatorView = lazy(() => import('./components/views/MainsEvaluatorView'));
 const SyllabusView = lazy(() => import('./components/views/SyllabusView'));
 const NewsView = lazy(() => import('./components/views/NewsView'));
 const LeaderboardView = lazy(() => import('./components/views/LeaderboardView'));
@@ -57,6 +56,7 @@ import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
 
 // Institution Components (Lazy Load)
 const InstitutionDashboard = lazy(() => import('./components/institution/InstitutionDashboard'));
+const BatchManager = lazy(() => import('./components/institution/BatchManager'));
 const TestCreator = lazy(() => import('./components/institution/TestCreator'));
 const TestManager = lazy(() => import('./components/institution/TestManager'));
 const StudentInstitutionView = lazy(() => import('./components/institution/StudentInstitutionView'));
@@ -314,8 +314,8 @@ function App() {
     navigate(ROUTES.TEST);
   };
 
-  const handleGenerateAITest = async (topic, count, difficulty) => {
-    await startAITest(topic, count, difficulty, userData?.targetExam || 'UPSC CSE');
+  const handleGenerateAITest = async (topic, count, difficulty, resourceContent, pyqPercentage) => {
+    await startAITest(topic, count, difficulty, userData?.targetExam || 'UPSC CSE', resourceContent, pyqPercentage);
     navigate(ROUTES.TEST);
   };
 
@@ -486,12 +486,6 @@ function App() {
           </ProtectedLayout>
         } />
 
-        <Route path="/mains" element={
-          <ProtectedLayout {...layoutProps}>
-            <MainsEvaluatorView />
-          </ProtectedLayout>
-        } />
-
         <Route path={ROUTES.LEADERBOARD} element={
           <ProtectedLayout {...layoutProps}>
             <LeaderboardView />
@@ -545,6 +539,15 @@ function App() {
         <Route path="/institution/dashboard" element={
           <ProtectedLayout {...layoutProps}>
             <InstitutionDashboard userData={userData} />
+          </ProtectedLayout>
+        } />
+        <Route path="/institution/batches" element={
+          <ProtectedLayout {...layoutProps}>
+            <div className="pb-20 space-y-6">
+              <h1 className="text-2xl md:text-3xl font-black text-slate-800 mb-2">Batch & Student Management</h1>
+              <p className="text-slate-500 mb-6">Organize your students into classrooms and manage their access to private tests.</p>
+              <BatchManager userData={userData} />
+            </div>
           </ProtectedLayout>
         } />
         <Route path="/institution/create-test" element={

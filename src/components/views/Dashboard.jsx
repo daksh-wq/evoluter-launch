@@ -137,7 +137,7 @@ const Dashboard = ({
             const extractedText = await extractTextFromPDF(fileUrl);
 
             if (!extractedText || extractedText.trim().length === 0) {
-                setPreviewError("pdf seems empty no resouser detcted.");
+                setPreviewError("PDF seems empty — no readable content detected.");
                 setIsPreviewLoading(false);
                 return;
             }

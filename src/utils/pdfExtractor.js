@@ -1,8 +1,8 @@
 import * as pdfjsLib from 'pdfjs-dist';
 import logger from './logger';
 
-// Configure PDF.js worker
-pdfjsLib.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjsLib.version}/pdf.worker.min.js`;
+// Configure PDF.js worker — use Vite-compatible import for pdfjs-dist v5 (.mjs)
+pdfjsLib.GlobalWorkerOptions.workerSrc = new URL('pdfjs-dist/build/pdf.worker.min.mjs', import.meta.url).href;
 
 /**
  * Extract text content from a PDF file
@@ -10,7 +10,7 @@ pdfjsLib.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs
  * @param {number} maxPages - Maximum number of pages to extract (default: 10 for performance)
  * @returns {Promise<string>} Extracted text content
  */
-export const extractTextFromPDF = async (pdfUrl, maxPages = 10) => {
+export const extractTextFromPDF = async (pdfUrl, maxPages = 50) => {
     try {
         // Load the PDF document
         const loadingTask = pdfjsLib.getDocument(pdfUrl);
@@ -32,10 +32,10 @@ export const extractTextFromPDF = async (pdfUrl, maxPages = 10) => {
             fullText += pageText + '\n\n';
         }
 
-        // Clean up extracted text
+        // Clean up extracted text — preserve paragraph breaks for AI readability
         const cleanedText = fullText
-            .replace(/\s+/g, ' ')  // Replace multiple spaces with single space
-            .replace(/\n\s*\n/g, '\n')  // Remove empty lines
+            .replace(/[ \t]+/g, ' ')  // Collapse horizontal whitespace only
+            .replace(/\n{3,}/g, '\n\n')  // Limit excessive blank lines to one
             .trim();
 
         return cleanedText;
@@ -51,7 +51,7 @@ export const extractTextFromPDF = async (pdfUrl, maxPages = 10) => {
  * @param {number} maxChars - Maximum characters to extract (default: 5000)
  * @returns {Promise<object>} Object with fullText and summary
  */
-export const extractPDFForAI = async (pdfUrl, maxChars = 5000) => {
+export const extractPDFForAI = async (pdfUrl, maxChars = 15000) => {
     try {
         const fullText = await extractTextFromPDF(pdfUrl);
 
