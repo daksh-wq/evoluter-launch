@@ -128,7 +128,16 @@ service cloud.firestore {
       // so we keep the rule simple here.
       allow read: if isAuthenticated();
       allow create: if isAuthenticated();
-      allow update, delete: if isOwner(resource.data.creatorId);
+      // Students need to increment attemptCount/totalScoreSum on submission
+      allow update: if isAuthenticated();
+      allow delete: if isOwner(resource.data.creatorId);
+
+      // Student attempt submissions (immutable once created)
+      match /attempts/{attemptId} {
+        allow read: if isAuthenticated();
+        allow create: if isAuthenticated();
+        allow update, delete: if false;
+      }
     }
 
     // ─── Institution Batches ────────────────────────────

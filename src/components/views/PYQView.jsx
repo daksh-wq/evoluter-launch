@@ -69,14 +69,6 @@ const PYQView = ({ startCustomTest }) => {
                             Master the UPSC examination by solving highly curated Prior Year Questions from 2000 till date. Filter by specific subjects, topics, and years to generate hyper-targeted practice tests.
                         </p>
                     </div>
-                    <div className="bg-[#2278B0]/5 px-4 py-3 rounded-2xl border border-[#2278B0]/10 shrink-0">
-                        <div className="text-sm font-bold text-slate-500 uppercase tracking-widest mb-1 text-center">
-                            Total PYQs Indexed
-                        </div>
-                        <div className="text-3xl font-black text-[#2278B0] text-center">
-                            {PYQ_DATABASE.length}
-                        </div>
-                    </div>
                 </div>
             </div>
 

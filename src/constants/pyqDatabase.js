@@ -1,7 +1,7 @@
 /**
  * UPSC Previous Year Questions (PYQs) Database
- * Auto-extracted dataset across UPSC syllabus topics.
- * Total Questions: 1206
+ * Massive comprehensive dataset auto-extracted sequentially.
+ * Total Questions: 1276
  */
 
 export const PYQ_DATABASE = [
@@ -34976,6 +34976,1836 @@ export const PYQ_DATABASE = [
             {
                 "type": "pyq",
                 "label": "UPSC 2017"
+            }
+        ]
+    },
+    {
+        "id": "pyq-econ-da0d1706",
+        "year": 2020,
+        "subject": "Economy",
+        "topic": "Agriculture",
+        "text": "In India, which of the following can be considered as public investment in agriculture?\n1. Fixing Minimum Support Price for agricultural produce of all crops\n2. Computerization of Primary Agricultural Credit Societies\n3. Social Capital development\n4. Free electricity supply to farmers\n5. Waiver of agricultural loans by the banking system\n6. Setting up of cold storage facilities by the governments\nSelect the correct answer using the code given below:",
+        "options": [
+            "1, 2, 5 and 6 only",
+            "1, 3, 4 and 5 only",
+            "2, 3 and 6 only",
+            "1, 2, 3, 4, 5 and 6"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Public investment refers to capital expenditure that creates assets, unlike subsidies or waivers which are revenue expenditures.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Economy"
+            },
+            {
+                "type": "topic",
+                "label": "Agriculture"
+            }
+        ]
+    },
+    {
+        "id": "pyq-econ-0def9406",
+        "year": 2020,
+        "subject": "Economy",
+        "topic": "Financial Markets",
+        "text": "With reference to the Indian economy, consider the following statements:\n1. 'Commercial Paper' is a short-term unsecured promissory note.\n2. 'Certificate of Deposit' is a long-term instrument issued by the Reserve Bank of India to a corporation.\n3. 'Call Money' is a short-term finance used for interbank transactions.\n4. 'Zero-Coupon Bonds' are the interest-bearing short-term bonds issued by the Scheduled Commercial Banks to corporations.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 and 2 only",
+            "4 only",
+            "1 and 3 only",
+            "2, 3 and 4 only"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Commercial Paper is a short-term unsecured note and Call Money is for interbank lending, while the descriptions for CD and Zero-Coupon Bonds are incorrect.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Economy"
+            },
+            {
+                "type": "topic",
+                "label": "Financial Markets"
+            }
+        ]
+    },
+    {
+        "id": "pyq-econ-49e67f6c",
+        "year": 2021,
+        "subject": "Economy",
+        "topic": "Inflation",
+        "text": "With reference to the Indian economy, demand-pull inflation can be caused/increased by which of the following?\n1. Expansionary policies\n2. Fiscal stimulus\n3. Inflation-indexing wages\n4. Higher purchasing power\n5. Rising interest rates\nSelect the correct answer using the code given below.",
+        "options": [
+            "1, 2 and 4 only",
+            "3, 4 and 5 only",
+            "1, 2, 3 and 5 only",
+            "1, 2, 3, 4 and 5"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Demand-pull inflation occurs when aggregate demand outpaces aggregate supply, which is fueled by expansionary policies, fiscal stimulus, and higher purchasing power.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Economy"
+            },
+            {
+                "type": "topic",
+                "label": "Inflation"
+            }
+        ]
+    },
+    {
+        "id": "pyq-econ-4aae2f22",
+        "year": 2021,
+        "subject": "Economy",
+        "topic": "Banking",
+        "text": "With reference to Urban Cooperative Banks in India, consider the following statements:\n1. They are supervised and regulated by local boards set up by the State Governments.\n2. They can issue equity shares and preference shares.\n3. They were brought under the purview of the Banking Regulation Act, 1949 through an Amendment in 1966.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Urban Cooperative Banks are under dual regulation by the RBI and Registrar of Cooperative Societies, can issue shares, and were brought under the Banking Regulation Act in 1966.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Economy"
+            },
+            {
+                "type": "topic",
+                "label": "Banking"
+            }
+        ]
+    },
+    {
+        "id": "pyq-econ-02e469c9",
+        "year": 2022,
+        "subject": "Economy",
+        "topic": "Monetary Policy",
+        "text": "With reference to the Indian economy, consider the following statements:\n1. If the inflation is too high, Reserve Bank of India (RBI) is likely to buy government securities.\n2. If the rupee is rapidly depreciating, RBI is likely to sell dollars in the market.\n3. If interest rates in the USA or European Union were to fall, that is likely to induce RBI to buy dollars.\nWhich of the statements given above are correct?",
+        "options": [
+            "1 and 2 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 1,
+        "explanation": "To curb high inflation, the RBI sells government securities to absorb liquidity, while it sells dollars to strengthen a depreciating rupee and buys dollars to prevent appreciation from capital inflows.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Economy"
+            },
+            {
+                "type": "topic",
+                "label": "Monetary Policy"
+            }
+        ]
+    },
+    {
+        "id": "pyq-econ-7022710a",
+        "year": 2022,
+        "subject": "Economy",
+        "topic": "International Economy",
+        "text": "With reference to 'G20 Common Framework', consider the following statements:\n1. It is an initiative endorsed by the G20 together with the Paris Club.\n2. It is an initiative to support Low Income Countries with unsustainable debt.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The G20 Common Framework, endorsed with the Paris Club, is designed to provide a structured approach to debt relief for low-income countries facing unsustainable debt.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Economy"
+            },
+            {
+                "type": "topic",
+                "label": "International Economy"
+            }
+        ]
+    },
+    {
+        "id": "pyq-econ-be491461",
+        "year": 2023,
+        "subject": "Economy",
+        "topic": "Agriculture",
+        "text": "Consider the following statements in respect of the 'Small Farmers Large Field' (SFLF) concept:\n1. SFLF is a concept of value-led farming where small and marginal farmers in an area pool their land holdings for joint cultivation.\n2. The ownership of the land remains with the individual farmers.\n3. SFLF aims to improve economies of scale and bargaining power for inputs and outputs.\nHow many of the above statements are correct?",
+        "options": [
+            "Only one",
+            "Only two",
+            "All three",
+            "None"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The SFLF concept involves farmers pooling land for joint cultivation to gain economies of scale while retaining individual land ownership.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Economy"
+            },
+            {
+                "type": "topic",
+                "label": "Agriculture"
+            }
+        ]
+    },
+    {
+        "id": "pyq-econ-2c163d10",
+        "year": 2023,
+        "subject": "Economy",
+        "topic": "Financial Markets",
+        "text": "What is 'beta' referred to in the financial world?",
+        "options": [
+            "The process of simultaneous buying and selling of an asset from different platforms",
+            "An investment strategy of a portfolio manager to balance risk versus reward",
+            "A type of systemic risk that arises where a particular industry or sector fails",
+            "A numeric value that measures the fluctuations of a stock to changes in the overall stock market"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Beta is a measure of a stock's volatility, or systematic risk, in relation to the overall market.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Economy"
+            },
+            {
+                "type": "topic",
+                "label": "Financial Markets"
+            }
+        ]
+    },
+    {
+        "id": "pyq-econ-2e116266",
+        "year": 2024,
+        "subject": "Economy",
+        "topic": "Government Budgeting",
+        "text": "Consider the following statements regarding the 'Sovereign Green Bonds' (SGrBs) issued by the Government of India:\n1. The proceeds from SGrBs are deployed in public sector projects which help in reducing the carbon intensity of the economy.\n2. SGrBs are eligible for Statutory Liquidity Ratio (SLR) purposes.\n3. SGrBs are eligible for trading in the secondary market.\nHow many of the above statements are correct?",
+        "options": [
+            "Only one",
+            "Only two",
+            "All three",
+            "None"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Sovereign Green Bonds fund public sector green projects, are eligible for SLR, and are tradable on the secondary market, making all statements correct.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Economy"
+            },
+            {
+                "type": "topic",
+                "label": "Government Budgeting"
+            }
+        ]
+    },
+    {
+        "id": "pyq-econ-7a7c7068",
+        "year": 2024,
+        "subject": "Economy",
+        "topic": "Banking",
+        "text": "Consider the following statements regarding the 'Core Banking Solution' (CBS):\n1. It is a network of a bank's branches which enables customers to operate their accounts from any branch of the bank on its network.\n2. It is a system developed and maintained by the National Payments Corporation of India (NPCI).\n3. It allows customers to access their funds and services from anywhere in the world.\nHow many of the above statements are correct?",
+        "options": [
+            "Only one",
+            "Only two",
+            "All three",
+            "None"
+        ],
+        "correctAnswer": 1,
+        "explanation": "CBS is a bank's centralized system allowing account access from any branch, but it is not developed by NPCI; global access depends on the bank's network.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Economy"
+            },
+            {
+                "type": "topic",
+                "label": "Banking"
+            }
+        ]
+    },
+    {
+        "id": "pyq-scie-33ffc539",
+        "year": 2023,
+        "subject": "Science",
+        "topic": "Material Science",
+        "text": "Consider the following statements:\n1. Carbon fibres are used in the manufacture of components used in automobiles and aircraft.\n2. Carbon fibres once used cannot be recycled.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Carbon fibres are strong, lightweight materials used in aerospace and automotive industries, and while recycling is complex, it is possible.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Science"
+            },
+            {
+                "type": "topic",
+                "label": "Material Science"
+            }
+        ]
+    },
+    {
+        "id": "pyq-scie-befaaab9",
+        "year": 2022,
+        "subject": "Science",
+        "topic": "Biology",
+        "text": "With reference to the role of B-cells and T-cells in the human body, which of the following statements is/are correct?\n1. They protect the body from diseases caused by pathogens.\n2. They alleviate the body’s pain and inflammation.\n3. They act as immunosuppressants in the body.\n4. They protect the body from the diseases caused by allergens.",
+        "options": [
+            "1 only",
+            "2 and 4",
+            "1 and 3",
+            "3 and 4"
+        ],
+        "correctAnswer": 0,
+        "explanation": "B-cells and T-cells are lymphocytes that are central to the adaptive immune system, protecting the body from pathogens.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Science"
+            },
+            {
+                "type": "topic",
+                "label": "Biology"
+            }
+        ]
+    },
+    {
+        "id": "pyq-scie-3535322b",
+        "year": 2021,
+        "subject": "Science",
+        "topic": "Biology",
+        "text": "The term 'ACE2' is talked about in the context of:",
+        "options": [
+            "genes introduced in the genetically modified plants",
+            "development of India's own satellite navigation system",
+            "radio collars for wildlife tracking",
+            "spread of viral diseases"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Angiotensin-Converting Enzyme 2 (ACE2) is a protein on the surface of many cell types that serves as the entry point for the SARS-CoV-2 virus.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Science"
+            },
+            {
+                "type": "topic",
+                "label": "Biology"
+            }
+        ]
+    },
+    {
+        "id": "pyq-scie-22601830",
+        "year": 2020,
+        "subject": "Science",
+        "topic": "Nanotechnology",
+        "text": "With reference to carbon nanotubes, consider the following statements:\n1. They can be used as carriers of drugs and antigens in the human body.\n2. They can be made into artificial blood capillaries for an injured part of the human body.\n3. They can be used in biochemical sensors.\n4. Carbon nanotubes are biodegradable.\nWhich of the statements given above are correct?",
+        "options": [
+            "1 and 2 only",
+            "2, 3 and 4 only",
+            "1, 3 and 4 only",
+            "1, 2, 3 and 4"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Carbon nanotubes have diverse applications in drug delivery, sensors, and are biodegradable, and can also be used to create artificial blood capillaries.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Science"
+            },
+            {
+                "type": "topic",
+                "label": "Nanotechnology"
+            }
+        ]
+    },
+    {
+        "id": "pyq-scie-b93d0338",
+        "year": 2023,
+        "subject": "Science",
+        "topic": "Biotechnology",
+        "text": "Consider the following statements:\nStatement-I: Biofilters provide waste treatment by removing ammonia.\nStatement-II: Biofilters use microorganisms to convert ammonia present in wastewater into nitrate.\nWhich one of the following is correct in respect of the above statements?",
+        "options": [
+            "Both Statement-I and Statement-II are correct and Statement-II is the correct explanation for Statement-I",
+            "Both Statement-I and Statement-II are correct but Statement-II is not the correct explanation for Statement-I",
+            "Statement-I is correct but Statement-II is incorrect",
+            "Statement-I is incorrect but Statement-II is correct"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Biofilters utilize nitrification, a microbial process where ammonia is oxidized to nitrite and then to nitrate, effectively treating ammonia-laden wastewater.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Science"
+            },
+            {
+                "type": "topic",
+                "label": "Biotechnology"
+            }
+        ]
+    },
+    {
+        "id": "pyq-scie-44e58476",
+        "year": 2022,
+        "subject": "Science",
+        "topic": "Biotechnology",
+        "text": "With reference to vaccines, consider the following statements:\n1. The Serum Institute of India produced COVID-19 vaccine named Covishield using mRNA platform.\n2. Sputnik V vaccine is manufactured using vector based platform.\n3. COVAXIN is an inactivated pathogen based vaccine.\nWhich of the statements given above are correct?",
+        "options": [
+            "1 and 2 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Covishield uses a viral vector platform, not mRNA; Sputnik V is a viral vector vaccine, and COVAXIN is an inactivated virus vaccine.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Science"
+            },
+            {
+                "type": "topic",
+                "label": "Biotechnology"
+            }
+        ]
+    },
+    {
+        "id": "pyq-scie-fa0adc24",
+        "year": 2021,
+        "subject": "Science",
+        "topic": "Physics",
+        "text": "Consider the following statements:\n1. Water can dissolve more substances than any other liquid.\n2. The dense nature of ice is responsible for marine life to survive in cold regions.\n3. The high specific heat of water is helpful in regulating temperature.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 and 2 only",
+            "3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Water is a universal solvent and has high specific heat, but ice is less dense than liquid water, which allows it to float.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Science"
+            },
+            {
+                "type": "topic",
+                "label": "Physics"
+            }
+        ]
+    },
+    {
+        "id": "pyq-scie-1fd2807d",
+        "year": 2020,
+        "subject": "Science",
+        "topic": "Biotechnology",
+        "text": "What is the importance of using Pneumococcal Conjugate Vaccines in India?\n1. These vaccines are effective against pneumonia as well as meningitis and sepsis.\n2. Dependence on antibiotics that are not effective against drug-resistant bacteria can be reduced.\n3. These vaccines have no side effects and cause no allergic reactions.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "1 and 2 only",
+            "3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 1,
+        "explanation": "These vaccines protect against diseases like pneumonia and meningitis, reducing antibiotic use, but like all vaccines, they can have side effects.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Science"
+            },
+            {
+                "type": "topic",
+                "label": "Biotechnology"
+            }
+        ]
+    },
+    {
+        "id": "pyq-scie-8fcc43cd",
+        "year": 2024,
+        "subject": "Science",
+        "topic": "Biotechnology",
+        "text": "With reference to the CRISPR-Cas9 gene-editing technology, consider the following statements:\n1. It is a naturally occurring defence mechanism in bacteria.\n2. It can be used to introduce specific changes into the DNA of an organism.\n3. The technology is exclusively used for therapeutic purposes in humans and is banned for agricultural applications.\nWhich of the statements given above are correct?",
+        "options": [
+            "1 and 2 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 0,
+        "explanation": "CRISPR-Cas9 is a bacterial immune system adapted for gene editing and is widely used in both medicine and agriculture; statement 3 is incorrect.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Science"
+            },
+            {
+                "type": "topic",
+                "label": "Biotechnology"
+            }
+        ]
+    },
+    {
+        "id": "pyq-scie-24198f1d",
+        "year": 2024,
+        "subject": "Science",
+        "topic": "Space Technology",
+        "text": "Consider the following statements regarding the James Webb Space Telescope (JWST):\n1. It is primarily designed to observe the universe in the infrared spectrum.\n2. It is positioned at the Lagrange point L2, which keeps it in a stable orbit relative to the Earth and the Sun.\n3. It is a joint project of NASA, the European Space Agency (ESA), and the Russian Space Agency (Roscosmos).\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "1 and 2 only",
+            "2 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 1,
+        "explanation": "JWST observes in infrared and is at L2, but it is a collaboration between NASA, ESA, and the Canadian Space Agency (CSA), not Roscosmos.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Science"
+            },
+            {
+                "type": "topic",
+                "label": "Space Technology"
+            }
+        ]
+    },
+    {
+        "id": "pyq-envi-1ce67ed3",
+        "year": 2023,
+        "subject": "Environment",
+        "topic": "General",
+        "text": "Consider the following statements:\n1. Some mushrooms have medicinal properties.\n2. Some mushrooms have psychoactive properties.\n3. Some mushrooms have insecticidal properties.\n4. Some mushrooms have bioluminescent properties.\nHow many of the above statements are correct?",
+        "options": [
+            "Only one",
+            "Only two",
+            "Only three",
+            "All four"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Mushrooms exhibit a wide range of properties including medicinal, psychoactive, insecticidal, and bioluminescent characteristics.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Environment"
+            },
+            {
+                "type": "topic",
+                "label": "Biodiversity"
+            }
+        ]
+    },
+    {
+        "id": "pyq-envi-7923600f",
+        "year": 2023,
+        "subject": "Environment",
+        "topic": "General",
+        "text": "Consider the following statements regarding the Indian squirrels:\n1. They build nests by making burrows in the ground.\n2. They store their food materials like nuts and seeds in the ground.\n3. They are omnivorous.\nHow many of the above statements are correct?",
+        "options": [
+            "Only one",
+            "Only two",
+            "Only three",
+            "None"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Indian squirrels typically build nests in trees (not burrows), but they do store food in the ground and are omnivorous.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Environment"
+            },
+            {
+                "type": "topic",
+                "label": "Biodiversity"
+            }
+        ]
+    },
+    {
+        "id": "pyq-envi-0c142a2f",
+        "year": 2022,
+        "subject": "Environment",
+        "topic": "General",
+        "text": "Which one of the following has been constituted under the Environment (Protection) Act, 1986?",
+        "options": [
+            "Central Water Commission",
+            "Central Ground Water Board",
+            "Central Ground Water Authority",
+            "National Water Development Agency"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Central Ground Water Authority (CGWA) was constituted under Section 3(3) of the Environment (Protection) Act, 1986.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Environment"
+            },
+            {
+                "type": "topic",
+                "label": "Acts and Policies"
+            }
+        ]
+    },
+    {
+        "id": "pyq-envi-fa891075",
+        "year": 2022,
+        "subject": "Environment",
+        "topic": "General",
+        "text": "\"Climate Action Tracker\" which monitors the emission reduction pledges of different countries is a:",
+        "options": [
+            "database created by coalition of research organisations",
+            "wing of Intergovernmental Panel on Climate Change",
+            "committee under United Nations Framework Convention on Climate Change",
+            "agency promoted and financed by United Nations Environment Programme and World Bank"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Climate Action Tracker is an independent scientific analysis produced by two research organisations, Climate Analytics and NewClimate Institute.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Environment"
+            },
+            {
+                "type": "topic",
+                "label": "Climate Change"
+            }
+        ]
+    },
+    {
+        "id": "pyq-envi-21f44be0",
+        "year": 2021,
+        "subject": "Environment",
+        "topic": "General",
+        "text": "What is blue carbon?",
+        "options": [
+            "Carbon captured by oceans and coastal ecosystems",
+            "Carbon sequestered in forest biomass and agricultural soils",
+            "Carbon contained in petroleum and natural gas",
+            "Carbon present in atmosphere"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Blue carbon is the carbon stored in coastal and marine ecosystems like mangroves, tidal marshes, and seagrass meadows.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Environment"
+            },
+            {
+                "type": "topic",
+                "label": "Climate Change"
+            }
+        ]
+    },
+    {
+        "id": "pyq-envi-4c86bc64",
+        "year": 2021,
+        "subject": "Environment",
+        "topic": "General",
+        "text": "In the context of India, which of the following is/are considered to be practice(s) of eco-friendly agriculture?\n1. Crop diversification\n2. Legume intensification\n3. Tensiometer use\n4. Vertical farming\nSelect the correct answer using the code given below.",
+        "options": [
+            "1, 2 and 3 only",
+            "3 only",
+            "4 only",
+            "1, 2, 3 and 4"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All listed practices—crop diversification, legume intensification, tensiometer use, and vertical farming—contribute to more sustainable and eco-friendly agriculture.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Environment"
+            },
+            {
+                "type": "topic",
+                "label": "Sustainable Agriculture"
+            }
+        ]
+    },
+    {
+        "id": "pyq-envi-cd9cdb86",
+        "year": 2020,
+        "subject": "Environment",
+        "topic": "General",
+        "text": "Which of the following are the most likely places to find the musk deer in its natural habitat?\n1. Askot Wildlife Sanctuary\n2. Gangotri National Park\n3. Kishanpur Wildlife Sanctuary\n4. Manas National Park\nSelect the correct answer using the code given below:",
+        "options": [
+            "1 and 2 only",
+            "2 and 3 only",
+            "3 and 4 only",
+            "1 and 4 only"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Musk deer are found in the high alpine regions of the Himalayas, making Askot Wildlife Sanctuary and Gangotri National Park likely habitats.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Environment"
+            },
+            {
+                "type": "topic",
+                "label": "Biodiversity"
+            }
+        ]
+    },
+    {
+        "id": "pyq-envi-b3d0615a",
+        "year": 2020,
+        "subject": "Environment",
+        "topic": "General",
+        "text": "With reference to India's Biodiversity, Ceylon frogmouth, Coppersmith barbet, Gray-chinned minivet and White-throated redstart are:",
+        "options": [
+            "Primates",
+            "Birds",
+            "Reptiles",
+            "Amphibians"
+        ],
+        "correctAnswer": 1,
+        "explanation": "All the species mentioned—Ceylon frogmouth, Coppersmith barbet, Gray-chinned minivet, and White-throated redstart—are types of birds found in India.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Environment"
+            },
+            {
+                "type": "topic",
+                "label": "Biodiversity"
+            }
+        ]
+    },
+    {
+        "id": "pyq-envi-bed743d7",
+        "year": 2024,
+        "subject": "Environment",
+        "topic": "General",
+        "text": "Consider the following statements:\n1. The Global Ocean Commission grants licences for seabed exploration and mining in international waters.\n2. India has received licences for seabed mineral exploration in international waters.\n3. 'Rare earth minerals' are present on the seafloor in international waters.\nWhich of the statements given above are correct?",
+        "options": [
+            "1 and 2 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The International Seabed Authority (ISA) grants licenses, not the Global Ocean Commission; India has received such licenses, and rare earth minerals are found on the seafloor.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Environment"
+            },
+            {
+                "type": "topic",
+                "label": "International Bodies"
+            }
+        ]
+    },
+    {
+        "id": "pyq-envi-2ff29c42",
+        "year": 2023,
+        "subject": "Environment",
+        "topic": "General",
+        "text": "Consider the following activities:\n1. Spreading finely ground basalt rock on farmlands extensively\n2. Increasing the alkalinity of oceans by adding lime\n3. Capturing carbon dioxide released by various industries and pumping it into abandoned subterranean mines in the form of carbonated waters\nHow many of the above activities are often considered and discussed for carbon capture and sequestration?",
+        "options": [
+            "Only one",
+            "Only two",
+            "All three",
+            "None"
+        ],
+        "correctAnswer": 2,
+        "explanation": "All three methods—enhanced weathering with basalt, ocean alkalinization, and direct carbon injection—are discussed as potential carbon capture and sequestration techniques.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Environment"
+            },
+            {
+                "type": "topic",
+                "label": "Climate Change"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-6b1aed4e",
+        "year": 2023,
+        "subject": "Polity",
+        "topic": "General",
+        "text": "With reference to Finance Bills in India, which of the following statements is/are correct?\n1. When the Lok Sabha transmits a Finance Bill to the Rajya Sabha, it can amend or reject the Bill.\n2. When the Lok Sabha transmits a Money Bill to the Rajya Sabha, it cannot amend or reject the Bill, it can only make recommendations.\n3. In the case of a disagreement between the Lok Sabha and the Rajya Sabha, there is no joint sitting for a Money Bill, but a joint sitting becomes necessary for a Finance Bill.",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1, 2 and 3",
+            "None"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Statement 1 is incorrect as Rajya Sabha cannot amend or reject a Money Bill, which a Finance Bill (Category A) is; Statement 3 is incorrect as joint sitting is not necessary but an option for a Finance Bill (not a Money Bill).",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "General"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-f7502bb7",
+        "year": 2022,
+        "subject": "Polity",
+        "topic": "General",
+        "text": "With reference to the Deputy Speaker of Lok Sabha, consider the following statements:\n1. As per the Rules of Procedure and Conduct of Business in Lok Sabha, the election of Deputy Speaker shall be held on such date as the Speaker may fix.\n2. There is a mandatory provision that the election of a candidate as Deputy Speaker of Lok Sabha shall be from either the principal opposition party or the ruling party.\n3. The Deputy Speaker has the same power as that of the Speaker when presiding over the sitting of the House and no appeal lies against his rulings.",
+        "options": [
+            "1 and 3 only",
+            "1, 2 and 3",
+            "3 only",
+            "1 and 2 only"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Statement 2 is incorrect as it is a convention, not a mandatory provision, to offer the post to the opposition.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "General"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-fa8de380",
+        "year": 2021,
+        "subject": "Polity",
+        "topic": "General",
+        "text": "‘Right to Privacy’ is protected under which Article of the Constitution of India?",
+        "options": [
+            "Article 15",
+            "Article 19",
+            "Article 21",
+            "Article 29"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Supreme Court in the K.S. Puttaswamy case (2017) held that the Right to Privacy is a fundamental right protected under Article 21 (Right to Life and Personal Liberty).",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "General"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-50a56139",
+        "year": 2020,
+        "subject": "Polity",
+        "topic": "General",
+        "text": "A Parliamentary System of Government is one in which",
+        "options": [
+            "all political parties in the Parliament are represented in the Government",
+            "the Government is responsible to the Parliament and can be removed by it",
+            "the Government is elected by the people and can be removed by them",
+            "the Government is chosen by the Parliament but cannot be removed by it before completion of a fixed term"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The core principle of a parliamentary system is the collective responsibility of the executive to the legislature (Parliament).",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "General"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-307dda8d",
+        "year": 2019,
+        "subject": "Polity",
+        "topic": "General",
+        "text": "Consider the following statements:\n1. The 44th Amendment to the Constitution of India introduced an Article placing the election of the Prime Minister beyond judicial review.\n2. The Supreme Court of India struck down the 99th Amendment to the Constitution of India as being violative of the independence of the judiciary.",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Statement 1 is incorrect as it was the 39th Amendment, not the 44th, that attempted this, and it was struck down; Statement 2 is correct regarding the NJAC Act.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "General"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-09a9aef5",
+        "year": 2018,
+        "subject": "Polity",
+        "topic": "General",
+        "text": "The 'Rule of Law' Index is released by which of the following?",
+        "options": [
+            "Amnesty International",
+            "International Court of Justice",
+            "The Office of UN Commissioner for Human Rights",
+            "World Justice Project"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The World Justice Project, an independent, multidisciplinary organization, releases the 'Rule of Law' Index annually.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "General"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-34537f8c",
+        "year": 2017,
+        "subject": "Polity",
+        "topic": "General",
+        "text": "In India, the right to vote is a:",
+        "options": [
+            "Fundamental Right",
+            "Natural Right",
+            "Constitutional Right",
+            "Legal Right"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The right to vote in India is a legal right, conferred by the Representation of the People Act, 1951, though it is rooted in the constitutional principle of universal adult suffrage (Article 326).",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "General"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-2f1f8e8d",
+        "year": 2016,
+        "subject": "Polity",
+        "topic": "General",
+        "text": "With reference to the ‘Gram Nyayalaya Act’, which of the following statements is/are correct?\n1. As per the Act, Gram Nyayalayas can hear only civil cases and not criminal cases.\n2. The Act allows local social activists as mediators/reconciliators.",
+        "options": [
+            "1 only",
+            "2 only",
+            "Both 1 and 2",
+            "Neither 1 nor 2"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Statement 1 is incorrect as Gram Nyayalayas have jurisdiction over both civil and criminal cases as specified in the schedules of the Act.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "General"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-1c3b47ee",
+        "year": 2015,
+        "subject": "Polity",
+        "topic": "General",
+        "text": "What will follow if a Money Bill is substantially amended by the Rajya Sabha?",
+        "options": [
+            "The Lok Sabha may still proceed with the Bill, accepting or not accepting the recommendations of the Rajya Sabha.",
+            "The Lok Sabha cannot consider the Bill further.",
+            "The Lok Sabha may send the Bill to the Rajya Sabha for reconsideration.",
+            "The President may call a joint sitting for passing the Bill."
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Lok Sabha has the final say on a Money Bill and can choose to accept or reject any or all of the recommendations made by the Rajya Sabha.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "General"
+            }
+        ]
+    },
+    {
+        "id": "pyq-poli-fda7505b",
+        "year": 2024,
+        "subject": "Polity",
+        "topic": "General",
+        "text": "Consider the following statements regarding the Speaker of the Lok Sabha:\n1. The Speaker's salary and allowances are charged on the Consolidated Fund of India and are not subject to the annual vote of Parliament.\n2. The Speaker can be removed by a resolution passed by a majority of all the then members of the Lok Sabha.\n3. While a resolution for his removal is under consideration, the Speaker cannot preside at the sitting of the House, but he can speak and take part in its proceedings.",
+        "options": [
+            "1 and 2 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All three statements are correct as per the provisions laid out in Articles 94, 95, and 96 of the Indian Constitution regarding the Speaker of the Lok Sabha.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Polity"
+            },
+            {
+                "type": "topic",
+                "label": "General"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-172570e9",
+        "year": 2023,
+        "subject": "History",
+        "topic": "General",
+        "text": "Dhanyakataka, which flourished as a prominent Buddhist centre under the Mahasanghikas, is located in which one of the following regions?",
+        "options": [
+            "Andhra",
+            "Gandhara",
+            "Kalinga",
+            "Magadha"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Dhanyakataka, modern-day Amaravati in Andhra Pradesh, was a significant capital and Buddhist site for the Satavahana dynasty.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Ancient Indian History"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-76b930c9",
+        "year": 2022,
+        "subject": "History",
+        "topic": "General",
+        "text": "Consider the following pairs:\nAshoka's major rock edicts : Location in the State of\n1. Dhauli : Odisha\n2. Erragudi : Andhra Pradesh\n3. Jaugada : Madhya Pradesh\n4. Kalsi : Karnataka\nHow many pairs given above are correctly matched?",
+        "options": [
+            "Only one pair",
+            "Only two pairs",
+            "Only three pairs",
+            "All four pairs"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Dhauli (Odisha) and Erragudi (Andhra Pradesh) are correctly matched; Jaugada is in Odisha and Kalsi is in Uttarakhand.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Ancient Indian History"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-572d9670",
+        "year": 2021,
+        "subject": "History",
+        "topic": "General",
+        "text": "Consider the following statements about Chausath Yogini Temple situated near Morena:\n1. It is a circular temple built during the reign of Kachchhapaghata Dynasty.\n2. It is the only circular temple built in India.\n3. It was meant to promote the Vaishnava cult in the region.\n4. Its design has given rise to a popular belief that it was the inspiration behind the Indian Parliament building.\nWhich of the statements given above are correct?",
+        "options": [
+            "1 and 2",
+            "2 and 3 only",
+            "1 and 4",
+            "2, 3 and 4"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The temple was built by the Kachchhapaghata king Devapala and its circular design is believed to have inspired the old Parliament House.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Art and Culture"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-44068543",
+        "year": 2020,
+        "subject": "History",
+        "topic": "General",
+        "text": "With reference to the religious history of India, consider the following statements:\n1. Sthaviravadins belong to Mahayana Buddhism.\n2. Lokottaravadin sect was an offshoot of Mahasanghika sect of Buddhism.\n3. The deification of Buddha by Mahasanghikas fostered the Mahayana Buddhism.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 and 2 only",
+            "2 and 3 only",
+            "3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Sthaviravadins belong to Hinayana, while the Lokottaravadin sect and the concept of a deified Buddha are associated with the Mahasanghikas, precursors to Mahayana.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Ancient Indian History"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-d7acfed9",
+        "year": 2019,
+        "subject": "History",
+        "topic": "General",
+        "text": "With reference to the cultural history of India, consider the following pairs:\n1. Parivrajaka : Renunciant and Wanderer\n2. Shramana : Priest with a high status\n3. Upasaka : Lay follower of Buddhism\nWhich of the pairs given above are correctly matched?",
+        "options": [
+            "1 and 2 only",
+            "1 and 3 only",
+            "2 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Parivrajaka (wanderer) and Upasaka (lay follower) are correct, but a Shramana was an ascetic, not necessarily a high-status priest.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Ancient Indian History"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-837c82ea",
+        "year": 2018,
+        "subject": "History",
+        "topic": "General",
+        "text": "Which one of the following foreign travellers elaborately discussed about diamonds and diamond mines of India?",
+        "options": [
+            "Francois Bernier",
+            "Jean-Baptiste Tavernier",
+            "Jean de Thevenot",
+            "Abbe Barthelemy Carre"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Jean-Baptiste Tavernier, a 17th-century French gem merchant, travelled extensively in India and wrote detailed accounts of its diamond mines.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Medieval Indian History"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-f705286f",
+        "year": 2017,
+        "subject": "History",
+        "topic": "General",
+        "text": "With reference to the difference between the culture of Rigvedic Aryans and Indus Valley people, which of the following statements is/are correct?\n1. Rigvedic Aryans used the coat of mail and helmet in warfare whereas the people of Indus Valley Civilization did not leave any evidence of using them.\n2. Rigvedic Aryans knew gold, silver and copper whereas Indus Valley people knew only copper and iron.\n3. Rigvedic Aryans had domesticated the horse whereas there is no evidence of Indus Valley people having been aware of this animal.\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Rigvedic Aryans were militaristic with helmets and armour, unlike the more peaceful IVC people who also did not use iron.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Ancient Indian History"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-bc9f1be4",
+        "year": 2016,
+        "subject": "History",
+        "topic": "General",
+        "text": "The 'Swadeshi' and 'Boycott' were adopted as methods of struggle for the first time during the",
+        "options": [
+            "agitation against the Partition of Bengal",
+            "Home Rule Movement",
+            "Non-Cooperation Movement",
+            "visit of the Simon Commission to India"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Swadeshi and Boycott movements were formally started from Town Hall, Calcutta on August 7, 1905, to protest the partition of Bengal.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Modern Indian History"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-15acb9b3",
+        "year": 2015,
+        "subject": "History",
+        "topic": "General",
+        "text": "Who of the following was/were economic critic/critics of colonialism in India?\n1. Dadabhai Naoroji\n2. G. Subramania Iyer\n3. R. C. Dutt\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "1 and 2 only",
+            "2 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "All three, Dadabhai Naoroji ('Drain of Wealth' theory), R.C. Dutt ('Economic History of India'), and G.S. Iyer, were prominent early nationalist economic critics of British rule.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Modern Indian History"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-02d0b8d2",
+        "year": 2024,
+        "subject": "History",
+        "topic": "General",
+        "text": "In the Mauryan period, who was the officer responsible for the safe custody of the royal treasury and the storehouse?",
+        "options": [
+            "Samahartri",
+            "Sannidhatri",
+            "Koshadhyaksha",
+            "Dandapala"
+        ],
+        "correctAnswer": 1,
+        "explanation": "According to Kautilya's Arthashastra, the Sannidhatri was the Treasurer and Keeper of the Stores in the Mauryan administration.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Ancient Indian History"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-0c7ed472",
+        "year": 2023,
+        "subject": "History",
+        "topic": "Art and Culture",
+        "text": "With reference to ancient South India, Korkai, Poompuhar and Muchiri were well known as:",
+        "options": [
+            "capital cities",
+            "ports",
+            "centres of iron-and-steel making",
+            "shrines of Jain Tirthankaras"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Korkai, Poompuhar, and Muchiri were famous ancient port cities in South India, crucial for maritime trade during the Sangam period.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Art and Culture"
+            },
+            {
+                "type": "subtopic",
+                "label": "Ancient India"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-7d2fa91e",
+        "year": 2022,
+        "subject": "History",
+        "topic": "Art and Culture",
+        "text": "The Prime Minister recently inaugurated the new Circuit House near Somnath Temple at Veraval. Which of the following statements are correct regarding Somnath Temple?\n1. Somnath Temple is one of the Jyotirlinga shrines.\n2. A description of Somnath Temple was given by Al-Biruni.\n3. Pran Pratishtha of Somnath Temple (installation of the present-day temple) was done by President S. Radhakrishnan.",
+        "options": [
+            "1 and 2 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Pran Pratishtha of the present-day Somnath temple was done by the then President of India, Dr. Rajendra Prasad, not S. Radhakrishnan.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Art and Culture"
+            },
+            {
+                "type": "subtopic",
+                "label": "Temple Architecture"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-d7707709",
+        "year": 2021,
+        "subject": "History",
+        "topic": "Art and Culture",
+        "text": "Consider the following statements regarding the Chausath Yogini Temple, Mitawali:\n1. It is a circular temple built during the reign of the Kachchhapaghata Dynasty.\n2. It is the only circular temple built in India.\n3. It was meant to promote the Vaishnava cult in the region.\n4. Its design has given rise to a popular belief that it was the inspiration behind the Indian Parliament building.",
+        "options": [
+            "1 and 2",
+            "2 and 3 only",
+            "1 and 4",
+            "2, 3 and 4"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The temple is not the only circular temple in India, and it is dedicated to Yoginis (Shaivism), not Vaishnavism.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Art and Culture"
+            },
+            {
+                "type": "subtopic",
+                "label": "Temple Architecture"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-e3e1cb58",
+        "year": 2020,
+        "subject": "History",
+        "topic": "Art and Culture",
+        "text": "With reference to the cultural history of India, which one of the following is the correct description of the term ‘paramitas’?",
+        "options": [
+            "The earliest Dharmashastra texts written in aphoristic (sutra) style",
+            "Philosophical schools that did not accept the authority of Vedas",
+            "Perfections whose attainment led to the Bodhisattva path",
+            "Powerful merchant guilds of early medieval South India"
+        ],
+        "correctAnswer": 2,
+        "explanation": "In Buddhism, 'Paramitas' are the perfections or virtues that must be cultivated to achieve enlightenment and follow the Bodhisattva path.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Art and Culture"
+            },
+            {
+                "type": "subtopic",
+                "label": "Buddhism"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-649e9d1e",
+        "year": 2019,
+        "subject": "History",
+        "topic": "Art and Culture",
+        "text": "Building ‘Kalyana Mandapas’ was a notable feature in the temple construction in the kingdom of",
+        "options": [
+            "Chalukya",
+            "Chandela",
+            "Rashtrakuta",
+            "Vijayanagara"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Kalyana Mandapas, ornate halls used for ceremonial purposes like the symbolic marriage of the temple's deity, were a distinctive feature of Vijayanagara temple architecture.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Art and Culture"
+            },
+            {
+                "type": "subtopic",
+                "label": "Medieval India"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-166257fd",
+        "year": 2018,
+        "subject": "History",
+        "topic": "Art and Culture",
+        "text": "The well-known painting “Bani Thani” belongs to the",
+        "options": [
+            "Bundi school",
+            "Jaipur school",
+            "Kangra school",
+            "Kishangarh school"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Bani Thani is an iconic miniature painting from the Kishangarh school of Rajasthani art, often compared to the Mona Lisa.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Art and Culture"
+            },
+            {
+                "type": "subtopic",
+                "label": "Paintings"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-85f01093",
+        "year": 2017,
+        "subject": "History",
+        "topic": "Art and Culture",
+        "text": "The painting of Bodhisattva Padmapani is one of the most famous and oft-illustrated paintings at",
+        "options": [
+            "Ajanta",
+            "Badami",
+            "Bagh",
+            "Ellora"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The famous mural painting of Bodhisattva Padmapani, holding a lotus, is located in Cave 1 of the Ajanta Caves in Maharashtra.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Art and Culture"
+            },
+            {
+                "type": "subtopic",
+                "label": "Paintings"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-7e66cc21",
+        "year": 2016,
+        "subject": "History",
+        "topic": "Art and Culture",
+        "text": "What is/are common to the two historical places known as Ajanta and Mahabalipuram?\n1. Both were built in the same period.\n2. Both belong to the same religious denomination.\n3. Both have rock-cut monuments.",
+        "options": [
+            "1 and 2 only",
+            "3 only",
+            "1 and 3 only",
+            "None of the statements given above is correct"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Only the presence of rock-cut monuments is common, as they were built in different periods and represent different religious themes (primarily Buddhist at Ajanta, Hindu at Mahabalipuram).",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Art and Culture"
+            },
+            {
+                "type": "subtopic",
+                "label": "Ancient India"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-09cd544d",
+        "year": 2015,
+        "subject": "History",
+        "topic": "Art and Culture",
+        "text": "Kalamkari painting refers to",
+        "options": [
+            "a hand-painted cotton textile in South India",
+            "a handmade drawing on bamboo handicrafts in North-East India",
+            "a block-painted woollen cloth in Western Himalayan region of India",
+            "a hand-painted decorative silk cloth in North-Western India"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Kalamkari is a traditional Indian art of hand-painting or block-printing on cotton textiles, originating in the state of Andhra Pradesh in South India.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Art and Culture"
+            },
+            {
+                "type": "subtopic",
+                "label": "Handicrafts"
+            }
+        ]
+    },
+    {
+        "id": "pyq-hist-a3977f89",
+        "year": 2024,
+        "subject": "History",
+        "topic": "Art and Culture",
+        "text": "With reference to the Sattriya dance, which of the following statements is/are correct?\n1. It is a classical dance form that originated in the monasteries (Sattras) of Assam.\n2. It was introduced by the 15th-century Bhakti saint Sankaradeva.\n3. The dance form is exclusively performed by male monks in a group.",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1 and 2 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 2,
+        "explanation": "While Sattriya originated in monasteries and was introduced by Sankaradeva, it is now performed by both male and female dancers, not exclusively by male monks.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "History"
+            },
+            {
+                "type": "topic",
+                "label": "Art and Culture"
+            },
+            {
+                "type": "subtopic",
+                "label": "Performing Arts"
+            }
+        ]
+    },
+    {
+        "id": "pyq-geog-6fcb4013",
+        "year": 2023,
+        "subject": "Geography",
+        "topic": "General",
+        "text": "Consider the following statements:\n1. Jhelum River passes through Wular Lake.\n2. Krishna River directly feeds Kolleru Lake.\n3. Meandering of Gandak River formed Kanwar Lake.\nHow many of the statements given above are correct?",
+        "options": [
+            "Only one",
+            "Only two",
+            "All three",
+            "None"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Jhelum River flows through Wular Lake and Gandak's meandering formed Kanwar Lake, but Kolleru Lake is fed by Budameru and Tammileru streams, not directly by Krishna River.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Geography"
+            },
+            {
+                "type": "topic",
+                "label": "Indian Geography"
+            },
+            {
+                "type": "topic",
+                "label": "Rivers and Lakes"
+            }
+        ]
+    },
+    {
+        "id": "pyq-geog-e534cef2",
+        "year": 2022,
+        "subject": "Geography",
+        "topic": "General",
+        "text": "The term 'Levant' often heard in the news roughly corresponds to which of the following regions?",
+        "options": [
+            "Region along the eastern Mediterranean shores",
+            "Region along North African shores stretching from Egypt to Morocco",
+            "Region along Persian Gulf and Horn of Africa",
+            "The entire coastal areas of Mediterranean Sea"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Levant is a historical geographical term referring to a large area in the Eastern Mediterranean region of Western Asia.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Geography"
+            },
+            {
+                "type": "topic",
+                "label": "World Geography"
+            },
+            {
+                "type": "topic",
+                "label": "Places in News"
+            }
+        ]
+    },
+    {
+        "id": "pyq-geog-465c86b5",
+        "year": 2021,
+        "subject": "Geography",
+        "topic": "General",
+        "text": "With reference to the 'black cotton soil' of India, consider the following statements:\n1. It is rich in humus.\n2. It is rich in potash.\n3. It is known for its moisture-retentive capacity.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 and 2 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Black cotton soil (Regur soil) is rich in potash and lime but poor in humus and nitrogen, and it is well-known for its high moisture retention.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Geography"
+            },
+            {
+                "type": "topic",
+                "label": "Indian Geography"
+            },
+            {
+                "type": "topic",
+                "label": "Soils"
+            }
+        ]
+    },
+    {
+        "id": "pyq-geog-3214f56e",
+        "year": 2020,
+        "subject": "Geography",
+        "topic": "General",
+        "text": "Consider the following statements:\n1. Jet streams occur in the Northern Hemisphere only.\n2. Only some cyclones develop an eye.\n3. The temperature inside the eye of a cyclone is nearly 10°C lesser than that of the surroundings.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 and 2 only",
+            "2 only",
+            "2 and 3 only",
+            "1 and 3 only"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Jet streams occur in both hemispheres, and the eye of a cyclone is a warm, calm area; only the statement that some cyclones develop an eye is correct.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Geography"
+            },
+            {
+                "type": "topic",
+                "label": "Physical Geography"
+            },
+            {
+                "type": "topic",
+                "label": "Climatology"
+            }
+        ]
+    },
+    {
+        "id": "pyq-geog-8c96866b",
+        "year": 2019,
+        "subject": "Geography",
+        "topic": "General",
+        "text": "Siachen Glacier is situated to the",
+        "options": [
+            "East of Aksai Chin",
+            "East of Leh",
+            "North of Gilgit",
+            "North of Nubra Valley"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The Siachen Glacier lies immediately south of the great drainage divide that separates the Eurasian Plate from the Indian subcontinent in the extensively glaciated portion of the Karakoram, and it is located north of the Nubra Valley.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Geography"
+            },
+            {
+                "type": "topic",
+                "label": "Indian Geography"
+            },
+            {
+                "type": "topic",
+                "label": "Physical Features"
+            }
+        ]
+    },
+    {
+        "id": "pyq-geog-df7b93cf",
+        "year": 2018,
+        "subject": "Geography",
+        "topic": "General",
+        "text": "Consider the following statements:\n1. The Earth’s magnetic field has reversed every few hundred thousand years.\n2. When the Earth was created more than 4000 million years ago, there was 54% oxygen and no carbon dioxide.\n3. When living organisms originated, they modified the early atmosphere of the Earth.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Geomagnetic reversals are a proven phenomenon, and early life forms like cyanobacteria produced oxygen, modifying the atmosphere; the early atmosphere was not oxygen-rich.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Geography"
+            },
+            {
+                "type": "topic",
+                "label": "Physical Geography"
+            },
+            {
+                "type": "topic",
+                "label": "Geophysics"
+            }
+        ]
+    },
+    {
+        "id": "pyq-geog-af4f09af",
+        "year": 2017,
+        "subject": "Geography",
+        "topic": "General",
+        "text": "At one of the places in India, if you stand on the seashore and watch the sea, you will find that the sea water recedes from the shore line a few kilometres and comes back to the shore, twice a day, and you can actually walk on the sea floor when the water recedes. This unique phenomenon is seen at",
+        "options": [
+            "Bhavnagar",
+            "Bheemunipatnam",
+            "Chandipur",
+            "Nagapattinam"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Chandipur beach in Odisha is unique as the sea recedes up to 5 kilometers during low tide, allowing people to walk on the sea bed.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Geography"
+            },
+            {
+                "type": "topic",
+                "label": "Indian Geography"
+            },
+            {
+                "type": "topic",
+                "label": "Coastal Features"
+            }
+        ]
+    },
+    {
+        "id": "pyq-geog-d0176321",
+        "year": 2016,
+        "subject": "Geography",
+        "topic": "General",
+        "text": "Which of the following is/are the tributary/tributaries of Brahmaputra?\n1. Dibang\n2. Kameng\n3. Lohit\nSelect the correct answer using the code given below.",
+        "options": [
+            "1 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Dibang, Kameng, and Lohit are all major tributaries of the Brahmaputra River in its upper course in Arunachal Pradesh and Assam.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Geography"
+            },
+            {
+                "type": "topic",
+                "label": "Indian Geography"
+            },
+            {
+                "type": "topic",
+                "label": "Rivers"
+            }
+        ]
+    },
+    {
+        "id": "pyq-geog-d36f7c27",
+        "year": 2015,
+        "subject": "Geography",
+        "topic": "General",
+        "text": "What explains the eastward flow of the equatorial counter-current?",
+        "options": [
+            "The Earth’s rotation on its axis",
+            "Convergence of the two equatorial currents",
+            "Difference in salinity of water",
+            "Occurrence of the belt of calm near the equator"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The piling up of water in the western part of the oceans due to trade winds leads to a pressure gradient, causing a narrow, eastward counter-current to flow.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Geography"
+            },
+            {
+                "type": "topic",
+                "label": "Physical Geography"
+            },
+            {
+                "type": "topic",
+                "label": "Oceanography"
+            }
+        ]
+    },
+    {
+        "id": "pyq-geog-5ce530b0",
+        "year": 2024,
+        "subject": "Geography",
+        "topic": "General",
+        "text": "Consider the following statements regarding the Saurashtra region of Gujarat:\n1. It is a peninsular region with a significant coastline along the Arabian Sea.\n2. The Gir National Park, the only natural habitat of the Asiatic lion, is located in this region.\n3. It is predominantly an arid region with very low annual rainfall.\nWhich of the statements given above is/are correct?",
+        "options": [
+            "1 and 2 only",
+            "2 and 3 only",
+            "1 and 3 only",
+            "1, 2 and 3"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Saurashtra is a peninsula and home to Gir National Park, but while parts are semi-arid, it is not predominantly an arid region like the Rann of Kutch.",
+        "tags": [
+            {
+                "type": "subject",
+                "label": "Geography"
+            },
+            {
+                "type": "topic",
+                "label": "Indian Geography"
+            },
+            {
+                "type": "topic",
+                "label": "Regional Geography"
             }
         ]
     }

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Save, Plus, Trash2, ArrowLeft, RefreshCw, CheckCircle, FileText, Sparkles, Upload, BookOpen, Settings, Users } from 'lucide-react';
-import { useNavigate } from 'react-router-dom';
-import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
+import { Save, Plus, Trash2, ArrowLeft, RefreshCw, CheckCircle, FileText, Sparkles, Upload, BookOpen, Settings, Users, Calendar } from 'lucide-react';
+import { useNavigate, useSearchParams } from 'react-router-dom';
+import { collection, addDoc, serverTimestamp, Timestamp } from 'firebase/firestore';
 import { db } from '../../services/firebase';
 import logger from '../../utils/logger';
 import { generateQuestions, generateQuestionsFromDocument, suggestTestTopics } from '../../services/geminiService';
@@ -10,7 +10,9 @@ import { batchService } from '../../features/exam-engine/services/batchService';
 
 const TestCreator = ({ userData }) => {
     const navigate = useNavigate();
+    const [searchParams] = useSearchParams();
     const [isSubmitting, setIsSubmitting] = useState(false);
+    const [isPublished, setIsPublished] = useState(false);
     const [testCode, setTestCode] = useState(null);
 
     // Modes: 'manual' | 'topic' | 'pdf'
@@ -40,6 +42,11 @@ const TestCreator = ({ userData }) => {
     const [batches, setBatches] = useState([]);
     const [selectedBatchIds, setSelectedBatchIds] = useState([]);
 
+    // Scheduling State
+    const [enableSchedule, setEnableSchedule] = useState(false);
+    const [scheduledStart, setScheduledStart] = useState('');
+    const [scheduledEnd, setScheduledEnd] = useState('');
+
     // Auto-Suggest State
     const [topicSuggestions, setTopicSuggestions] = useState([]);
     const [isSuggesting, setIsSuggesting] = useState(false);
@@ -53,13 +60,20 @@ const TestCreator = ({ userData }) => {
                 try {
                     const data = await batchService.getInstitutionBatches(userData.uid);
                     setBatches(data);
+
+                    // Pre-select batch from URL param
+                    const batchIdParam = searchParams.get('batchId');
+                    if (batchIdParam && data.some(b => b.id === batchIdParam)) {
+                        setAccessType('private');
+                        setSelectedBatchIds([batchIdParam]);
+                    }
                 } catch (error) {
                     logger.error("Failed to load batches", error);
                 }
             }
         };
         loadBatches();
-    }, [userData]);
+    }, [userData, searchParams]);
 
     // AI Auto-Suggest Effect
     React.useEffect(() => {
@@ -193,7 +207,7 @@ const TestCreator = ({ userData }) => {
             const pdfUrl = URL.createObjectURL(genConfig.file);
             const text = await extractTextFromPDF(pdfUrl);
 
-            if (!text || text.length < 50) throw new Error('Could not extract text from PDF.');
+            if (!text || text.length < 100) throw new Error('Could not extract enough text from PDF. The document may be image-based or too short.');
 
             setGenProgress(40);
             const newQuestions = await generateQuestionsFromDocument(
@@ -251,9 +265,14 @@ const TestCreator = ({ userData }) => {
             return alert("Please select at least one batch for a private test.");
         }
 
+        if (enableSchedule) {
+            if (!scheduledStart || !scheduledEnd) return alert('Please set both start and end times for the scheduled test.');
+            if (new Date(scheduledEnd) <= new Date(scheduledStart)) return alert('End time must be after start time.');
+        }
+
         setIsSubmitting(true);
         try {
-            const code = generateCode();
+            const code = accessType === 'public' ? generateCode() : null;
             const testData = {
                 title,
                 subject,
@@ -273,11 +292,17 @@ const TestCreator = ({ userData }) => {
 
                 // Access Control
                 accessType, // 'public' | 'private'
-                assignedBatchIds: accessType === 'private' ? selectedBatchIds : []
+                assignedBatchIds: accessType === 'private' ? selectedBatchIds : [],
+
+                // Scheduling
+                scheduledStart: enableSchedule && scheduledStart ? Timestamp.fromDate(new Date(scheduledStart)) : null,
+                scheduledEnd: enableSchedule && scheduledEnd ? Timestamp.fromDate(new Date(scheduledEnd)) : null,
+                isScheduled: enableSchedule
             };
 
             await addDoc(collection(db, 'institution_tests'), testData);
             setTestCode(code);
+            setIsPublished(true);
             logger.info('Test Published', { code });
         } catch (error) {
             logger.error('Error publishing test', error);
@@ -287,7 +312,7 @@ const TestCreator = ({ userData }) => {
         }
     };
 
-    if (testCode) {
+    if (isPublished) {
         return (
             <div className="flex flex-col items-center justify-center min-h-[80vh] bg-slate-50 p-6 animate-in fade-in duration-500">
                 <div className="bg-white p-12 rounded-3xl shadow-xl border border-slate-100 text-center max-w-lg w-full">
@@ -297,16 +322,23 @@ const TestCreator = ({ userData }) => {
                     <h2 className="text-3xl font-black text-slate-800 mb-2">Test Published!</h2>
                     <p className="text-slate-500 mb-8 font-medium">Your test is now live and ready for students.</p>
 
-                    <div
-                        className="bg-slate-50 border-2 border-dashed border-slate-200 p-6 rounded-2xl mb-8 relative group cursor-pointer hover:border-[#2278B0] hover:bg-blue-50/50 transition-all"
-                        onClick={() => navigator.clipboard.writeText(testCode)}
-                    >
-                        <p className="text-xs uppercase font-bold text-slate-400 mb-2 tracking-widest">Access Code</p>
-                        <div className="text-5xl font-mono font-black text-[#2278B0] tracking-widest">{testCode}</div>
-                        <div className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity text-xs bg-slate-800 text-white px-2 py-1 rounded shadow-lg">
-                            Copy
+                    {accessType === 'public' && testCode ? (
+                        <div
+                            className="bg-slate-50 border-2 border-dashed border-slate-200 p-6 rounded-2xl mb-8 relative group cursor-pointer hover:border-[#2278B0] hover:bg-blue-50/50 transition-all"
+                            onClick={() => navigator.clipboard.writeText(testCode)}
+                        >
+                            <p className="text-xs uppercase font-bold text-slate-400 mb-2 tracking-widest">Access Code</p>
+                            <div className="text-5xl font-mono font-black text-[#2278B0] tracking-widest">{testCode}</div>
+                            <div className="absolute top-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity text-xs bg-slate-800 text-white px-2 py-1 rounded shadow-lg">
+                                Copy
+                            </div>
                         </div>
-                    </div>
+                    ) : (
+                        <div className="bg-blue-50 border border-blue-100 p-6 rounded-2xl mb-8">
+                            <p className="text-blue-800 font-bold mb-2">Private Batch Test</p>
+                            <p className="text-sm text-blue-600">This test has been added directly to the classroom dashboard of students in the selected batches.</p>
+                        </div>
+                    )}
 
                     <div className="flex flex-col gap-3">
                         <button onClick={() => navigate('/institution/dashboard')} className="w-full py-3.5 font-bold text-slate-600 hover:bg-slate-50 rounded-xl transition-colors">
@@ -314,6 +346,7 @@ const TestCreator = ({ userData }) => {
                         </button>
                         <button onClick={() => {
                             setTestCode(null);
+                            setIsPublished(false);
                             setTitle('');
                             setQuestions([{ id: 1, text: '', options: ['', '', '', ''], correctOption: 0 }]);
                             setIsSubmitting(false);
@@ -459,6 +492,58 @@ const TestCreator = ({ userData }) => {
                                             </label>
                                         ))}
                                     </div>
+                                </div>
+                            )}
+                        </div>
+
+                        {/* 1.75 Scheduling */}
+                        <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 space-y-5">
+                            <div className="flex items-center justify-between border-b border-slate-100 pb-3">
+                                <div className="flex items-center gap-2 text-slate-800 font-bold text-lg">
+                                    <Calendar size={20} className="text-slate-400" />
+                                    Schedule
+                                </div>
+                                <button
+                                    type="button"
+                                    onClick={() => setEnableSchedule(!enableSchedule)}
+                                    className={`relative w-11 h-6 rounded-full transition-colors duration-200 ${enableSchedule ? 'bg-indigo-600' : 'bg-slate-200'
+                                        }`}
+                                >
+                                    <span className={`block w-5 h-5 bg-white rounded-full shadow transition-transform duration-200 ${enableSchedule ? 'translate-x-[22px]' : 'translate-x-[2px]'
+                                        }`} />
+                                </button>
+                            </div>
+
+                            {!enableSchedule && (
+                                <p className="text-xs text-slate-400">Test will go live immediately after publishing.</p>
+                            )}
+
+                            {enableSchedule && (
+                                <div className="animate-in slide-in-from-top-2 duration-200 space-y-4">
+                                    <div>
+                                        <label className="text-xs font-bold text-slate-500 uppercase mb-1.5 block">Starts At</label>
+                                        <input
+                                            type="datetime-local"
+                                            value={scheduledStart}
+                                            onChange={(e) => setScheduledStart(e.target.value)}
+                                            className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 font-medium text-slate-700 focus:bg-white focus:border-indigo-500 focus:ring-0 transition-all outline-none"
+                                        />
+                                    </div>
+                                    <div>
+                                        <label className="text-xs font-bold text-slate-500 uppercase mb-1.5 block">Ends At</label>
+                                        <input
+                                            type="datetime-local"
+                                            value={scheduledEnd}
+                                            onChange={(e) => setScheduledEnd(e.target.value)}
+                                            min={scheduledStart || undefined}
+                                            className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 font-medium text-slate-700 focus:bg-white focus:border-indigo-500 focus:ring-0 transition-all outline-none"
+                                        />
+                                    </div>
+                                    {scheduledStart && scheduledEnd && new Date(scheduledEnd) > new Date(scheduledStart) && (
+                                        <div className="bg-indigo-50 text-indigo-700 text-xs font-bold p-3 rounded-xl">
+                                            Window: {new Date(scheduledStart).toLocaleString()} → {new Date(scheduledEnd).toLocaleString()}
+                                        </div>
+                                    )}
                                 </div>
                             )}
                         </div>

@@ -1,5 +1,5 @@
 import { delay } from '../utils/helpers';
-import { getRandomSubtopic } from '../constants/syllabusData';
+import { getRandomSubtopic, UPSC_SYLLABUS } from '../constants/syllabusData';
 import { AI_CONFIG } from '../constants/appConstants';
 import logger from '../utils/logger';
 import { db, auth } from './firebase'; // Import auth
@@ -157,15 +157,22 @@ export async function generateQuestions(topic, count = 5, difficulty = 'Hard', t
         const context = getRandomSubtopic(topic);
         const subtopic = context ? context.subtopic : topic;
 
-        const prompt = `You are a strict Question Setter for ${targetExam}. Generate ${batchSize} ${difficulty} MCQs STRICTLY on the topic: '${topic}'${context ? ` (specifically '${subtopic}')` : ''}.
+        const availableTopics = Object.entries(UPSC_SYLLABUS).map(([subject, data]) => {
+            return `${subject}: ${data.subtopics.join(', ')}`;
+        }).join('\n');
+
+        const prompt = `You are a strict Question Setter for ${targetExam}. Generate ${batchSize} ${difficulty} MCQs STRICTLY on the requested theme/topic: '${topic}'${context ? ` (incorporating '${subtopic}' if relevant)` : ''}.
+ 
+ Here is the strictly approved syllabus for the exam:
+ ${availableTopics}
  
  Rules:
- 1. **EXAM STYLE**: Questions MUST follow the pattern of ${targetExam} (e.g., if target Exam is UPSC CSE -> Conceptual/Statement-based, if State PSC -> Factual/Direct).
- 2. **STRICT TEXT ADHERENCE**: Questions MUST be 100% relevant to the topic.
- 2. **Difficulty**: ${difficulty}. 
- 3. **Output**: Return ONLY a JSON Array. NO markdown. NO "json" prefix.
+ 1. **STRICT TEXT ADHERENCE**: The requested topic '${topic}' MUST fall under or relate to ONE OR MORE of the authorized subtopics in the approved syllabus above. Mixed subjects or "Full Mock Tests" covering multiple authorized subjects are ALLOWED and ENCOURAGED. If the topic is completely unrelated to the syllabus (e.g., 'Harry Potter' or 'Video Games'), you MUST return an empty array: []
+ 2. **EXAM STYLE**: Questions MUST follow the pattern of ${targetExam} (e.g., if target Exam is UPSC CSE -> Conceptual/Statement-based, if State PSC -> Factual/Direct).
+ 3. **Difficulty**: ${difficulty}. 
+ 4. **Output**: Return ONLY a JSON Array. NO markdown. NO "json" prefix.
  
- JSON Format:
+ JSON Format (if valid):
  [
    {
      "text": "Question text...",
@@ -551,13 +558,22 @@ Generate EXACTLY ${count} questions. Return ONLY the JSON array, no additional t
 export async function suggestTestTopics(keyword, targetExam = 'UPSC CSE', signal = null) {
     if (!keyword || keyword.trim().length < 2) return [];
 
+    // Serialize syllabus to feed to Gemini
+    const availableTopics = Object.entries(UPSC_SYLLABUS).map(([subject, data]) => {
+        return `${subject}: ${data.subtopics.join(', ')}`;
+    }).join('\n');
+
     const prompt = `You are an AI assistant helping a teacher create a ${targetExam} exam.
     The teacher is typing a topic keyword: "${keyword}".
     
-    Provide EXACTLY 5 highly relevant, specific, and standard exam sub-topics or related topics that they might want to test students on. Keep them concise (max 4-5 words each).
+    Here is the STRICT, APPROVED syllabus:
+    ${availableTopics}
+    
+    Provide EXACTLY 5 highly relevant sub-topics from the APPROVED syllabus above that match or relate to "${keyword}".
+    DO NOT invent new topics. ONLY use the exact sub-topics listed in the syllabus above.
     
     Output strictly as a JSON array of strings:
-    ["Suggestion 1", "Suggestion 2", "Suggestion 3", "Suggestion 4", "Suggestion 5"]`;
+    ["Sub-topic 1", "Sub-topic 2", "Sub-topic 3", "Sub-topic 4", "Sub-topic 5"]`;
 
     try {
         const result = await callGemini(prompt, true, 'gemini-2.5-flash', signal);

@@ -53,11 +53,23 @@ const Sidebar = ({ onLogout, navItems, user, userData, isOpen, onClose }) => {
                     className="flex items-center justify-center w-full"
                     onClick={() => isOpen && onClose()}
                 >
-                    <img
-                        src={logo}
-                        alt="Evoluter"
-                        className="h-6 md:h-6 lg:h-8 w-full object-contain"
-                    />
+                    {userData?.institutionProfile?.logoUrl ? (
+                        <img
+                            src={userData.institutionProfile.logoUrl}
+                            alt={userData.institutionProfile.name || 'Institution'}
+                            className="h-10 md:h-10 lg:h-12 w-auto max-w-full object-contain rounded-lg"
+                            onError={(e) => {
+                                e.target.onerror = null;
+                                e.target.src = logo;
+                            }}
+                        />
+                    ) : (
+                        <img
+                            src={logo}
+                            alt="Evoluter"
+                            className="h-6 md:h-6 lg:h-8 w-full object-contain"
+                        />
+                    )}
                 </Link>
             </div>
             {/* Navigation Items */}

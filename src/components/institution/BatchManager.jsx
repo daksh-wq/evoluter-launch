@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import { Users, Plus, Trash2, UserPlus, Search, X, Download } from 'lucide-react';
+import { Users, Plus, Trash2, UserPlus, Search, X, Download, BookOpen, FileText } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
+import { collection, query, where, getDocs } from 'firebase/firestore';
+import { db, auth } from '../../services/firebase';
 import { batchService } from '../../features/exam-engine/services/batchService';
 import logger from '../../utils/logger';
 import { Skeleton } from '../ui/Skeleton';
-import { auth } from '../../services/firebase';
 import StudentAnalyticsModal from './StudentAnalyticsModal';
 
 const BatchManager = ({ userData }) => {
+    const navigate = useNavigate();
     const [batches, setBatches] = useState([]);
     const [loading, setLoading] = useState(true);
     const [selectedBatch, setSelectedBatch] = useState(null);
@@ -31,7 +34,25 @@ const BatchManager = ({ userData }) => {
         if (!userData?.uid) return;
         try {
             const data = await batchService.getInstitutionBatches(userData.uid);
-            setBatches(data);
+
+            // Fetch tests to calculate MCQs done per batch
+            const q = query(collection(db, 'institution_tests'), where('creatorId', '==', userData.uid));
+            const testsSnap = await getDocs(q);
+            const tests = testsSnap.docs.map(doc => doc.data());
+
+            const updatedBatches = data.map(batch => {
+                let mcqsDone = 0;
+                tests.forEach(test => {
+                    if (test.assignedBatchIds && test.assignedBatchIds.includes(batch.id)) {
+                        const attempts = test.attemptCount || 0;
+                        const qs = test.questions ? test.questions.length : 0;
+                        mcqsDone += (attempts * qs);
+                    }
+                });
+                return { ...batch, mcqsDone };
+            });
+
+            setBatches(updatedBatches);
         } catch (error) {
             logger.error("Failed to fetch batches", error);
         } finally {
@@ -216,15 +237,29 @@ const BatchManager = ({ userData }) => {
                             >
                                 <div className="flex justify-between items-start">
                                     <div className="font-bold text-slate-800">{batch.name}</div>
-                                    <button
-                                        onClick={(e) => { e.stopPropagation(); handleDeleteBatch(batch.id); }}
-                                        className="text-slate-300 hover:text-red-500 transition-colors p-1"
-                                    >
-                                        <Trash2 size={14} />
-                                    </button>
+                                    <div className="flex items-center gap-1">
+                                        <button
+                                            onClick={(e) => { e.stopPropagation(); navigate(`/institution/create-test?batchId=${batch.id}`); }}
+                                            className="text-indigo-500 hover:text-indigo-700 hover:bg-indigo-50 transition-colors p-1 rounded"
+                                            title="Create Test for this Batch"
+                                        >
+                                            <FileText size={14} />
+                                        </button>
+                                        <button
+                                            onClick={(e) => { e.stopPropagation(); handleDeleteBatch(batch.id); }}
+                                            className="text-slate-300 hover:text-red-500 transition-colors p-1"
+                                        >
+                                            <Trash2 size={14} />
+                                        </button>
+                                    </div>
                                 </div>
-                                <div className="text-xs text-slate-500 mt-2 font-medium flex items-center gap-1">
-                                    <Users size={12} /> {batch.studentCount || 0} Students
+                                <div className="text-xs text-slate-500 mt-2 font-medium flex flex-wrap items-center justify-between gap-2">
+                                    <div className="flex items-center gap-1">
+                                        <Users size={12} /> {batch.studentCount || 0} Students
+                                    </div>
+                                    <div className="flex items-center gap-1 text-indigo-700 bg-indigo-50 px-2 py-0.5 rounded-md font-bold">
+                                        <BookOpen size={12} /> {batch.mcqsDone || 0} MCQs Done
+                                    </div>
                                 </div>
                             </div>
                         ))

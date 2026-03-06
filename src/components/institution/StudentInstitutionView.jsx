@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Search, Building2, Clock, ListChecks, ArrowRight, AlertCircle } from 'lucide-react';
+import { Search, Building2, Clock, ListChecks, ArrowRight, AlertCircle, Timer, Download, Play } from 'lucide-react';
 import { collection, query, where, getDocs } from 'firebase/firestore';
 import { db } from '../../services/firebase';
 import { useNavigate } from 'react-router-dom';
@@ -56,6 +56,21 @@ const StudentInstitutionView = ({ startInstitutionTest }) => {
             setError('Failed to start test. Please try again.');
         }
     };
+
+    // Compute time state for a test
+    const getTestTimeState = (test) => {
+        if (!test || !test.isScheduled || (!test.scheduledStart && !test.scheduledEnd)) return 'live';
+        const now = new Date();
+        const start = test.scheduledStart?.toDate ? test.scheduledStart.toDate() : (test.scheduledStart ? new Date(test.scheduledStart) : null);
+        const end = test.scheduledEnd?.toDate ? test.scheduledEnd.toDate() : (test.scheduledEnd ? new Date(test.scheduledEnd) : null);
+        if (start && now < start) return 'upcoming';
+        if (end && now > end) return 'ended';
+        return 'live';
+    };
+
+    const testTimeState = foundTest ? getTestTimeState(foundTest) : null;
+    const startDate = foundTest?.scheduledStart?.toDate ? foundTest.scheduledStart.toDate() : null;
+    const endDate = foundTest?.scheduledEnd?.toDate ? foundTest.scheduledEnd.toDate() : null;
 
     return (
         <div className="max-w-2xl mx-auto py-10 px-4">
@@ -130,12 +145,63 @@ const StudentInstitutionView = ({ startInstitutionTest }) => {
                             </div>
                         </div>
 
-                        <button
-                            onClick={handleStart}
-                            className="w-full bg-[#2278B0] text-white py-4 rounded-xl font-bold text-lg hover:bg-[#1a5c8a] transition-all shadow-lg shadow-blue-500/20 flex items-center justify-center gap-2"
-                        >
-                            Start Test Now <ArrowRight size={20} />
-                        </button>
+                        {/* Schedule Info */}
+                        {foundTest.isScheduled && startDate && endDate && (
+                            <div className="text-xs text-slate-400 mb-4 flex items-center gap-1 bg-slate-50 p-3 rounded-xl">
+                                <Clock size={12} />
+                                {startDate.toLocaleString()} → {endDate.toLocaleString()}
+                            </div>
+                        )}
+
+                        {/* Live — normal start */}
+                        {testTimeState === 'live' && (
+                            <button
+                                onClick={handleStart}
+                                className="w-full bg-[#2278B0] text-white py-4 rounded-xl font-bold text-lg hover:bg-[#1a5c8a] transition-all shadow-lg shadow-blue-500/20 flex items-center justify-center gap-2"
+                            >
+                                Start Test Now <ArrowRight size={20} />
+                            </button>
+                        )}
+
+                        {/* Upcoming — show message */}
+                        {testTimeState === 'upcoming' && (
+                            <div className="bg-amber-50 border border-amber-200 text-amber-800 p-5 rounded-2xl text-center">
+                                <Timer size={28} className="mx-auto mb-2 text-amber-500" />
+                                <p className="font-bold text-lg">Test Hasn't Started Yet</p>
+                                {startDate && <p className="text-sm mt-1">Starts at: <span className="font-bold">{startDate.toLocaleString()}</span></p>}
+                            </div>
+                        )}
+
+                        {/* Ended — practice or download */}
+                        {testTimeState === 'ended' && (
+                            <div className="space-y-4">
+                                <div className="bg-red-50 border border-red-200 text-red-700 p-5 rounded-2xl text-center">
+                                    <p className="font-bold text-lg">This Live Test Has Ended</p>
+                                    <p className="text-sm mt-1">Would you like to practice or download it?</p>
+                                </div>
+                                <div className="flex gap-3">
+                                    <button
+                                        onClick={handleStart}
+                                        className="flex-1 bg-indigo-600 text-white py-3.5 rounded-xl font-bold hover:bg-indigo-700 transition-all flex items-center justify-center gap-2"
+                                    >
+                                        <Play size={16} /> Practice Anyway
+                                    </button>
+                                    <button
+                                        onClick={() => {
+                                            const content = foundTest.questions?.map((q, i) => `Q${i + 1}. ${q.text}\n${q.options?.map((o, j) => `  ${String.fromCharCode(65 + j)}. ${o}`).join('\n')}\nAnswer: ${q.correctAnswer}\n`).join('\n') || '';
+                                            const blob = new Blob([`${foundTest.title}\n${foundTest.subject}\n\n${content}`], { type: 'text/plain' });
+                                            const link = document.createElement('a');
+                                            link.href = URL.createObjectURL(blob);
+                                            link.download = `${foundTest.title.replace(/\s+/g, '_')}.txt`;
+                                            link.click();
+                                        }}
+                                        className="py-3.5 px-6 bg-slate-100 text-slate-700 font-bold rounded-xl hover:bg-slate-200 transition-all flex items-center gap-2"
+                                    >
+                                        <Download size={16} /> Download
+                                    </button>
+                                </div>
+                            </div>
+                        )}
                     </div>
                 </div>
             )}

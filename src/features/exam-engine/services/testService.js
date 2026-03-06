@@ -113,11 +113,12 @@ export const testService = {
                 // A. Save Attempt Detail
                 const attemptRef = doc(db, 'institution_tests', options.originalTestId, 'attempts', `${userId}_${Date.now()}`);
                 await setDoc(attemptRef, sanitizeForFirestore({
+                    studentId: userId,
                     userId,
                     studentName: auth.currentUser?.displayName || 'Anonymous Student',
                     studentEmail: auth.currentUser?.email || '',
                     score: results.score || 0,
-                    percentage: results.percentage || 0,
+                    percentage: results.accuracy || 0,
                     timeTaken: results.timeTaken || 0,
                     submittedAt: new Date(),
                     answers: answers || {},

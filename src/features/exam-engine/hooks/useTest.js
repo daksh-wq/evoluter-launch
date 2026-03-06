@@ -81,7 +81,7 @@ export function useTest() {
 
         try {
             // 1. Generate Content (Delegate to Service)
-            const questions = await testService.generateTestContent(topic, count, difficulty, targetExam, () => {}, resourceContent, pyqPercentage);
+            const questions = await testService.generateTestContent(topic, count, difficulty, targetExam, () => { }, resourceContent, pyqPercentage);
 
             clearInterval(progressInterval);
             setGenerationProgress(100);
@@ -236,7 +236,7 @@ export function useTest() {
                 logger.error("Failed to save test results:", err);
             }
         }
-    }, [activeTest, answers, timeLeft, totalDuration, activeTestId]);
+    }, [activeTest, answers, timeLeft, totalDuration, activeTestId, isInstitutionTest, activeTestName]);
 
     // -- Answer & Navigation Handlers --
 

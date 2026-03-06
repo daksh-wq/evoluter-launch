@@ -5,7 +5,8 @@ import { collection, query, where, orderBy, getDocs } from 'firebase/firestore';
 import { db } from '../../services/firebase';
 import logger from '../../utils/logger';
 import { Skeleton } from '../ui/Skeleton';
-import BatchManager from './BatchManager';
+import { batchService } from '../../features/exam-engine/services/batchService';
+import { Trophy, BookOpen } from 'lucide-react';
 
 const InstitutionDashboard = ({ userData }) => {
     const navigate = useNavigate();
@@ -15,10 +16,14 @@ const InstitutionDashboard = ({ userData }) => {
     const [stats, setStats] = useState({
         totalTests: 0,
         totalAttempts: 0,
-        avgScore: 0
+        avgScore: 0,
+        totalBatches: 0,
+        totalStudents: 0,
+        mcqsPracticed: 0
     });
     const [recentTests, setRecentTests] = useState([]);
     const [liveFeed, setLiveFeed] = useState([]);
+    const [topPerformers, setTopPerformers] = useState([]);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
@@ -26,6 +31,11 @@ const InstitutionDashboard = ({ userData }) => {
             if (!userData?.uid) return;
 
             try {
+                // Fetch batches for stats
+                const batches = await batchService.getInstitutionBatches(userData.uid);
+                const totalBatches = batches.length;
+                const totalStudents = batches.reduce((sum, b) => sum + (b.studentCount || 0), 0);
+
                 const q = query(
                     collection(db, 'institution_tests'),
                     where('creatorId', '==', userData.uid),
@@ -36,18 +46,19 @@ const InstitutionDashboard = ({ userData }) => {
 
                 let totalAttempts = 0;
                 let totalScoreSum = 0;
+                let mcqsPracticed = 0;
                 const tests = [];
 
                 snapshot.forEach(doc => {
                     const data = doc.data();
                     tests.push({ id: doc.id, ...data });
 
-                    totalAttempts += (data.attemptCount || 0);
+                    const attempts = data.attemptCount || 0;
+                    totalAttempts += attempts;
+                    mcqsPracticed += attempts * (data.questions ? data.questions.length : 0);
                     totalScoreSum += (data.totalScoreSum || 0);
                 });
 
-                // Calculate Average Score across all attempts
-                // Avg = Total Score Sum / Total Attempts
                 const avgScore = totalAttempts > 0
                     ? Math.round(totalScoreSum / totalAttempts)
                     : 0;
@@ -55,21 +66,24 @@ const InstitutionDashboard = ({ userData }) => {
                 setStats({
                     totalTests: tests.length,
                     totalAttempts,
-                    avgScore
+                    avgScore,
+                    totalBatches,
+                    totalStudents,
+                    mcqsPracticed
                 });
                 setRecentTests(tests);
 
-                // Fetch Recent Submissions for the Live Feed (from top 5 recent tests)
-                const recentSubmissions = [];
-                const testsToCheck = tests.slice(0, 5); // check the 5 most recently created tests
+                // Fetch Submissions for Live Feed and Leaderboard (only active tests)
+                const allAttempts = [];
+                const activeTests = tests.filter(t => t.status === 'active');
 
-                await Promise.all(testsToCheck.map(async (test) => {
+                await Promise.all(activeTests.map(async (test) => {
                     const attemptsRef = collection(db, 'institution_tests', test.id, 'attempts');
                     const attemptsSnap = await getDocs(query(attemptsRef));
 
                     attemptsSnap.forEach(doc => {
                         const data = doc.data();
-                        recentSubmissions.push({
+                        allAttempts.push({
                             id: doc.id,
                             testName: test.title,
                             testId: test.id,
@@ -78,14 +92,41 @@ const InstitutionDashboard = ({ userData }) => {
                     });
                 }));
 
-                // Sort by submittedAt descending and take top 10
-                recentSubmissions.sort((a, b) => {
+                // Calculate Top 10 Performers
+                const studentAggregates = {};
+                allAttempts.forEach(sub => {
+                    const sid = sub.studentId;
+                    if (!sid) return;
+                    if (!studentAggregates[sid]) {
+                        studentAggregates[sid] = {
+                            studentId: sid,
+                            studentName: sub.studentName || 'Unknown',
+                            totalPercent: 0,
+                            testsTaken: 0
+                        };
+                    }
+                    studentAggregates[sid].totalPercent += (sub.percentage || 0);
+                    studentAggregates[sid].testsTaken += 1;
+                });
+
+                const top10 = Object.values(studentAggregates)
+                    .map(s => ({
+                        ...s,
+                        avgPercent: Math.round(s.totalPercent / s.testsTaken)
+                    }))
+                    .sort((a, b) => b.avgPercent - a.avgPercent)
+                    .slice(0, 10);
+
+                setTopPerformers(top10);
+
+                // Sort by submittedAt descending and take top 10 for Live Feed
+                allAttempts.sort((a, b) => {
                     const dateA = a.submittedAt?.toDate ? a.submittedAt.toDate() : new Date(0);
                     const dateB = b.submittedAt?.toDate ? b.submittedAt.toDate() : new Date(0);
                     return dateB - dateA;
                 });
 
-                setLiveFeed(recentSubmissions.slice(0, 10));
+                setLiveFeed(allAttempts.slice(0, 10));
 
             } catch (error) {
                 logger.error('Error fetching dashboard data:', error);
@@ -143,39 +184,38 @@ const InstitutionDashboard = ({ userData }) => {
             </div>
 
             {/* Quick Stats */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
-                {/* ... keep existing stat cards ... */}
-                <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm">
-                    <div className="flex justify-between items-start mb-4">
-                        <div className="p-3 bg-blue-50 rounded-xl text-blue-600">
-                            <ListChecks size={24} />
-                        </div>
-                        <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Total Tests</span>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                {/* New Stats */}
+                <div className="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm flex flex-col justify-between">
+                    <div className="flex items-center gap-3 mb-2">
+                        <div className="p-2 bg-indigo-50 rounded-lg text-indigo-600"><Users size={18} /></div>
+                        <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Batches</span>
                     </div>
-                    <div className="text-3xl font-black text-slate-900">{stats.totalTests}</div>
-                    <p className="text-xs text-slate-500 mt-1">Created so far</p>
+                    <div className="text-2xl font-black text-slate-900">{stats.totalBatches}</div>
                 </div>
 
-                <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm">
-                    <div className="flex justify-between items-start mb-4">
-                        <div className="p-3 bg-green-50 rounded-xl text-green-600">
-                            <Users size={24} />
-                        </div>
-                        <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Total Attempts</span>
+                <div className="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm flex flex-col justify-between">
+                    <div className="flex items-center gap-3 mb-2">
+                        <div className="p-2 bg-cyan-50 rounded-lg text-cyan-600"><Users size={18} /></div>
+                        <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Enrolled</span>
                     </div>
-                    <div className="text-3xl font-black text-slate-900">{stats.totalAttempts}</div>
-                    <p className="text-xs text-slate-500 mt-1">Student submissions</p>
+                    <div className="text-2xl font-black text-slate-900">{stats.totalStudents}</div>
                 </div>
 
-                <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm">
-                    <div className="flex justify-between items-start mb-4">
-                        <div className="p-3 bg-orange-50 rounded-xl text-orange-600">
-                            <Zap size={24} />
-                        </div>
-                        <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Avg. Score</span>
+                <div className="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm flex flex-col justify-between">
+                    <div className="flex items-center gap-3 mb-2">
+                        <div className="p-2 bg-purple-50 rounded-lg text-purple-600"><BookOpen size={18} /></div>
+                        <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">MCQs Done</span>
                     </div>
-                    <div className="text-3xl font-black text-slate-900">{stats.avgScore}%</div>
-                    <p className="text-xs text-slate-500 mt-1">Across all tests</p>
+                    <div className="text-2xl font-black text-slate-900">{stats.mcqsPracticed}</div>
+                </div>
+
+                <div className="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm flex flex-col justify-between">
+                    <div className="flex items-center gap-3 mb-2">
+                        <div className="p-2 bg-blue-50 rounded-lg text-blue-600"><ListChecks size={18} /></div>
+                        <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">Tests</span>
+                    </div>
+                    <div className="text-2xl font-black text-slate-900">{stats.totalTests}</div>
                 </div>
             </div>
 
@@ -207,11 +247,27 @@ const InstitutionDashboard = ({ userData }) => {
                 </div>
             )}
 
-            {/* Batch Management Section */}
-            <div>
-                <h3 className="text-xl font-bold text-slate-800 mb-6 px-2">Student Batches & Classrooms</h3>
-                <BatchManager userData={userData} />
-            </div>
+            {/* Top 10 Performers Leaderboard */}
+            {topPerformers.length > 0 && (
+                <div className="bg-white border border-slate-100 rounded-3xl p-6 shadow-sm">
+                    <div className="flex items-center justify-between mb-6">
+                        <h3 className="text-lg font-bold text-slate-800 flex items-center gap-2">
+                            <Trophy size={20} className="text-yellow-500" /> Overall Toppers (Live Tests)
+                        </h3>
+                    </div>
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
+                        {topPerformers.map((student, idx) => (
+                            <div key={student.studentId} className="bg-slate-50 border border-slate-100 rounded-2xl p-4 flex items-center gap-4">
+                                <div className="font-black text-xl text-slate-300 w-6">#{idx + 1}</div>
+                                <div>
+                                    <div className="font-bold text-slate-800 truncate max-w-[120px]">{student.studentName}</div>
+                                    <div className="text-xs text-slate-500 font-medium">{student.avgPercent}% Avg Score</div>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            )}
 
             {/* Recent Activity / Tests List */}
             <div className="bg-white border border-slate-100 rounded-3xl p-6 md:p-8 shadow-sm">

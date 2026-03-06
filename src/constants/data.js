@@ -57,8 +57,9 @@ export const NAV_ITEMS = [
 
 export const INSTITUTION_NAV_ITEMS = [
     { id: 'institution/dashboard', label: 'Dashboard', icon: 'Target' },
+    { id: 'institution/batches', label: 'Batches', icon: 'Users' },
     { id: 'institution/create-test', label: 'Create Test', icon: 'Zap' },
-    { id: 'institution/tests', label: 'My Tests', icon: 'ListChecks' },
+    { id: 'institution/tests', label: 'Test Management', icon: 'ListChecks' },
 ];
 
 // Topics for mock question generation
